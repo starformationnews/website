@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Newsreader";
+    font-style: normal;
+    font-weight: 200 800;
+    font-optical-sizing: auto;
+    src: url('/fonts/Newsreader-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Newsreader";
+    font-style: italic;
+    font-weight: 200 800;
+    font-optical-sizing: auto;
+    src: url('/fonts/Newsreader-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    font-style: normal;
+    font-weight: 100 800;
+    src: url('/fonts/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    font-style: italic;
+    font-weight: 100 800;
+    src: url('/fonts/JetBrainsMono-Italic-VariableFont_wght.ttf') format('truetype');
+}

@@ -1,0 +1,22 @@
+/* All CSS variables used in the project. */
+:root {
+    /* Layout settings */
+    --content-width: min(800px, 90vw);
+
+	/* Custom colours */
+	--color-accent: #990000;  /* This is SFN red - rgb(0.6, 0, 0) in LaTeX */
+	--color-accent-hover: color-mix(in srgb, var(--color-accent) 80%, #ffffff 20%);
+	--color-grey: #595959;
+    --color-lightgrey: #aaaaaa;
+    --color-offwhite: #f8f8f8;
+
+    /* Custom colours - other (used by code highlighting, etc) */
+    --color-green: #135b0b;
+    --color-purple: #4a0b5b;
+    --color-blue: #0b405b;
+
+    /* Font settings */
+    --font-text: 'Newsreader', 'Times new Roman', 'Serif';
+    --font-heading: 'Newsreader', 'Times new Roman', 'Serif';
+    --font-monospace: 'JetBrains Mono', 'Courier New', 'Monospace';
+}

@@ -1,0 +1,102 @@
+/* Main CSS file for the site, defining common rules. */
+
+/* LAYOUT */ 
+body {
+    margin-top: 0px;
+}
+
+
+/* TEXT */ 
+:root, button {
+    font-family: var(--font-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* color: var(--color-accent); */
+    font-family: var(--font-heading);
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+h2 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 31px;
+    font-weight: 650;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+h4 {
+    font-size: 28px;
+    font-weight: 670;
+    margin-top: 28px;
+    margin-bottom: 14px;
+}
+h5 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 26px;
+    margin-bottom: 12px;
+}
+h6 {
+    font-size: 23px;
+    font-weight: 720;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+p, li {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-accent-hover);
+    text-decoration: none;
+}
+
+
+/* BLOG-ISH ELEMENTS */ 
+blockquote, pre > code {
+    font-family: var(--font-heading);
+    font-size: 16px;
+    display: block;
+    /* font-style: italic; */
+    margin: 30px 0px 30px 0px;
+    padding: 20px 15px 20px 20px;
+    border-left: solid 7px var(--color-accent);
+    background-color: var(--color-offwhite);
+}
+
+code, pre > code, p > code {
+    font-family: var(--font-monospace);
+}
+
+blockquote > p {
+    font-size: 28px;
+    padding: 0px;
+    margin: 0px;
+}
+
+article > p > img, article > img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    max-height: 600px;
+    object-fit: contain;
+}
+

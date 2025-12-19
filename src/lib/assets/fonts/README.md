@@ -1,0 +1,1 @@
+These fonts are only here due to [this bug](https://github.com/vercel/satori/issues/162), and could be removed later.
