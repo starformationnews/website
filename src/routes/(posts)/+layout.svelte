@@ -1,3 +1,8 @@
+<!-- The following file defines the layout of a post on the website, controlling
+ details like the formatting of the title, header image, category, author, and more.
+ It should not need editing except for by maintainers of the site. -->
+
+
 <!-- svelte-ignore non_reactive_update -->
 <script>
 	import Image from '$lib/blocks/Image.svelte';

@@ -1,2 +1,6 @@
-<h1>Welcome to the Star Formation Newsletter</h1>
-<p>(coming soon!)</p>
+<script>
+	import PostList from '$lib/components/PostList.svelte';
+	let { data } = $props();
+</script>
+
+<PostList posts={data.posts} page={data.page} total={data.total} category={'all'} />

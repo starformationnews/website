@@ -48,7 +48,8 @@
 >
 	<!-- <a href="/" class:current-page={pathIs('/')}>Home</a> -->
 	 <a href="/" class:current-page={pathIs('/')}>Home</a>
-	<a href="/blog/" class:current-page={pathStartsWith('/blog')}>Blog</a>
+	<a href="/category/newsletter/" class:current-page={pathStartsWith('/category/newsletter')}>Newsletter</a>
+	<a href="/category/interview/" class:current-page={pathStartsWith('/category/interview')}>Interviews</a>
 	<a href="/about/" class:current-page={pathStartsWith('/about')}>About</a>
 </div>
 

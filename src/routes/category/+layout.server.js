@@ -33,22 +33,22 @@ function getParametersOrGetDefault(params) {
 function deduplicateMixedCasePages(category, page) {
 	const categoryLowerCase = category.toLowerCase().replaceAll(" ", "-");
 	if (categoryLowerCase !== category) {
-		redirect(301, `/blog/${categoryLowerCase}/${page}`);
+		redirect(301, `/category/${categoryLowerCase}/${page}`);
 	}
 }
 
 function deduplicateIndexPages(params) {
-	// /blog/all -> /blog
+	// /category/all -> /
 	if (params.page === undefined && params.category === 'all') {
-		redirect(301, '/blog');
+		redirect(301, '/');
 	}
-	// /blog/[category]/{1, 0, -1, ...} -> /blog/[category]
+	// /category/[category]/{1, 0, -1, ...} -> /blog/[category]
 	if (params.page <= 1) {
 		const categoryLowerCase = params.category.toLowerCase().replaceAll(" ", "-");
 		// SHORTCUT: skip a second redirect if we're also in 'all' cat
 		if (categoryLowerCase === 'all') {
-			redirect(301, '/blog');
+			redirect(301, '/');
 		}
-		redirect(301, `/blog/${categoryLowerCase}`);
+		redirect(301, `/category/${categoryLowerCase}`);
 	}
 }

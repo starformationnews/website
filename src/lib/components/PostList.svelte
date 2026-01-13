@@ -9,10 +9,11 @@
 		<PostCard {post} />
 	{/each}
 {:else}
-	<h2>Oops!</h2>
 	<p>No posts were found under this category.</p>
-	{#if category === 'all'}
-		<p><a href="/blog">Return to blog</a></p>
+	{#if category !== 'all'}
+		<p style="text-align: left; margin: 30px 0px 30px 0px">
+			<a href="/">↻ Return to main news page</a>
+		</p>
 	{/if}
 {/if}
 

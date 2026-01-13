@@ -22,7 +22,7 @@ export async function getPosts({ cursor = 0, page = 0, limit = postsPerPage, cat
 
 async function fetchPosts() {
 	let posts = await Promise.all(
-		Object.entries(import.meta.glob('/src/routes/posts/*.md')).map(async ([path, resolver]) => {
+		Object.entries(import.meta.glob('/src/routes/(posts)/**/+page.md')).map(async ([path, resolver]) => {
 			const { metadata } = await resolver();
 			const slug = path.split('/').pop().slice(0, -3);
 			return { ...metadata, slug };
