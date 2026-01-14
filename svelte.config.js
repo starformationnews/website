@@ -48,6 +48,11 @@ const config = {
 		adapter: adapter({ fallback: '404.html' }),
 		paths: {
 			base: '' // process.argv.includes('dev') ? '' : process.env.BASE_PATH
+		},
+
+		// Also add page 1 of the all category, as it's actually not easy to reach
+		prerender: {
+			entries: ["*", "/category/all/1"]
 		}
 	}
 };
