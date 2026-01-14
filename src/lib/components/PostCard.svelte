@@ -1,22 +1,25 @@
 <script>
 	import { formatDate } from '$lib/js/format';
-	import { getAppropriateDefaultImage } from '$lib/js/content';
+	import { getAppropriateDefaultImage, convertPathOnLocalImages } from '$lib/js/content';
 	let { post } = $props();
 
-	const alt = $derived(`Post thumbnail for blog post ${post.title}`)
+	const alt = $derived(`Post thumbnail for blog post ${post.title}`);
 </script>
 
 <div class="container">
 	<div class="image-item">
-		<a href={post.url}
-			>
+		<a href={post.url}>
 			{#if post.image !== undefined}
-				<img src={post.image} alt={alt} />
+				<img src={convertPathOnLocalImages(post.image)} {alt} />
 			{:else}
-				<img src="/src/lib/assets/images/{getAppropriateDefaultImage(post.categories[0], post.title).filename}" alt={alt} />
+				<img
+					src={convertPathOnLocalImages(
+						getAppropriateDefaultImage(post.categories[0], post.title).localPath
+					)}
+					{alt}
+				/>
 			{/if}
-			</a
-		>
+		</a>
 	</div>
 	<div class="text-item">
 		<h3 style="margin-top: 0px; margin-bottom: 10px">
@@ -29,9 +32,10 @@
 					>{post.categories[0].replaceAll('-', ' ')}</a
 				></span
 			>
-			<span class="date"> | {formatDate(post.date)}
+			<span class="date">
+				| {formatDate(post.date)}
 				{#if post.hidden}
-					<br><strong>(This post will be hidden on the main site.)</strong>
+					<br /><strong>(This post will be hidden on the main site.)</strong>
 				{/if}
 			</span>
 		</p>

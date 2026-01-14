@@ -1,5 +1,6 @@
 import { dev } from '$app/environment';
 import { postsPerPage } from '../config';
+import { getAppropriateDefaultImage } from './content';
 
 /* Adapted from https://github.com/josh-collinsworth/sveltekit-blog-starter/blob/main/src/lib/assets/js/fetchPosts.js */
 export async function getPosts({ cursor = 0, page = 0, limit = postsPerPage, category = 'all' }) {
@@ -26,12 +27,12 @@ async function fetchPosts() {
 		Object.entries(import.meta.glob('/src/routes/\\(posts\\)/**/+page.md')).map(
 			async ([path, resolver]) => {
 				const { metadata } = await resolver();
-				const url = "/" + path.split('/').slice(4, -1).join('/');
+				const url = '/' + path.split('/').slice(4, -1).join('/');
 				return { ...metadata, url, path };
 			}
 		)
 	);
-	
+
 	// Remove any unpublished posts if not in a dev environment
 	posts = removeUnpublishedPosts(posts);
 
@@ -70,19 +71,21 @@ function filterAndSortPosts(category, posts, cursor, page, limit) {
 }
 
 function filterMetadata(sortedPosts) {
-	// sortedPosts = sortedPosts.map((post) => ({
-	// 	title: post.title,
-	// 	date: post.date,
-	// 	updated: post.updated,
-	// 	hidden: post.hidden === undefined ? false : post.hidden,
-	// 	// authors: post.authors,
-	// 	tags: post.tags,
-	// 	categories: post.categories,
-	// 	description: post.description,
-	// 	thumbnail: post.thumbnail,
-	// 	image: post.image,
-	// 	url: post.url
-	// }));
+	sortedPosts.forEach((post) => {
+		// Handle posts without an image
+		if (post.image === undefined) {
+			const defaultImage = getAppropriateDefaultImage(post.categories[0], post.title);
+			post.image = defaultImage.localPath;
+			post.imageCredit = defaultImage.credit;
+			post.imageURL = defaultImage.url;
+		}
+
+		// Handle posts with a locally referenced path, which we need to santize
+		if (post.image.startsWith('./')) {
+			const folder = post.path.split('/').slice(0, -1).join('/');
+			post.image = folder + "/" + post.image.slice(2);
+		}
+	});
 	return sortedPosts;
 }
 

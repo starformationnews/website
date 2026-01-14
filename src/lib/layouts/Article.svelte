@@ -49,16 +49,13 @@
 
 	if (props.image === undefined) {
 		const defaultImage = getAppropriateDefaultImage(categories[0], props.title);
-		image = `/src/lib/assets/images/${defaultImage.filename}`;
+		image = defaultImage.localPath;
 		imageCredit = defaultImage.credit;
 		imageURL = defaultImage.url;
 	} else {
 		// Handle relative links to images
 		if (props.image.slice(0, 2) == './') {
 			image = `/src/routes/(posts)${$page.url.pathname}/${props.image.slice(2)}`
-			// let image = import(props.image);
-			// console.log($state.snapshot(props));
-			// console.log($page.url.pathname)
 		}
 	}
 </script>

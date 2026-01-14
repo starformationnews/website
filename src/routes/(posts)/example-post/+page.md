@@ -65,6 +65,7 @@ Images can be added to the post like usual markdown. Remember to describe the im
 
 You can add links easily too, just use [the normal markdown format.](https://en.wikipedia.org/wiki/Cats_and_the_Internet)
 
+
 ## Adding arXiv posts
 
 If your post has the category 'newsletters', then **it will automatically include the relevant arXiv posts for this month.** Easy!
