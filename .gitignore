@@ -1,3 +1,13 @@
+### Our files
+# common non-webp image formats (not allowed!)
+*.jpg
+*.png
+
+# vscode folder
+.code
+
+
+### GitHub's default node.js .gitignore
 node_modules
 
 # Output

@@ -74,7 +74,7 @@ function filterMetadata(sortedPosts) {
 	// 	title: post.title,
 	// 	date: post.date,
 	// 	updated: post.updated,
-	// 	published: post.published === undefined ? true : post.published,
+	// 	hidden: post.hidden === undefined ? false : post.hidden,
 	// 	// authors: post.authors,
 	// 	tags: post.tags,
 	// 	categories: post.categories,
@@ -95,7 +95,7 @@ function getAllPostCategories(posts) {
 
 function removeUnpublishedPosts(posts) {
 	if (!dev) {
-		posts = posts.filter((post) => post.published !== false);
+		posts = posts.filter((post) => post.hidden === true);
 	}
 	return posts;
 }

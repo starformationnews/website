@@ -2,12 +2,13 @@
  details like the formatting of the title, header image, category, author, and more.
  It should not need editing except for by maintainers of the site. -->
 
-
 <!-- svelte-ignore non_reactive_update -->
 <script>
+	import { page } from '$app/stores';
 	import Image from '$lib/blocks/Image.svelte';
 	import { siteTitle, authorSocialLinks } from '$lib/config.js';
 	import { formatDate } from '$lib/js/format.js';
+	import { getAppropriateDefaultImage } from '$lib/js/content';
 
 	// Passed props include all blog info (like title, date, etc).
 	let props = $props();
@@ -40,13 +41,33 @@
 			(author) => authorSocialLinks[author.toLowerCase().replaceAll(' ', '_')]
 		);
 	}
+
+	// Image info
+	let image = props.image;
+	let imageCredit = props.imageCredit;
+	let imageURL = props.imageURL;
+
+	if (props.image === undefined) {
+		const defaultImage = getAppropriateDefaultImage(categories[0], props.title);
+		image = `/src/lib/assets/images/${defaultImage.filename}`;
+		imageCredit = defaultImage.credit;
+		imageURL = defaultImage.url;
+	} else {
+		// Handle relative links to images
+		if (props.image.slice(0, 2) == './') {
+			image = `/src/routes/(posts)${$page.url.pathname}/${props.image.slice(2)}`
+			// let image = import(props.image);
+			// console.log($state.snapshot(props));
+			// console.log($page.url.pathname)
+		}
+	}
 </script>
 
 <article style="margin-top: 20px">
-	{#if props.image !== undefined}
+	{#if image !== undefined}
 		<div class="header-image">
 			<Image
-				src={props.image}
+				src={image}
 				alt={'Article header image.'}
 				style="margin: auto; width: min(600px, 90vw); height: 250px; object-fit: cover; object-position: 50%"
 			/>
@@ -60,7 +81,7 @@
 				{#if i !== 0}
 					,
 				{/if}
-				<a href="/category/{category.toLowerCase()}">{category.replaceAll("-", " ")}</a>
+				<a href="/category/{category.toLowerCase()}">{category.replaceAll('-', ' ')}</a>
 			{/each}
 		</p>
 		<p class="date">
@@ -73,8 +94,16 @@
 				{:else}
 					{author}
 				{/if}
-			{/each},
-			{dateInformation}
+			{/each}
+			| {dateInformation}
+			{#if imageCredit}
+				| Header image:
+				{#if imageURL}
+					<a href={imageURL} target="_blank">{imageCredit}</a>
+				{:else}
+					{imageCredit}
+				{/if}
+			{/if}
 		</p>
 	</div>
 

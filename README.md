@@ -1,18 +1,20 @@
-# sv
+# The Star Formation Newsletter
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Welcome to the main repository for The Star Formation Newsletter's website. (This README is a W.I.P.!)
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Preparing a post
 
-```sh
-# create a new project in the current directory
-npx sv create
+### Images
 
-# create a new project in my-app
-npx sv create my-app
+Please make sure that images are in `.webp` format (this saves on filesize!) and have a maximum size of 2000 pixels in any dimension. You can easily convert and resize images on the command line to follow these requirements with ImageMagick, using the commmand:
+
+```bash
+convert -resize 2000x2000^ filename.jpg filename.webp
 ```
+
+
+# sv
 
 ## Developing
 
