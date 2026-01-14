@@ -8,30 +8,34 @@
 	import Image from '$lib/blocks/Image.svelte';
 	import { siteTitle, authorSocialLinks } from '$lib/config.js';
 	import { formatDate } from '$lib/js/format.js';
-	let { data } = $props();
 
-	const metadata = data.metadata;
+	// Passed props include all blog info (like title, date, etc).
+	let props = $props();
+
+	// console.log(props)
+
+	// const metadata = $state(props.metadata);
 
 	// Extract some date information!
 	let dateInformation = 'Date undefined';
-	if (metadata.date) {
-		dateInformation = formatDate(metadata.date);
-		if (metadata.updated) {
-			dateInformation += ` | Updated: ${formatDate(metadata.updated)}`;
+	if (props.date) {
+		dateInformation = formatDate(props.date);
+		if (props.updated) {
+			dateInformation += ` | Updated: ${formatDate(props.updated)}`;
 		}
 	}
 
 	// Category info
 	let categories = ['Uncategorised'];
-	if (data.metadata.categories) {
-		categories = data.metadata.categories;
+	if (props.categories) {
+		categories = props.categories;
 	}
 
 	// Author info
 	let authorInformation = 'Anonymous';
 	let authorLinks = [undefined];
-	if (data.metadata.authors) {
-		authorInformation = data.metadata.authors;
+	if (props.authors) {
+		authorInformation = props.authors;
 		authorLinks = authorInformation.map(
 			(author) => authorSocialLinks[author.toLowerCase().replaceAll(' ', '_')]
 		);
@@ -39,10 +43,10 @@
 </script>
 
 <article style="margin-top: 20px">
-	{#if metadata.image !== undefined}
+	{#if props.image !== undefined}
 		<div class="header-image">
 			<Image
-				src={metadata.image}
+				src={props.image}
 				alt={'Article header image.'}
 				style="margin: auto; width: min(600px, 90vw); height: 250px; object-fit: cover; object-position: 50%"
 			/>
@@ -50,13 +54,13 @@
 	{/if}
 
 	<div class="info">
-		<h1 class="heading">{metadata.title}</h1>
+		<h1 class="heading">{props.title}</h1>
 		<p class="category">
 			{#each categories as category, i}
 				{#if i !== 0}
 					,
 				{/if}
-				<a href="/blog/{category.toLowerCase()}">{category.replaceAll("-", " ")}</a>
+				<a href="/category/{category.toLowerCase()}">{category.replaceAll("-", " ")}</a>
 			{/each}
 		</p>
 		<p class="date">
@@ -74,7 +78,7 @@
 		</p>
 	</div>
 
-	{@render data.content()}
+	{@render props.children?.()}
 </article>
 
 <style>

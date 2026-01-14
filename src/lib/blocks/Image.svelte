@@ -2,7 +2,7 @@
 	let { src = '/assets/default.webp', caption = '', alt = '', style = '' } = $props();
 
 	// If no alt text is set, default to just setting it to the caption
-	const altText = alt ? alt : caption;
+	const altText = $derived(alt ? alt : caption);
 </script>
 
 <!-- <p>{imagePath}</p> -->

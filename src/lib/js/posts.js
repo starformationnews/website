@@ -22,12 +22,16 @@ export async function getPosts({ cursor = 0, page = 0, limit = postsPerPage, cat
 
 async function fetchPosts() {
 	let posts = await Promise.all(
-		Object.entries(import.meta.glob('/src/routes/(posts)/**/+page.md')).map(async ([path, resolver]) => {
-			const { metadata } = await resolver();
-			const slug = path.split('/').pop().slice(0, -3);
-			return { ...metadata, slug };
-		})
+		// This uses a pretty awful bit of fast-glob syntax, see here: https://github.com/mrmlnc/fast-glob#basic-syntax
+		Object.entries(import.meta.glob('/src/routes/\\(posts\\)/**/+page.md')).map(
+			async ([path, resolver]) => {
+				const { metadata } = await resolver();
+				const url = "/" + path.split('/').slice(4, -1).join('/');
+				return { ...metadata, url, path };
+			}
+		)
 	);
+	
 	// Remove any unpublished posts if not in a dev environment
 	posts = removeUnpublishedPosts(posts);
 
@@ -66,19 +70,19 @@ function filterAndSortPosts(category, posts, cursor, page, limit) {
 }
 
 function filterMetadata(sortedPosts) {
-	sortedPosts = sortedPosts.map((post) => ({
-		title: post.title,
-		date: post.date,
-		updated: post.updated,
-		published: post.published === undefined ? true : post.published,
-		// authors: post.authors,
-		tags: post.tags,
-		categories: post.categories,
-		description: post.description,
-		thumbnail: post.thumbnail,
-		image: post.image,
-		slug: post.slug
-	}));
+	// sortedPosts = sortedPosts.map((post) => ({
+	// 	title: post.title,
+	// 	date: post.date,
+	// 	updated: post.updated,
+	// 	published: post.published === undefined ? true : post.published,
+	// 	// authors: post.authors,
+	// 	tags: post.tags,
+	// 	categories: post.categories,
+	// 	description: post.description,
+	// 	thumbnail: post.thumbnail,
+	// 	image: post.image,
+	// 	url: post.url
+	// }));
 	return sortedPosts;
 }
 

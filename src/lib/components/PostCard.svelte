@@ -5,16 +5,16 @@
 
 <div class="container">
 	<div class="image-item">
-		<a href="/posts/{post.slug}"><img src={post.thumbnail} alt="Post thumbnail for blog post {post.title}" /></a>
+		<a href="{post.url}"><img src={post.thumbnail} alt="Post thumbnail for blog post {post.title}" /></a>
 	</div>
 	<div class="text-item">
 		<h3 style="margin-top: 0px; margin-bottom: 10px">
-			<a href="/posts/{post.slug}">{post.published ? '' : '(UNPUBLISHED) '}{post.title}</a>
+			<a href="{post.url}">{post.published ? '' : '(UNPUBLISHED) '}{post.title}</a>
 		</h3>
 		<div class="red-line"></div>
 		<p style="margin-top: 0px; margin-bottom: 0px;">
 			<span class="category"
-				><a href="/blog/{post.categories[0].toLowerCase()}">{post.categories[0].replaceAll("-", " ")}</a></span
+				><a href="/category/{post.categories[0].toLowerCase()}">{post.categories[0].replaceAll("-", " ")}</a></span
 			>
 			<span class="date"> - {formatDate(post.date)}</span>
 		</p>

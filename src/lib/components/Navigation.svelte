@@ -48,8 +48,8 @@
 >
 	<!-- <a href="/" class:current-page={pathIs('/')}>Home</a> -->
 	 <a href="/" class:current-page={pathIs('/')}>Home</a>
-	<a href="/category/newsletter/" class:current-page={pathStartsWith('/category/newsletter')}>Newsletter</a>
-	<a href="/category/interview/" class:current-page={pathStartsWith('/category/interview')}>Interviews</a>
+	<a href="/category/newsletters/" class:current-page={pathStartsWith('/category/newsletters')}>Newsletters</a>
+	<a href="/category/interviews/" class:current-page={pathStartsWith('/category/interviews')}>Interviews</a>
 	<a href="/about/" class:current-page={pathStartsWith('/about')}>About</a>
 </div>
 

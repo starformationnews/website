@@ -55,7 +55,7 @@
 	/* Computers */
 	@media only screen and (min-width: 801px) {
 		.site-heading {
-			font-size: 53px;
+			font-size: 45px;
 		}
 		.site-subheading {
 			font-size: 19px;
@@ -77,7 +77,7 @@
 		}
 		.site-heading {
 			width: calc(100vw - 100px);
-			font-size: calc(100vw / 12);
+			font-size: calc(100vw / 19);
 		}
 		.site-subheading {
 			width: calc(100vw - 100px);
