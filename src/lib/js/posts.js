@@ -98,7 +98,7 @@ function getAllPostCategories(posts) {
 
 function removeUnpublishedPosts(posts) {
 	if (!dev) {
-		posts = posts.filter((post) => post.hidden === true);
+		posts = posts.filter((post) => post.hidden !== true);
 	}
 	return posts;
 }
