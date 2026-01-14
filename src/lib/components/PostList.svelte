@@ -28,7 +28,7 @@
 <div class="page-container">
 	<div class="button-container" style="text-align: left">
 		{#if page > 1}
-			<p><a href="/blog/{category}/{page - 1}">Previous page</a></p>
+			<p><a href="/category/{category}/{page - 1}">Previous page</a></p>
 		{/if}
 	</div>
 
@@ -38,7 +38,7 @@
 
 	<div class="button-container" style="text-align: right">
 		{#if page < total}
-			<p><a href="/blog/{category}/{page + 1}">Next page</a></p>
+			<p><a href="/category/{category}/{page + 1}">Next page</a></p>
 		{/if}
 	</div>
 </div>
