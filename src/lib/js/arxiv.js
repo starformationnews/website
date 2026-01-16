@@ -13,8 +13,8 @@ export async function fetchArXivMetadata(paperIDs) {
 		.ids(paperIDs)
 		.start(0)
 		.maxResults(paperIDs.length)
-		.sortBy('submittedDate')
-		.sortOrder('ascending')
+		// .sortBy('submittedDate')
+		// .sortOrder('ascending')
 		.execute();
 
 	const articlesObject = new Object();
