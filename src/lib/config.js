@@ -3,18 +3,22 @@ export const siteTitle = 'The Star Formation Newsletter';
 export const siteURL = 'https://starformationnews.github.io/website/'; // Not actually used in many places, it's just for SEO  // Todo update this
 export const siteDescription =
 	'Since its founding in 1992, The Star Formation Newsletter has been the premier way to keep up with new research in star formation.';
+export const siteMailingListSignup =
+	'https://massmailer.univie.ac.at/site/geo/sfnews/subscribe/article/190.html';
+export const sitePaperSubmissionForm =
+	'https://docs.google.com/forms/d/e/1FAIpQLSdPaNwnjhcxmtwWQ-RzsrsfqQWOTRDRzDgrHyh4oUbtCJD3Bw/viewform';
 
 /* SOCIAL SETTINGS */
 // Ensure that any icons are also in icons.js
 export const socials = {
-	bluesky: 'https://bsky.app/profile/joaoalves.bsky.social',  // Todo update
+	bluesky: 'https://bsky.app/profile/joaoalves.bsky.social', // Todo update
 	github: 'https://github.com/starformationnews'
 	// email: 'mailto:...@...'
 };
 
 /* BLOG SETTINGS */
 // How many blog posts to have per page
-export const postsPerPage = 8;
+export const postsPerPage = 25;
 
 /* AUTHORS */
 // Social links for authors.

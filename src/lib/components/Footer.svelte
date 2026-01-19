@@ -1,15 +1,16 @@
 <script>
 	import { socials } from '$lib/config.js';
 	import { icons } from '$lib/icons.js';
-	import { getPosts } from '$lib/js/posts.js';
+	import { siteMailingListSignup, sitePaperSubmissionForm } from '$lib/config.js';
+	// import { getPosts } from '$lib/js/posts.js';
 	import Icon from '$lib/blocks/Icon.svelte';
 
 	const year = new Date().getFullYear();
 
-	async function fetchRecentPosts() {
-		return getPosts({ limit: 3 });
-	}
-	let recentPosts = fetchRecentPosts();
+	// async function fetchRecentPosts() {
+	// 	return getPosts({ limit: 3 });
+	// }
+	// let recentPosts = fetchRecentPosts();
 </script>
 
 <footer>
@@ -28,17 +29,23 @@
 				</div>
 			</div>
 			<!-- <p style="margin-top: 35px; margin-bottom: 0px"><a href="https://github.com/bluesky-astronomy/website">Website source code</a></p> -->
-			<p style="margin-top: 10px; margin-bottom: 5px">© <em>The Star Formation Newsletter {year}</em></p>
+			<p style="margin-top: 10px; margin-bottom: 5px">
+				© <em>The Star Formation Newsletter {year}</em>
+			</p>
 			<!-- <OpenCollectiveDonate height=100/> -->
 		</div>
 		<div class="footer-item">
-			<h6>Recent updates</h6>
+			<h6>General links</h6>
 			<ul>
-				{#await recentPosts then { posts }}
+				<li>
+					<a href={sitePaperSubmissionForm} target="_blank">Submit papers for the next issue</a>
+				</li>
+				<li><a href={siteMailingListSignup} target="_blank">Sign up to our mailing list</a></li>
+				<!-- {#await recentPosts then { posts }}
 					{#each posts as post}
 						<li><a href="/posts/{post.slug}">{post.title}</a></li>
 					{/each}
-				{/await}
+				{/await} -->
 			</ul>
 		</div>
 	</div>
