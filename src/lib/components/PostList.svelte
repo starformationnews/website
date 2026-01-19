@@ -9,7 +9,7 @@
 		<PostCard {post} />
 	{/each}
 {:else}
-	<p>No posts were found under this category.</p>
+	<p>No posts under this category yet - check back later!</p>
 	{#if category !== 'all'}
 		<p style="text-align: left; margin: 30px 0px 30px 0px">
 			<a href="/">↻ Return to main news page</a>
