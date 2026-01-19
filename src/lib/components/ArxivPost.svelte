@@ -31,7 +31,7 @@
 	<div class="line"></div>
 {/if}
 
-<h4 class="title">{@html renderLaTeX(post.title)}</h4>
+<h4 class="title"><a href={post.id} target="_blank">{@html renderLaTeX(post.title)}</a></h4>
 <p class="authors">{authors}</p>
 <p class="abstract">{@html renderLaTeX(post.summary)}</p>
 
@@ -69,11 +69,13 @@
 	}
 	.authors {
 		font-weight: 600;
-		color: var(--color-accent);
 		font-size: 18px;
+        /* text-align: justify; */
 	}
 	.title {
-		font-size: 25px;
+		line-height: 1.3;
+        font-size: 25px;
+        text-align: justify;
 	}
 	.abstract {
 		line-height: 1.4;
