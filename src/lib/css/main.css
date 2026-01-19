@@ -100,3 +100,14 @@ article > p > img, article > img {
     object-fit: contain;
 }
 
+/* MATH ELEMENTS, KATEX OVERRIDES */
+/* Just use site font - it's fine & more consistent */
+.katex {
+    font: var(--font-text) !important;
+    font-family: var(--font-text) !important;
+}
+/* But, we then have to up the font size */
+.katex-display {
+    font-size: 20px;
+}
+

@@ -1,19 +1,39 @@
 <script>
+	// import { renderMathInElement } from 'katex/contrib/auto-render/auto-render.js';
+	import katex from 'katex';
 	let { post, topLine = true, bottomLine = false } = $props();
 	const authors = $derived(post.authors.map((author) => author.name).join(', '));
 	const adsLink = $derived(
 		'https://ui.adsabs.harvard.edu/abs/arxiv:' +
 			post.id.split('/').slice(-1)[0].replaceAll(/v.*/g, '') // replaceAll to remove version number (ADS doesn't like them)
 	);
+
+	function renderLaTeX(text) {
+		return text
+			.replaceAll(' -- ', ' – ')
+			.replaceAll('--', '—')
+			.replaceAll(/\$\$(.*?)\$\$/g, function (outer, inner) {
+				return katex.renderToString(inner, { displayMode: true, throwOnError: false });
+			})
+			.replaceAll(/\$(.*?)\$/g, function (outer, inner) {
+				return katex.renderToString(inner, { displayMode: false, throwOnError: false });
+			})
+			.replaceAll(/\\\[(.*?)\\\]/g, function (outer, innner) {
+				return katex.renderToString(inner, { displayMode: true, throwOnError: false });
+			})
+			.replaceAll(/\\\((.*?)\\\)/g, function (outer, innner) {
+				return katex.renderToString(inner, { displayMode: false, throwOnError: false });
+			});
+	}
 </script>
 
 {#if topLine}
 	<div class="line"></div>
 {/if}
 
-<h4 class="title">{post.title}</h4>
+<h4 class="title">{@html renderLaTeX(post.title)}</h4>
 <p class="authors">{authors}</p>
-<p class="abstract">{post.summary}</p>
+<p class="abstract">{@html renderLaTeX(post.summary)}</p>
 
 <a href={post.id} target="_blank">
 	<button> arXiv </button>
@@ -52,13 +72,13 @@
 		color: var(--color-accent);
 		font-size: 18px;
 	}
-    .title {
-        font-size: 25px;
-    }
-    .abstract {
-        line-height: 1.4;
-        text-align: justify;
-    }
+	.title {
+		font-size: 25px;
+	}
+	.abstract {
+		line-height: 1.4;
+		text-align: justify;
+	}
 	button {
 		font-size: 20px;
 		padding: 4px 15px 4px 15px;
@@ -66,6 +86,6 @@
 		margin-right: 5px;
 		border: 1px grey solid;
 		border-radius: 6px;
-        background-color: var(--color-lightergrey);
+		background-color: var(--color-lightergrey);
 	}
 </style>
