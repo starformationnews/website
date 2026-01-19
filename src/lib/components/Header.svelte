@@ -56,6 +56,7 @@
 	@media only screen and (min-width: 801px) {
 		.site-heading {
 			font-size: 45px;
+			margin-top: 8px;
 		}
 		.site-subheading {
 			font-size: 19px;
@@ -78,6 +79,7 @@
 		.site-heading {
 			width: calc(100vw - 100px);
 			font-size: calc(100vw / 19);
+			margin-top: 5px;
 		}
 		.site-subheading {
 			width: calc(100vw - 100px);

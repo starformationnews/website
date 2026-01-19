@@ -1,0 +1,370 @@
+{
+    "2601.10642": {
+        "id": "http://arxiv.org/abs/2601.11399v1",
+        "title": "Star-forming compact groups: Tracing the early evolutionary stages of compact group environments",
+        "updated": "2026-01-16T16:10:11.000Z",
+        "published": "2026-01-16T16:10:11.000Z",
+        "summary": "In the context of pre-processing -- a scenario in which galaxies quench their star formation within substructures before falling into clusters -- we investigate the impact of environment on the physical and morphological properties of galaxies in Compact Groups (CGs), focusing specifically on a sample of Star-Forming Compact Groups (SFCGs). Our aim is to characterize the physical and morphological properties of galaxies in SFCGs, analogues of the Blue Infalling Group, and to understand how the environment influences their evolution. We use photometric techniques to derive stellar masses and star formation rates (SFRs). Morphological parameters are extracted from DECaLS images, obtaining parametric properties such as the Sérsic index ($n$) and effective radius ($R_{\\mathrm{e}}$) using GALFITM, as well as non-parametric indices -- including the Gini coefficient, $M_{20}$, and asymmetry -- from the same data. These indicators allow us to classify galaxies into E/S0/Sa, Sb/Sc/Ir, and merger types. All measurements are compared to a control sample of field galaxies to assess environmental effects. We find no significant differences in $n$ and $R_{\\mathrm{e}}$ between SFCG and field galaxies, in contrast to results reported for other CG samples. However, SFCG galaxies exhibit higher specific star formation rates (sSFRs) than their field counterparts. Approximately $16\\%$ of SFCG galaxies show merger features and elevated asymmetry. These mergers also present enhanced SFRs compared to both other SFCG types and the field population. We propose that SFCGs represent an earlier evolutionary phase of CGs, supported by their lower velocity dispersions and moderate crossing times, in addition to the observed SFR enhancement and the absence of pronounced morphological transformation. Galaxy mergers in this phase appear to enhance, rather than suppress, star formation.",
+        "authors": [
+            {
+                "name": "Ortiz-Gómez S."
+            },
+            {
+                "name": "Torres-Flores S."
+            },
+            {
+                "name": "Monachesi A."
+            },
+            {
+                "name": "Montaguth G. P."
+            },
+            {
+                "name": "Véliz Astudillo S."
+            },
+            {
+                "name": "Mendes de Oliveira C."
+            },
+            {
+                "name": "Olave-Rojas D. E."
+            },
+            {
+                "name": "Lima-Dias C."
+            },
+            {
+                "name": "Demarco R."
+            },
+            {
+                "name": "Pallero D."
+            },
+            {
+                "name": "Lopes A. R."
+            },
+            {
+                "name": "Cortesi A."
+            },
+            {
+                "name": "Telles E."
+            },
+            {
+                "name": "Kanaan A."
+            },
+            {
+                "name": "Ribeiro T."
+            },
+            {
+                "name": "Schoenell W"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.11399v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.11399v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.10595": {
+        "id": "http://arxiv.org/abs/2601.08904v1",
+        "title": "Digging into the Interior of Hot Cores with ALMA. VI. The Formation of Low-mass Multiple Systems in High-mass Cluster-forming Regions",
+        "updated": "2026-01-13T19:00:00.000Z",
+        "published": "2026-01-13T19:00:00.000Z",
+        "summary": "Most stars form in multiple systems, with profound implications in numerous astronomical phenomena intrinsically linked to multiplicity. However, our knowledge about the process on how multiple stellar systems form is incomplete and biased toward nearby molecular clouds forming only low-mass stars, which are unrepresentative of the stellar population in the Galaxy. Most stars form within dense cores in clusters alongside high-mass stars (>8 M$_{\\odot}$), as likely the Sun did. Here we report deep ALMA 1.33 mm dust continuum observations at ~160 au spatial resolution, revealing 72 low-mass multiple systems embedded in 23 high-mass cluster-forming regions, as part of the Digging into the Interior of Hot Cores with ALMA (DIHCA) survey. We find that the companion separation distribution presents a distinct peak at ~1200 au, in contrast to the one at ~4000 au observed in nearby low-mass regions. The shorter fragmentation scale can be explained by considering the higher pressure exerted by the surrounding medium, which is higher than the one in low-mass regions, due to the larger turbulence and densities involved. Because the peak of the companion separation distribution occurs at much larger scales than the expected disk sizes, we argue that the observed fragmentation is produced by turbulent core fragmentation. Contrary as predicted, the multiplicity fraction remains constant as the stellar density increases. We propose that in the extremely dense environments where high-mass stars form, dynamical interactions play an important role in disrupting weakly bound systems.",
+        "authors": [
+            {
+                "name": "Qiuyi Luo"
+            },
+            {
+                "name": "Patricio Sanhueza"
+            },
+            {
+                "name": "Stella S. R. Offner"
+            },
+            {
+                "name": "Fernando Olguin"
+            },
+            {
+                "name": "Adam Ginsburg"
+            },
+            {
+                "name": "Fumitaka Nakamura"
+            },
+            {
+                "name": "Kaho Morii"
+            },
+            {
+                "name": "Yu Cheng"
+            },
+            {
+                "name": "Kei Tanaka"
+            },
+            {
+                "name": "Junhao Liu"
+            },
+            {
+                "name": "Tie Liu"
+            },
+            {
+                "name": "Xing Lu"
+            },
+            {
+                "name": "Qizhou Zhang"
+            },
+            {
+                "name": "Kotomi Taniguchi"
+            },
+            {
+                "name": "Piyali Saha"
+            },
+            {
+                "name": "Shanghuo Li"
+            },
+            {
+                "name": "Xiaofeng Mai"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.08904v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.08904v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.08904": {
+        "id": "http://arxiv.org/abs/2601.10642v1",
+        "title": "HII regions in NGC 628: the view of two catalogs",
+        "updated": "2026-01-15T18:03:08.000Z",
+        "published": "2026-01-15T18:03:08.000Z",
+        "summary": "The study is devoted to comparing the parameters of the interstellar medium of HII regions in the Kongiu and Groves catalogs for the galaxy NGC 628. The article analyzes the characteristics of star-forming regions, including a comparison of radiation fluxes in the ranges of 7.7 $μ$m and 21 $μ$m and in the H$α$, H$β$, OIII and CO lines, calculating the kinematic parameters (FWHM) for the lines, and analyzing the spatial distribution of regions for both catalogs.\n  The results of the study showed that the regions from the Groves catalog demonstrate higher line widths compared to the Kongiu catalog. Signs of possible misidentified classification of some regions from the Groves catalog were revealed: there is a possibility that some of them are not HII regions, but shock ionization regions.",
+        "authors": [
+            {
+                "name": "Ksenia I. Smirnova"
+            },
+            {
+                "name": "Dmitri S. Wiebe"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.10642v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.10642v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.09794": {
+        "id": "http://arxiv.org/abs/2601.10595v1",
+        "title": "High-fidelity stellar extinction with Gaia and APOGEE -- I. The method and a new extinction curve",
+        "updated": "2026-01-15T17:03:08.000Z",
+        "published": "2026-01-15T17:03:08.000Z",
+        "summary": "The scarcity of high-fidelity extinction measurements remains a bottleneck in deriving accurate stellar properties from Gaia parallaxes. In this work, we aim to derive precision extinction estimates for APOGEE DR19 stars, establishing a new benchmark for Galactic stellar population studies. We first determine reddening by comparing observed colorsr, etrieved from photometric surveys or standardized synthetic magnitudes from Gaia BP/RP spectra, to intrinsic colors predicted via an XGBoost model. The model is trained on minimally reddened stars to infer intrinsic colors and their associated uncertainties, using APOGEE stellar parameters (Teff, logg, [Fe/H], and [alpha/Fe]). The derived reddening values are then converted into extinctions using an anchor ratio of A_BP / A_RP = 1.694 +/- 0.004, derived from red-clump-like stars. Here, we provide extinction measurements in 39 filters across 10 photometric systems and introduce a new empirical extinction curve optimized for broadband passbands. Our extinction estimates (Av) outperform existing results (Bayestar19, StarHorse, SEDEX), achieving a typical precision of 0.03 mag in Av. Notably, we identify systematic deviations of up to 30% between monochromatic and passband-integrated extinction ratios at wavelengths greater than 700 nm. This result highlights the necessity of adopting passband-specific coefficients when correcting extinction to derive stellar parameters. As the foundation for a forthcoming series of papers, these benchmark measurements will be used to (1) revise asteroseismic scaling relations, (2) calibrate differential reddening in open clusters, and (3) reconcile heterogeneous dust maps into a unified, all-sky extinction scheme.",
+        "authors": [
+            {
+                "name": "Jie Yu"
+            },
+            {
+                "name": "Luca Casagrande"
+            },
+            {
+                "name": "John A. Taylor"
+            },
+            {
+                "name": "Ioana Ciucă"
+            },
+            {
+                "name": "Giacomo Cordoni"
+            },
+            {
+                "name": "Ronald Drimmel"
+            },
+            {
+                "name": "Shourya Khanna"
+            },
+            {
+                "name": "Hiep Nguyen"
+            },
+            {
+                "name": "Tomasz Różański"
+            },
+            {
+                "name": "Dennis Stello"
+            },
+            {
+                "name": "Haibo Yuan"
+            },
+            {
+                "name": "Zhen Yuan"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.10595v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.10595v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.11399": {
+        "id": "http://arxiv.org/abs/2601.09794v2",
+        "title": "The influence of magnetic fields in Cloud-Cloud Collisions",
+        "updated": "2026-01-16T10:21:14.000Z",
+        "published": "2026-01-14T19:01:01.000Z",
+        "summary": "Cloud-cloud collisions are expected to trigger star formation by compressing gas into dense, gravitationally unstable regions. However, the role of magnetic fields in this process is unclear. We use SPH to model head-on collisions between two uniform density clouds, each with mass $500 \\,$M$_{\\odot}$, initial radius 2 pc, and embedded in a uniform magnetic field parallel to the collision velocity. As in the nonmagnetic case, the resulting shock-compressed layer fragments into a network of filaments. If the collision is sufficiently slow, the filaments are dragged into radial orientations by non-homologous gravitational contraction, resulting in a $\\textit{Hub Filament}$ morphology, which spawns a centrally concentrated monolithic cluster with a broad mass function shaped by competitive accretion and dynamical ejections. If the collision is faster, a $\\textit{Spiders Web}$ of intersecting filaments forms, and star-systems condense out in small subclusters, often at the filament intersections; due to their smaller mass reservoirs, and the lower probability of dynamical ejection, the mass function of star-systems formed in these subclusters is narrower. Magnetic fields affect this dichotomy quantitatively by delaying collapse and fragmentation. As a result, the velocity threshold separating $\\textit{Hub Filament}$ and $\\textit{Spiders Web}$ morphologies is shifted upward in magnetised runs, thereby enlarging the parameter space in which $\\textit{Hub Filament}$ morphologies form, and enhancing the likelihood of producing centrally concentrated clusters. Consequently, magnetic fields regulate both the morphology and timing of star formation in cloud-cloud collisions: they broaden filaments, delay the onset of star formation, and promote the formation of $\\textit{Hub Filament}$ morphologies, monolithic clusters and high-mass star-systems.",
+        "authors": [
+            {
+                "name": "Theotokis Georgatos"
+            },
+            {
+                "name": "Anthony P. Whitworth"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.09794v2",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.09794v2",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.11127": {
+        "id": "http://arxiv.org/abs/2601.11127v1",
+        "title": "Molecular gas and star formation in central rings across nearby galaxies",
+        "updated": "2026-01-16T09:38:15.000Z",
+        "published": "2026-01-16T09:38:15.000Z",
+        "summary": "Nearby galaxies exhibit a variety of structures, including central rings, similar to the MW Central Molecular Zone (CMZ). These rings are common in barred galaxies and can be gas-rich and highly star-forming. We aim to study molecular gas content and star formation rate of central rings within nearby galaxies and link them to global galaxy properties (e.g. bar morphology). We utilize $1\\,$'' resolution CO(2-1) PHANGS-ALMA observations, visually identify 20 central rings and determine their properties. For $14$ rings, SFR surface density maps are available. We derive ring geometry, integrated molecular gas masses, SFRs, depletion times, and compare them to host galaxy and bar properties. Molecular gas is a good tracer for central rings: Previous studies used ionized gas and dust tracers to identify central rings in galaxies of similar morphological types as this study. In comparison, we find similar fractions of galaxies hosting central rings and similar radii distributions. The gaseous central rings have typical radii of $400_{-150}^{+250}\\,$pc, molecular gas masses of $\\log(M_\\text{mol}/M_\\odot){\\sim}8.1_{-0.23}^{+0.17}$, and SFRs of $0.21_{-0.16}^{+0.15}\\,M_\\odot/\\text{yr}$, thus contributing $5.6_{-2.1}^{+4.5}\\,\\%$ and $13_{-5}^{+10}\\,\\%$ to their host galaxies' molecular gas mass and SFR. The MW CMZ sits at the lower end of the radius, molecular gas mass, and SFR distribution, but it has a similar molecular gas mass and SFR fraction, and depletion time. Longer bars contain more massive molecular central rings, but we find no correlation between bar strength and the ring's molecular gas content. Although absolute central ring properties likely depend on host galaxy properties, the similarities between the MW CMZ and PHANGS central rings in relative parameters suggest that the processes of gas inflow and star formation are similar for central rings across nearby galaxies.",
+        "authors": [
+            {
+                "name": "Damian R. Gleis"
+            },
+            {
+                "name": "Sophia K. Stuber"
+            },
+            {
+                "name": "Eva Schinnerer"
+            },
+            {
+                "name": "Justus Neumann"
+            },
+            {
+                "name": "Sharon E. Meidt"
+            },
+            {
+                "name": "Miguel Querejeta"
+            },
+            {
+                "name": "Eric Emsellem"
+            },
+            {
+                "name": "Adam K. Leroy"
+            },
+            {
+                "name": "Ashley T. Barnes"
+            },
+            {
+                "name": "Frank Bigiel"
+            },
+            {
+                "name": "Charlie Burton"
+            },
+            {
+                "name": "Mélanie Chevance"
+            },
+            {
+                "name": "Daniel A. Dale"
+            },
+            {
+                "name": "Kathryn Grasha"
+            },
+            {
+                "name": "Ralf S. Klessen"
+            },
+            {
+                "name": "Rebecca C. Levy"
+            },
+            {
+                "name": "Lukas Neumann"
+            },
+            {
+                "name": "Hsi-An Pan"
+            },
+            {
+                "name": "Marina Ruiz-García"
+            },
+            {
+                "name": "Mattia C. Sormani"
+            },
+            {
+                "name": "Jiayi Sun"
+            },
+            {
+                "name": "Yu-Hsuan Teng"
+            },
+            {
+                "name": "Thomas G. Williams"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.11127v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.11127v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    }
+}

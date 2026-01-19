@@ -68,9 +68,9 @@ You can add links easily too, just use [the normal markdown format.](https://en.
 
 ## Adding arXiv posts
 
-If your post has the category 'newsletters', then **it will automatically include the relevant arXiv posts for this month.** Easy!
+If you add `arxiv: true` to your post's frontmatter, then **it will automatically include the relevant arXiv posts**, taken from an arxiv.json file in the same directory.
 
-Todo: update this guide once I actually decide how that works...
+`Todo: update this part more once it's fully working`
 
 ## Other features
 

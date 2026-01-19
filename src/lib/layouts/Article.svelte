@@ -4,11 +4,14 @@
 
 <!-- svelte-ignore non_reactive_update -->
 <script>
-	import { page } from '$app/stores';
 	import Image from '$lib/blocks/Image.svelte';
+	import ArxivList from '$lib/components/ArxivList.svelte';
+	import PostList from '$lib/components/PostList.svelte';
+	import { getPosts } from '$lib/js/posts';
+	import { page } from '$app/stores';
 	import { siteTitle, authorSocialLinks } from '$lib/config.js';
 	import { formatDate } from '$lib/js/format.js';
-	import { getAppropriateDefaultImage } from '$lib/js/content';
+	import { getAppropriateDefaultImage, loadArxivData } from '$lib/js/content';
 
 	// Passed props include all blog info (like title, date, etc).
 	let props = $props();
@@ -55,8 +58,14 @@
 	} else {
 		// Handle relative links to images
 		if (props.image.slice(0, 2) == './') {
-			image = `/src/routes/(posts)${$page.url.pathname}/${props.image.slice(2)}`
+			image = `/src/routes/(posts)${$page.url.pathname}/${props.image.slice(2)}`;
 		}
+	}
+
+	// Arxiv info
+	let arxivPosts = {};
+	if (props.arxiv) {
+		arxivPosts = loadArxivData($page.url.pathname);
 	}
 </script>
 
@@ -105,6 +114,24 @@
 	</div>
 
 	{@render props.children?.()}
+
+	{#if props.arxiv}
+		<h2>-- Recent <em>Star Formation Newsletter</em> posts --</h2>
+		{#await getPosts({ category: 'editorials', page: 1, limit: 3 })}
+			<p>Loading...</p>
+		{:then sfnPosts}
+			<PostList posts={sfnPosts.posts} />
+		{:catch error}
+			<p>Error: {error.message}</p>
+		{/await}
+
+		<h2>-- The latest papers --</h2>
+		{#if arxivPosts}
+			<ArxivList {arxivPosts} date={props.date} />
+		{:else}
+			<p>Unable to load arXiv posts for this month.</p>
+		{/if}
+	{/if}
 </article>
 
 <style>
@@ -131,5 +158,8 @@
 		font-size: 17px;
 		margin-top: 5px;
 		margin-bottom: 0px;
+	}
+	h2 {
+		text-align: center;
 	}
 </style>

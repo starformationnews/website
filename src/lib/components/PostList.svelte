@@ -25,23 +25,25 @@
 {/if}
 
 <!-- Next page options -->
-<div class="page-container">
-	<div class="button-container" style="text-align: left">
-		{#if page > 1}
-			<p><a href="/category/{category}/{page - 1}">Previous page</a></p>
-		{/if}
-	</div>
+{#if page !== undefined}
+	<div class="page-container">
+		<div class="button-container" style="text-align: left">
+			{#if page > 1}
+				<p><a href="/category/{category}/{page - 1}">Previous page</a></p>
+			{/if}
+		</div>
 
-	<div class="button-container" style="text-align: center">
-		<p>Page {page} of {total}</p>
-	</div>
+		<div class="button-container" style="text-align: center">
+			<p>Page {page} of {total}</p>
+		</div>
 
-	<div class="button-container" style="text-align: right">
-		{#if page < total}
-			<p><a href="/category/{category}/{page + 1}">Next page</a></p>
-		{/if}
+		<div class="button-container" style="text-align: right">
+			{#if page < total}
+				<p><a href="/category/{category}/{page + 1}">Next page</a></p>
+			{/if}
+		</div>
 	</div>
-</div>
+{/if}
 
 <style>
 	.page-container {

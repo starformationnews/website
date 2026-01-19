@@ -1,5 +1,11 @@
 import defaultImageCredits from '../assets/images/credits.json';
 
+const localImageURLs = import.meta.glob(['/src/**/*.webp', '/src/**/*.jpg', '/src/**/*.png'], {
+	eager: true,
+	query: '?url',
+	import: 'default'
+});
+
 export function convertPathOnLocalImages(path) {
 	// Only local ones get converted! So: it must start with /src.
 	if (path.slice(0, 4) !== '/src') {
@@ -9,12 +15,6 @@ export function convertPathOnLocalImages(path) {
 	// Otherwise: this function handles accessing an object containing URLs of all objects for you.
 	// Be thankful. cos this took me fucking ages
 	// stackoverflow my beloved: https://stackoverflow.com/questions/77934659/how-can-i-dynamically-import-images-stored-in-lib-within-a-component-in-svelte
-	const localImageURLs = import.meta.glob(['/src/**/*.webp', '/src/**/*.jpg', '/src/**/*.png'], {
-		eager: true,
-		query: '?url',
-		import: 'default'
-	});
-
 	if (localImageURLs[path] === undefined) {
 		throw new Error(`Image path does not lead to an image! Is it correct? Path: ${path}`);
 	}
@@ -58,4 +58,28 @@ function generateHash(string) {
 		hash |= 0; // Constrain to 32bit integer
 	}
 	return hash;
+}
+
+const arxivJsonFiles = import.meta.glob(['/src/routes/**/arxiv.json'], {
+	eager: true,
+	// query: '?url',
+	import: 'default'
+});
+
+/* Loads data in an arxiv.json object for a given page. Assumes that the page is in 
+/src/routes/(posts) and only works if the file is already generated. */
+export function loadArxivData(path) {
+	path = '/src/routes/(posts)' + path + '/arxiv.json';
+
+	if (arxivJsonFiles[path] === undefined) {
+		console.log(
+			'loadArxivData(): Path does not lead to an arxiv.json file! Are you sure',
+			'you generated the arXiv postings .json for this month? Is this path',
+			`correct? Path: ${path}`
+		);
+	}
+
+	// console.log("arxiv jsons:", arxivJsonFiles)
+
+	return arxivJsonFiles[path];
 }
