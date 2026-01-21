@@ -50,6 +50,8 @@
 	 <a href="/" class:current-page={pathIs('/')}>Home</a>
 	<a href="/category/newsletters/" class:current-page={pathStartsWith('/category/newsletters')}>Newsletters</a>
 	<a href="/category/interviews/" class:current-page={pathStartsWith('/category/interviews')}>Interviews</a>
+	<a href="/category/phds/" class:current-page={pathStartsWith('/category/phds')}>PhDs</a>
+	<a href="/meetings/" class:current-page={pathStartsWith('/meetings')}>Meetings</a>
 	<a href="/about/" class:current-page={pathStartsWith('/about')}>About</a>
 </div>
 
@@ -121,13 +123,15 @@
 			z-index: 100;
 			background-color: var(--color-offwhite);
 			border-left: 1px solid var(--textColor);
+			border-bottom: 1px solid var(--textColor);
+			border-right: 1px solid var(--textColor);
 			position: absolute;
-			width: 65vw;
+			width: 50vw;
 			right: 2.5vw;
 			flex-flow: column;
 			text-align: right;
 			overflow: hidden;
-			margin-top: 31px;
+			margin-top: 1px;
 
 			/* Things to turn off when menu opened */
 			/* border-bottom: 0px solid var(--textColor);

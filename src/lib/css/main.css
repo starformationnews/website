@@ -68,6 +68,26 @@ a:hover {
     text-decoration: none;
 }
 
+/* CLASSES FOR CERTAIN COMMON OBJECTS (e.g. buttons) */
+/* Button style for the site */
+a.button {
+    font-size: 20px;
+    padding: 5px 16px;
+    border: 1px outset black;
+    border-radius: 3px;
+    color: black;
+    background-color: var(--color-lightergrey);
+    text-decoration: none;
+    margin: 5px;
+}
+a.button:hover {
+    background-color: var(--color-lightergrey-hover);
+    color: color-mix(in srgb, black 80%, #ffffff 20%);
+    border-style: inset;
+}
+
+/*  */
+
 
 /* BLOG-ISH ELEMENTS */ 
 blockquote, pre > code {

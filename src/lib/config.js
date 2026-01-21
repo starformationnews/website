@@ -3,17 +3,23 @@ export const siteTitle = 'The Star Formation Newsletter';
 export const siteURL = 'https://starformationnews.github.io/website/'; // Not actually used in many places, it's just for SEO  // Todo update this
 export const siteDescription =
 	'Since its founding in 1992, The Star Formation Newsletter has been the premier way to keep up with new research in star formation.';
+
+/* LINKS TO RELEVANT FORMS */
 export const siteMailingListSignup =
 	'https://massmailer.univie.ac.at/site/geo/sfnews/subscribe/article/190.html';
-export const sitePaperSubmissionForm =
+export const siteFormPaperSubmission =
 	'https://docs.google.com/forms/d/e/1FAIpQLSdPaNwnjhcxmtwWQ-RzsrsfqQWOTRDRzDgrHyh4oUbtCJD3Bw/viewform';
+export const siteFormPhDSubmission =
+	'https://docs.google.com/forms/d/e/1FAIpQLSdkOrOemMuImYBe-FkeEqIka7GXW0EZnlJQcXYO8CUmDmPypA/viewform';
+export const siteFormMeetingSubmission =
+	'https://docs.google.com/forms/d/e/1FAIpQLScVbCbQlYw0NR_x8JxA5DsGErFKiFfT2oKICZgNZMOwe7zuXQ/viewform';
 
 /* SOCIAL SETTINGS */
 // Ensure that any icons are also in icons.js
 export const socials = {
 	bluesky: 'https://bsky.app/profile/joaoalves.bsky.social', // Todo update
-	github: 'https://github.com/starformationnews'
-	// email: 'mailto:...@...'
+	email: 'mailto:sfn.astro@univie.ac.at',
+	github: 'https://github.com/starformationnews',
 };
 
 /* BLOG SETTINGS */

@@ -12,7 +12,7 @@
 	import { siteTitle, authorSocialLinks } from '$lib/config.js';
 	import { formatDate } from '$lib/js/format.js';
 	import { getAppropriateDefaultImage, loadArxivData } from '$lib/js/content';
-	import { sitePaperSubmissionForm } from '$lib/config.js';
+	import { siteFormPaperSubmission } from '$lib/config.js';
 
 	// Passed props include all blog info (like title, date, etc).
 	let props = $props();
@@ -135,7 +135,7 @@
 
 		<p style="text-align: center; font-size: 24px">
 			Want to see a paper in <em>The Star Formation Newsletter</em> next month?<br>Submit papers to
-			<a href={sitePaperSubmissionForm} target="_blank">our submission form.</a>
+			<a href={siteFormPaperSubmission} target="_blank">our submission form.</a>
 		</p>
 	{/if}
 </article>

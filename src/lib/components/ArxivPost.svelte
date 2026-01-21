@@ -2,11 +2,18 @@
 	// import { renderMathInElement } from 'katex/contrib/auto-render/auto-render.js';
 	import katex from 'katex';
 	let { post, topLine = true, bottomLine = false } = $props();
-	const authors = $derived(post.authors.map((author) => author.name).join(', '));
-	const adsLink = $derived(
-		'https://ui.adsabs.harvard.edu/abs/arxiv:' +
-			post.id.split('/').slice(-1)[0].replaceAll(/v.*/g, '') // replaceAll to remove version number (ADS doesn't like them)
+	const allAuthors = $derived(post.authors.map((author) => author.name));
+	const displayAuthors = $derived(
+		allAuthors.length > 5
+			? allAuthors.slice(0, 5).join(', ') + ', <em>et al.</em>'
+			: allAuthors.join(', ')
 	);
+
+	// replaceAll to remove version number (ADS doesn't like them)
+	const deversionedPostID = $derived(post.id.split('/').slice(-1)[0].replaceAll(/v.*/g, ''));
+	const nasaADSLink = $derived(`https://ui.adsabs.harvard.edu/abs/arxiv:${deversionedPostID}`);
+	const arxivAbsLink = $derived(`http://arxiv.org/abs/${deversionedPostID}`);
+	const arxivPDFLink = $derived(`http://arxiv.org/pdf/${deversionedPostID}`);
 
 	function renderLaTeX(text) {
 		return text
@@ -31,11 +38,11 @@
 	<div class="line"></div>
 {/if}
 
-<h4 class="title"><a href={post.id} target="_blank">{@html renderLaTeX(post.title)}</a></h4>
-<p class="authors">{authors}</p>
+<h4 class="title"><a href={arxivAbsLink} target="_blank">{@html renderLaTeX(post.title)}</a></h4>
+<p class="authors">{@html displayAuthors}</p>
 <p class="abstract">{@html renderLaTeX(post.summary)}</p>
 
-<a href={post.id} target="_blank">
+<!-- <a href={post.id} target="_blank">
 	<button> arXiv </button>
 </a>
 
@@ -45,7 +52,12 @@
 
 <a href={adsLink} target="_blank">
 	<button> ADS </button>
-</a>
+</a> -->
+<a class="button" href={arxivAbsLink} target="_blank"> arXiv </a>
+
+<a class="button" href={arxivPDFLink} target="_blank"> PDF </a>
+
+<a class="button" href={nasaADSLink} target="_blank"> ADS </a>
 
 {#if bottomLine}
 	<div class="line"></div>
@@ -69,25 +81,25 @@
 	}
 	.authors {
 		font-weight: 600;
-		font-size: 18px;
-        /* text-align: justify; */
+		font-size: 20px;
+		/* text-align: justify; */
+		color: var(--color-darkgrey);
 	}
 	.title {
 		line-height: 1.3;
-        font-size: 25px;
-        text-align: justify;
+		font-size: 25px;
+		text-align: justify;
 	}
 	.abstract {
 		line-height: 1.4;
 		text-align: justify;
 	}
-	button {
+	/* button {
 		font-size: 20px;
 		padding: 4px 15px 4px 15px;
-		/* width: 100px; */
 		margin-right: 5px;
 		border: 1px grey solid;
 		border-radius: 6px;
 		background-color: var(--color-lightergrey);
-	}
+	} */
 </style>

@@ -1,12 +1,16 @@
 <script>
 	import { socials } from '$lib/config.js';
 	import { icons } from '$lib/icons.js';
-	import { siteMailingListSignup, sitePaperSubmissionForm } from '$lib/config.js';
-	// import { getPosts } from '$lib/js/posts.js';
+	import {
+		siteMailingListSignup,
+		siteFormPaperSubmission,
+		siteFormPhDSubmission,
+		siteFormMeetingSubmission
+	} from '$lib/config.js';
 	import Icon from '$lib/blocks/Icon.svelte';
-
 	const year = new Date().getFullYear();
 
+	// import { getPosts } from '$lib/js/posts.js';
 	// async function fetchRecentPosts() {
 	// 	return getPosts({ limit: 3 });
 	// }
@@ -15,38 +19,55 @@
 
 <footer>
 	<div class="footer">
-		<div class="footer-item" style="margin-bottom: 20px">
-			<h6>Social media links</h6>
+		<div class="footer-item">
+			<!-- <h6>Social media links</h6> -->
 			<div class="socials-container">
 				<div class="socials">
 					{#each Object.entries(socials) as [platform, url]}
-						<div class="social-logo">
-							<a href={url}>
-								<Icon name={platform} />
-							</a>
-						</div>
+					<div class="social-logo">
+						<a href={url}>
+							<Icon name={platform} />
+						</a>
+					</div>
 					{/each}
 				</div>
 			</div>
-			<!-- <p style="margin-top: 35px; margin-bottom: 0px"><a href="https://github.com/bluesky-astronomy/website">Website source code</a></p> -->
-			<p style="margin-top: 10px; margin-bottom: 5px">
+			<!-- <p style="margin-top: 10px; margin-bottom: 5px">
+				Email: {socials.email.replace("mailto:", "")}
+			</p> -->
+			<p style="margin-top: 10px; margin-bottom: 5px; text-align: center">
 				© <em>The Star Formation Newsletter {year}</em>
 			</p>
-			<!-- <OpenCollectiveDonate height=100/> -->
 		</div>
 		<div class="footer-item">
-			<h6>General links</h6>
-			<ul>
-				<li>
-					<a href={sitePaperSubmissionForm} target="_blank">Submit papers for the next issue</a>
-				</li>
+			<!-- <h6>Links</h6> -->
+			<!-- <ul>
 				<li><a href={siteMailingListSignup} target="_blank">Sign up to our mailing list</a></li>
-				<!-- {#await recentPosts then { posts }}
-					{#each posts as post}
-						<li><a href="/posts/{post.slug}">{post.title}</a></li>
-					{/each}
-				{/await} -->
-			</ul>
+				<li>
+					<a href={siteFormPaperSubmission} target="_blank">Submit papers for the next issue</a>
+				</li>
+				<li>
+					<a href={siteFormMeetingSubmission} target="_blank">Submit upcoming meetings</a
+					>
+				</li>
+				<li>
+					<a href={siteFormPhDSubmission} target="_blank"
+						>Submit recently defended PhDs</a
+					>
+				</li>
+			</ul> -->
+			<div class="footer-links">
+				<p><a href={siteMailingListSignup} target="_blank">Sign up to our mailing list</a></p>
+				<p>
+					<a href={siteFormPaperSubmission} target="_blank">Submit papers for the next issue</a>
+				</p>
+				<p>
+					<a href={siteFormMeetingSubmission} target="_blank">Submit upcoming meetings</a>
+				</p>
+				<p>
+					<a href={siteFormPhDSubmission} target="_blank">Submit recently defended PhDs</a>
+				</p>
+			</div>
 		</div>
 	</div>
 </footer>
@@ -54,7 +75,7 @@
 <style>
 	footer {
 		margin-top: 100px;
-		padding-top: 30px;
+		padding-top: 20px;
 		border-top: 1px solid black;
 	}
 	.footer {
@@ -62,7 +83,7 @@
 		margin-right: auto;
 		display: flex;
 		justify-content: space-evenly;
-		align-items: flex-start;
+		align-items: center;
 		flex-flow: row wrap;
 		width: min(1000px, 85vw);
 	}
@@ -73,7 +94,7 @@
 	.socials {
 		display: flex;
 		flex-flow: row wrap;
-		justify-content: left;
+		justify-content: center;
 		align-items: center;
 		gap: 25px;
 		width: 100%;
@@ -85,7 +106,15 @@
 
 	h6 {
 		margin-top: 0px;
-		margin-bottom: 10px;
+		margin-bottom: 5px;
+		font-size: 20px;
+		font-weight: 600;
+		/* font-style: italic; */
+	}
+
+	.footer-links > p {
+		font-size: 16px;
+		margin: 8px 0px;
 	}
 
 	@media only screen and (min-width: 1000px) {
@@ -114,7 +143,10 @@
 		.footer-item {
 			text-align: center;
 		}
-		li {
+		.footer-links {
+			margin-top: 20px;
+		}
+		/* li {
 			list-style-type: none;
 			margin: 10px 0px 10px 0px;
 		}
@@ -123,6 +155,6 @@
 		}
 		h6 {
 			margin-top: 10px;
-		}
+		} */
 	}
 </style>

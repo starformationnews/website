@@ -6,9 +6,11 @@
 	/* Custom colours */
 	--color-accent: #990000;  /* This is SFN red - rgb(0.6, 0, 0) in LaTeX */
 	--color-accent-hover: color-mix(in srgb, var(--color-accent) 80%, #ffffff 20%);
+    --color-darkgrey: #2f2f2f;
 	--color-grey: #595959;
     --color-lightgrey: #aaaaaa;
     --color-lightergrey: #dddddd;
+    --color-lightergrey-hover: color-mix(in srgb, var(--color-lightergrey) 80%, #ffffff 20%);
     --color-offwhite: #f8f8f8;
 
     /* Custom colours - other (used by code highlighting, etc) */
