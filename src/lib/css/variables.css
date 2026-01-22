@@ -12,6 +12,7 @@
     --color-lightergrey: #dddddd;
     --color-lightergrey-hover: color-mix(in srgb, var(--color-lightergrey) 80%, #ffffff 20%);
     --color-offwhite: #f8f8f8;
+    --color-sandwhite: #fffbf4;
 
     /* Custom colours - other (used by code highlighting, etc) */
     --color-green: #135b0b;

@@ -1,6 +1,9 @@
 <script>
+	import { formatDate } from '$lib/js/format';
+
 	// import { renderMathInElement } from 'katex/contrib/auto-render/auto-render.js';
 	import katex from 'katex';
+	import Footer from './Footer.svelte';
 	let { post, topLine = true, bottomLine = false } = $props();
 	const allAuthors = $derived(post.authors.map((author) => author.name));
 	const displayAuthors = $derived(
@@ -8,6 +11,7 @@
 			? allAuthors.slice(0, 5).join(', ') + ', <em>et al.</em>'
 			: allAuthors.join(', ')
 	);
+	const displayDate = $derived(formatDate(post.published));
 
 	// replaceAll to remove version number (ADS doesn't like them)
 	const deversionedPostID = $derived(post.id.split('/').slice(-1)[0].replaceAll(/v.*/g, ''));
@@ -41,6 +45,15 @@
 <h4 class="title"><a href={arxivAbsLink} target="_blank">{@html renderLaTeX(post.title)}</a></h4>
 <p class="authors">{@html displayAuthors}</p>
 <p class="abstract">{@html renderLaTeX(post.summary)}</p>
+<p style="text-align: left">
+	<a href={arxivAbsLink} style="margin: 0px 10px" target="_blank">arXiv</a>
+	|
+	<a href={arxivPDFLink} style="margin: 0px 10px" target="_blank"> PDF </a>
+	|
+	<a href={nasaADSLink} style="margin: 0px 10px" target="_blank"> ADS </a>
+	|
+	<span style="color: var(--color-darkgrey); margin-left: 10px">{displayDate}</span>
+</p>
 
 <!-- <a href={post.id} target="_blank">
 	<button> arXiv </button>
@@ -53,11 +66,11 @@
 <a href={adsLink} target="_blank">
 	<button> ADS </button>
 </a> -->
-<a class="button" href={arxivAbsLink} target="_blank"> arXiv </a>
+<!-- <a class="button" href={arxivAbsLink} target="_blank"> arXiv </a>
 
 <a class="button" href={arxivPDFLink} target="_blank"> PDF </a>
 
-<a class="button" href={nasaADSLink} target="_blank"> ADS </a>
+<a class="button" href={nasaADSLink} target="_blank"> ADS </a> -->
 
 {#if bottomLine}
 	<div class="line"></div>
@@ -74,8 +87,9 @@
 <style>
 	.line {
 		width: 100%;
-		height: 1px;
-		border-bottom: 1px solid var(--color-grey);
+		height: 0px;
+		border-bottom: 1px solid var(--color-lightgrey);
+		/* border-top: 1px solid var(--color-lightgrey); */
 		margin-top: 40px;
 		margin-bottom: 40px;
 	}
@@ -93,6 +107,14 @@
 	.abstract {
 		line-height: 1.4;
 		text-align: justify;
+	}
+	@media screen and (max-width: 800px) {
+		.title {
+			text-align: left;
+		}
+		.nophone {
+			display: none;
+		}
 	}
 	/* button {
 		font-size: 20px;

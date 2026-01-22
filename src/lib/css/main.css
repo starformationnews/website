@@ -1,133 +1,151 @@
 /* Main CSS file for the site, defining common rules. */
 
-/* LAYOUT */ 
+/* LAYOUT */
 body {
-    margin-top: 0px;
+	margin-top: 0px;
+	background-color: var(--color-sandwhite);
 }
 
-
-/* TEXT */ 
-:root, button {
-    font-family: var(--font-text);
+/* TEXT */
+:root,
+button {
+	font-family: var(--font-text);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    /* color: var(--color-accent); */
-    font-family: var(--font-heading);
-    font-weight: 500;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	/* color: var(--color-accent); */
+	font-family: var(--font-heading);
+	font-weight: 500;
 }
 
 h1 {
-    font-size: 44px;
-    font-weight: 600;
-    margin-top: 35px;
+	font-size: 44px;
+	font-weight: 600;
+	margin-top: 35px;
 }
 h2 {
-    font-size: 34px;
-    font-weight: 600;
-    margin-top: 32px;
-    margin-bottom: 20px;
+	font-size: 34px;
+	font-weight: 600;
+	margin-top: 32px;
+	margin-bottom: 20px;
 }
 h3 {
-    font-size: 31px;
-    font-weight: 650;
-    margin-top: 30px;
-    margin-bottom: 16px;
+	font-size: 31px;
+	font-weight: 650;
+	margin-top: 30px;
+	margin-bottom: 16px;
 }
 h4 {
-    font-size: 28px;
-    font-weight: 670;
-    margin-top: 28px;
-    margin-bottom: 14px;
+	font-size: 28px;
+	font-weight: 670;
+	margin-top: 28px;
+	margin-bottom: 14px;
 }
 h5 {
-    font-size: 25px;
-    font-weight: 700;
-    margin-top: 26px;
-    margin-bottom: 12px;
+	font-size: 25px;
+	font-weight: 700;
+	margin-top: 26px;
+	margin-bottom: 12px;
 }
 h6 {
-    font-size: 23px;
-    font-weight: 720;
-    margin-top: 24px;
-    margin-bottom: 10px;
+	font-size: 23px;
+	font-weight: 720;
+	margin-top: 24px;
+	margin-bottom: 10px;
 }
 
-p, li {
-    font-size: 20px;
-    font-weight: 400;
+p,
+li {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.3;
 }
 
 a {
-    color: var(--color-accent);
-    text-decoration: none;
+	color: var(--color-accent);
+	text-decoration: none;
 }
 
 a:hover {
-    color: var(--color-accent-hover);
-    text-decoration: none;
+	color: var(--color-accent-hover);
+	text-decoration: none;
 }
 
 /* CLASSES FOR CERTAIN COMMON OBJECTS (e.g. buttons) */
 /* Button style for the site */
 a.button {
-    font-size: 20px;
-    padding: 5px 16px;
-    border: 1px outset black;
-    border-radius: 3px;
-    color: black;
-    background-color: var(--color-lightergrey);
-    text-decoration: none;
-    margin: 5px;
+	font-size: 20px;
+	padding: 5px 16px;
+	border: 1px outset black;
+	border-radius: 3px;
+	color: black;
+	background-color: var(--color-lightergrey);
+	text-decoration: none;
+	margin: 5px;
 }
 a.button:hover {
-    background-color: var(--color-lightergrey-hover);
-    color: color-mix(in srgb, black 80%, #ffffff 20%);
-    border-style: inset;
+	background-color: var(--color-lightergrey-hover);
+	color: color-mix(in srgb, black 80%, #ffffff 20%);
+	border-style: inset;
 }
 
-/*  */
-
-
-/* BLOG-ISH ELEMENTS */ 
-blockquote, pre > code {
-    font-family: var(--font-heading);
-    font-size: 16px;
-    display: block;
-    /* font-style: italic; */
-    margin: 30px 0px 30px 0px;
-    padding: 20px 15px 20px 20px;
-    border-left: solid 7px var(--color-accent);
-    background-color: var(--color-offwhite);
+/* Dividers */
+.line {
+	width: 100%;
+	height: 0px;
+	border-bottom: 1px solid var(--color-lightgrey);
+	/* border-top: 1px solid var(--color-lightgrey); */
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
-code, pre > code, p > code {
-    font-family: var(--font-monospace);
+/* BLOG-ISH ELEMENTS */
+blockquote,
+pre > code {
+	font-family: var(--font-heading);
+	font-size: 16px;
+	display: block;
+	/* font-style: italic; */
+	margin: 30px 0px 30px 0px;
+	padding: 20px 15px 20px 20px;
+	border-left: solid 7px var(--color-accent);
+	background-color: var(--color-offwhite);
+}
+
+code,
+pre > code,
+p > code {
+	font-family: var(--font-monospace);
 }
 
 blockquote > p {
-    font-size: 28px;
-    padding: 0px;
-    margin: 0px;
+	font-size: 28px;
+	padding: 0px;
+	margin: 0px;
 }
 
-article > p > img, article > img {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
-    max-height: 600px;
-    object-fit: contain;
+article > p > img,
+article > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+	max-height: 600px;
+	object-fit: contain;
 }
 
 /* MATH ELEMENTS, KATEX OVERRIDES */
 /* Just use site font - it's fine & more consistent */
 .katex {
-    font: var(--font-text) !important;
-    font-family: var(--font-text) !important;
+	font: var(--font-text) !important;
+	font-family: var(--font-text) !important;
 }
 /* But, we then have to up the font size */
 .katex-display {
-    font-size: 20px;
+	font-size: 20px;
 }
-

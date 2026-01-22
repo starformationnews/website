@@ -1,5 +1,5 @@
 ---
-title: 'A compilation of interviews from The Star Formation Newsletter: 2012-2022'
+title: 'A compilation of interviews from The Star Formation Newsletter (2012-2022)'
 date: 2022-12-17
 authors: ['Bo Reipurth']
 categories: ['interviews']

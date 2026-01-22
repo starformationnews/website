@@ -12,7 +12,6 @@
 	import { siteTitle, authorSocialLinks } from '$lib/config.js';
 	import { formatDate } from '$lib/js/format.js';
 	import { getAppropriateDefaultImage, loadArxivData } from '$lib/js/content';
-	import { siteFormPaperSubmission } from '$lib/config.js';
 
 	// Passed props include all blog info (like title, date, etc).
 	let props = $props();
@@ -117,6 +116,13 @@
 	{@render props.children?.()}
 
 	{#if props.arxiv}
+		<!-- <h2 style="margin-top: 50px">― The latest papers ―</h2> -->
+		{#if arxivPosts}
+			<ArxivList {arxivPosts} date={props.date} />
+		{:else}
+			<p>Unable to load arXiv posts for this month.</p>
+		{/if}
+
 		<h2>― Recent <em>Star Formation Newsletter</em> posts ―</h2>
 		{#await getPosts({ category: 'editorials', page: 1, limit: 3 })}
 			<p>Loading...</p>
@@ -125,18 +131,6 @@
 		{:catch error}
 			<p>Error: {error.message}</p>
 		{/await}
-
-		<h2 style="margin-top: 50px">― The latest papers ―</h2>
-		{#if arxivPosts}
-			<ArxivList {arxivPosts} date={props.date} />
-		{:else}
-			<p>Unable to load arXiv posts for this month.</p>
-		{/if}
-
-		<p style="text-align: center; font-size: 24px">
-			Want to see a paper in <em>The Star Formation Newsletter</em> next month?<br>Submit papers to
-			<a href={siteFormPaperSubmission} target="_blank">our submission form.</a>
-		</p>
 	{/if}
 </article>
 

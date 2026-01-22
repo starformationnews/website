@@ -44,15 +44,17 @@
 
 <style>
 	.container {
-		background-color: var(--color-offwhite);
-		border-radius: 20px;
-		padding: 20px;
+		/* background-color: var(--color-offwhite); */
+		/* border-radius: 20px; */
+		border-bottom: 1px var(--color-lightgrey) solid;
+		padding: 30px 20px;
 		width: calc(100% - 40px); /* Width - padding */
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 	}
 	.image-item {
 		flex: 0 0 20%;
 		padding: 0px;
+		height: 120px;
 	}
 	.text-item {
 		flex: 1 1 auto;
@@ -90,7 +92,7 @@
 	}
 
 	/* Computers */
-	@media only screen and (min-width: 1000px) {
+	@media only screen and (min-width: 800px) {
 		.container {
 			display: flex;
 			flex-flow: row;
@@ -103,7 +105,7 @@
 		}
 	}
 	/* Tablets */
-	@media screen and (min-width: 801px) and (max-width: 999px) {
+	/* @media screen and (min-width: 801px) and (max-width: 999px) {
 		.container {
 			display: flex;
 			flex-flow: row;
@@ -114,7 +116,7 @@
 		img {
 			height: 120px;
 		}
-	}
+	} */
 	/* Phones */
 	@media screen and (max-width: 800px) {
 		.container {
@@ -125,7 +127,7 @@
 			gap: 20px;
 		}
 		img {
-			height: 100%;
+			height: 200px;
 		}
 	}
 </style>
