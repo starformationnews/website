@@ -21,7 +21,7 @@
 	{/each}
 
 	<p style="">
-		Want to see a paper in <em>The Star Formation Newsletter</em> next month?<br />Submit papers to
+		Want to see a paper in <em>The Star Formation Newsletter</em> next month?<br />Submit abstracts to
 		<a href={siteFormPaperSubmission} target="_blank">our submission form.</a>
 	</p>
 

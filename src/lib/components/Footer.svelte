@@ -59,7 +59,7 @@
 			<div class="footer-links">
 				<p><a href={siteMailingListSignup} target="_blank">Sign up to our mailing list</a></p>
 				<p>
-					<a href={siteFormPaperSubmission} target="_blank">Submit papers for the next issue</a>
+					<a href={siteFormPaperSubmission} target="_blank">Submit abstracts for the next issue</a>
 				</p>
 				<p>
 					<a href={siteFormMeetingSubmission} target="_blank">Submit upcoming meetings</a>
