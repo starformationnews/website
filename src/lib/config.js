@@ -1,6 +1,6 @@
 /* SITE SETTINGS */
 export const siteTitle = 'The Star Formation Newsletter';
-export const siteURL = 'https://starformationnews.github.io/website/'; // Not actually used in many places, it's just for SEO  // Todo update this
+export const siteURL = 'https://starformationnews.org/'; // Not actually used in many places, it's just for SEO  // Todo update this
 export const siteDescription =
 	'Since its founding in 1992, The Star Formation Newsletter has been the premier way to keep up with new research in star formation.';
 
@@ -17,7 +17,7 @@ export const siteFormMeetingSubmission =
 /* SOCIAL SETTINGS */
 // Ensure that any icons are also in icons.js
 export const socials = {
-	bluesky: 'https://bsky.app/profile/joaoalves.bsky.social', // Todo update
+	bluesky: 'https://bsky.app/profile/did:plc:xviff3ioo7f37ajyraxr3gtu',
 	email: 'mailto:sfn.astro@univie.ac.at',
 	github: 'https://github.com/starformationnews',
 };
