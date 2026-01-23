@@ -1,6 +1,9 @@
 <script>
 	import { siteFormMeetingSubmission } from '$lib/config';
+	import SiteHeader from '$lib/components/SiteHeader.svelte';
 </script>
+
+<SiteHeader />
 
 <h1>Upcoming meetings</h1>
 

@@ -1,5 +1,6 @@
 <script>
 	import PostList from '../../lib/components/PostList.svelte';
+	import SiteHeader from '$lib/components/SiteHeader.svelte';
 	import { siteFormPhDSubmission } from '$lib/config';
 
 	let { data, children } = $props();
@@ -11,6 +12,8 @@
 	// );
 	let categoryDisplayName = $derived(data.category.replaceAll('-', ' ').replace('phds', 'PhDs'));
 </script>
+
+<SiteHeader />
 
 <!-- Title display special cases -->
 {#if data.category === 'all'}
@@ -25,8 +28,9 @@
 {#if data.category === 'phds'}
 	<p style="margin-top: -20px; margin-bottom: 40px">
 		<em
-			>Have you recently defended your PhD? Let us know with <a href={siteFormPhDSubmission} target="_blank"
-				>this form</a
+			>Have you recently defended your PhD? Let us know with <a
+				href={siteFormPhDSubmission}
+				target="_blank">this form</a
 			>.</em
 		>
 	</p>

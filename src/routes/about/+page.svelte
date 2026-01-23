@@ -1,6 +1,9 @@
 <script>
+	import SiteHeader from '$lib/components/SiteHeader.svelte';
 	import { siteMailingListSignup } from '$lib/config';
 </script>
+
+<SiteHeader />
 
 <h1>About us</h1>
 
@@ -10,7 +13,8 @@
 </p>
 
 <p>
-	You can <a href={siteMailingListSignup} target="_blank">sign up to our mailing list</a> to receive our monthly updates.
+	You can <a href={siteMailingListSignup} target="_blank">sign up to our mailing list</a> to receive our
+	monthly updates.
 </p>
 
 <p>The newsletter is currently maintained by:</p>

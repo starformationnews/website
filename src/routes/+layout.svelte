@@ -1,7 +1,6 @@
 <script>
 	let { children } = $props();
 	import Header from '$lib/components/Header.svelte';
-	import SiteHeader from '$lib/components/SiteHeader.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
 	/* SITEWIDE CSS IMPORTS */
@@ -62,8 +61,6 @@
 	// $effect(setHead);
 	// $effect(() => console.log(siteHead));
 </script>
-
-<SiteHeader />
 
 <Header />
 

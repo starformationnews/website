@@ -12,8 +12,7 @@
 	import { siteTitle, authorSocialLinks } from '$lib/config.js';
 	import { formatDate } from '$lib/js/format.js';
 	import { getAppropriateDefaultImage, loadArxivData } from '$lib/js/content';
-	import { onDestroy, onMount } from 'svelte';
-	import { setSiteHeader, siteHead } from '$lib/js/page.svelte';
+	import SiteHeader from '$lib/components/SiteHeader.svelte';
 
 	// Passed props include all blog info (like title, date, etc).
 	let props = $props();
@@ -71,15 +70,15 @@
 		arxivPosts = loadArxivData($page.url.pathname);
 	}
 
-	$effect(() =>
-		setSiteHeader({
-			title: props.title,
-			description: props.description,
-			author: props.authors,
-			image: image
-		})
-	);
+	let headMetadata = $derived({
+		title: props.title,
+		description: props.description,
+		author: props.authors,
+		image: image
+	});
 </script>
+
+<SiteHeader {...headMetadata} />
 
 <article style="margin-top: 20px">
 	{#if image !== undefined}
