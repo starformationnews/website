@@ -2,7 +2,7 @@
 title: 'Example / test post'
 date: 2026-01-01
 authors: ['Emily Hunt', 'Joe Bloggs']
-categories: ['editorials', 'interviews', 'newsletters']
+categories: ['editorials']
 description: 'The Star Formation Newsletter is back after a hiatus. This post explains its future direction.'
 image: './header.webp'
 imageCredit: 'ALMA (ESO/NAOJ/NRAO)'
