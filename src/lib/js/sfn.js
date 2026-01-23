@@ -9,3 +9,16 @@ export function dateToSFNID(date) {
 	id += date.getMonth();
 	return id;
 }
+
+export function SFNIDToStartOfMonth(id) {
+	let totalMonths = id + 8;
+
+	// Many special cases...
+	if (id >= 7) {
+		totalMonths--;
+	}
+
+	const years = Math.floor(totalMonths / 12) + 1992;
+	const months = totalMonths % 12;
+	return new Date(Date.UTC(years, months, 1));
+}
