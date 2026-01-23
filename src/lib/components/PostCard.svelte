@@ -4,11 +4,12 @@
 	let { post, noBottomLine = false } = $props();
 
 	const alt = $derived(`Post thumbnail for blog post ${post.title}`);
+	const url = $derived(post.link !== undefined ? post.link : post.url);
 </script>
 
 <div class="container" style={noBottomLine ? 'border-bottom: none' : ''}>
 	<div class="image-item">
-		<a href={post.url}>
+		<a href={url}>
 			{#if post.image !== undefined}
 				<img src={convertPathOnLocalImages(post.image)} {alt} />
 			{:else}
@@ -23,7 +24,7 @@
 	</div>
 	<div class="text-item">
 		<h3 style="margin-top: 0px; margin-bottom: 10px">
-			<a href={post.url}>{post.title}</a>
+			<a href={url}>{post.title}</a>
 		</h3>
 		<!-- <div class="red-line"></div> -->
 		<p style="margin-top: 0px; margin-bottom: 0px;">

@@ -51,10 +51,12 @@ There are a few more things, including:
 
 - Set a date when the post was last updated (which is displayed at the top of the post)
 - Hide the post on the **production** website (it will still appear when running locally with `npm run dev`)
+- Turn the post into a "dummy post" that links to something else on the web - clicking on the post on the site will redirect
 
 ```javascript
 updated: 2026 - 01 - 14;
 hidden: true;
+link: "https://example.com"
 ```
 
 ## Adding images, links, etc.
