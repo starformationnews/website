@@ -1,10 +1,11 @@
 <script>
-	import { formatDate } from '$lib/js/format';
+	import { formatDate, formatDateShort } from '$lib/js/format';
 	import { getAppropriateDefaultImage, convertPathOnLocalImages } from '$lib/js/content';
 	let { post, noBottomLine = false } = $props();
 
 	const alt = $derived(`Post thumbnail for blog post ${post.title}`);
 	const url = $derived(post.link !== undefined ? post.link : post.url);
+	const date = $derived(post.hideDate === undefined ? ' | ' + formatDate(post.date) : '');
 </script>
 
 <div class="container" style={noBottomLine ? 'border-bottom: none' : ''}>
@@ -34,7 +35,7 @@
 				></span
 			>
 			<span class="date">
-				| {formatDate(post.date)}
+				{date}
 				{#if post.hidden}
 					<br /><strong>(This post will be hidden on the main site.)</strong>
 				{/if}
