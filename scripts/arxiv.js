@@ -15,11 +15,8 @@ console.log(`Downloading arXiv submissions for ${year}, month ${month}; ID is ${
 async function fetchStuff() {
 	const paperIDs = await fetchPaperIDs(year, month);
 	const articles = await fetchArXivMetadata(paperIDs);
-	console.log(articles);
-	// Todo: write them to a json file
-
 	fs.writeFileSync(
-		`src/routes/(posts)/newsletters/${id}/arxiv.json`,
+		`src/routes/(posts)/newsletters/${year}/${id}/arxiv.json`,
 		JSON.stringify(articles, undefined, 4),
 		'utf8'
 	);
