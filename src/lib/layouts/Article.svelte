@@ -75,7 +75,7 @@
 			<Image
 				src={image}
 				alt={'Article header image.'}
-				style="margin: auto; width: min(600px, 90vw); height: 250px; object-fit: cover; object-position: 50%"
+				style="margin: auto; width: min(500px, 90vw); height: 320px; object-fit: cover; object-position: 50%"
 			/>
 		</div>
 	{/if}
