@@ -1,5 +1,5 @@
 <script>
-	import { formatDate, formatDateShort } from '$lib/js/format';
+	import { formatDate } from '$lib/js/format';
 	import { getAppropriateDefaultImage, convertPathOnLocalImages } from '$lib/js/content';
 	let { post, noBottomLine = false } = $props();
 
