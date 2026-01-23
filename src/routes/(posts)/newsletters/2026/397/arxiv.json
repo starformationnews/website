@@ -1,226 +1,49 @@
 {
-    "2601.10642": {
-        "id": "http://arxiv.org/abs/2601.11399v1",
-        "title": "Star-forming compact groups: Tracing the early evolutionary stages of compact group environments",
-        "updated": "2026-01-16T16:10:11.000Z",
-        "published": "2026-01-16T16:10:11.000Z",
-        "summary": "In the context of pre-processing -- a scenario in which galaxies quench their star formation within substructures before falling into clusters -- we investigate the impact of environment on the physical and morphological properties of galaxies in Compact Groups (CGs), focusing specifically on a sample of Star-Forming Compact Groups (SFCGs). Our aim is to characterize the physical and morphological properties of galaxies in SFCGs, analogues of the Blue Infalling Group, and to understand how the environment influences their evolution. We use photometric techniques to derive stellar masses and star formation rates (SFRs). Morphological parameters are extracted from DECaLS images, obtaining parametric properties such as the Sérsic index ($n$) and effective radius ($R_{\\mathrm{e}}$) using GALFITM, as well as non-parametric indices -- including the Gini coefficient, $M_{20}$, and asymmetry -- from the same data. These indicators allow us to classify galaxies into E/S0/Sa, Sb/Sc/Ir, and merger types. All measurements are compared to a control sample of field galaxies to assess environmental effects. We find no significant differences in $n$ and $R_{\\mathrm{e}}$ between SFCG and field galaxies, in contrast to results reported for other CG samples. However, SFCG galaxies exhibit higher specific star formation rates (sSFRs) than their field counterparts. Approximately $16\\%$ of SFCG galaxies show merger features and elevated asymmetry. These mergers also present enhanced SFRs compared to both other SFCG types and the field population. We propose that SFCGs represent an earlier evolutionary phase of CGs, supported by their lower velocity dispersions and moderate crossing times, in addition to the observed SFR enhancement and the absence of pronounced morphological transformation. Galaxy mergers in this phase appear to enhance, rather than suppress, star formation.",
+    "2512.02237": {
+        "id": "http://arxiv.org/abs/2601.08555v1",
+        "title": "Substellar population of the young massive cluster RCW 36 in Vela",
+        "updated": "2026-01-13T13:41:10.000Z",
+        "published": "2026-01-13T13:41:10.000Z",
+        "summary": "The initial mass function (IMF) is a cornerstone of star formation studies, yet its universality remains debated. We investigate the IMF in the young massive cluster RCW 36, located in the Vela Molecular Ridge and comparable to the Orion Nebula Cluster in stellar density. Our goal is to build the most complete census of RCW 36 and derive its first IMF and star-to-brown-dwarf (BD) ratio. We combine new GLAO observations from HAWK-I/VLT with archival data (2MASS, SOFI/NTT) and Gaia DR3 kinematics. Photometric accuracy and source extraction were improved using \\textsc{DeNeb}, a deep-learning algorithm that removes complex nebular emission. Membership probabilities were assigned via color-magnitude diagram comparisons with a control field, and stellar masses were estimated using model isochrones. We find a revised distance of $954\\pm40\\,$pc and determine the IMF down to $\\sim0.03\\,M_{\\odot}$, described by a broken power law ($dN/dM\\propto M^{-α}$) with $α=1.62\\pm0.03$ for $0.20$-$20\\,M_{\\odot}$ and $α=0.46\\pm0.14$ for $0.03$-$0.20\\,M_{\\odot}$. The star-BD ratio is $2$-$5$, consistent with other Galactic clusters. Lastly, through a study of the differences in the IMF within and outside $0.2\\,$pc and the cumulative mass distributions for low-mass and intermediate to high-mass sources, we also detected signs of possible mass segregation within RCW 36, which should be primordial. RCW 36 shares many characteristics with other young massive clusters, such as a shallower than Salpeter high-mass slope and the possibility of mass segregation. The flatter lower-mass regime of the IMF is similar to most Galactic clusters. The star-BD ratio is also in line with the observed values in other clusters, independent of their inherent properties.",
         "authors": [
             {
-                "name": "Ortiz-Gómez S."
+                "name": "A. R. G. do Brito do Vale"
             },
             {
-                "name": "Torres-Flores S."
+                "name": "K. Mužić"
             },
             {
-                "name": "Monachesi A."
+                "name": "H. Bouy"
             },
             {
-                "name": "Montaguth G. P."
+                "name": "V. Almendros-Abad"
             },
             {
-                "name": "Véliz Astudillo S."
+                "name": "A. Bayo"
             },
             {
-                "name": "Mendes de Oliveira C."
+                "name": "D. Capela"
             },
             {
-                "name": "Olave-Rojas D. E."
+                "name": "A. Scholz"
             },
             {
-                "name": "Lima-Dias C."
+                "name": "A. Bik"
             },
             {
-                "name": "Demarco R."
+                "name": "G. Suárez"
             },
             {
-                "name": "Pallero D."
+                "name": "L. Cieza"
             },
             {
-                "name": "Lopes A. R."
+                "name": "K. Peña Ramírez"
             },
             {
-                "name": "Cortesi A."
+                "name": "E. Bertin"
             },
             {
-                "name": "Telles E."
-            },
-            {
-                "name": "Kanaan A."
-            },
-            {
-                "name": "Ribeiro T."
-            },
-            {
-                "name": "Schoenell W"
-            }
-        ],
-        "categories": [
-            "astro-ph.GA"
-        ],
-        "primaryCategory": "astro-ph.GA",
-        "links": [
-            {
-                "href": "https://arxiv.org/abs/2601.11399v1",
-                "rel": "alternate",
-                "type": "text/html"
-            },
-            {
-                "href": "https://arxiv.org/pdf/2601.11399v1",
-                "rel": "related",
-                "type": "application/pdf"
-            }
-        ]
-    },
-    "2601.10595": {
-        "id": "http://arxiv.org/abs/2601.08904v1",
-        "title": "Digging into the Interior of Hot Cores with ALMA. VI. The Formation of Low-mass Multiple Systems in High-mass Cluster-forming Regions",
-        "updated": "2026-01-13T19:00:00.000Z",
-        "published": "2026-01-13T19:00:00.000Z",
-        "summary": "Most stars form in multiple systems, with profound implications in numerous astronomical phenomena intrinsically linked to multiplicity. However, our knowledge about the process on how multiple stellar systems form is incomplete and biased toward nearby molecular clouds forming only low-mass stars, which are unrepresentative of the stellar population in the Galaxy. Most stars form within dense cores in clusters alongside high-mass stars (>8 M$_{\\odot}$), as likely the Sun did. Here we report deep ALMA 1.33 mm dust continuum observations at ~160 au spatial resolution, revealing 72 low-mass multiple systems embedded in 23 high-mass cluster-forming regions, as part of the Digging into the Interior of Hot Cores with ALMA (DIHCA) survey. We find that the companion separation distribution presents a distinct peak at ~1200 au, in contrast to the one at ~4000 au observed in nearby low-mass regions. The shorter fragmentation scale can be explained by considering the higher pressure exerted by the surrounding medium, which is higher than the one in low-mass regions, due to the larger turbulence and densities involved. Because the peak of the companion separation distribution occurs at much larger scales than the expected disk sizes, we argue that the observed fragmentation is produced by turbulent core fragmentation. Contrary as predicted, the multiplicity fraction remains constant as the stellar density increases. We propose that in the extremely dense environments where high-mass stars form, dynamical interactions play an important role in disrupting weakly bound systems.",
-        "authors": [
-            {
-                "name": "Qiuyi Luo"
-            },
-            {
-                "name": "Patricio Sanhueza"
-            },
-            {
-                "name": "Stella S. R. Offner"
-            },
-            {
-                "name": "Fernando Olguin"
-            },
-            {
-                "name": "Adam Ginsburg"
-            },
-            {
-                "name": "Fumitaka Nakamura"
-            },
-            {
-                "name": "Kaho Morii"
-            },
-            {
-                "name": "Yu Cheng"
-            },
-            {
-                "name": "Kei Tanaka"
-            },
-            {
-                "name": "Junhao Liu"
-            },
-            {
-                "name": "Tie Liu"
-            },
-            {
-                "name": "Xing Lu"
-            },
-            {
-                "name": "Qizhou Zhang"
-            },
-            {
-                "name": "Kotomi Taniguchi"
-            },
-            {
-                "name": "Piyali Saha"
-            },
-            {
-                "name": "Shanghuo Li"
-            },
-            {
-                "name": "Xiaofeng Mai"
-            }
-        ],
-        "categories": [
-            "astro-ph.GA"
-        ],
-        "primaryCategory": "astro-ph.GA",
-        "links": [
-            {
-                "href": "https://arxiv.org/abs/2601.08904v1",
-                "rel": "alternate",
-                "type": "text/html"
-            },
-            {
-                "href": "https://arxiv.org/pdf/2601.08904v1",
-                "rel": "related",
-                "type": "application/pdf"
-            }
-        ]
-    },
-    "2601.08904": {
-        "id": "http://arxiv.org/abs/2601.10642v1",
-        "title": "HII regions in NGC 628: the view of two catalogs",
-        "updated": "2026-01-15T18:03:08.000Z",
-        "published": "2026-01-15T18:03:08.000Z",
-        "summary": "The study is devoted to comparing the parameters of the interstellar medium of HII regions in the Kongiu and Groves catalogs for the galaxy NGC 628. The article analyzes the characteristics of star-forming regions, including a comparison of radiation fluxes in the ranges of 7.7 $μ$m and 21 $μ$m and in the H$α$, H$β$, OIII and CO lines, calculating the kinematic parameters (FWHM) for the lines, and analyzing the spatial distribution of regions for both catalogs.\n  The results of the study showed that the regions from the Groves catalog demonstrate higher line widths compared to the Kongiu catalog. Signs of possible misidentified classification of some regions from the Groves catalog were revealed: there is a possibility that some of them are not HII regions, but shock ionization regions.",
-        "authors": [
-            {
-                "name": "Ksenia I. Smirnova"
-            },
-            {
-                "name": "Dmitri S. Wiebe"
-            }
-        ],
-        "categories": [
-            "astro-ph.GA"
-        ],
-        "primaryCategory": "astro-ph.GA",
-        "links": [
-            {
-                "href": "https://arxiv.org/abs/2601.10642v1",
-                "rel": "alternate",
-                "type": "text/html"
-            },
-            {
-                "href": "https://arxiv.org/pdf/2601.10642v1",
-                "rel": "related",
-                "type": "application/pdf"
-            }
-        ]
-    },
-    "2601.09794": {
-        "id": "http://arxiv.org/abs/2601.10595v1",
-        "title": "High-fidelity stellar extinction with Gaia and APOGEE -- I. The method and a new extinction curve",
-        "updated": "2026-01-15T17:03:08.000Z",
-        "published": "2026-01-15T17:03:08.000Z",
-        "summary": "The scarcity of high-fidelity extinction measurements remains a bottleneck in deriving accurate stellar properties from Gaia parallaxes. In this work, we aim to derive precision extinction estimates for APOGEE DR19 stars, establishing a new benchmark for Galactic stellar population studies. We first determine reddening by comparing observed colorsr, etrieved from photometric surveys or standardized synthetic magnitudes from Gaia BP/RP spectra, to intrinsic colors predicted via an XGBoost model. The model is trained on minimally reddened stars to infer intrinsic colors and their associated uncertainties, using APOGEE stellar parameters (Teff, logg, [Fe/H], and [alpha/Fe]). The derived reddening values are then converted into extinctions using an anchor ratio of A_BP / A_RP = 1.694 +/- 0.004, derived from red-clump-like stars. Here, we provide extinction measurements in 39 filters across 10 photometric systems and introduce a new empirical extinction curve optimized for broadband passbands. Our extinction estimates (Av) outperform existing results (Bayestar19, StarHorse, SEDEX), achieving a typical precision of 0.03 mag in Av. Notably, we identify systematic deviations of up to 30% between monochromatic and passband-integrated extinction ratios at wavelengths greater than 700 nm. This result highlights the necessity of adopting passband-specific coefficients when correcting extinction to derive stellar parameters. As the foundation for a forthcoming series of papers, these benchmark measurements will be used to (1) revise asteroseismic scaling relations, (2) calibrate differential reddening in open clusters, and (3) reconcile heterogeneous dust maps into a unified, all-sky extinction scheme.",
-        "authors": [
-            {
-                "name": "Jie Yu"
-            },
-            {
-                "name": "Luca Casagrande"
-            },
-            {
-                "name": "John A. Taylor"
-            },
-            {
-                "name": "Ioana Ciucă"
-            },
-            {
-                "name": "Giacomo Cordoni"
-            },
-            {
-                "name": "Ronald Drimmel"
-            },
-            {
-                "name": "Shourya Khanna"
-            },
-            {
-                "name": "Hiep Nguyen"
-            },
-            {
-                "name": "Tomasz Różański"
-            },
-            {
-                "name": "Dennis Stello"
-            },
-            {
-                "name": "Haibo Yuan"
-            },
-            {
-                "name": "Zhen Yuan"
+                "name": "R. Schödel"
             }
         ],
         "categories": [
@@ -230,124 +53,142 @@
         "primaryCategory": "astro-ph.SR",
         "links": [
             {
-                "href": "https://arxiv.org/abs/2601.10595v1",
+                "href": "https://arxiv.org/abs/2601.08555v1",
                 "rel": "alternate",
                 "type": "text/html"
             },
             {
-                "href": "https://arxiv.org/pdf/2601.10595v1",
+                "href": "https://arxiv.org/pdf/2601.08555v1",
                 "rel": "related",
                 "type": "application/pdf"
             }
         ]
     },
-    "2601.11399": {
-        "id": "http://arxiv.org/abs/2601.09794v2",
-        "title": "The influence of magnetic fields in Cloud-Cloud Collisions",
-        "updated": "2026-01-16T10:21:14.000Z",
-        "published": "2026-01-14T19:01:01.000Z",
-        "summary": "Cloud-cloud collisions are expected to trigger star formation by compressing gas into dense, gravitationally unstable regions. However, the role of magnetic fields in this process is unclear. We use SPH to model head-on collisions between two uniform density clouds, each with mass $500 \\,$M$_{\\odot}$, initial radius 2 pc, and embedded in a uniform magnetic field parallel to the collision velocity. As in the nonmagnetic case, the resulting shock-compressed layer fragments into a network of filaments. If the collision is sufficiently slow, the filaments are dragged into radial orientations by non-homologous gravitational contraction, resulting in a $\\textit{Hub Filament}$ morphology, which spawns a centrally concentrated monolithic cluster with a broad mass function shaped by competitive accretion and dynamical ejections. If the collision is faster, a $\\textit{Spiders Web}$ of intersecting filaments forms, and star-systems condense out in small subclusters, often at the filament intersections; due to their smaller mass reservoirs, and the lower probability of dynamical ejection, the mass function of star-systems formed in these subclusters is narrower. Magnetic fields affect this dichotomy quantitatively by delaying collapse and fragmentation. As a result, the velocity threshold separating $\\textit{Hub Filament}$ and $\\textit{Spiders Web}$ morphologies is shifted upward in magnetised runs, thereby enlarging the parameter space in which $\\textit{Hub Filament}$ morphologies form, and enhancing the likelihood of producing centrally concentrated clusters. Consequently, magnetic fields regulate both the morphology and timing of star formation in cloud-cloud collisions: they broaden filaments, delay the onset of star formation, and promote the formation of $\\textit{Hub Filament}$ morphologies, monolithic clusters and high-mass star-systems.",
+    "2601.08555": {
+        "id": "http://arxiv.org/abs/2512.06873v1",
+        "title": "Precise determination of circumstellar disk lifetimes: Disk evolution in a single star-forming region",
+        "updated": "2025-12-07T15:01:39.000Z",
+        "published": "2025-12-07T15:01:39.000Z",
+        "summary": "Determining how long circumstellar disks last is key to understanding the timescale of planet formation. Typically, this is done by measuring the fraction of young stars with infrared-excess, a sign of circumstellar material, in stellar clusters of different ages. However, comparing data from different star-forming regions at different distances introduces uncertainties and biases because of the different sample completeness and environment. This study addresses these challenges by analyzing 33 clusters, aged 3 to 21 million years (PARSEC isochrones), within the Scorpius-Centaurus OB association, sampling the stellar IMF from the hydrogen burning limit to about 8 M$_\\odot$. By using $\\mathit{Gaia}$, 2MASS, and WISE data, we identified stars with infrared-excess through color-color diagrams and spectral energy distributions, ensuring a consistent selection of disk-bearing sources. Our results indicate a disk lifetime of $5.8 \\pm 0.3$ Myr, about a factor of two longer than most previous estimates, suggesting that planet formation may have more time than previously thought. We also find that an exponential decay model best describes disk dispersal. These findings emphasize the importance of studying disk evolution in a single star-forming region to reduce uncertainties and refine our understanding of planet formation timelines.",
         "authors": [
             {
-                "name": "Theotokis Georgatos"
+                "name": "Fabian A. Polnitzky"
             },
             {
-                "name": "Anthony P. Whitworth"
+                "name": "Sebastian Ratzenböck"
+            },
+            {
+                "name": "Josefa E. Großschedl"
+            },
+            {
+                "name": "João Alves"
             }
         ],
         "categories": [
-            "astro-ph.GA",
-            "astro-ph.SR"
+            "astro-ph.SR",
+            "astro-ph.EP",
+            "astro-ph.GA"
         ],
-        "primaryCategory": "astro-ph.GA",
+        "primaryCategory": "astro-ph.SR",
         "links": [
             {
-                "href": "https://arxiv.org/abs/2601.09794v2",
+                "href": "https://arxiv.org/abs/2512.06873v1",
                 "rel": "alternate",
                 "type": "text/html"
             },
             {
-                "href": "https://arxiv.org/pdf/2601.09794v2",
+                "href": "https://arxiv.org/pdf/2512.06873v1",
                 "rel": "related",
                 "type": "application/pdf"
             }
         ]
     },
-    "2601.11127": {
-        "id": "http://arxiv.org/abs/2601.11127v1",
-        "title": "Molecular gas and star formation in central rings across nearby galaxies",
-        "updated": "2026-01-16T09:38:15.000Z",
-        "published": "2026-01-16T09:38:15.000Z",
-        "summary": "Nearby galaxies exhibit a variety of structures, including central rings, similar to the MW Central Molecular Zone (CMZ). These rings are common in barred galaxies and can be gas-rich and highly star-forming. We aim to study molecular gas content and star formation rate of central rings within nearby galaxies and link them to global galaxy properties (e.g. bar morphology). We utilize $1\\,$'' resolution CO(2-1) PHANGS-ALMA observations, visually identify 20 central rings and determine their properties. For $14$ rings, SFR surface density maps are available. We derive ring geometry, integrated molecular gas masses, SFRs, depletion times, and compare them to host galaxy and bar properties. Molecular gas is a good tracer for central rings: Previous studies used ionized gas and dust tracers to identify central rings in galaxies of similar morphological types as this study. In comparison, we find similar fractions of galaxies hosting central rings and similar radii distributions. The gaseous central rings have typical radii of $400_{-150}^{+250}\\,$pc, molecular gas masses of $\\log(M_\\text{mol}/M_\\odot){\\sim}8.1_{-0.23}^{+0.17}$, and SFRs of $0.21_{-0.16}^{+0.15}\\,M_\\odot/\\text{yr}$, thus contributing $5.6_{-2.1}^{+4.5}\\,\\%$ and $13_{-5}^{+10}\\,\\%$ to their host galaxies' molecular gas mass and SFR. The MW CMZ sits at the lower end of the radius, molecular gas mass, and SFR distribution, but it has a similar molecular gas mass and SFR fraction, and depletion time. Longer bars contain more massive molecular central rings, but we find no correlation between bar strength and the ring's molecular gas content. Although absolute central ring properties likely depend on host galaxy properties, the similarities between the MW CMZ and PHANGS central rings in relative parameters suggest that the processes of gas inflow and star formation are similar for central rings across nearby galaxies.",
+    "2601.05310": {
+        "id": "http://arxiv.org/abs/2601.04108v1",
+        "title": "Characterizing the physical and chemical properties of the Class I protostellar system Oph-IRS 44. Binarity, infalling streamers, and accretion shocks",
+        "updated": "2026-01-07T17:13:19.000Z",
+        "published": "2026-01-07T17:13:19.000Z",
+        "summary": "(Abridged) In the low-mass star formation process, theoretical models predict that material from the infalling envelope could be shocked as it encounters the outer regions of the disk. Nevertheless, only a few protostars show evidence of these shocks at the disk-envelope interface, and the main formation path of shocked-related species is still unclear. We present new ALMA observations of IRS 44, a Class I source that has previously been associated with accretion shocks, taken at high angular resolution (0.1\"). We target multiple molecular transitions of CO, H2CO, and simple sulfur-bearing species. In continuum emission, the binary nature of IRS 44 is observed for the first time at sub-millimeter wavelengths. Infalling signatures are seen for the CO line and the emission peaks at the edges of the continuum emission around IRS 44 B, the same region where bright SO and SO2 emission is seen. Weak CS and H2CO emission is observed, while OCS, H2S, and H2CS transitions are not detected. IRS 44 B seems to be more embedded than IRS 44 A, indicating a non-coeval formation scenario or the rejuvenation of source B due to late infall. CO emission is tracing the outflow component at large scales, infalling envelope material at intermediate scales, and two infalling streamer candidates are identified at disk scales. Infalling streamers might produce accretion shocks when they encounter the outer regions of the infalling-rotating envelope. These shocks heat the dust and release S-bearing species as well as promoting a lukewarm chemistry in the gas phase. With the majority of carbon locked in CO, there is little free C available to form CS and H2CS in the gas, leaving an oxygen-rich environment. The high column densities of SO and SO2 might be a consequence of two processes: direct thermal desorption from dust grains and gas-phase formation due to the availability of O and S.",
         "authors": [
             {
-                "name": "Damian R. Gleis"
+                "name": "E. Artur de la Villarmois"
             },
             {
-                "name": "Sophia K. Stuber"
+                "name": "V. V. Guzmán"
             },
             {
-                "name": "Eva Schinnerer"
+                "name": "M. L. van Gelder"
             },
             {
-                "name": "Justus Neumann"
+                "name": "E. F. van Dishoeck"
             },
             {
-                "name": "Sharon E. Meidt"
+                "name": "E. A. Bergin"
             },
             {
-                "name": "Miguel Querejeta"
+                "name": "D. Harsono"
             },
             {
-                "name": "Eric Emsellem"
+                "name": "N. Sakai"
             },
             {
-                "name": "Adam K. Leroy"
+                "name": "J. K. Jørgensen"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.04108v1",
+                "rel": "alternate",
+                "type": "text/html"
             },
             {
-                "name": "Ashley T. Barnes"
+                "href": "https://arxiv.org/pdf/2601.04108v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.04108": {
+        "id": "http://arxiv.org/abs/2601.07407v1",
+        "title": "The converging gas flow around the infrared dark cloud G28.3",
+        "updated": "2026-01-12T10:46:20.000Z",
+        "published": "2026-01-12T10:46:20.000Z",
+        "summary": "Aims: The G28.37+0.07 star-forming region is a prototypical infrared dark cloud (IRDC) located at the interface of a converging gas flow. This study characterizes the properties of this dynamic gas flow. Methods: Combining data from the Northern Extended Millimeter Array (NOEMA) with single-dish data from the IRAM30m observatory, we mapped large spatial scales (~81pc^2) at high angular resolution (7.0''x2.6'' corresponding ~2.3x10^4au or ~0.1pc) down to core scales. The spectral setup in the 3mm band covers many spectral lines as well as the continuum emission. Results: The data reveal the proposed west-east converging gas flow in all observed dense gas tracers. We estimate a mass-flow rate along that flow around 10^-3M_sun/yr. Comparing these west-east flow rates to infall rates toward sources along the line of sight, the gas flow rates are roughly a factor of 25 greater than than those along the line of sight. This confirms the dominance of longitudinal motions along the converging gas flow in G28.37. For comparison, in the main north-south IRDC formed by the west-east converging gas flow, infall rates along the line of sight are about an order of magnitude greater than those along the west-east flow. In addition to the kinematic analysis, a comparison of CH_3CN-derived gas temperatures with Herschel-derived dust temperatures typically show higher gas temperatures toward high-density sources. We discuss whether mechanical heating from the conversion of the flow's kinetic energy into thermal energy may explain some of the observed temperature differences. Conclusions: The differences between flow rates along the converging flow, perpendicular to it, and toward the sources at the IRDC center indicate that at the interfaces of converging gas flows - where most of the active star formation takes place - originally more directed gas flows can convert into multidirectional infall motions.",
+        "authors": [
+            {
+                "name": "H. Beuther"
             },
             {
-                "name": "Frank Bigiel"
+                "name": "C. Gieser"
             },
             {
-                "name": "Charlie Burton"
+                "name": "H. Linz"
             },
             {
-                "name": "Mélanie Chevance"
+                "name": "Q. Zhang"
             },
             {
-                "name": "Daniel A. Dale"
+                "name": "S. Feng"
             },
             {
-                "name": "Kathryn Grasha"
+                "name": "A. Ahmadi"
             },
             {
-                "name": "Ralf S. Klessen"
+                "name": "J. D. Soler"
             },
             {
-                "name": "Rebecca C. Levy"
+                "name": "D. Semenov"
             },
             {
-                "name": "Lukas Neumann"
+                "name": "M. R. A. Wells"
             },
             {
-                "name": "Hsi-An Pan"
-            },
-            {
-                "name": "Marina Ruiz-García"
-            },
-            {
-                "name": "Mattia C. Sormani"
-            },
-            {
-                "name": "Jiayi Sun"
-            },
-            {
-                "name": "Yu-Hsuan Teng"
-            },
-            {
-                "name": "Thomas G. Williams"
+                "name": "S. Reyes-Reyes"
             }
         ],
         "categories": [
@@ -356,12 +197,343 @@
         "primaryCategory": "astro-ph.GA",
         "links": [
             {
-                "href": "https://arxiv.org/abs/2601.11127v1",
+                "href": "https://arxiv.org/abs/2601.07407v1",
                 "rel": "alternate",
                 "type": "text/html"
             },
             {
-                "href": "https://arxiv.org/pdf/2601.11127v1",
+                "href": "https://arxiv.org/pdf/2601.07407v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.07407": {
+        "id": "http://arxiv.org/abs/2512.00157v1",
+        "title": "Astrometric view of companions in the inner dust cavities of protoplanetary disks",
+        "updated": "2025-11-28T19:00:06.000Z",
+        "published": "2025-11-28T19:00:06.000Z",
+        "summary": "Protoplanetary disks with inner dust cavities (often referred to as \"transition disks\") are potential signposts of planet formation. We use Gaia astrometry to search for planetary and stellar companions in a sample of 98 transition disks, assessing the occurrence rate of such companions and their potential influence on cavity formation. For the 98 Young Stellar Objects (YSOs), we compute Gaia proper motion anomalies which, together with the RUWE, identify companions with mass ratios $q \\gtrsim 0.01$ at $\\sim$0.1-30 au. We assess the impact of disk gravity, accretion, disk-scattered light, dippers, starspots, jets, and outflows on the measured proper motion anomalies, concluding that astrometric techniques such as the one of this work can be robustly applied to YSOs. Significant proper motion anomalies are found in 31 transition disks (32% of the sample), indicative of companions. We recover 85% of known companions within our sensitivity range. We model the semi-major axis and mass required for a companion to reproduce the observed astrometric signals. Most inferred companions have $M > 30$ M$\\rm{_{J}}$, placing many within or near the stellar mass regime. Seven sources host companions compatible with a planetary mass ($M < 13$ M$\\rm{_{J}}$, HD 100453, J04343128+1722201, J16102955-3922144, MHO6, MP Mus, PDS 70, and Sz 76). For the non-detections, we provide the companion masses and semi-major axes that can be excluded in future searches. About half (53%) of detected companions cannot be reconciled with having carved the observed dust cavities. We find that transition disks host as many companions within our sensitivity range as do randomly sampled groups of YSOs and main-sequence stars. If dust cavities are shaped by companions, such companions must reside at larger orbital separations than those of the companions detected here, and we predict them to be of planetary mass. [abridged]",
+        "authors": [
+            {
+                "name": "Miguel Vioque"
+            },
+            {
+                "name": "Richard A. Booth"
+            },
+            {
+                "name": "Enrico Ragusa"
+            },
+            {
+                "name": "Álvaro Ribas"
+            },
+            {
+                "name": "Nicolás T. Kurtovic"
+            },
+            {
+                "name": "Giovanni P. Rosotti"
+            },
+            {
+                "name": "Zephyr Penoyre"
+            },
+            {
+                "name": "Stefano Facchini"
+            },
+            {
+                "name": "Antonio Garufi"
+            },
+            {
+                "name": "Carlo F. Manara"
+            },
+            {
+                "name": "Nuria Huélamo"
+            },
+            {
+                "name": "Andrew Winter"
+            },
+            {
+                "name": "Sebastián Pérez"
+            },
+            {
+                "name": "Myriam Benisty"
+            },
+            {
+                "name": "Ignacio Mendigutía"
+            },
+            {
+                "name": "Nicolás Cuello"
+            },
+            {
+                "name": "Anna B. T. Penzlin"
+            },
+            {
+                "name": "Alfred Castro-Ginard"
+            },
+            {
+                "name": "Richard Teague"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP",
+            "astro-ph.IM",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2512.00157v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2512.00157v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2512.07562": {
+        "id": "http://arxiv.org/abs/2601.02344v1",
+        "title": "Protoplanetary disk cavities with JWST-MIRI: a dichotomy in molecular emission",
+        "updated": "2026-01-05T18:40:59.000Z",
+        "published": "2026-01-05T18:40:59.000Z",
+        "summary": "The evolution of planet-forming regions in protoplanetary disks is of fundamental importance to understanding planet formation. Disks with a central deficit in dust emission, a \"cavity\", have long attracted interest as potential evidence for advanced disk clearing by protoplanets and/or winds. Before JWST, infrared spectra showed that these disks typically lack the strong molecular emission observed in full disks. In this work, we combine a sample of 12 disks with millimeter cavities of a range of sizes ($\\sim2$-70 au) and different levels of millimeter and infrared continuum deficits. We analyze their molecular spectra as observed with MIRI on JWST, homogeneously reduced with the new JDISCS pipeline. This analysis demonstrates a stark dichotomy in molecular emission where \"molecule-rich\" (MR) cavities follow global trends between water, CO, and OH luminosity and accretion luminosity as in full disks, while \"molecule-poor\" (MP) cavities are significantly sub-luminous in all molecules except sometimes OH. Disk cavities generally show sub-luminous organic emission, higher OH/H$_2$O ratios, and suggest a lower water column density. The sub-thermal excitation of CO and water vibrational lines suggests a decreased gas density in the emitting layer in all cavities, supporting model expectations for C$_2$H$_2$ photodissociation. We discover a bifurcation in infrared index (lower in MR cavities) suggesting that the molecular dichotomy is linked to residual $μ$m-size dust within millimeter disk cavities. Put together, these results suggest a feedback process between dust depletion, gas density decrease, and molecule dissociation. Disk cavities may have a common evolutionary sequence where MR switch into MP over time.",
+        "authors": [
+            {
+                "name": "Patrick Mallaney"
+            },
+            {
+                "name": "Andrea Banzatti"
+            },
+            {
+                "name": "Colette Salyk"
+            },
+            {
+                "name": "Ilaria Pascucci"
+            },
+            {
+                "name": "Paola Pinilla"
+            },
+            {
+                "name": "Joan Najita"
+            },
+            {
+                "name": "Klaus M. Pontoppidan"
+            },
+            {
+                "name": "Sebastiaan Krijt"
+            },
+            {
+                "name": "Geoffrey A. Blake"
+            },
+            {
+                "name": "Benoit Tabone"
+            },
+            {
+                "name": "Till Kaeufer"
+            },
+            {
+                "name": "Ke Zhang"
+            },
+            {
+                "name": "Feng Long"
+            },
+            {
+                "name": "Jane Huang"
+            },
+            {
+                "name": "Giovanni Rosotti"
+            },
+            {
+                "name": "Karin I. Oberg"
+            },
+            {
+                "name": "Maria Jose Colmenares"
+            },
+            {
+                "name": "Andrew Lay"
+            },
+            {
+                "name": "Lucas A. Cieza"
+            },
+            {
+                "name": "L. Ilsedore Cleeves"
+            },
+            {
+                "name": "Joe Williams"
+            },
+            {
+                "name": "Chengyan Xie"
+            },
+            {
+                "name": "Miguel Vioque"
+            },
+            {
+                "name": "Mayank Narang"
+            },
+            {
+                "name": "Nicholas P. Ballering"
+            },
+            {
+                "name": "Minjae Kim"
+            },
+            {
+                "name": "the JDISCS Collaboration"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.02344v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.02344v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2512.00157": {
+        "id": "http://arxiv.org/abs/2512.07562v1",
+        "title": "Chemical complexity in star formation induced by stellar feedback: cores shock-formed by the supernova remnant W44",
+        "updated": "2025-12-08T13:54:58.000Z",
+        "published": "2025-12-08T13:54:58.000Z",
+        "summary": "Low-velocity shocks from Supernova Remnants (SNRs) may set the physical and chemical conditions of star formation in molecular clouds. Recent evidence suggests that the Sun might have formed through this process. However, the chemical conditions of shock-induced star forming region remain poorly constrained. We study the chemical complexity of a shock-impacted clump, with potential to yield star formation, named the Clump, and located at the interface between the SNR W44 and the infrared dark cloud G034.77-00.55. We test whether the Clump has chemical properties consistent with those observed in star forming regions unaffected by SNRs. We use high-sensitivity, broad spectral surveys at 3 and 7 mm obtained with the 30m antenna at IIRAM and the 40 m YEBES antenna, to identify D-bearing species and complex organic molecules (COMs) toward the Clump. For all species, we estimate molecular abundances and compare them with those observed across star forming regions at different evolutionary stages and masses, as well as comets. We detect multiple deuterated molecules (DCO+, DNC, DCN, CH2DOH) and COMs (CH3OH, CH3CHO, CH3CCH, CH3CN, CH3SH) with excitation temperatures of 5-13 K. To the best of our knowledge, this is the first detection of COMs toward a site of SNR-cloud interaction. The derived D/H ratios (0.01-0.04) and COM abundances are consistent with those reported toward typical low-mass starless cores and comparable to cometary values. The overall level of chemical complexity is relatively low, in line with an early evolutionary stage. We suggest that the Clump is a early stage shock-induced low-mass star forming region, not yet protostellar. We speculate that SNR shocks may set the physical and chemical conditions to form stars. The resulting chemical budget may be preserved along the formation process of a planetary system, being finally incorporated into planetesimals and cometesimals.",
+        "authors": [
+            {
+                "name": "G. Cosentino"
+            },
+            {
+                "name": "I. Jiménez-Serra"
+            },
+            {
+                "name": "F. Fontani"
+            },
+            {
+                "name": "P. Gorai"
+            },
+            {
+                "name": "C. -Y. Law"
+            },
+            {
+                "name": "J. C. Tan"
+            },
+            {
+                "name": "R. Fedriani"
+            },
+            {
+                "name": "A. T. Barnes"
+            },
+            {
+                "name": "P. Caselli"
+            },
+            {
+                "name": "S. Viti"
+            },
+            {
+                "name": "J. D. Henshaw"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2512.07562v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2512.07562v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.02344": {
+        "id": "http://arxiv.org/abs/2512.02237v1",
+        "title": "Evolution of the Accretion Rate of Young Intermediate Mass Stars: Implications for Disk Evolution and Planet Formation",
+        "updated": "2025-12-01T22:07:04.000Z",
+        "published": "2025-12-01T22:07:04.000Z",
+        "summary": "This work presents a study of the evolution of the stellar accretion rates of pre-main-sequence intermediate-mass stars. We compare the accretion rate of the younger intermediate-mass T Tauri stars (IMTTSs) with the older Herbig stars into which they evolve. We find that the median accretion rate of IMTTSs (1.2$\\times$10$^{-8}$ M$_{\\odot}$ yr$^{-1}$) is significantly lower than that of Herbig stars (1.9$\\times$10$^{-7}$ M$_{\\odot}$ yr$^{-1}$). This increase stands in stark contrast with canonical models of disk evolution that predict that the stellar accretion rate declines with age. We put forward a physically plausible scenario that accounts for the systematic increase of stellar accretion based on the increase of the effective temperature of the stars as they evolve towards the zero-age main sequence. For example, the temperature of a 2M$_{\\odot}$ star will increase from 4900~K in the IMTTS phase to 9100~K during the Herbig phase. Thus, the luminosity of the far ultraviolet (FUV) radiation will increase by orders of magnitude. We propose that this increase drives a higher stellar accretion rate. The scenario we propose to account for the increase in the stellar accretion rate solves the lifetime problem for Herbig disks because the increasing stellar accretion rates require lower initial disk masses to account for present-day disk masses. This work highlights the importance of the role FUV radiation has in driving the accretion rate, predicts a large population of pre-main-sequence non-accreting A stars, and has implications for interpreting disk morphologies that may serve as signposts of embedded gas giant planets in Herbig disks.",
+        "authors": [
+            {
+                "name": "Sean D. Brittain"
+            },
+            {
+                "name": "Joshua W. Kern"
+            },
+            {
+                "name": "Gwendolyn Meeus"
+            },
+            {
+                "name": "Rene D. Oudmaijer"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2512.02237v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2512.02237v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ],
+        "doi": {
+            "url": "https://doi.org/10.3847/1538-3881/ae1a42"
+        }
+    },
+    "2512.06873": {
+        "id": "http://arxiv.org/abs/2601.05310v1",
+        "title": "Interaction of the central jet with the surrounding gas in the protostellar outflow from IRAS 04166+2706",
+        "updated": "2026-01-08T19:00:00.000Z",
+        "published": "2026-01-08T19:00:00.000Z",
+        "summary": "$Context.$ The outflow from the Class 0 protostar IRAS 04166+2706 (hereafter IRAS 04166) contains a remarkably symmetric jet-like component of extremely high-velocity (EHV) gas.\n  $Aims.$ We studied the IRAS 04166 outflow and investigated the relation between its EHV component and the slower outflow gas.\n  $Methods.$ We mosaicked the CO(2--1) emission from the IRAS 04166 outflow using the 12m and the Compact Arrays of ALMA. We also developed a ballistic toy model of the gas ejected laterally from a jet to interpret the data.\n  $Results.$ In agreement with previous observations, the ALMA data show that the slow outflow component is distributed in two opposed conical lobes and has a shear-flow pattern with velocity increasing toward the axis. The EHV gas consists of a series of arc-like condensations that span the full width of the conical lobes and merge with their walls, suggesting that the fast and slow outflow components are physically connected. In addition, position--velocity diagrams along the outflow axis show finger-like extensions that connect the EHV emission with the origin of the diagram, as if part of the EHV gas had been decelerated by its interaction with the low-velocity outflow. A ballistic model can reproduce these finger-like extensions assuming that the EHV gas consists of jet material that has been ejected laterally over a short period of time and has transferred part of its momentum to the surrounding shear flow.\n  $Conclusions.$ The EHV gas in the IRAS 04166 outflow seems to play a role in the acceleration of the slower gas component. The presence of similar finger-like extensions in the position-velocity diagrams of other outflows suggests that this process may be occurring in other systems, even if the EHV component is not seen because it has an atomic composition.",
+        "authors": [
+            {
+                "name": "M. Tafalla"
+            },
+            {
+                "name": "D. Johnstone"
+            },
+            {
+                "name": "J. Santiago-Garcia"
+            },
+            {
+                "name": "Q. Zhang"
+            },
+            {
+                "name": "H. Shang"
+            },
+            {
+                "name": "C. -F. Lee"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.05310v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.05310v1",
                 "rel": "related",
                 "type": "application/pdf"
             }
