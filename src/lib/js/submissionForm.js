@@ -2,7 +2,9 @@ import Papa from 'papaparse'; // how the fuck is this a real package name
 
 const maxPaperAge = 1; // Max months back a paper can have in age
 const SUPPRESS_ARTICLE_WARNINGS = process.env.SUPPRESS_ARTICLE_WARNINGS === '1';
-const GOOGLE_SHEETS_URL = process.env.GOOGLE_SHEETS_URL;
+// const GOOGLE_SHEETS_URL = process.env.GOOGLE_SHEETS_URL;
+const GOOGLE_SHEETS_URL =
+	"https://docs.google.com/spreadsheets/d/12BNcNhrM3QI3K5FmCEp_u-TqqIkGYMUtHWd_Q5th4_M/gviz/tq?tqx=out:csv&sheet='Form responses 1'";
 // console.log('Google sheets url:', GOOGLE_SHEETS_URL);
 
 export async function fetchPaperIDs(year, month) {
@@ -158,7 +160,7 @@ function deduplicatePaperIDs(paperIDs) {
 
 	// Gets unique vals in array https://stackoverflow.com/a/14438954
 	const uniquePaperIDs = [...new Set(paperIDs)];
-	
+
 	console.log(`Removed ${startLength - uniquePaperIDs.length} duplicate IDs`);
 	console.log(`Final query: ${uniquePaperIDs.length} IDs`);
 	return uniquePaperIDs;
