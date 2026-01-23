@@ -13,9 +13,10 @@
 	// From https://github.com/sveltejs/kit/issues/1540#issuecomment-2029016082
 	import { page } from '$app/stores';
 	import { siteTitle, siteURL, siteDescription } from '$lib/config.js';
+	import { convertPathOnLocalImages } from '$lib/js/content';
 	let head = $state({});
 	let defaultKeywords = ['Astronomy', 'Machine Learning', 'Space', 'Science', 'Programming'];
-	let defaultImage = '/social-cards/default.png'; // TODO: change
+	let defaultImage = '/src/lib/assets/images/pipe_nebula_eso_2009.webp'; // TODO: change
 
 	function setHead() {
 		// Default settings
@@ -24,6 +25,7 @@
 			...$page.url.pathname
 				.split('/')
 				.slice(1)
+				.filter((value) => value !== "category")
 				// TODO: could make it all upper case instead of just the first bit
 				.map((word) => (word.charAt(0).toUpperCase() + word.slice(1)).replaceAll('%20', ' '))
 		]
@@ -33,7 +35,7 @@
 		head.description = siteDescription;
 		head.keywords = defaultKeywords;
 		head.author = siteTitle;
-		head.image = siteURL + defaultImage;
+		head.image = siteURL + convertPathOnLocalImages(defaultImage);
 		head.url = siteURL + $page.url.pathname;
 
 		// Custom settings

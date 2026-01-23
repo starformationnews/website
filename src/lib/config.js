@@ -1,8 +1,8 @@
 /* SITE SETTINGS */
 export const siteTitle = 'The Star Formation Newsletter';
-export const siteURL = 'https://starformationnews.org/'; // Not actually used in many places, it's just for SEO  // Todo update this
+export const siteURL = 'https://starformationnews.org'; // Not actually used in many places, it's just for SEO  // Todo update this
 export const siteDescription =
-	'Since its founding in 1992, The Star Formation Newsletter has been the premier way to keep up with new research in star formation.';
+	'Since its founding in 1992, The Star Formation Newsletter has been the premier way to keep up with new research in star and planet formation.';
 
 /* LINKS TO RELEVANT FORMS */
 export const siteMailingListSignup =
@@ -19,7 +19,7 @@ export const siteFormMeetingSubmission =
 export const socials = {
 	bluesky: 'https://bsky.app/profile/did:plc:xviff3ioo7f37ajyraxr3gtu',
 	email: 'mailto:sfn.astro@univie.ac.at',
-	github: 'https://github.com/starformationnews',
+	github: 'https://github.com/starformationnews'
 };
 
 /* BLOG SETTINGS */
