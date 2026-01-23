@@ -20,7 +20,7 @@
 <!-- "Back to main blog" on last page, when we have 3 or more pages -->
 {#if page === total && page > 2}
 	<p style="text-align: center; margin: 30px 0px 30px 0px">
-		<a href="/blog/{category}">↻ Return to first page</a>
+		<a href="/category/{category}">↻ Return to first page</a>
 	</p>
 {/if}
 
