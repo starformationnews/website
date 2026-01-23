@@ -5,8 +5,8 @@
 
 <!-- Display posts -->
 {#if posts && posts.length}
-	{#each posts as post}
-		<PostCard {post} />
+	{#each posts as post, index}
+		<PostCard {post} noBottomLine={index === posts.length - 1}/>
 	{/each}
 {:else}
 	<p>No posts under this category yet - check back later!</p>

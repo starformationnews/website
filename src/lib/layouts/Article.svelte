@@ -123,8 +123,8 @@
 			<p>Unable to load arXiv posts for this month.</p>
 		{/if}
 
-		<h2>― Recent <em>Star Formation Newsletter</em> posts ―</h2>
-		{#await getPosts({ category: 'editorials', page: 1, limit: 3 })}
+		<h2 style="margin-top: 75px; text-align: center"><em>― Recent other news ―</em></h2>
+		{#await getPosts({ page: 1, limit: 3 })}
 			<p>Loading...</p>
 		{:then sfnPosts}
 			<PostList posts={sfnPosts.posts} />

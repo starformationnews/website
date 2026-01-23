@@ -1,12 +1,12 @@
 <script>
 	import { formatDate } from '$lib/js/format';
 	import { getAppropriateDefaultImage, convertPathOnLocalImages } from '$lib/js/content';
-	let { post } = $props();
+	let { post, noBottomLine = false } = $props();
 
 	const alt = $derived(`Post thumbnail for blog post ${post.title}`);
 </script>
 
-<div class="container">
+<div class="container" style={noBottomLine ? 'border-bottom: none' : ''}>
 	<div class="image-item">
 		<a href={post.url}>
 			{#if post.image !== undefined}
