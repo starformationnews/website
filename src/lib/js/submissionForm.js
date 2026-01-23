@@ -7,10 +7,10 @@ const GOOGLE_SHEETS_URL =
 	"https://docs.google.com/spreadsheets/d/12BNcNhrM3QI3K5FmCEp_u-TqqIkGYMUtHWd_Q5th4_M/gviz/tq?tqx=out:csv&sheet='Form responses 1'";
 // console.log('Google sheets url:', GOOGLE_SHEETS_URL);
 
-export async function fetchPaperIDs(year, month) {
+export async function fetchPaperIDs(year, month, extraMonths) {
 	const allSubmissions = await downloadSubmissions();
 	const filteredSubmissions = filterSubmissions(allSubmissions, year, month);
-	const paperIDs = parsePaperIDs(filteredSubmissions);
+	const paperIDs = parsePaperIDs(filteredSubmissions, extraMonths);
 	return deduplicatePaperIDs(paperIDs);
 }
 
@@ -60,6 +60,51 @@ function filterSubmissions(allSubmissions, year, month) {
 	console.log(`Filtered table to ${goodEntries.length} rows`);
 
 	return goodEntries;
+}
+
+function parsePaperIDs(submissions, extraMonths) {
+	if (extraMonths === undefined) {
+		extraMonths = 0;
+	}
+	const now = new Date();
+	const minPaperDate = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() - extraMonths));
+
+	const validSubmissions = new Array();
+	for (let submission of submissions) {
+		for (let paper of submission.papers) {
+			const paperID = paper
+				.toLowerCase()
+				// Remove any arxiv: parts of IDs
+				.replaceAll('arxiv:', '')
+				// Remove URLs
+				.replaceAll(/(https|http):\/\/arxiv.org\/(abs|pdf)\//g, '');
+			const checks = checkArxivID(paperID, minPaperDate);
+			if (checks.isValid) {
+				validSubmissions.push(paperID);
+			} else {
+				// Todo: this should really output a file of errors, or there should be an option for it
+				console.log('Paper submission rejected!');
+				console.log('-- Error:', checks.error);
+				console.log('-- Submission:', paper);
+				console.log('-- Extracted ID:', paperID);
+				console.log('-- Submitted by:', submission.email);
+			}
+		}
+	}
+
+	console.log(`Extracted ${validSubmissions.length} arXiv IDs`);
+	return validSubmissions;
+}
+
+function deduplicatePaperIDs(paperIDs) {
+	const startLength = paperIDs.length;
+
+	// Gets unique vals in array https://stackoverflow.com/a/14438954
+	const uniquePaperIDs = [...new Set(paperIDs)];
+
+	console.log(`Removed ${startLength - uniquePaperIDs.length} duplicate IDs`);
+	console.log(`Final query: ${uniquePaperIDs.length} IDs`);
+	return uniquePaperIDs;
 }
 
 function shitGoogleSheetsTimestampToDate(bullshit) {
@@ -122,46 +167,4 @@ function checkArxivID(id, minPaperDate) {
 	}
 
 	return { isValid: true, paperDate: paperDate };
-}
-
-function parsePaperIDs(submissions) {
-	const now = new Date();
-	const minPaperDate = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth()));
-
-	const validSubmissions = new Array();
-	for (let submission of submissions) {
-		for (let paper of submission.papers) {
-			const paperID = paper
-				.toLowerCase()
-				// Remove any arxiv: parts of IDs
-				.replaceAll('arxiv:', '')
-				// Remove URLs
-				.replaceAll(/(https|http):\/\/arxiv.org\/(abs|pdf)\//g, '');
-			const checks = checkArxivID(paperID, minPaperDate);
-			if (checks.isValid) {
-				validSubmissions.push(paperID);
-			} else {
-				// Todo: this should really output a file of errors, or there should be an option for it
-				console.log('Paper submission rejected!');
-				console.log('-- Error:', checks.error);
-				console.log('-- Submission:', paper);
-				console.log('-- Extracted ID:', paperID);
-				console.log('-- Submitted by:', submission.email);
-			}
-		}
-	}
-
-	console.log(`Extracted ${validSubmissions.length} arXiv IDs`);
-	return validSubmissions;
-}
-
-function deduplicatePaperIDs(paperIDs) {
-	const startLength = paperIDs.length;
-
-	// Gets unique vals in array https://stackoverflow.com/a/14438954
-	const uniquePaperIDs = [...new Set(paperIDs)];
-
-	console.log(`Removed ${startLength - uniquePaperIDs.length} duplicate IDs`);
-	console.log(`Final query: ${uniquePaperIDs.length} IDs`);
-	return uniquePaperIDs;
 }

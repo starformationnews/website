@@ -6,6 +6,10 @@ import { fetchArXivMetadata } from '../src/lib/js/arxiv.js';
 import { dateToSFNID } from '../src/lib/js/sfn.js';
 import fs from 'fs';
 
+/* Overall settings */
+// Max number of extra months submissions can be in age. When zero, only current month included
+const extraMonths = 2;
+
 // Grab year
 const year = process.argv[2];
 const month = process.argv[3];
@@ -13,7 +17,7 @@ const id = dateToSFNID(new Date(Date.UTC(year, Number(month) - 1)));
 console.log(`Downloading arXiv submissions for ${year}, month ${month}; ID is ${id}`);
 
 async function fetchStuff() {
-	const paperIDs = await fetchPaperIDs(year, month);
+	const paperIDs = await fetchPaperIDs(year, month, extraMonths);
 	const articles = await fetchArXivMetadata(paperIDs);
 	fs.writeFileSync(
 		`src/routes/(posts)/newsletters/${year}/${id}/arxiv.json`,

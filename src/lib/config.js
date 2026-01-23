@@ -33,3 +33,7 @@ export const postsPerPage = 25;
 export const authorSocialLinks = {
 	emily_hunt: 'https://bsky.app/profile/did:plc:jcoy7v3a2t4rcfdh6i4kza25'
 };
+
+/* SUBMISSION SETTINGS */
+
+
