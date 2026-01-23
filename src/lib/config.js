@@ -1,6 +1,7 @@
 /* SITE SETTINGS */
 export const siteTitle = 'The Star Formation Newsletter';
 export const siteURL = 'https://starformationnews.org'; // Not actually used in many places, it's just for SEO  // Todo update this
+export const siteKeywords = "star formation, planet formation, news, astronomy, astrophysics"
 export const siteDescription =
 	'Since its founding in 1992, The Star Formation Newsletter has been the premier way to keep up with new research in star and planet formation.';
 
