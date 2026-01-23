@@ -5,7 +5,7 @@
 
 	const alt = $derived(`Post thumbnail for blog post ${post.title}`);
 	const url = $derived(post.link !== undefined ? post.link : post.url);
-	const date = $derived(post.hideDate === undefined ? ' | ' + formatDate(post.date) : '');
+	const date = $derived(post.hideDate === undefined ? ' | ' + formatDate(post.date) : ' | (no date)');
 </script>
 
 <div class="container" style={noBottomLine ? 'border-bottom: none' : ''}>

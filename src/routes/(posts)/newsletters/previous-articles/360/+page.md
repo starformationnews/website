@@ -1,7 +1,6 @@
 ---
 title: 'Star Formation Newsletter #360'
-date: 2022-8-1
-hideDate: true
+date: 2022-12-31
 authors: ['João Alves']
 categories: ['newsletters']
 description: 'Since 1992, The Star Formation Newsletter has been the premier destination for keeping up with news from the star formation community. This is edition #360, covering new research postings in August of 2022.'

@@ -1,7 +1,6 @@
 ---
 title: 'Star Formation Newsletter #367'
-date: 2023-3-1
-hideDate: true
+date: 2023-7-31
 authors: ['João Alves']
 categories: ['newsletters']
 description: 'Since 1992, The Star Formation Newsletter has been the premier destination for keeping up with news from the star formation community. This is edition #367, covering new research postings in March of 2023.'

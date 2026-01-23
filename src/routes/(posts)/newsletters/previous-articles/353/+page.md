@@ -1,7 +1,6 @@
 ---
 title: 'Star Formation Newsletter #353'
-date: 2022-1-1
-hideDate: true
+date: 2022-5-31
 authors: ['João Alves']
 categories: ['newsletters']
 description: 'Since 1992, The Star Formation Newsletter has been the premier destination for keeping up with news from the star formation community. This is edition #353, covering new research postings in January of 2022.'

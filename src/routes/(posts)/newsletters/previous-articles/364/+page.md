@@ -1,7 +1,6 @@
 ---
 title: 'Star Formation Newsletter #364'
-date: 2022-12-1
-hideDate: true
+date: 2023-04-01
 authors: ['João Alves']
 categories: ['newsletters']
 description: 'Since 1992, The Star Formation Newsletter has been the premier destination for keeping up with news from the star formation community. This is edition #364, covering new research postings in December of 2022.'
