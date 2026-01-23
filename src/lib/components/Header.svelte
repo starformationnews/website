@@ -50,7 +50,7 @@
 	}
 	.logo {
 		padding-top: 5px;
-		padding-bottom: 20px;
+		padding-bottom: 12px;
 	}
 	/* Computers */
 	@media only screen and (min-width: 801px) {
@@ -86,7 +86,7 @@
 			font-size: calc(100vw / 30);
 		}
 		.logo {
-			padding-bottom: 15px;
+			padding-bottom: 8px;
 		}
 	}
 </style>
