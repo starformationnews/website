@@ -134,14 +134,16 @@
 			<p>Unable to load arXiv posts for this month.</p>
 		{/if}
 
-		<h2 style="margin-top: 75px; text-align: center"><em>― Recent other news ―</em></h2>
-		{#await getPosts({ page: 1, limit: 3 })}
-			<p>Loading...</p>
-		{:then sfnPosts}
-			<PostList posts={sfnPosts.posts} />
-		{:catch error}
-			<p>Error: {error.message}</p>
-		{/await}
+		<div class="other-news">
+			<h2 style="margin-top: 75px; text-align: center"><em>― Recent other news ―</em></h2>
+			{#await getPosts({ page: 1, limit: 3 })}
+				<p>Loading...</p>
+			{:then sfnPosts}
+				<PostList posts={sfnPosts.posts} />
+			{:catch error}
+				<p>Error: {error.message}</p>
+			{/await}
+		</div>
 	{/if}
 </article>
 
@@ -172,5 +174,11 @@
 	}
 	h2 {
 		text-align: center;
+	}
+
+	@media print {
+		.other-news {
+			display: none;
+		}
 	}
 </style>

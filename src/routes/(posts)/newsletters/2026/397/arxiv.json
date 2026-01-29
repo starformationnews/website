@@ -1,5 +1,204 @@
 {
     "2512.02237": {
+        "id": "http://arxiv.org/abs/2511.02334v1",
+        "title": "Hierarchical Structure and Self-gravity in the Rosette Molecular Cloud",
+        "updated": "2025-11-04T07:40:15.000Z",
+        "published": "2025-11-04T07:40:15.000Z",
+        "summary": "We analyze the hierarchical structure in the Rosette Molecular Cloud (RMC) using $^{13}$CO J=1-0 data from the Milky Way Imaging Scroll Painting (MWISP) survey with a non-binary Dendrogram algorithm that allows multiple branches to emerge from parent structures. A total of 588 substructures are identified, including 458 leaves and 130 branches. The physical parameters of the substructures, including peak brightness temperature ($T_{\\rm peak}$), brightness temperature difference ($T_{\\rm diff}$), radius ($R$), mass ($M$), velocity dispersion ($σ_v$), and surface density ($Σ$), are characterized. The $T_{\\rm peak}$ and $T_{\\rm diff}$ distributions follow exponential functions with characteristic values above $5σ_{\\rm RMS}$. The statistical properties and scaling relations, i.e., $σ_v$-$R$, $M$-$R$, and $σ_v$-$RΣ$ relations are in general consistent with those from traditional segmentation methods. The mass and radius follow power-law distributions with exponents of 2.2-2.5, with slightly flatter slopes for substructures inside the HII region. The velocity dispersion scales weakly with radius ($σ_v \\propto R^{0.45\\pm 0.03}$, $r = 0.58$), but shows a tighter correlation with the product of surface density and size ($σ_v \\propto (ΣR)^{0.29\\pm 0.01}$, $r = 0.73$). Self-gravitating substructures are found across scales from $\\sim$0.2 to 10 pc, and nearly all structures with peak brightness above 4 K are gravitationally bound ($α_{\\rm vir} < 2$). The fraction of bound structures increases with mass, size, and surface density, supporting the scenario of global hierarchical collapse (GHC) for the evolution of molecular clouds, in which molecular clouds and their substructures are undergoing multiscale collapse.",
+        "authors": [
+            {
+                "name": "Suziye He"
+            },
+            {
+                "name": "Yuehui Ma"
+            },
+            {
+                "name": "Hongchi Wang"
+            },
+            {
+                "name": "Renjie Shen"
+            },
+            {
+                "name": "Miaomiao Zhang"
+            },
+            {
+                "name": "Chong Li"
+            },
+            {
+                "name": "Zhenyi Yue"
+            },
+            {
+                "name": "Xiangyu Ou"
+            },
+            {
+                "name": "Xuepeng Chen"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2511.02334v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2511.02334v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.08555": {
+        "id": "http://arxiv.org/abs/2601.11711v1",
+        "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) VIII: A dust arc and non-Keplerian gas kinematics in HD 121617",
+        "updated": "2026-01-16T19:00:05.000Z",
+        "published": "2026-01-16T19:00:05.000Z",
+        "summary": "ExoKuiper belts around young A-type stars often host CO gas, whose origin is still unclear. The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) includes 6 of these gas-bearing belts, to characterise their dust and gas distributions and investigate the gas origin. As part of ARKS, we observed the gas-rich system HD121617 and discovered an arc of enhanced dust density. In this paper, we analyse in detail the dust and gas distributions and the gas kinematics of this system. We extracted radial and azimuthal profiles of the dust (in the millimetre and near-infrared) and gas emission ($^{12}$CO and $^{13}$CO) from reconstructed images. To constrain the morphology of the arc, we fitted an asymmetric model to the dust emission. To characterise the gas kinematics, we fitted a Keplerian model to the velocity map and extracted the azimuthal velocity profile by deprojecting the data. We find that the dust arc is narrow (1-5 au wide at a radius of 75 au), azimuthally extended, and asymmetric; the emission is more azimuthally compact in the direction of the system's rotation, and represents 13% of the total dust mass (0.2$M_\\oplus$). The arc is much less pronounced or absent for small grains and gas. Finally, we find strong non-Keplerian azimuthal velocities at the inner and outer wings of the ring, as was expected due to strong pressure gradients. The dust arc resembles the asymmetries found in protoplanetary discs, often interpreted as the result of dust trapping in vortices. If the gas disc mass is high enough ($\\gtrsim20M_\\oplus$, requiring a primordial gas origin), both the radial confinement of the ring and the azimuthal arc may result from dust grains responding to gas drag. Alternatively, it could result from planet-disc interactions via mean motion resonances. Further studies should test these hypotheses and may provide a dynamical gas mass estimate in this CO-rich exoKuiper belt.",
+        "authors": [
+            {
+                "name": "S. Marino"
+            },
+            {
+                "name": "V. Gupta"
+            },
+            {
+                "name": "P. Weber"
+            },
+            {
+                "name": "T. D. Pearce"
+            },
+            {
+                "name": "A. Brennan"
+            },
+            {
+                "name": "S. Pérez"
+            },
+            {
+                "name": "S. Mac Manamon"
+            },
+            {
+                "name": "L. Matrà"
+            },
+            {
+                "name": "J. Milli"
+            },
+            {
+                "name": "M. Booth"
+            },
+            {
+                "name": "C. del Burgo"
+            },
+            {
+                "name": "G. Cataldi"
+            },
+            {
+                "name": "E. Chiang"
+            },
+            {
+                "name": "Y. Han"
+            },
+            {
+                "name": "Th. Henning"
+            },
+            {
+                "name": "A. M. Hughes"
+            },
+            {
+                "name": "M. R. Jankovic"
+            },
+            {
+                "name": "Á. Kóspál"
+            },
+            {
+                "name": "J. B. Lovell"
+            },
+            {
+                "name": "P. Luppe"
+            },
+            {
+                "name": "E. Mansell"
+            },
+            {
+                "name": "M. A. MacGregor"
+            },
+            {
+                "name": "A. Moór"
+            },
+            {
+                "name": "J. Olofsson"
+            },
+            {
+                "name": "A. A. Sefilian"
+            },
+            {
+                "name": "D. J. Wilner"
+            },
+            {
+                "name": "M. C. Wyatt"
+            },
+            {
+                "name": "B. Zawadzki"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.11711v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.11711v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ],
+        "doi": {
+            "url": "https://doi.org/10.1051/0004-6361/202556493"
+        }
+    },
+    "2601.05310": {
+        "id": "http://arxiv.org/abs/2601.02593v1",
+        "title": "Isotopic Ratios in the Disk of HD 163296",
+        "updated": "2026-01-05T22:50:05.000Z",
+        "published": "2026-01-05T22:50:05.000Z",
+        "summary": "Isotopic abundance ratios in protoplanetary disks are critical for understanding volatile inheritance and chemical evolution in planet-forming environments. We present Atacama Large Millimeter/submillimeter Array observations of the rare isotopologue 13C18O(2-1) at approximately 0.3 arcsec resolution from the disk around the Herbig Ae star HD 163296, combined with archival observations of C17O(2-1), C18O(1-0), and C17O(1-0), to empirically constrain carbon and oxygen isotopic ratios without detailed disk modeling. Both the C17O/13C18O(2-1) and C18O/C17O(1-0) flux ratios rise sharply across the CO snowline and flatten beyond 1.5 arcsec (r >= 150 au), where the emission becomes optically thin. This transition, reflecting a steep drop in CO column density set by the disk's thermal structure, makes HD 163296 an optimal case for isotopic analysis. Using beam-averaged intensities of the four transitions measured in this optically thin region, we derive isotopic ratios of 12C/13C = 75.3 (+14.7/-11.4) and 18O/17O = 3.28 (+0.31/-0.26), both consistent with local interstellar medium values. The 16O/18O ratio remains weakly constrained due to moderate optical depth in the C18O(1-0) line and degeneracy with CO column density. These results demonstrate that rare CO isotopologues can provide robust, empirical constraints on isotopic ratios in disks when sharp structural transitions allow for the identification of optically thin regions, and establish HD 163296 as a benchmark for extending such studies to other systems with resolved snowline structures.",
+        "authors": [
+            {
+                "name": "Chunhua Qi"
+            },
+            {
+                "name": "David J. Wilner"
+            },
+            {
+                "name": "Catherine C. Espaillat"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.02593v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.02593v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.04108": {
         "id": "http://arxiv.org/abs/2601.08555v1",
         "title": "Substellar population of the young massive cluster RCW 36 in Vela",
         "updated": "2026-01-13T13:41:10.000Z",
@@ -64,7 +263,690 @@
             }
         ]
     },
-    "2601.08555": {
+    "2601.07407": {
+        "id": "http://arxiv.org/abs/2601.10989v1",
+        "title": "How To Use Thermal Dust Continuum Emission To Measure The Physical Properties Of Dusty Astrophysical Objects",
+        "updated": "2026-01-16T04:38:11.000Z",
+        "published": "2026-01-16T04:38:11.000Z",
+        "summary": "Dust grains in the interstellar medium interact with photons across the electromagnetic spectrum. They are generally photon energy converters, absorbing short wavelength radiation and emitting long wavelength radiation. Sixty years ago in 1965, thermal emission from dust grains in the interstellar medium was discovered. This tutorial is a summary of the physics of thermal dust continuum emission and how to use observations of the intensity and flux density of dusty objects to calculate physical properties such as mass, column density, luminosity, dust temperature, and dust opacity spectral index. Equations are derived, when feasible, from first principles with all limits and assumptions explicitly stated. Properties of dust opacities appropriate for different astrophysical environments (e.g. diffuse ISM, dense cores, protoplanetary disks) are discussed and tabulated for the wavelengths of past, current, and future bolometer cameras. Corrections for observations at high redshift as well as the effects of telescope measurement limitations are derived. We also update the calculation of the mean molecular weight in different ISM environments and find that it is 1.404 per H atom, 2.809 per H2 molecule, and 2.351 per gas particle assuming protosolar metallicity and the latest values of the ISM gas phase abundances of metals.",
+        "authors": [
+            {
+                "name": "Yancy L. Shirley"
+            },
+            {
+                "name": "Jeffrey G. Mangum"
+            },
+            {
+                "name": "Desika Narayanan"
+            },
+            {
+                "name": "James Di Francesco"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.10989v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.10989v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2512.07562": {
+        "id": "http://arxiv.org/abs/2512.18992v1",
+        "title": "Fragmenting Filaments and Evolving Cores -- Insights from Dust Polarisation Study of a filament in Northern Orion B",
+        "updated": "2025-12-22T03:14:29.000Z",
+        "published": "2025-12-22T03:14:29.000Z",
+        "summary": "We present an analysis of polarised dust emission at 850 micron for a parsec long filament in the northern part of the Orion B molecular cloud. The region was observed by the JCMT SCUBA-2/POL-2 polarimeter. The filament has a line mass (~80 Msun/pc) larger than the critical (magnetic) line mass (~37 Msun/pc); and hosts one starless, three prestellar, and four protostellar cores, with masses in the range 0.13 to 9.13 Msun. The mean (debiased) polarisation fraction of the filament and core pixels was calculated to be 5.3+/-0.3% and 3.2+/-0.3%, respectively, likely reflecting their distinct physical conditions. The polarisation fraction for the cores does not depend on the type of core, and was found to decrease with increasing column density, varying from 6-11% at the filament edges to 1$^{+0.7}_{-0.1}$% in the denser parts ($N_{H2}\\gtrsim$2x10$^{22}$cm$^{-2}$). Magnetic field orientation of the protostellar cores, in contrast to prestellar cores, appears to be relatively aligned with the magnetic field orientation of the local filament in this region. Using the Davis-Chandrasekhar-Fermi formalism the plane-of-sky magnetic field strength for the protostellar cores (~39-110 microG) was found to be higher than that of the prestellar cores (~22-61 microG); and weakest for the starless core (~6 microG). The average value for the filament was found to be ~31 microG. The magnetic field-volume density relation for the prestellar/starless cores and protostellar cores suggests a transition from weak field case to strong field case as the cores evolve from prestellar to protostellar phase.",
+        "authors": [
+            {
+                "name": "Kshitiz K. Mallick"
+            },
+            {
+                "name": "Doris Arzoumanian"
+            },
+            {
+                "name": "Satoko Takahashi"
+            },
+            {
+                "name": "Ray S. Furuya"
+            },
+            {
+                "name": "Yoshiaki Misugi"
+            },
+            {
+                "name": "Yoshito Shimajiri"
+            },
+            {
+                "name": "Kate Pattle"
+            },
+            {
+                "name": "Shu-ichiro Inutsuka"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2512.18992v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2512.18992v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2512.00157": {
+        "id": "http://arxiv.org/abs/2512.12055v1",
+        "title": "X-ray Evolution of Young Stars: Early Dimming and Coronal Softening in Solar-Mass Stars with Implications for Planetary Atmospheres",
+        "updated": "2025-12-12T21:51:13.000Z",
+        "published": "2025-12-12T21:51:13.000Z",
+        "summary": "X-ray and ultraviolet (XUV) emission from young stars plays a critical role in shaping the evolution of planetary atmospheres and the conditions for habitability. To assess the long-term impact of high-energy stellar radiation, it is essential to empirically trace how X-ray luminosities and spectral hardness evolve during the first ~<1 Gyr, when atmospheric loss and chemical processing are most active. This study extends the X-ray activity-mass-age analysis of <25 Myr stars by Getman et al. (2022) to ages up to 750 Myr, using Gaia-based cluster memberships, new Chandra observations of five rich open clusters (~45--100 Myr), and archival ROSAT and Chandra data for three older clusters (~220--750 Myr). We find a mass-dependent decay in X-ray luminosity: solar-mass stars undergo a far more rapid and sustained decline, accompanied by coronal softening and the disappearance of hot plasma by ~100 Myr, compared to their lower-mass siblings. These trends in solar-mass stars are likely linked to reduced magnetic dynamo efficiency and diminished ability to sustain large-scale, high-temperature coronal structures. The trends are significantly stronger than predicted by widely used XUV-rotation-age relations. The revised trends imply systematically lower rates of atmospheric mass loss and water photolysis, as well as altered ionization environments and chemical pathways relevant to the formation of prebiotic molecules, for planets in close orbits around solar analogs. These effects persist throughout at least the ~<750 Myr interval probed in this study.",
+        "authors": [
+            {
+                "name": "Konstantin V. Getman"
+            },
+            {
+                "name": "Eric D. Feigelson"
+            },
+            {
+                "name": "Vladimir S. Airapetian"
+            },
+            {
+                "name": "Gordon P. Garmire"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.EP",
+            "hep-ph"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2512.12055v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2512.12055v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.02344": {
+        "id": "http://arxiv.org/abs/2512.24380v1",
+        "title": "A millimeter methanol maser ring tracing the deceleration of the heat wave powered by the massive protostellar accretion outburst in G358.93-0.03 MM1",
+        "updated": "2025-12-30T17:50:24.000Z",
+        "published": "2025-12-30T17:50:24.000Z",
+        "summary": "We present multi-epoch, multi-band ALMA imaging of the new Class II millimeter methanol masers excited during the accretion outburst of the massive protostar G358.93-0.03 MM1. The highest angular resolution image (24 mas $\\approx$ 160 au) reveals a nearly complete, circular ring of strong maser spots in the 217.2992 GHz ($v_t$=1) maser line that closely circumscribes the dust continuum emission from MM1. Weaker maser emission lies inside the eastern and southern halves of the maser ring, generally coincident with the centimeter masers excited during the outburst, but avoiding the densest parts of the hot core gas traced by high excitation lines of CH$_3$CN. Using a variety of fitting techniques on the image cubes of the two strongest maser lines, each observed over 3-4 epochs, we find the diameter of the ring increased by $\\gtrsim$60% (from $\\approx$1100 to $\\approx$1800 au in the 217 GHz line) over 200 days, consistent with an average radial propagation rate of $\\approx$0.01c, while the maser intensity declined exponentially. Fitting the angular extent of the millimeter masers versus time yields a power law of index 0.39$\\pm$0.06, which also reproduces the observed extent of the 6.7 GHz masers in the first VLBI epoch of R. A. Burns et al. (2020). This exponent is consistent with the prediction of radius vs. time in the Taylor-von Neumann-Sedov self-similar solution for an intense spherical explosion from a point source ($R \\propto t^{2/5}$). These results demonstrate the explosive nature of accretion outbursts in massive protostars and their ability to generate subluminal heat waves traceable by centimeter and millimeter masers for several months as the energy traverses the surrounding molecular material.",
+        "authors": [
+            {
+                "name": "T. R. Hunter"
+            },
+            {
+                "name": "C. L. Brogan"
+            },
+            {
+                "name": "G. C. MacLeod"
+            },
+            {
+                "name": "C. J. Cyganowski"
+            },
+            {
+                "name": "R. A. Burns"
+            },
+            {
+                "name": "B. A. McGuire"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2512.24380v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2512.24380v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2512.06873": {
+        "id": "http://arxiv.org/abs/2601.13459v1",
+        "title": "The Relationship between Accretion and Ionised Ejection among Young Stellar Objects in the Coronet Cluster",
+        "updated": "2026-01-19T23:28:01.000Z",
+        "published": "2026-01-19T23:28:01.000Z",
+        "summary": "We present results from a coordinated, multi-epoch near-infrared and centimeter radio survey of young stellar objects (YSOs) in the Coronet, aimed at probing the connection between mass accretion and ionised mass loss. Using VLT-KMOS, we detect Br$γ$ emission in 5 of the 26 targets, which also exhibit 3.3-cm continuum emission in VLA images, consistent with partially ionised jets. For seven additional sources, stringent flux upper limits were obtained. The derived accretion and ionised mass-loss rates for class I and class II YSOs follow a sublinear correlation $\\dot{M}_{\\mathrm{ion}} \\propto \\dot{M}_{\\mathrm{acc}}^{0.3}$, consistent with previous results for class II YSOs but extended here to earlier stages. Multi-epoch observations reveal modest variability in both tracers but no clear temporal correlation between accretion and ejection within timescales of a few months. The ratio $\\dot{M}_{\\mathrm{ion}}/\\dot{M}_{\\mathrm{acc}}$ shows an anti-correlation with $\\dot{M}_{\\mathrm{acc}}$, increasing with time from class I YSOs to class II YSOs, suggesting an increase in jet-launching efficiency or ionisation fraction with evolution. These findings support a direct connection between accretion and outflow across the $\\sim$ Myr timescale of YSO evolution, while highlighting the complexity of their short-term interplay.",
+        "authors": [
+            {
+                "name": "Arpan Ghosh"
+            },
+            {
+                "name": "Roberto Galván-Madrid"
+            },
+            {
+                "name": "Johanan Ramírez-Arellano"
+            },
+            {
+                "name": "Carlos Carrasco-González"
+            },
+            {
+                "name": "Gráinne Costigan"
+            },
+            {
+                "name": "Suzanne Ramsay"
+            },
+            {
+                "name": "Carlo Manara"
+            },
+            {
+                "name": "Jan Forbrich"
+            },
+            {
+                "name": "Hauyu Baobab Liu"
+            },
+            {
+                "name": "Michihiro Takami"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.13459v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.13459v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.02593": {
+        "id": "http://arxiv.org/abs/2601.11766v1",
+        "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS): VI. Asymmetries and offsets",
+        "updated": "2026-01-16T20:44:18.000Z",
+        "published": "2026-01-16T20:44:18.000Z",
+        "summary": "Asymmetries in debris discs provide unique clues to understand the evolution and architecture of planetary systems.** The aim of the ALMA survey to Resolve exoKuiper belt Substructures (ARKS) is to expand our understanding of radial and vertical dust structures, as well as gas distributions and kinematics, in debris discs.** Here, in ARKS~VI, we present a systematic analysis of the asymmetries and stellocentric offsets present in the ALMA continuum data for the ARKS survey. Our aims are to identify asymmetries in debris disc dust distributions, quantify debris disc asymmetry properties, and discuss the potential origins of debris disc asymmetries.** We utilised empirical methods to identify emission asymmetries** and the presence of offset emission between disc centres and the locations of the host stars, via an analysis of their calibration procedures and disc properties. We associated observational asymmetry types** and plausible physical classes** associated with each source. We show that there are ten systems, almost half of the ARKS sample, that host either a continuum emission asymmetry or offset emission. Three systems host offsets (HD15115, HD32297, and HD109573 (HR4796)), four host azimuthal asymmetries (HD9672 (49Ceti), HD92945, HD107146, and HD121617), two host an asymmetry in their major axis (HD10647 (q$^1$ Eri), and HD39060 ($β$ Pic)), and one hosts an asymmetry in their minor axis (HD61005). We attribute the offset asymmetries to non-zero eccentricities, and three of the azimuthal asymmetries to arcs. The presence of an asymmetry or offset in the ARKS sample appears to be correlated with the fractional luminosity of cold dust.** Conclusions: This study demonstrates that debris disc asymmetries in the ARKS sample are common, and plausibly so in the wider population of debris discs at (sub)-millimetre wavelengths.** ** = ABRIDGED FOR ARXIV: FULL ABSTRACT IN PAPER",
+        "authors": [
+            {
+                "name": "J. B. Lovell"
+            },
+            {
+                "name": "A. S. Hales"
+            },
+            {
+                "name": "G. M. Kennedy"
+            },
+            {
+                "name": "S. Marino"
+            },
+            {
+                "name": "J. Olofsson"
+            },
+            {
+                "name": "A. M. Hughes"
+            },
+            {
+                "name": "E. Mansell"
+            },
+            {
+                "name": "B. C. Matthews"
+            },
+            {
+                "name": "T. D. Pearce"
+            },
+            {
+                "name": "A. A. Sefilian"
+            },
+            {
+                "name": "D. J. Wilner"
+            },
+            {
+                "name": "B. Zawadzki"
+            },
+            {
+                "name": "M. Booth"
+            },
+            {
+                "name": "M. Bonduelle"
+            },
+            {
+                "name": "A. Brennan"
+            },
+            {
+                "name": "C. del Burgo"
+            },
+            {
+                "name": "J. M. Carpenter"
+            },
+            {
+                "name": "G. Cataldi"
+            },
+            {
+                "name": "E. Chiang"
+            },
+            {
+                "name": "A. Fehr"
+            },
+            {
+                "name": "Y. Han"
+            },
+            {
+                "name": "Th. Henning"
+            },
+            {
+                "name": "A. V. Krivov"
+            },
+            {
+                "name": "P. Luppe"
+            },
+            {
+                "name": "J. P. Marshall"
+            },
+            {
+                "name": "S. Mac Manamon"
+            },
+            {
+                "name": "J. Milli"
+            },
+            {
+                "name": "A. Moór"
+            },
+            {
+                "name": "M. C. Wyatt"
+            },
+            {
+                "name": "S. Ertel"
+            },
+            {
+                "name": "M. R. Jankovic"
+            },
+            {
+                "name": "Á. Kóspál"
+            },
+            {
+                "name": "M. A. MacGregor"
+            },
+            {
+                "name": "L. Matrà"
+            },
+            {
+                "name": "S. Pérez"
+            },
+            {
+                "name": "P. Weber"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.11766v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.11766v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ],
+        "doi": {
+            "url": "https://doi.org/10.1051/0004-6361/202556568"
+        }
+    },
+    "2512.00474": {
+        "id": "http://arxiv.org/abs/2511.08309v2",
+        "title": "The MATISSE view of the inner region of the RY Tau protoplanetary disk",
+        "updated": "2026-01-27T09:57:56.000Z",
+        "published": "2025-11-11T14:39:05.000Z",
+        "summary": "The T-Tauri type young stellar object RY Tau exhibits a dust depleted inner cavity characteristic of a transition disk. We constrain the spatial distribution and mineralogy of dust in the RY Tau protoplanetary disk in the inner few astronomical units using spectrally resolved interferometric observations in the L, M, and N bands obtained with VLTI/MATISSE.\n  Employing a 2D temperature gradient model we estimate the orientation of the inner disk finding no evidence of significant misalignment between the inner and outer disk of RY Tau. Successively, we analyze the chemical composition of silicates depending on spatial region in the disk and identify several silicate species commonly found in protoplanetary disks. Additionally, a depletion of amorphous dust grains toward the central protostar is observed. Monte Carlo radiative transfer simulations show that hot dust close to the protostar and in the line of sight to the observer, either in the uppermost disk layers of a strongly flared disk or in a dusty envelope, is necessary to model the observations. The shadow cast by a dense innermost disk midplane on the dust further out explains the observed closure phases in the L band and to some extent in the M band. However, the closure phases in the N band are underestimated by our model, hinting at an additional asymmetry in the flux density distribution not visible at shorter wavelengths.",
+        "authors": [
+            {
+                "name": "J. S. Martin"
+            },
+            {
+                "name": "J. Kobus"
+            },
+            {
+                "name": "J. Varga"
+            },
+            {
+                "name": "A. Matter"
+            },
+            {
+                "name": "S. Wolf"
+            },
+            {
+                "name": "M. Abello"
+            },
+            {
+                "name": "F. Allouche"
+            },
+            {
+                "name": "J. -C. Augereau"
+            },
+            {
+                "name": "P. Berio"
+            },
+            {
+                "name": "F. Bettonvil"
+            },
+            {
+                "name": "R. van Boekel"
+            },
+            {
+                "name": "P. A. Boley"
+            },
+            {
+                "name": "P. Cruzalèbes"
+            },
+            {
+                "name": "W. C. Danchi"
+            },
+            {
+                "name": "J. Drevon"
+            },
+            {
+                "name": "C. Dominik"
+            },
+            {
+                "name": "V. Fleury"
+            },
+            {
+                "name": "V. Gámez Rosas"
+            },
+            {
+                "name": "A. Glindemann"
+            },
+            {
+                "name": "L. N. A. van Haastere"
+            },
+            {
+                "name": "M. Heininger"
+            },
+            {
+                "name": "Th. Henning"
+            },
+            {
+                "name": "K. -H. Hofmann"
+            },
+            {
+                "name": "M. Hogerheijde"
+            },
+            {
+                "name": "M. Houllé"
+            },
+            {
+                "name": "J. W. Isbell"
+            },
+            {
+                "name": "W. Jaffe"
+            },
+            {
+                "name": "L. Labadie"
+            },
+            {
+                "name": "S. Lagarde"
+            },
+            {
+                "name": "J. H. Leftley"
+            },
+            {
+                "name": "M. Lehmitz"
+            },
+            {
+                "name": "M. Letessier"
+            },
+            {
+                "name": "B. Lopez"
+            },
+            {
+                "name": "F. Lykou"
+            },
+            {
+                "name": "J. Ma"
+            },
+            {
+                "name": "A. Meilland"
+            },
+            {
+                "name": "F. Millour"
+            },
+            {
+                "name": "C. Paladini"
+            },
+            {
+                "name": "E. Pantin"
+            },
+            {
+                "name": "R. G. Petrov"
+            },
+            {
+                "name": "P. Priolet"
+            },
+            {
+                "name": "S. Robbe-Dubois"
+            },
+            {
+                "name": "D. Schertl"
+            },
+            {
+                "name": "M. Scheuck"
+            },
+            {
+                "name": "J. Scigliuto"
+            },
+            {
+                "name": "G. Weigelt"
+            },
+            {
+                "name": "J. Woillez"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2511.08309v2",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2511.08309v2",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ],
+        "doi": {
+            "url": "https://doi.org/10.1051/0004-6361/202555717"
+        }
+    },
+    "2512.14458": {
+        "id": "http://arxiv.org/abs/2601.20146v1",
+        "title": "Spatial distribution of organics in the Horsehead nebula: signposts of chemistry driven by atomic carbon",
+        "updated": "2026-01-28T00:43:08.000Z",
+        "published": "2026-01-28T00:43:08.000Z",
+        "summary": "(Abridged) Complex organic molecules (COMs) are considered essential precursors to prebiotic species. While COMs were once expected to be efficiently destroyed under UV-irradiated conditions, detections in photodissociation regions (PDRs) have challenged this view. However, the mechanisms by which UV radiation contributes to their formation are still uncertain. Here, we present moderately resolved maps of simple and complex organic molecules at the UV-illuminated edge of the Horsehead nebula, obtained by combining ALMA and IRAM 30m single-dish observations at $\\sim 15^{\\prime\\prime}$ resolution. We analyze the spatial distribution of species such as C$^{17}$O, CH$_2$CO, CH$_3$CHO, HNCO, CH$_3$CN, and HC$_3$N. By incorporating previous C$^{17}$O and C$^{18}$O single-dish data as well as PdBI maps of H$_2$CO and CH$_3$OH, we derive profiles of gas density, temperature, thermal pressure, and column densities of the organic species as a function of distance from the UV source. Our results show that most organic species$-$particularly H$_2$CO, CH$_2$CO, CH$_3$CHO, HNCO, and CH$_3$CN$-$exhibit enhanced column densities at the UV-illuminated edge compared to cloud interiors, possibly indicating efficient dust-grain surface chemistry driven by the diffusion of atomic C and radicals produced via photodissociation of CO and CH$_3$OH, as supported by recent laboratory experiments. The exceptions, HC$_3$N and CH$_3$OH, can be attributed to inefficient formation on dust grains and ineffective non-thermal desorption into the gas phase, respectively. Additionally, contributions from gas-phase hydrocarbon photochemistry$-$possibly seeded by grain-surface products$-$cannot be ruled out. Further chemical modeling is needed to confirm the efficiency of these pathways for the studied species, which could have important implications for other cold, UV-irradiated environments such as protoplanetary disks.",
+        "authors": [
+            {
+                "name": "Claudio Hernández-Vera"
+            },
+            {
+                "name": "Viviana V. Guzmán"
+            },
+            {
+                "name": "Jérôme Pety"
+            },
+            {
+                "name": "Ka Tat Wong"
+            },
+            {
+                "name": "Javier R. Goicoechea"
+            },
+            {
+                "name": "Franck Le Petit"
+            },
+            {
+                "name": "Maryvonne Gerin"
+            },
+            {
+                "name": "Aquiles den Braber"
+            },
+            {
+                "name": "John M. Carpenter"
+            },
+            {
+                "name": "Vincent Maillard"
+            },
+            {
+                "name": "Emeric Bron"
+            },
+            {
+                "name": "Pierre Gratier"
+            },
+            {
+                "name": "Evelyne Roueff"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA",
+            "astro-ph.EP",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.20146v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.20146v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.13459": {
+        "id": "http://arxiv.org/abs/2511.02061v1",
+        "title": "GMCs and Star Formation in the Galaxy: I. Effects of an HII region on a GMC",
+        "updated": "2025-11-03T20:58:31.000Z",
+        "published": "2025-11-03T20:58:31.000Z",
+        "summary": "The destruction of Giant Molecular Clouds is a key component in galaxy evolution. We theoretically model the destruction of GMCs by HII regions, which evaporate ionized gas and eject neutral gas during their expansion. HII regions follow one of three tracks, depending on the EUV luminosity, $S$, of the ionizing OB association: the expansion can stall inside the cloud; it can break out, forming a blister (champagne) flow; or, for $S>S_{\\rm com}$, it can result in the formation of a cometary cloud. We present results for the accumulated mass loss, $M_{\\rm loss}(t)$, and the final mass loss, $M_{{\\rm loss},f}$, by evaporation and ejection for a range of cloud masses ($10^4<M<10^{7}$ M$_\\odot$), cloud surface densities ($50<Σ<1000$ M$_\\odot$ pc$^{-2}$), OB association luminosities ($10^{44}<S<10^{52}$ s$^{-1}$), and off-center position of the association. We do not consider starbursts; our neglect of radiation pressure restricts our treatment to $S<10^{52} [(M/10^6$ M$_\\odot)^{0.3})/(Σ/100$ M$_\\odot$ pc$^{-2}$)] s$^{-1}$, and our neglect of gravity restricts $(M/10^6$ M$_\\odot$)($Σ/ 100$ M$_\\odot$ pc$^{-2}) < 10$. We find that $M_{{\\rm loss},f}$ for the range $0.1 < M_{{\\rm loss},f}/M < 0.7$ , is proportional to $S^p$, where $p\\sim 0.45-0.75$ depends on $M$, $Σ$, and association position. We find analytic fits to $S_{\\rm com}$ as a function of $Σ$, $M$, and association position. $S> S_{\\rm com}$ associations destroy at least 70% of the initial cloud. We find a critical cloud mass $M_{\\rm survive}$ above which clouds never become cometary and lose $<$ 70% of their mass via a single association. Low mass clouds mostly lose mass via ejection of neutral gas.",
+        "authors": [
+            {
+                "name": "David Hollenbach"
+            },
+            {
+                "name": "Antonio Parravano"
+            },
+            {
+                "name": "Christopher McKee"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2511.02061v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2511.02061v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2512.18992": {
+        "id": "http://arxiv.org/abs/2512.02124v1",
+        "title": "Kinematics of young stellar objects in NGC 2024 based on infrared proper motions",
+        "updated": "2025-12-01T19:00:05.000Z",
+        "published": "2025-12-01T19:00:05.000Z",
+        "summary": "The most recently formed young stellar objects (YSOs) in active star forming regions are excellent tracers of their parent cloud motion. Their positions and dynamics provide insight into cluster formation and constrain kinematic decoupling timescales between stars and gas. However, because of their strong extinction and young age, embedded YSOs are mainly visible at infrared wavelengths and thus absent from astrometric surveys such as Gaia. We measured the proper motions of 6,769 sources toward the NGC 2024 cluster in the Flame Nebula using multi-epoch near-infrared observations from three ESO public surveys: VISIONS, VHS, and the VISTA/VIRCAM science verification program. Cross-validation of our results with Gaia using optically visible stars shows excellent agreement, with uncertainties on the same order of magnitude. For 362 YSO candidates identified from the literature, we derived proper motions on the order of <5 mas/yr with mean measurement uncertainties of ~0.22 mas/yr. This is the first homogeneous proper motion measurement of this quality for more than half of these stars. For Class I and flat-spectrum sources, our results provide a >13-fold increase in available proper motion measurements. We analyzed the positional and kinematic differences between YSO classes and confirmed a previously reported inside-out age segregation from younger to older stars, likely driven by an outward movement of older stars. No evidence of prolonged hierarchical assembly was found. Instead, the results support a rapid (<1 Myr) cluster collapse. This scenario also accounts for the observed slightly higher 1D velocity dispersion of Class I sources relative to Class flat objects. YSO radial velocities generally align with the gas velocities measured from 12CO(3-2), HNC(1-0), HCN(1-0), and show a weaker correlation with N_2H+(1-0). Some Class II and III objects appear to be already decoupling.",
+        "authors": [
+            {
+                "name": "Alena Rottensteiner"
+            },
+            {
+                "name": "Monika G. Petr-Gotzens"
+            },
+            {
+                "name": "Stefan Meingast"
+            },
+            {
+                "name": "João Alves"
+            },
+            {
+                "name": "Emmanuel Bertin"
+            },
+            {
+                "name": "Hervé Bouy"
+            },
+            {
+                "name": "Martin Piecka"
+            },
+            {
+                "name": "Sebastian Ratzenböck"
+            },
+            {
+                "name": "Andrea Socci"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2512.02124v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2512.02124v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2511.08309": {
         "id": "http://arxiv.org/abs/2512.06873v1",
         "title": "Precise determination of circumstellar disk lifetimes: Disk evolution in a single star-forming region",
         "updated": "2025-12-07T15:01:39.000Z",
@@ -103,7 +985,7 @@
             }
         ]
     },
-    "2601.05310": {
+    "2512.02124": {
         "id": "http://arxiv.org/abs/2601.04108v1",
         "title": "Characterizing the physical and chemical properties of the Class I protostellar system Oph-IRS 44. Binarity, infalling streamers, and accretion shocks",
         "updated": "2026-01-07T17:13:19.000Z",
@@ -153,7 +1035,281 @@
             }
         ]
     },
-    "2601.04108": {
+    "2601.07184": {
+        "id": "http://arxiv.org/abs/2601.12128v1",
+        "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) III: The vertical structure of debris disks",
+        "updated": "2026-01-17T18:09:59.000Z",
+        "published": "2026-01-17T18:09:59.000Z",
+        "summary": "Debris disks -- collisionally sustained belts of dust and sometimes gas around main sequence stars -- are remnants of planet formation processes and are found in systems ${\\gtrsim}10$ Myr old. Millimeter-wavelength observations are particularly important, as the grains probed by these observations are not strongly affected by radiation pressure and stellar winds, allowing them to probe the dynamics of large bodies producing dust. The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) is analyzing high-resolution observations of 24 debris disks to enable the characterization of debris disk substructures across a large sample for the first time. For the most highly inclined disks, it is possible to recover the vertical structure of the disk. We aim to model and analyze the most highly inclined systems in the ARKS sample in order to uniformly extract the vertical dust distributions for a sample of well-resolved debris disks. We employed both parametric and nonparametric methods to constrain the vertical dust distributions for the most highly inclined ARKS targets. We find a broad range of aspect ratios, revealing a wide diversity in vertical structure, with a range of best-fit parametric values of $0.0026 \\leq h_{\\rm HWHM} \\leq 0.193$ and a median best-fit value of $h_{\\rm HWHM}=0.021$. The results obtained by nonparametric modeling are generally consistent with the parametric modeling results. We find that five of the 13 disks are consistent with having total disk masses less than that of Neptune (17 $M_{\\oplus}$), assuming stirring by internal processes (self-stirring and collisional and frictional damping). Furthermore, most systems show a significant preference for a Lorentzian vertical profile rather than a Gaussian.",
+        "authors": [
+            {
+                "name": "Brianna Zawadzki"
+            },
+            {
+                "name": "Anna Fehr"
+            },
+            {
+                "name": "A. Meredith Hughes"
+            },
+            {
+                "name": "Elias Mansell"
+            },
+            {
+                "name": "Jamar Kittling"
+            },
+            {
+                "name": "Yinuo Han"
+            },
+            {
+                "name": "Catherine Hou"
+            },
+            {
+                "name": "Margaret Pan"
+            },
+            {
+                "name": "Julien Milli"
+            },
+            {
+                "name": "Johan Olofsson"
+            },
+            {
+                "name": "Tim D. Pearce"
+            },
+            {
+                "name": "Antranik A. Sefilian"
+            },
+            {
+                "name": "Aliya Nurmohamed"
+            },
+            {
+                "name": "Junu Lee"
+            },
+            {
+                "name": "Yamani Mpofu"
+            },
+            {
+                "name": "Myriam Bonduelle"
+            },
+            {
+                "name": "Mark Booth"
+            },
+            {
+                "name": "Aoife Brennan"
+            },
+            {
+                "name": "Carlos del Burgo"
+            },
+            {
+                "name": "John M. Carpenter"
+            },
+            {
+                "name": "Gianni Cataldi"
+            },
+            {
+                "name": "Eugene Chiang"
+            },
+            {
+                "name": "Steve Ertel"
+            },
+            {
+                "name": "Thomas Henning"
+            },
+            {
+                "name": "Marija R. Jankovic"
+            },
+            {
+                "name": "Grant M. Kennedy"
+            },
+            {
+                "name": "Ágnes Kóspál"
+            },
+            {
+                "name": "Alexander V. Krivov"
+            },
+            {
+                "name": "Joshua B. Lovell"
+            },
+            {
+                "name": "Patricia Luppe"
+            },
+            {
+                "name": "Meredith A. MacGregor"
+            },
+            {
+                "name": "Sorcha Mac Manamon"
+            },
+            {
+                "name": "Sebastian Marino"
+            },
+            {
+                "name": "Jonathan P. Marshall"
+            },
+            {
+                "name": "Luca Matrà"
+            },
+            {
+                "name": "Attila Moór"
+            },
+            {
+                "name": "Sebastián Pérez"
+            },
+            {
+                "name": "Philipp Weber"
+            },
+            {
+                "name": "David J. Wilner"
+            },
+            {
+                "name": "Mark C. Wyatt"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.12128v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.12128v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ],
+        "doi": {
+            "url": "https://doi.org/10.1051/0004-6361/202556505"
+        }
+    },
+    "2512.12055": {
+        "id": "http://arxiv.org/abs/2601.11712v1",
+        "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) IV: CO gas imaging and overview",
+        "updated": "2026-01-16T19:00:35.000Z",
+        "published": "2026-01-16T19:00:35.000Z",
+        "summary": "CO gas is detected in a significant number of debris discs, but its origin and evolution remains unclear. Key constraints are its mass and spectro-spatial distribution, which are coupled through optical depth and have only been analysed at low to moderate resolution so far. The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) is the first ALMA large program to target debris discs at high spectro-spatial resolution. We used $^{12}$CO and $^{13}$CO J=3-2 line data of 18 ARKS debris belts, 5 of which were already known to host gas, to analyse the spectro-spatial distribution of CO, constrain the gas masses, and to search for gas in the remaining systems. We developed a line-imaging pipeline and produced line cubes for each disc, with a spatial resolution down to $\\sim$70 mas and spectral resolution of 26 m s$^{-1}$. Using spectro-spatial shifting and stacking, we produced high signal-to-noise maps, and radial and spectral profiles that reveal the distribution and kinematics of gas in 5 gas-bearing discs. For these discs, we constrained the inner radius of the $^{12}$CO, and found the radial brightness profile of CO peaked interior to the dust ring, but that CO was more radially extended than the dust. We present the first radially resolved $^{12}$CO/$^{13}$CO isotopologue flux ratios in gas-bearing debris discs, which are constant with radius for the majority of systems, indicating $^{12}$CO and $^{13}$CO are both optically thick or thin throughout the discs. We report CO line fluxes/upper limits for all systems and optical depth dependant masses for the 5 gas-bearing systems. Finally, we analysed the $^{12}$CO J=3-2 line luminosities for the ARKS debris discs and discs from the literature. We confirm that gas is mostly detected in young systems. However, the high scatter seen in young/high fractional luminosity systems indicates no trend within the systems with detected gas.",
+        "authors": [
+            {
+                "name": "S. Mac Manamon"
+            },
+            {
+                "name": "L. Matrà"
+            },
+            {
+                "name": "S. Marino"
+            },
+            {
+                "name": "A. Brennan"
+            },
+            {
+                "name": "Y. Han"
+            },
+            {
+                "name": "M. R. Jankovic"
+            },
+            {
+                "name": "P. Weber"
+            },
+            {
+                "name": "M. Bonduelle"
+            },
+            {
+                "name": "J. M. Carpenter"
+            },
+            {
+                "name": "G. Cataldi"
+            },
+            {
+                "name": "A. M. Hughes"
+            },
+            {
+                "name": "A. Kóspál"
+            },
+            {
+                "name": "J. P. Marshall"
+            },
+            {
+                "name": "B. C. Matthews"
+            },
+            {
+                "name": "J. Milli"
+            },
+            {
+                "name": "A. Moór"
+            },
+            {
+                "name": "K. Öberg"
+            },
+            {
+                "name": "S. Pérez"
+            },
+            {
+                "name": "A. A. Sefilian"
+            },
+            {
+                "name": "D. J. Wilner"
+            },
+            {
+                "name": "M. C. Wyatt"
+            },
+            {
+                "name": "E. Chiang"
+            },
+            {
+                "name": "A. S. Hales"
+            },
+            {
+                "name": "J. B. Lovell"
+            },
+            {
+                "name": "P. Luppe"
+            },
+            {
+                "name": "M. A. MacGregor"
+            },
+            {
+                "name": "T. Pearce"
+            },
+            {
+                "name": "M. Booth"
+            },
+            {
+                "name": "C. del Burgo"
+            },
+            {
+                "name": "A. Fehr"
+            },
+            {
+                "name": "E. Mansell"
+            },
+            {
+                "name": "B. Zawadzki"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP",
+            "astro-ph.GA",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.11712v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.11712v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ],
+        "doi": {
+            "url": "https://doi.org/10.1051/0004-6361/202556605"
+        }
+    },
+    "2601.10989": {
         "id": "http://arxiv.org/abs/2601.07407v1",
         "title": "The converging gas flow around the infrared dark cloud G28.3",
         "updated": "2026-01-12T10:46:20.000Z",
@@ -208,69 +1364,1121 @@
             }
         ]
     },
-    "2601.07407": {
-        "id": "http://arxiv.org/abs/2512.00157v1",
-        "title": "Astrometric view of companions in the inner dust cavities of protoplanetary disks",
-        "updated": "2025-11-28T19:00:06.000Z",
-        "published": "2025-11-28T19:00:06.000Z",
-        "summary": "Protoplanetary disks with inner dust cavities (often referred to as \"transition disks\") are potential signposts of planet formation. We use Gaia astrometry to search for planetary and stellar companions in a sample of 98 transition disks, assessing the occurrence rate of such companions and their potential influence on cavity formation. For the 98 Young Stellar Objects (YSOs), we compute Gaia proper motion anomalies which, together with the RUWE, identify companions with mass ratios $q \\gtrsim 0.01$ at $\\sim$0.1-30 au. We assess the impact of disk gravity, accretion, disk-scattered light, dippers, starspots, jets, and outflows on the measured proper motion anomalies, concluding that astrometric techniques such as the one of this work can be robustly applied to YSOs. Significant proper motion anomalies are found in 31 transition disks (32% of the sample), indicative of companions. We recover 85% of known companions within our sensitivity range. We model the semi-major axis and mass required for a companion to reproduce the observed astrometric signals. Most inferred companions have $M > 30$ M$\\rm{_{J}}$, placing many within or near the stellar mass regime. Seven sources host companions compatible with a planetary mass ($M < 13$ M$\\rm{_{J}}$, HD 100453, J04343128+1722201, J16102955-3922144, MHO6, MP Mus, PDS 70, and Sz 76). For the non-detections, we provide the companion masses and semi-major axes that can be excluded in future searches. About half (53%) of detected companions cannot be reconciled with having carved the observed dust cavities. We find that transition disks host as many companions within our sensitivity range as do randomly sampled groups of YSOs and main-sequence stars. If dust cavities are shaped by companions, such companions must reside at larger orbital separations than those of the companions detected here, and we predict them to be of planetary mass. [abridged]",
+    "2512.24380": {
+        "id": "http://arxiv.org/abs/2601.20826v1",
+        "title": "Euclid preparation. Galaxy power spectrum modelling in redshift space",
+        "updated": "2026-01-28T18:24:23.000Z",
+        "published": "2026-01-28T18:24:23.000Z",
+        "summary": "Accurate modelling of redshift-space distortions (RSD) is essential for maximizing the cosmological information extracted from large galaxy redshift surveys. In preparation for the forthcoming analysis of the Euclid spectroscopic data, we investigate three approaches to modelling RSD effects on the power spectrum multipoles of mock H$α$ emission line galaxies. We focus on two one-loop perturbation theory models -- the effective field theory (EFT) and velocity difference generator (${\\rm VDG_ \\infty}$) -- which differ in their treatment of the real-to-redshift space mapping on small scales, and a third approach, the BACCO emulator, which adopts a hybrid strategy combining perturbation theory with high-resolution N-body simulations. We assess the ability of these models to recover key cosmological parameters, including the expansion rate $h$, the cold dark matter density parameter $ω_{\\rm c}$, and the scalar amplitude $A_{\\rm s}$, across four redshift bins spanning $0.9 \\leq z \\leq 1.8$. In each bin, we find that ${\\rm VDG_ \\infty}$ and BACCO outperform the EFT model across all scales up to $k_{max} \\lesssim 0.35 h\\,Mpc^{-1} $. While BACCO saturates in constraining power at intermediate scales and higher redshift, the ${\\rm VDG_ \\infty}$ model continues to improve parameter constraints beyond $k_{max} \\gtrsim 0.30 h\\,Mpc^{-1}$. The EFT model, although robust on large scales, exhibits significant parameter biases for $k_{max} \\gtrsim 0.25 h\\,Mpc^{-1}$, limiting its applicability to Euclid-like H$α$ samples. Among the full perturbation theory-based models, the enhanced treatment of small-scale RSD effects in ${\\rm VDG_ \\infty}$ improves cosmological parameter constraints by up to a factor of two.",
         "authors": [
             {
-                "name": "Miguel Vioque"
+                "name": "Euclid Collaboration"
             },
             {
-                "name": "Richard A. Booth"
+                "name": "B. Camacho Quevedo"
             },
             {
-                "name": "Enrico Ragusa"
+                "name": "M. Crocce"
             },
             {
-                "name": "Álvaro Ribas"
+                "name": "M. Pellejero Ibañez"
             },
             {
-                "name": "Nicolás T. Kurtovic"
+                "name": "R. E. Angulo"
             },
             {
-                "name": "Giovanni P. Rosotti"
+                "name": "A. Pezzotta"
             },
             {
-                "name": "Zephyr Penoyre"
+                "name": "A. Eggemeier"
             },
             {
-                "name": "Stefano Facchini"
+                "name": "G. Gambardella"
             },
             {
-                "name": "Antonio Garufi"
+                "name": "C. Moretti"
             },
             {
-                "name": "Carlo F. Manara"
+                "name": "E. Sefusatti"
             },
             {
-                "name": "Nuria Huélamo"
+                "name": "A. Moradinezhad Dizgah"
             },
             {
-                "name": "Andrew Winter"
+                "name": "M. Zennaro"
+            },
+            {
+                "name": "M. -A. Breton"
+            },
+            {
+                "name": "A. Chudaykin"
+            },
+            {
+                "name": "G. D'Amico"
+            },
+            {
+                "name": "V. Desjacques"
+            },
+            {
+                "name": "S. de la Torre"
+            },
+            {
+                "name": "M. Guidi"
+            },
+            {
+                "name": "M. Kärcher"
+            },
+            {
+                "name": "K. Pardede"
+            },
+            {
+                "name": "C. Porciani"
+            },
+            {
+                "name": "A. Pugno"
+            },
+            {
+                "name": "J. Salvalaggio"
+            },
+            {
+                "name": "E. Sarpa"
+            },
+            {
+                "name": "A. Veropalumbo"
+            },
+            {
+                "name": "B. Altieri"
+            },
+            {
+                "name": "S. Andreon"
+            },
+            {
+                "name": "N. Auricchio"
+            },
+            {
+                "name": "C. Baccigalupi"
+            },
+            {
+                "name": "M. Baldi"
+            },
+            {
+                "name": "S. Bardelli"
+            },
+            {
+                "name": "R. Bender"
+            },
+            {
+                "name": "A. Biviano"
+            },
+            {
+                "name": "E. Branchini"
+            },
+            {
+                "name": "M. Brescia"
+            },
+            {
+                "name": "S. Camera"
+            },
+            {
+                "name": "V. Capobianco"
+            },
+            {
+                "name": "C. Carbone"
+            },
+            {
+                "name": "V. F. Cardone"
+            },
+            {
+                "name": "J. Carretero"
+            },
+            {
+                "name": "S. Casas"
+            },
+            {
+                "name": "F. J. Castander"
+            },
+            {
+                "name": "M. Castellano"
+            },
+            {
+                "name": "G. Castignani"
+            },
+            {
+                "name": "S. Cavuoti"
+            },
+            {
+                "name": "K. C. Chambers"
+            },
+            {
+                "name": "A. Cimatti"
+            },
+            {
+                "name": "C. Colodro-Conde"
+            },
+            {
+                "name": "G. Congedo"
+            },
+            {
+                "name": "L. Conversi"
+            },
+            {
+                "name": "Y. Copin"
+            },
+            {
+                "name": "F. Courbin"
+            },
+            {
+                "name": "H. M. Courtois"
+            },
+            {
+                "name": "H. Degaudenzi"
+            },
+            {
+                "name": "G. De Lucia"
+            },
+            {
+                "name": "H. Dole"
+            },
+            {
+                "name": "M. Douspis"
+            },
+            {
+                "name": "F. Dubath"
+            },
+            {
+                "name": "C. A. J. Duncan"
+            },
+            {
+                "name": "X. Dupac"
+            },
+            {
+                "name": "S. Dusini"
+            },
+            {
+                "name": "S. Escoffier"
+            },
+            {
+                "name": "M. Farina"
+            },
+            {
+                "name": "R. Farinelli"
+            },
+            {
+                "name": "S. Farrens"
+            },
+            {
+                "name": "S. Ferriol"
+            },
+            {
+                "name": "F. Finelli"
+            },
+            {
+                "name": "S. Fotopoulou"
+            },
+            {
+                "name": "N. Fourmanoit"
+            },
+            {
+                "name": "M. Frailis"
+            },
+            {
+                "name": "E. Franceschi"
+            },
+            {
+                "name": "M. Fumana"
+            },
+            {
+                "name": "S. Galeotta"
+            },
+            {
+                "name": "K. George"
+            },
+            {
+                "name": "B. Gillis"
+            },
+            {
+                "name": "C. Giocoli"
+            },
+            {
+                "name": "J. Gracia-Carpio"
+            },
+            {
+                "name": "A. Grazian"
+            },
+            {
+                "name": "F. Grupp"
+            },
+            {
+                "name": "L. Guzzo"
+            },
+            {
+                "name": "S. V. H. Haugan"
+            },
+            {
+                "name": "W. Holmes"
+            },
+            {
+                "name": "F. Hormuth"
+            },
+            {
+                "name": "A. Hornstrup"
+            },
+            {
+                "name": "K. Jahnke"
+            },
+            {
+                "name": "B. Joachimi"
+            },
+            {
+                "name": "S. Kermiche"
+            },
+            {
+                "name": "A. Kiessling"
+            },
+            {
+                "name": "B. Kubik"
+            },
+            {
+                "name": "M. Kümmel"
+            },
+            {
+                "name": "M. Kunz"
+            },
+            {
+                "name": "H. Kurki-Suonio"
+            },
+            {
+                "name": "A. M. C. Le Brun"
+            },
+            {
+                "name": "S. Ligori"
+            },
+            {
+                "name": "P. B. Lilje"
+            },
+            {
+                "name": "V. Lindholm"
+            },
+            {
+                "name": "I. Lloro"
+            },
+            {
+                "name": "G. Mainetti"
+            },
+            {
+                "name": "E. Maiorano"
+            },
+            {
+                "name": "O. Mansutti"
+            },
+            {
+                "name": "S. Marcin"
+            },
+            {
+                "name": "O. Marggraf"
+            },
+            {
+                "name": "M. Martinelli"
+            },
+            {
+                "name": "N. Martinet"
+            },
+            {
+                "name": "F. Marulli"
+            },
+            {
+                "name": "R. J. Massey"
+            },
+            {
+                "name": "E. Medinaceli"
+            },
+            {
+                "name": "M. Melchior"
+            },
+            {
+                "name": "M. Meneghetti"
+            },
+            {
+                "name": "E. Merlin"
+            },
+            {
+                "name": "G. Meylan"
+            },
+            {
+                "name": "A. Mora"
+            },
+            {
+                "name": "M. Moresco"
+            },
+            {
+                "name": "L. Moscardini"
+            },
+            {
+                "name": "C. Neissner"
+            },
+            {
+                "name": "S. -M. Niemi"
+            },
+            {
+                "name": "C. Padilla"
+            },
+            {
+                "name": "S. Paltani"
+            },
+            {
+                "name": "F. Pasian"
+            },
+            {
+                "name": "K. Pedersen"
+            },
+            {
+                "name": "W. J. Percival"
+            },
+            {
+                "name": "V. Pettorino"
+            },
+            {
+                "name": "S. Pires"
+            },
+            {
+                "name": "G. Polenta"
+            },
+            {
+                "name": "M. Poncet"
+            },
+            {
+                "name": "L. A. Popa"
+            },
+            {
+                "name": "F. Raison"
+            },
+            {
+                "name": "J. Rhodes"
+            },
+            {
+                "name": "G. Riccio"
+            },
+            {
+                "name": "F. Rizzo"
+            },
+            {
+                "name": "E. Romelli"
+            },
+            {
+                "name": "M. Roncarelli"
+            },
+            {
+                "name": "R. Saglia"
+            },
+            {
+                "name": "Z. Sakr"
+            },
+            {
+                "name": "A. G. Sánchez"
+            },
+            {
+                "name": "D. Sapone"
+            },
+            {
+                "name": "B. Sartoris"
+            },
+            {
+                "name": "P. Schneider"
+            },
+            {
+                "name": "A. Secroun"
+            },
+            {
+                "name": "G. Seidel"
+            },
+            {
+                "name": "E. Sihvola"
+            },
+            {
+                "name": "P. Simon"
+            },
+            {
+                "name": "C. Sirignano"
+            },
+            {
+                "name": "G. Sirri"
+            },
+            {
+                "name": "A. Spurio Mancini"
+            },
+            {
+                "name": "L. Stanco"
+            },
+            {
+                "name": "P. Tallada-Crespí"
+            },
+            {
+                "name": "D. Tavagnacco"
+            },
+            {
+                "name": "A. N. Taylor"
+            },
+            {
+                "name": "I. Tereno"
+            },
+            {
+                "name": "N. Tessore"
+            },
+            {
+                "name": "S. Toft"
+            },
+            {
+                "name": "R. Toledo-Moreo"
+            },
+            {
+                "name": "F. Torradeflot"
+            },
+            {
+                "name": "I. Tutusaus"
+            },
+            {
+                "name": "J. Valiviita"
+            },
+            {
+                "name": "T. Vassallo"
+            },
+            {
+                "name": "Y. Wang"
+            },
+            {
+                "name": "J. Weller"
+            },
+            {
+                "name": "G. Zamorani"
+            },
+            {
+                "name": "F. M. Zerbi"
+            },
+            {
+                "name": "E. Zucca"
+            },
+            {
+                "name": "V. Allevato"
+            },
+            {
+                "name": "M. Ballardini"
+            },
+            {
+                "name": "A. Boucaud"
+            },
+            {
+                "name": "E. Bozzo"
+            },
+            {
+                "name": "C. Burigana"
+            },
+            {
+                "name": "R. Cabanac"
+            },
+            {
+                "name": "M. Calabrese"
+            },
+            {
+                "name": "A. Cappi"
+            },
+            {
+                "name": "T. Castro"
+            },
+            {
+                "name": "J. A. Escartin Vigo"
+            },
+            {
+                "name": "L. Gabarra"
+            },
+            {
+                "name": "J. Macias-Perez"
+            },
+            {
+                "name": "R. Maoli"
+            },
+            {
+                "name": "J. Martín-Fleitas"
+            },
+            {
+                "name": "N. Mauri"
+            },
+            {
+                "name": "R. B. Metcalf"
+            },
+            {
+                "name": "P. Monaco"
+            },
+            {
+                "name": "A. A. Nucita"
+            },
+            {
+                "name": "M. Pöntinen"
+            },
+            {
+                "name": "I. Risso"
+            },
+            {
+                "name": "V. Scottez"
+            },
+            {
+                "name": "M. Sereno"
+            },
+            {
+                "name": "M. Tenti"
+            },
+            {
+                "name": "M. Tucci"
+            },
+            {
+                "name": "M. Viel"
+            },
+            {
+                "name": "M. Wiesmann"
+            },
+            {
+                "name": "Y. Akrami"
+            },
+            {
+                "name": "I. T. Andika"
+            },
+            {
+                "name": "G. Angora"
+            },
+            {
+                "name": "M. Archidiacono"
+            },
+            {
+                "name": "F. Atrio-Barandela"
+            },
+            {
+                "name": "L. Bazzanini"
+            },
+            {
+                "name": "J. Bel"
+            },
+            {
+                "name": "D. Bertacca"
+            },
+            {
+                "name": "M. Bethermin"
+            },
+            {
+                "name": "A. Blanchard"
+            },
+            {
+                "name": "L. Blot"
+            },
+            {
+                "name": "H. Böhringer"
+            },
+            {
+                "name": "S. Borgani"
+            },
+            {
+                "name": "M. L. Brown"
+            },
+            {
+                "name": "S. Bruton"
+            },
+            {
+                "name": "A. Calabro"
+            },
+            {
+                "name": "F. Caro"
+            },
+            {
+                "name": "C. S. Carvalho"
+            },
+            {
+                "name": "F. Cogato"
+            },
+            {
+                "name": "A. R. Cooray"
+            },
+            {
+                "name": "S. Davini"
+            },
+            {
+                "name": "F. De Paolis"
+            },
+            {
+                "name": "G. Desprez"
+            },
+            {
+                "name": "A. Díaz-Sánchez"
+            },
+            {
+                "name": "S. Di Domizio"
+            },
+            {
+                "name": "J. M. Diego"
+            },
+            {
+                "name": "V. Duret"
+            },
+            {
+                "name": "M. Y. Elkhashab"
+            },
+            {
+                "name": "A. Enia"
+            },
+            {
+                "name": "Y. Fang"
+            },
+            {
+                "name": "A. G. Ferrari"
+            },
+            {
+                "name": "A. Finoguenov"
+            },
+            {
+                "name": "A. Fontana"
+            },
+            {
+                "name": "F. Fontanot"
+            },
+            {
+                "name": "A. Franco"
+            },
+            {
+                "name": "K. Ganga"
+            },
+            {
+                "name": "T. Gasparetto"
+            },
+            {
+                "name": "E. Gaztanaga"
+            },
+            {
+                "name": "F. Giacomini"
+            },
+            {
+                "name": "F. Gianotti"
+            },
+            {
+                "name": "G. Gozaliasl"
+            },
+            {
+                "name": "A. Gruppuso"
+            },
+            {
+                "name": "C. M. Gutierrez"
+            },
+            {
+                "name": "A. Hall"
+            },
+            {
+                "name": "C. Hernández-Monteagudo"
+            },
+            {
+                "name": "H. Hildebrandt"
+            },
+            {
+                "name": "J. Hjorth"
+            },
+            {
+                "name": "J. J. E. Kajava"
+            },
+            {
+                "name": "Y. Kang"
+            },
+            {
+                "name": "V. Kansal"
+            },
+            {
+                "name": "D. Karagiannis"
+            },
+            {
+                "name": "K. Kiiveri"
+            },
+            {
+                "name": "J. Kim"
+            },
+            {
+                "name": "C. C. Kirkpatrick"
+            },
+            {
+                "name": "S. Kruk"
+            },
+            {
+                "name": "L. Legrand"
+            },
+            {
+                "name": "M. Lembo"
+            },
+            {
+                "name": "F. Lepori"
+            },
+            {
+                "name": "G. Leroy"
+            },
+            {
+                "name": "G. F. Lesci"
+            },
+            {
+                "name": "J. Lesgourgues"
+            },
+            {
+                "name": "T. I. Liaudat"
+            },
+            {
+                "name": "M. Magliocchetti"
+            },
+            {
+                "name": "F. Mannucci"
+            },
+            {
+                "name": "C. J. A. P. Martins"
+            },
+            {
+                "name": "L. Maurin"
+            },
+            {
+                "name": "M. Miluzio"
+            },
+            {
+                "name": "A. Montoro"
+            },
+            {
+                "name": "G. Morgante"
+            },
+            {
+                "name": "S. Nadathur"
+            },
+            {
+                "name": "K. Naidoo"
+            },
+            {
+                "name": "A. Navarro-Alsina"
+            },
+            {
+                "name": "S. Nesseris"
+            },
+            {
+                "name": "L. Pagano"
+            },
+            {
+                "name": "D. Paoletti"
+            },
+            {
+                "name": "F. Passalacqua"
+            },
+            {
+                "name": "K. Paterson"
+            },
+            {
+                "name": "L. Patrizii"
+            },
+            {
+                "name": "A. Pisani"
+            },
+            {
+                "name": "D. Potter"
+            },
+            {
+                "name": "G. W. Pratt"
+            },
+            {
+                "name": "S. Quai"
+            },
+            {
+                "name": "M. Radovich"
+            },
+            {
+                "name": "K. Rojas"
+            },
+            {
+                "name": "W. Roster"
+            },
+            {
+                "name": "S. Sacquegna"
+            },
+            {
+                "name": "M. Sahlén"
+            },
+            {
+                "name": "D. B. Sanders"
+            },
+            {
+                "name": "A. Schneider"
+            },
+            {
+                "name": "D. Sciotti"
+            },
+            {
+                "name": "E. Sellentin"
+            },
+            {
+                "name": "L. C. Smith"
+            },
+            {
+                "name": "K. Tanidis"
+            },
+            {
+                "name": "C. Tao"
+            },
+            {
+                "name": "F. Tarsitano"
+            },
+            {
+                "name": "G. Testera"
+            },
+            {
+                "name": "R. Teyssier"
+            },
+            {
+                "name": "S. Tosi"
+            },
+            {
+                "name": "A. Troja"
+            },
+            {
+                "name": "D. Vergani"
+            },
+            {
+                "name": "F. Vernizzi"
+            },
+            {
+                "name": "G. Verza"
+            },
+            {
+                "name": "P. Vielzeuf"
+            },
+            {
+                "name": "S. Vinciguerra"
+            },
+            {
+                "name": "N. A. Walton"
+            },
+            {
+                "name": "A. H. Wright"
+            }
+        ],
+        "categories": [
+            "astro-ph.CO"
+        ],
+        "primaryCategory": "astro-ph.CO",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.20826v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.20826v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2512.06213": {
+        "id": "http://arxiv.org/abs/2512.00474v1",
+        "title": "Excitation of molecular hydrogen by cosmic-ray protons",
+        "updated": "2025-11-29T13:03:19.000Z",
+        "published": "2025-11-29T13:03:19.000Z",
+        "summary": "Low-energy cosmic rays ($E\\lesssim 1$ GeV) are responsible for the ionisation and heating of molecular clouds. While the role of supra-thermal electrons produced in the ionisation process in inducing excitation of the ambient gas (mostly molecular hydrogen) has been studied in detail, the role of primary cosmic-ray nuclei (protons and heavier nuclei) has been generally neglected. Here, we introduce, for the first time, cross sections for proton impact on H$_2$, calculated using the semi-classical implementation of the molecular convergent close-coupling method. Our findings show that proton-induced H$_2$ excitation is comparable in magnitude to that caused by electrons. We discuss the possible implications on the estimate of the cosmic-ray ionisation rate from observations in the near-infrared domain and on the cosmic-ray-induced H$_2$ ultraviolet luminescence. We also derive a new approximated analytical parameterisation of the spectrum of secondary electrons that can be easily incorporated in numerical codes.",
+        "authors": [
+            {
+                "name": "Marco Padovani"
+            },
+            {
+                "name": "Daniele Galli"
+            },
+            {
+                "name": "Corey T. Plowman"
+            },
+            {
+                "name": "Liam H. Scarlett"
+            },
+            {
+                "name": "Mark C. Zammit"
+            },
+            {
+                "name": "Igor Bray"
+            },
+            {
+                "name": "Dmitry V. Fursa"
+            }
+        ],
+        "categories": [
+            "astro-ph.HE",
+            "astro-ph.GA",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.HE",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2512.00474v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2512.00474v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2512.06409": {
+        "id": "http://arxiv.org/abs/2512.00246v2",
+        "title": "Variable X-ray Emission of the Planet Hosting T Tauri Star CI Tau",
+        "updated": "2026-01-13T14:30:24.000Z",
+        "published": "2025-11-28T23:32:12.000Z",
+        "summary": "We report results of Chandra X-ray observations of CI Tau, a young magnetically active classical T Tauri star for which previous studies have reported periodic variability attributed to a massive planet in a short-period orbit. CI Tau was clearly detected by Chandra in four separate observations acquired in late 2023. The X-ray emission was steady in the first two observations with a characteristic plasma temperature kT ~ 2 keV (~23 MK) and X-ray luminosity log Lx = 29.74 erg/s. During each of the last two observations obtained two weeks later the count rate increased slowly and the X-ray plasma temperature was much higher but remained nearly steady at kT ~ 4 - 5 keV (~46 - 58 MK) and peak luminosity log Lx = 30.5 erg/s. Such variable X-ray emission in T Tauri stars accompanied by high plasma temperatures is a signature of magnetic activity, consistent with the known presence of a strong magnetic field in CI Tau. We summarize the variable X-ray emission properties of CI Tau within the framework of T Tauri stars of similar mid-K spectral type, identify possible variability mechanisms, and assess the effects of stellar X-ray irradiation on the claimed planet.",
+        "authors": [
+            {
+                "name": "Stephen L. Skinner"
+            },
+            {
+                "name": "Manuel Guedel"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2512.00246v2",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2512.00246v2",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2511.02061": {
+        "id": "http://arxiv.org/abs/2601.13670v1",
+        "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) II. The radial structure of debris discs",
+        "updated": "2026-01-20T07:12:04.000Z",
+        "published": "2026-01-20T07:12:04.000Z",
+        "summary": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) was recently completed to cover the lack of high-resolution observations of debris discs and to investigate the prevalence of substructures such as radial gaps and rings in a sample of 24 discs. This study characterises the radial structure of debris discs in the ARKS programme. To identify and quantify the disc substructures, we modelled all discs with a range of non-parametric and parametric approaches. We find that of the 24 discs in the sample, 5 host multiple rings, 7 are single rings that display halos or additional low-amplitude rings, and 12 are single rings with at most tentative evidence of additional substructures. The fractional ring widths that we measured are significantly narrower than previously derived values, and they follow a distribution similar to the fractional widths of individual rings resolved in protoplanetary discs. However, there exists a population of rings in debris discs that are significantly wider than those in protoplanetary discs. We also find that discs with steep inner edges consistent with planet sculpting tend to be found at smaller (<100 au) radii, while more radially extended discs tend to have shallower edges more consistent with collisional evolution. An overwhelming majority of discs have radial profiles well-described by either a double power law or double-Gaussian parametrisation. While our findings suggest that it may be possible for some debris discs to inherit their structures directly from protoplanetary discs, there exists a sizeable population of broad debris discs that cannot be explained in this way. Assuming that the distribution of millimetre dust reflects the distribution of planetesimals, mechanisms that cause rings in protoplanetary discs to migrate or debris discs to broaden soon after formation may be at play, possibly mediated by planetary migration or scattering.",
+        "authors": [
+            {
+                "name": "Yinuo Han"
+            },
+            {
+                "name": "Elias Mansell"
+            },
+            {
+                "name": "Jeff Jennings"
+            },
+            {
+                "name": "Sebastian Marino"
+            },
+            {
+                "name": "A. Meredith Hughes"
+            },
+            {
+                "name": "Brianna Zawadzki"
+            },
+            {
+                "name": "Anna Fehr"
+            },
+            {
+                "name": "Jamar Kittling"
+            },
+            {
+                "name": "Catherine Hou"
+            },
+            {
+                "name": "Aliya Nurmohamed"
+            },
+            {
+                "name": "Junu Lee"
+            },
+            {
+                "name": "Allan Cheruiyot"
+            },
+            {
+                "name": "Yamani Mpofu"
+            },
+            {
+                "name": "Mark Booth"
+            },
+            {
+                "name": "Richard Booth"
+            },
+            {
+                "name": "Myriam Bonduelle"
+            },
+            {
+                "name": "Aoife Brennan"
+            },
+            {
+                "name": "Carlos del Burgo"
+            },
+            {
+                "name": "John M. Carpenter"
+            },
+            {
+                "name": "Gianni Cataldi"
+            },
+            {
+                "name": "Eugene Chiang"
+            },
+            {
+                "name": "Steve Ertel"
+            },
+            {
+                "name": "Thomas Henning"
+            },
+            {
+                "name": "Marija R. Jankovic"
+            },
+            {
+                "name": "Ágnes Kóspál"
+            },
+            {
+                "name": "Alexander V. Krivov"
+            },
+            {
+                "name": "Joshua B. Lovell"
+            },
+            {
+                "name": "Patricia Luppe"
+            },
+            {
+                "name": "Meredith A. MacGregor"
+            },
+            {
+                "name": "Sorcha Mac Manamon"
+            },
+            {
+                "name": "Jonathan P. Marshall"
+            },
+            {
+                "name": "Luca Matrà"
+            },
+            {
+                "name": "Julien Milli"
+            },
+            {
+                "name": "Attila Moór"
+            },
+            {
+                "name": "Johan Olofsson"
+            },
+            {
+                "name": "Tim Pearce"
             },
             {
                 "name": "Sebastián Pérez"
             },
             {
-                "name": "Myriam Benisty"
+                "name": "Antranik A. Sefilian"
             },
             {
-                "name": "Ignacio Mendigutía"
+                "name": "Philipp Weber"
             },
             {
-                "name": "Nicolás Cuello"
+                "name": "David J. Wilner"
             },
             {
-                "name": "Anna B. T. Penzlin"
-            },
-            {
-                "name": "Alfred Castro-Ginard"
-            },
-            {
-                "name": "Richard Teague"
+                "name": "Mark C. Wyatt"
             }
         ],
         "categories": [
@@ -281,18 +2489,351 @@
         "primaryCategory": "astro-ph.EP",
         "links": [
             {
-                "href": "https://arxiv.org/abs/2512.00157v1",
+                "href": "https://arxiv.org/abs/2601.13670v1",
                 "rel": "alternate",
                 "type": "text/html"
             },
             {
-                "href": "https://arxiv.org/pdf/2512.00157v1",
+                "href": "https://arxiv.org/pdf/2601.13670v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ],
+        "doi": {
+            "url": "https://doi.org/10.1051/0004-6361/202556450"
+        }
+    },
+    "2601.15413": {
+        "id": "http://arxiv.org/abs/2601.11708v1",
+        "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) I: Motivation, sample, data reduction, and results overview",
+        "updated": "2026-01-16T19:00:02.000Z",
+        "published": "2026-01-16T19:00:02.000Z",
+        "summary": "The outer regions of planetary systems host dusty debris discs analogous to the Kuiper belt (exoKuiper belts), which provide crucial constraints on planet formation and evolution processes. ALMA dust observations have revealed a great diversity, and that some belts contain CO gas, whose origin and implications are uncertain. Most of this progress, however, has been limited by low-resolution observations. We conducted the first ALMA large programme dedicated to debris discs: the ALMA survey to Resolve exoKuiper belt Substructures (ARKS). We selected the 24 most promising belts to constrain their detailed radial and vertical structure, and to characterise the gas content. We constrained the radial and vertical distribution of dust, as well as the presence of asymmetries. For a subset of six belts with CO gas, we constrained the gas distribution and kinematics. To interpret these observations, we used a wide range of dynamical models. The first ARKS results are presented as a series of ten papers. We discovered that up to 33% of our sample exhibits multiple dusty rings. For highly inclined belts, we found that non-Gaussian vertical distributions are common and are indicative of multiple dynamical populations. We also found that 10 of the 24 belts present asymmetries. We find that the CO gas is radially broader than the dust, but this could be an effect of optical depth. At least one system shows non-Keplerian kinematics due to strong pressure gradients, which may have triggered a vortex that trapped dust in an arc. Finally, we find evidence that the micron-sized grains may be affected by gas drag in gas rich systems. ARKS has revealed a great diversity of structures in exoKuiper belts that may arise when they are formed in protoplanetary discs or subsequently via interactions with planets and/or gas. We encourage the community to explore the reduced data and data products.",
+        "authors": [
+            {
+                "name": "S. Marino"
+            },
+            {
+                "name": "L. Matrà"
+            },
+            {
+                "name": "A. M. Hughes"
+            },
+            {
+                "name": "J. Ehrhardt"
+            },
+            {
+                "name": "G. M. Kennedy"
+            },
+            {
+                "name": "C. del Burgo"
+            },
+            {
+                "name": "A. Brennan"
+            },
+            {
+                "name": "Y. Han"
+            },
+            {
+                "name": "M. R. Jankovic"
+            },
+            {
+                "name": "J. B. Lovell"
+            },
+            {
+                "name": "S. Mac Manamon"
+            },
+            {
+                "name": "J. Milli"
+            },
+            {
+                "name": "P. Weber"
+            },
+            {
+                "name": "B. Zawadzki"
+            },
+            {
+                "name": "R. Bendahan-West"
+            },
+            {
+                "name": "A. Fehr"
+            },
+            {
+                "name": "E. Mansell"
+            },
+            {
+                "name": "J. Olofsson"
+            },
+            {
+                "name": "T. D. Pearce"
+            },
+            {
+                "name": "A. Bayo"
+            },
+            {
+                "name": "B. C. Matthews"
+            },
+            {
+                "name": "T. Löhne"
+            },
+            {
+                "name": "M. C. Wyatt"
+            },
+            {
+                "name": "P. Ábrahám"
+            },
+            {
+                "name": "M. Bonduelle"
+            },
+            {
+                "name": "M. Booth"
+            },
+            {
+                "name": "G. Cataldi"
+            },
+            {
+                "name": "J. M. Carpenter"
+            },
+            {
+                "name": "E. Chiang"
+            },
+            {
+                "name": "S. Ertel"
+            },
+            {
+                "name": "A. S. Hales"
+            },
+            {
+                "name": "Th. Henning"
+            },
+            {
+                "name": "Á. Kóspál"
+            },
+            {
+                "name": "A. V. Krivov"
+            },
+            {
+                "name": "P. Luppe"
+            },
+            {
+                "name": "M. A. MacGregor"
+            },
+            {
+                "name": "J. P. Marshall"
+            },
+            {
+                "name": "A. Moór"
+            },
+            {
+                "name": "S. Pérez"
+            },
+            {
+                "name": "A. A. Sefilian"
+            },
+            {
+                "name": "A. G. Sepulveda"
+            },
+            {
+                "name": "D. J. Wilner"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.11708v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.11708v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ],
+        "doi": {
+            "url": "https://doi.org/10.1051/0004-6361/202556489"
+        }
+    },
+    "2511.02334": {
+        "id": "http://arxiv.org/abs/2601.11824v1",
+        "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) VII: Optically thick gas with broad CO gaussian local line profiles in the HD 121617 disc",
+        "updated": "2026-01-16T23:00:42.000Z",
+        "published": "2026-01-16T23:00:42.000Z",
+        "summary": "CO gas has been detected in $\\sim$20 debris discs. We present ALMA observations of the CO-rich HD 121617 debris disc from the ARKS survey. Using high-resolution Band 7 observations of $^{12}CO \\ J=3-2$, we analyse local CO line profiles to investigate optical depth, CO mass, and temperature. Spectra are aligned and stacked in concentric annuli to produce local line profiles. The resulting profiles are Gaussian-shaped and broadened by Keplerian shear. The line profiles are modelled using both a simplified toy model and a RADMC-3D model including projection effects and Keplerian shear. Fitting the RADMC-3D model to the $^{13}$CO data, we find that an optically thick model with a temperature of 38 K and a CO mass of $2 \\times 10^{-3}$ M$_{\\oplus}$ reproduces the observations. The model reproduces the enhanced emission at orbital azimuths of $\\sim \\pm45^{\\circ}$ and $\\pm135^{\\circ}$, forming an X-shaped structure in the velocity-integrated intensity map, as well as the broader $^{12}$CO linewidth relative to $^{13}$CO. Scaling the model by the ISM abundance ratio ($\\sim$77) also reproduces the $^{12}$CO data, though high optical depths and model assumptions limit mass constraints. We find that azimuthally averaged local line profiles appear Gaussian regardless of optical depth, cautioning against their use for distinguishing optically thin and thick emission. We constrain the mean molecular weight to $12.6_{-1.1}^{+1.3}$, dependent on model assumptions. Our $^{13}$CO results suggest that C$^{18}$O may also be optically thick in CO-rich debris discs and that the mean molecular weight is significantly higher than if H$_2$ were the dominant gas species, suggesting a non-primordial composition.",
+        "authors": [
+            {
+                "name": "A. Brennan"
+            },
+            {
+                "name": "L. Matrà"
+            },
+            {
+                "name": "S. Mac Manamon"
+            },
+            {
+                "name": "S. Marino"
+            },
+            {
+                "name": "G. Cataldi"
+            },
+            {
+                "name": "A. M. Hughes"
+            },
+            {
+                "name": "P. Weber"
+            },
+            {
+                "name": "Y. Han"
+            },
+            {
+                "name": "J. P. Marshall"
+            },
+            {
+                "name": "B. Zawadzki"
+            },
+            {
+                "name": "P. Luppe"
+            },
+            {
+                "name": "A. A. Sefilian"
+            },
+            {
+                "name": "A. Moór"
+            },
+            {
+                "name": "M. A. MacGregor"
+            },
+            {
+                "name": "J. B. Lovell"
+            },
+            {
+                "name": "A. Kóspál"
+            },
+            {
+                "name": "M. Bonduelle"
+            },
+            {
+                "name": "E. Mansell"
+            },
+            {
+                "name": "M. C. Wyatt"
+            },
+            {
+                "name": "T. D. Pearce"
+            },
+            {
+                "name": "J. M. Carpenter"
+            },
+            {
+                "name": "D. J. Wilner"
+            },
+            {
+                "name": "C. del Burgo"
+            },
+            {
+                "name": "S. Pérez"
+            },
+            {
+                "name": "Th. Henning"
+            },
+            {
+                "name": "J. Milli"
+            },
+            {
+                "name": "E. Chiang"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.11824v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.11824v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ],
+        "doi": {
+            "url": "https://doi.org/10.1051/0004-6361/202556566"
+        }
+    },
+    "2512.24388": {
+        "id": "http://arxiv.org/abs/2601.15413v1",
+        "title": "The age sequence of young clusters in Perseus: Estimating ages from mass distributions",
+        "updated": "2026-01-21T19:26:01.000Z",
+        "published": "2026-01-21T19:26:01.000Z",
+        "summary": "Establishing ages for young clusters is key for properly tracking the star formation history of a region. In this paper we investigate a new approach to estimating ages for young populations, based on the well-founded assumption that the initial mass function is the same throughout a star forming cloud. We trial this method for six young clusters in the Perseus star forming region. For all six clusters, we construct new member samples in a homogeneous way using Gaia DR3. We estimate masses by comparing 2MASS photometry to theoretical isochrones, including Monte Carlo simulations to propagate the errors. We compare the mass distributions of the clusters for a range of plausible ages, looking for a combination of ages that results in indistinguishable mass distributions across the region. We find the best fit for ages of 1 Myr for NGC1333+Autochthe, 2 Myr for IC348, 2-3 Myr for Heleus, 3-4 Myr for Mestor, 4-5 Myr for Electryon+Cynurus, and 5-8 Myr for Alcaeus. All other combinations of ages are ruled out by this criterion. The established age sequence is consistent with the relative ages inferred from disc fractions, and broadly aligns with the age sequence determined in previous studies using isochrone fitting. We suggest that this approach can be a useful complement and cross-check to established methods to estimate ages in young populations.",
+        "authors": [
+            {
+                "name": "Tatiana Pavlidou"
+            },
+            {
+                "name": "Aleks Scholz"
+            },
+            {
+                "name": "Koraljka Muzic"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.15413v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.15413v1",
                 "rel": "related",
                 "type": "application/pdf"
             }
         ]
     },
-    "2512.07562": {
+    "2511.14733": {
+        "id": "http://arxiv.org/abs/2512.24388v1",
+        "title": "A closer look at the young stellar group around Sh 2-295",
+        "updated": "2025-12-30T18:03:01.000Z",
+        "published": "2025-12-30T18:03:01.000Z",
+        "summary": "Star formation is governed by multiple physical processes, making it inherently complicated. One excellent example is the Canis Major OB1/R1 Association, whose complex history of star formation is related to different episodes. Three supernova (SN) events potentially altered the environment and impacted star formation and stellar evolution. Prior investigations revealed two stellar groups of different ages associated with GU CMa and Z CMa. This work focusses on identifying the low-mass young stellar population near FZ CMa, located between these two groups and spatially related to the H II region Sh 2-295. Our main goal is to verify whether this group is age-mixed and characterise its physical properties. We analysed multi-object spectroscopic data acquired with Gemini/GMOS to search for typical features of T Tauri stars (TTs) and to determine their spectral types. Lithium absorption line ($λ$ 6708 $\\mathring{A}$) was used as a youth indicator, while H$α$ emission was investigated to probe accretion activity. We also derived ages based on optical photometry from Gaia DR3 and compared the projected spatial distribution to diffuse infrared (IR) emission. We identified 29 TTs, including six new members of the association and three Classical TTs (CTTs). The equivalent width of the Li I absorption line suggests an age of $8.1^{+2.1}_{-3.8}$ Myr, while optical photometric data indicate stellar ages ranging from $\\sim$1 to 14 Myr. Younger stars are concentrated around Sh 2-295, whereas the older ones are more widely dispersed. We increased the number of known TTs related to the CMa association. Our results support a scenario of multiple star-formation episodes, including a younger group that may have been triggered by the expansion of Sh 2-295. The influence of SN events appears limited in this context.",
+        "authors": [
+            {
+                "name": "João Victor Corrêa-Rodrigues"
+            },
+            {
+                "name": "Jane Gregorio-Hetem"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2512.24388v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2512.24388v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.11708": {
         "id": "http://arxiv.org/abs/2601.02344v1",
         "title": "Protoplanetary disk cavities with JWST-MIRI: a dichotomy in molecular emission",
         "updated": "2026-01-05T18:40:59.000Z",
@@ -398,7 +2939,322 @@
             }
         ]
     },
-    "2512.00157": {
+    "2601.13670": {
+        "id": "http://arxiv.org/abs/2601.11732v1",
+        "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS). X. Interpreting the peculiar dust rings around HD 131835",
+        "updated": "2026-01-16T19:28:34.000Z",
+        "published": "2026-01-16T19:28:34.000Z",
+        "summary": "Dusty discs detected around main-sequence stars are thought to be signs of planetesimal belts in which the dust distribution is shaped by collisional and dynamical processes, including interactions with gas if present. The debris disc around the young A-type star HD 131835 is composed of two dust rings at ~65 au and ~100 au, a third unconstrained innermost component, and a gaseous component centred at ~65 au. New ALMA observations show that the inner of the two dust rings is brighter than the outer one, in contrast with previous observations in scattered light. We explore two scenarios that could explain these observations: the two dust rings might represent distinct planetesimal belts with different collisional properties, or only the inner ring might contain planetesimals while the outer ring consists entirely of dust that has migrated outwards due to gas drag. To explore the first scenario, we employed a state-of-the-art collisional evolution code. To test the second scenario, we used a simple dynamical model of dust grain evolution in an optically thin gaseous disc. Collisional models of two planetesimal belts cannot fully reproduce the observations by only varying their dynamical excitation, and matching the data through a different material strength requires an extreme difference in dust composition. The gas-driven scenario can reproduce the location of the outer ring and the brightness ratio of the two rings from scattered light observations, but the resulting outer ring is too faint overall in both scattered light and sub-millimetre emission. The dust rings in HD 131835 could be produced from two planetesimal belts, although how these belts would attain the required extremely different properties needs to be explained. The dust-gas interaction is a plausible alternative explanation and deserves further study using a more comprehensive model.",
+        "authors": [
+            {
+                "name": "M. R. Jankovic"
+            },
+            {
+                "name": "N. Pawellek"
+            },
+            {
+                "name": "J. Zander"
+            },
+            {
+                "name": "T. Löhne"
+            },
+            {
+                "name": "A. V. Krivov"
+            },
+            {
+                "name": "J. Olofsson"
+            },
+            {
+                "name": "A. Brennan"
+            },
+            {
+                "name": "J. Milli"
+            },
+            {
+                "name": "M. Bonduelle"
+            },
+            {
+                "name": "M. C. Wyatt"
+            },
+            {
+                "name": "A. A. Sefilian"
+            },
+            {
+                "name": "T. Pearce"
+            },
+            {
+                "name": "S. Mac Manamon"
+            },
+            {
+                "name": "Y. Han"
+            },
+            {
+                "name": "S. Marino"
+            },
+            {
+                "name": "L. Matrá"
+            },
+            {
+                "name": "A. Moór"
+            },
+            {
+                "name": "M. Booth"
+            },
+            {
+                "name": "E. Chiang"
+            },
+            {
+                "name": "E. Mansell"
+            },
+            {
+                "name": "P. Weber"
+            },
+            {
+                "name": "A. M. Hughes"
+            },
+            {
+                "name": "D. J. Wilner"
+            },
+            {
+                "name": "P. Luppe"
+            },
+            {
+                "name": "B. Zawadzki"
+            },
+            {
+                "name": "C. del Burgo"
+            },
+            {
+                "name": "Á. Kóspál"
+            },
+            {
+                "name": "S. Pérez"
+            },
+            {
+                "name": "J. M. Carpenter"
+            },
+            {
+                "name": "Th. Henning"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.11732v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.11732v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ],
+        "doi": {
+            "url": "https://doi.org/10.1051/0004-6361/202556637"
+        }
+    },
+    "2601.12128": {
+        "id": "http://arxiv.org/abs/2601.19985v1",
+        "title": "The CO snow line favours strong clumping by the streaming instability in protoplanetary discs with porous grains",
+        "updated": "2026-01-27T19:00:04.000Z",
+        "published": "2026-01-27T19:00:04.000Z",
+        "summary": "Context: The radial drift and fragmentation of small dust grains in protoplanetary discs impedes their growth past centimetre sizes. Several mechanisms have been proposed to overcome these planet formation barriers, such as dust porosity or the streaming instability (SI), which is today regarded as the most promising mechanism to form planetesimals. Aims: Here, we examine whether the conditions for the SI to lead to strong clumping, the first step in planetesimal formation, are realised in protoplanetary discs containing porous grains. Methods: We used results from previous simulations of the evolution of porous grains subjected to growth, fragmentation, compaction and bouncing in protoplanetary discs. In the ensuing disc structures, we determined the regions where the dust-to-gas ratio exceeds the critical value for strong clumping found in simulations of the SI including external turbulence. Results: We find that the conditions for strong clumping are met within the first hundred thousand years in large regions of protoplanetary discs containing porous grains, provided that the CO snow line is taken into account. If the CO snow line is neglected, the conditions are met only very close to the inner disc edge early on, or over large areas well after 200,000 yr.",
+        "authors": [
+            {
+                "name": "Jean-François Gonzalez"
+            },
+            {
+                "name": "Stéphane Michoulier"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP",
+            "astro-ph.GA",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.19985v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.19985v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.11712": {
+        "id": "http://arxiv.org/abs/2512.00157v1",
+        "title": "Astrometric view of companions in the inner dust cavities of protoplanetary disks",
+        "updated": "2025-11-28T19:00:06.000Z",
+        "published": "2025-11-28T19:00:06.000Z",
+        "summary": "Protoplanetary disks with inner dust cavities (often referred to as \"transition disks\") are potential signposts of planet formation. We use Gaia astrometry to search for planetary and stellar companions in a sample of 98 transition disks, assessing the occurrence rate of such companions and their potential influence on cavity formation. For the 98 Young Stellar Objects (YSOs), we compute Gaia proper motion anomalies which, together with the RUWE, identify companions with mass ratios $q \\gtrsim 0.01$ at $\\sim$0.1-30 au. We assess the impact of disk gravity, accretion, disk-scattered light, dippers, starspots, jets, and outflows on the measured proper motion anomalies, concluding that astrometric techniques such as the one of this work can be robustly applied to YSOs. Significant proper motion anomalies are found in 31 transition disks (32% of the sample), indicative of companions. We recover 85% of known companions within our sensitivity range. We model the semi-major axis and mass required for a companion to reproduce the observed astrometric signals. Most inferred companions have $M > 30$ M$\\rm{_{J}}$, placing many within or near the stellar mass regime. Seven sources host companions compatible with a planetary mass ($M < 13$ M$\\rm{_{J}}$, HD 100453, J04343128+1722201, J16102955-3922144, MHO6, MP Mus, PDS 70, and Sz 76). For the non-detections, we provide the companion masses and semi-major axes that can be excluded in future searches. About half (53%) of detected companions cannot be reconciled with having carved the observed dust cavities. We find that transition disks host as many companions within our sensitivity range as do randomly sampled groups of YSOs and main-sequence stars. If dust cavities are shaped by companions, such companions must reside at larger orbital separations than those of the companions detected here, and we predict them to be of planetary mass. [abridged]",
+        "authors": [
+            {
+                "name": "Miguel Vioque"
+            },
+            {
+                "name": "Richard A. Booth"
+            },
+            {
+                "name": "Enrico Ragusa"
+            },
+            {
+                "name": "Álvaro Ribas"
+            },
+            {
+                "name": "Nicolás T. Kurtovic"
+            },
+            {
+                "name": "Giovanni P. Rosotti"
+            },
+            {
+                "name": "Zephyr Penoyre"
+            },
+            {
+                "name": "Stefano Facchini"
+            },
+            {
+                "name": "Antonio Garufi"
+            },
+            {
+                "name": "Carlo F. Manara"
+            },
+            {
+                "name": "Nuria Huélamo"
+            },
+            {
+                "name": "Andrew Winter"
+            },
+            {
+                "name": "Sebastián Pérez"
+            },
+            {
+                "name": "Myriam Benisty"
+            },
+            {
+                "name": "Ignacio Mendigutía"
+            },
+            {
+                "name": "Nicolás Cuello"
+            },
+            {
+                "name": "Anna B. T. Penzlin"
+            },
+            {
+                "name": "Alfred Castro-Ginard"
+            },
+            {
+                "name": "Richard Teague"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP",
+            "astro-ph.IM",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2512.00157v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2512.00157v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ],
+        "doi": {
+            "url": "https://doi.org/10.1051/0004-6361/202557086"
+        }
+    },
+    "2601.12586": {
+        "id": "http://arxiv.org/abs/2512.14458v1",
+        "title": "Bowshocks driven by the pole-on molecular jet of outbursting protostar SVS 13",
+        "updated": "2025-12-16T14:46:43.000Z",
+        "published": "2025-12-16T14:46:43.000Z",
+        "summary": "Outflows play a key role in the star and planet formation processes. Some outflows show discrete clumps of cold molecular gas moving at extremely high velocities (EHVs) of $\\sim$100 km s$^{-1}$, known as ''molecular bullets'', that are likely closely associated with their primary driving agent. Here we present ALMA CO(J=3-2) observations of a bright EHV molecular bullet that reveal its morphology in detail down to scales of 30 au and its kinematic structure across the entire intermediate velocity range ($\\sim$30-100 km s$^{-1}$). These provide important new insights into how outflows transfer mass and momentum to the surrounding medium. The observed channel maps display several sequences of ring-like features whose velocity increases and size decreases with projected distance from the driving source, each sequence tracing a thin, bow-shaped shell culminating on-axis in a bright EHV head. The shape, kinematics, and mass of each shell all agree remarkably well with the simplest textbook models of momentum-conserving bowshocks produced by a time-variable EHV jet. The dynamical timescale between consecutive shells is of a few decades, with the latest ejection event coinciding with the protostar optical/IR outburst observed in $\\sim$1990. The very strong evidence for bowshock-driven entrainment induced by jet variability revealed by this work suggests that accretion bursts, and therefore variations in the disk snowlines, should occur on decade timescales, which could substantially impact grain growth and planet formation.",
+        "authors": [
+            {
+                "name": "G. Blázquez-Calero"
+            },
+            {
+                "name": "G. Anglada"
+            },
+            {
+                "name": "S. Cabrit"
+            },
+            {
+                "name": "M. Osorio"
+            },
+            {
+                "name": "A. C. Raga"
+            },
+            {
+                "name": "G. A. Fuller"
+            },
+            {
+                "name": "J. F. Gómez"
+            },
+            {
+                "name": "R. Estalella"
+            },
+            {
+                "name": "A. K. Diaz-Rodriguez"
+            },
+            {
+                "name": "J. M. Torrelles"
+            },
+            {
+                "name": "L. F. Rodríguez"
+            },
+            {
+                "name": "E. Macías"
+            },
+            {
+                "name": "I. de Gregorio-Monsalvo"
+            },
+            {
+                "name": "S. T. Megeath"
+            },
+            {
+                "name": "L. Zapata"
+            },
+            {
+                "name": "P. T. P. Ho"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2512.14458v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2512.14458v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ],
+        "doi": {
+            "url": "https://doi.org/10.1038/s41550-025-02716-2"
+        }
+    },
+    "2601.11766": {
         "id": "http://arxiv.org/abs/2512.07562v1",
         "title": "Chemical complexity in star formation induced by stellar feedback: cores shock-formed by the supernova remnant W44",
         "updated": "2025-12-08T13:54:58.000Z",
@@ -456,7 +3312,98 @@
             }
         ]
     },
-    "2601.02344": {
+    "2601.11824": {
+        "id": "http://arxiv.org/abs/2512.06213v1",
+        "title": "The Milky Way Project: Bridging Intermediate- and High-Mass Star Formation with the MIRION Catalog of Yellowballs",
+        "updated": "2025-12-05T23:19:54.000Z",
+        "published": "2025-12-05T23:19:54.000Z",
+        "summary": "We describe the construction and use of the Mid-InfraRed Interstellar Objects and Nebulae (MIRION) catalog, which was compiled from 6176 objects identified as \"yellowballs\" (YBs) by participants in the Milky Way Project. The majority of YBs are compact photodissociation regions generated by intermediate- and high-mass young stellar objects that are embedded in star-forming clumps ranging in mass from ten to one million solar masses and luminosity from ten to ten thousand solar luminosities. The MIRION catalog increases the number of candidate intermediate-mass star-forming regions (SFRs) by nearly two orders of magnitude, providing an extensive database with which to explore the transition from isolated low-mass to clustered high-mass star formation. The catalog comprises five tables that include mid- and far-infrared photometry; velocities of source-associated molecular clouds; distances to these molecular clouds; physical properties of source-associated star-forming clumps; and source crossmatches with other catalogs. The structure of the catalog enables users to easily sort objects for further study based on distance or environmental properties. Our preliminary analysis extends our earlier findings that indicate a relationship between IR colors and the physical properties and evolutionary stages of SFRs. Photometry will be periodically updated online to incorporate measurements from volunteers participating in a classroom activity known as the People Enabling Research: a Yellowball Survey of the Colors Of Protostellar Environments (PERYSCOPE) Project. These updates will continue to refine the IR flux measurements and reduce photometric errors. A follow-up paper will present a detailed analysis of how IR colors can be used to predict the properties of star-forming environments.",
+        "authors": [
+            {
+                "name": "Kathryn Devine"
+            },
+            {
+                "name": "Grace Wolf-Chase"
+            },
+            {
+                "name": "C. R. Kerton"
+            },
+            {
+                "name": "Nicholas Larose"
+            },
+            {
+                "name": "Maya Coleman"
+            },
+            {
+                "name": "Makenzie Stapley"
+            },
+            {
+                "name": "Ethan Bassingthwaite"
+            },
+            {
+                "name": "Bezawit Mekasa Kassaye"
+            },
+            {
+                "name": "Hritik Rawat"
+            },
+            {
+                "name": "Tharindu Jayasinghe"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2512.06213v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2512.06213v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.11711": {
+        "id": "http://arxiv.org/abs/2512.06409v1",
+        "title": "Modelling dust coagulation, dynamical drag and turbulent mixing during star and disc formation",
+        "updated": "2025-12-06T12:04:27.000Z",
+        "published": "2025-12-06T12:04:27.000Z",
+        "summary": "Planet formation in the discs around young stars involves the coagulation of sub-micron sized dust grains into much larger grains that may be mixed by turbulence and migrate through the disc. In this paper, we describe how we have combined a method for modelling the coagulation of a population of dust grains with the MULTIGRAIN algorithm for modelling the dynamical evolution of a population of dust grains that are subject to strong gas drag. We solve the dynamical evolution of the dust grains due to gas drag using a recently-developed implicit integration method, and we introduce a new implicit method to model the diffusion of the dust due to unresolved hydrodynamic turbulence. The resulting smoothed particle hydrodynamics (SPH) code allows us, for the first time, to model the growth, mixing and migration of dust grain populations during the early stages of star formation and the formation, growth and evolution of a young protoplanetary disc using three-dimensional hydrodynamical simulations. In doing so, we find that including turbulent dust diffusion within the disc provides a substantial enhancement of the rate of dust grain growth due to the fact that the turbulent diffusion provides a source of small and intermediate dust grains to the regions in which the largest dust grains are growing.",
+        "authors": [
+            {
+                "name": "Matthew R. Bate"
+            },
+            {
+                "name": "Mark A. Hutchison"
+            },
+            {
+                "name": "Daniel Elsender"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2512.06409v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2512.06409v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.11709": {
         "id": "http://arxiv.org/abs/2512.02237v1",
         "title": "Evolution of the Accretion Rate of Young Intermediate Mass Stars: Implications for Disk Evolution and Planet Formation",
         "updated": "2025-12-01T22:07:04.000Z",
@@ -496,7 +3443,90 @@
             "url": "https://doi.org/10.3847/1538-3881/ae1a42"
         }
     },
-    "2512.06873": {
+    "2601.11732": {
+        "id": "http://arxiv.org/abs/2511.14733v2",
+        "title": "Starlight-driven flared-staircase geometry in radiation hydrodynamic models of protoplanetary disks",
+        "updated": "2026-01-06T13:07:37.000Z",
+        "published": "2025-11-18T18:26:05.000Z",
+        "summary": "Protoplanetary disks observed in millimeter continuum and scattered light show a variety of substructures. Various physical processes in the disk could trigger such features -- one of which that has been previously theorized for passive disks is the thermal wave instability -- the flared disk may become unstable as directly illuminated regions puff up and cast shadows behind them. This would manifest as bright and dark rings, and a staircase-like structure in the disk optical surface. We provide a realistic radiation hydrodynamic model to test the limits of the thermal wave instability in irradiated disks. We carry out global axisymmetric 2D hydrostatic and dynamic simulations including radiation transport with frequency-dependent ray-traced irradiation and flux-limited diffusion (FLD). We found that starlight-driven shadows are most prominent in optically thick, slow cooling disks, shown by our models with high surface densities and dust-to-gas ratios of sub-micron grains of 0.01. We recover that thermal waves form and propagate inwards in the hydrostatic limit. In contrast, our hydrodynamic models show bumps and shadows within 30 au that converge to a quasi-steady state on several radiative diffusion timescales -- indicating a long-lived staircase structure. We find that existing thermal pressure bumps could produce and enhance this effect, forming secondary shadowing downstream. Hydrostatic models with self-consistent dust settling instead show a superheated dust irradiation absorption surface with a radially smooth temperature profile without staircases. We conclude that one can recover thermally induced flared-staircase structures in radiation hydrodynamic simulations of irradiated protoplanetary disks using flux-limited diffusion. We highlight the importance of modeling dust dynamics consistently to explain starlight-driven shadows.",
+        "authors": [
+            {
+                "name": "Prakruti Sudarshan"
+            },
+            {
+                "name": "Mario Flock"
+            },
+            {
+                "name": "Alexandros Ziampras"
+            },
+            {
+                "name": "David Melon Fuksman"
+            },
+            {
+                "name": "Tilman Birnstiel"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2511.14733v2",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2511.14733v2",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2512.00246": {
+        "id": "http://arxiv.org/abs/2601.07184v1",
+        "title": "The stellar initial mass function of nearby young moving groups",
+        "updated": "2026-01-12T04:07:53.000Z",
+        "published": "2026-01-12T04:07:53.000Z",
+        "summary": "The solar neighbourhood is populated by nearby, young moving groups (NYMGs) of stars that are candidates to be remnants of individual stellar clusters and associations, currently dispersing in the galactic disc. To derive the initial mass function (IMF) of a large sample of NYMGs, we developed and applied an algorithm that uses photometry and astrometry from Gaia DR3 to detect NYMGs in a kinematic space. We inferred individual masses from the photometry of both the detected and the previously known candidates. We estimated the IMFs for 33 groups, 30 of them for the first time, in an average mass range $0.1<m/M_\\odot<5$ with some groups going as low as $0.02~M_{\\odot}$ and as high as $10~M_{\\odot}$. We parameterized these IMFs using a log-normal for $m<1~M_\\odot$ and a power-law for $m>1~M_\\odot$. We detected 4166 source candidate members of 44 known groups, including 2545 new candidates. We recovered 44-54\\% of the literature candidates and estimated a contamination rate from old field stars of 16-24\\%. The candidates of the detected groups distribute along young isochrones, which suggests that they are potential members of NYMGs. Parameterizations of both the average of the 33 IMFs based on our detections ($m_c=0.25\\pm0.17~M_{\\odot}$, $σ_c=0.45\\pm0.17$, and $α=-2.26\\pm0.09$) and the one based on the known candidates from the literature ($m_c=0.22\\pm0.14~M_{\\odot}$, $σ_c=0.45\\pm0.17$, and $α=-2.45\\pm0.06$) are in agreement with the IMF parameterization of the solar neighbourhood and young stellar associations. Our parameterization of the average IMF together with the distribution of the detected group members along young isochrones provide strong evidence suggesting that the NYMGs are remnants of individual stellar associations and clusters and that there are no systematic biases in our detection and in the literature in the range $0.1<m/M_{\\odot}<10$.",
+        "authors": [
+            {
+                "name": "Rafael Bertolotto-Stefanelli"
+            },
+            {
+                "name": "Juan José Downes"
+            },
+            {
+                "name": "Genaro Suárez"
+            },
+            {
+                "name": "Cecilia Mateu"
+            },
+            {
+                "name": "Jonathan Gagné"
+            },
+            {
+                "name": "Carlos Román Zúñiga"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.07184v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.07184v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.20146": {
         "id": "http://arxiv.org/abs/2601.05310v1",
         "title": "Interaction of the central jet with the surrounding gas in the protostellar outflow from IRAS 04166+2706",
         "updated": "2026-01-08T19:00:00.000Z",
@@ -538,5 +3568,247 @@
                 "type": "application/pdf"
             }
         ]
+    },
+    "2601.19985": {
+        "id": "http://arxiv.org/abs/2601.11709v1",
+        "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) IX: Gas-driven origin for the continuum arc in the debris disc of HD 121617",
+        "updated": "2026-01-16T19:00:02.000Z",
+        "published": "2026-01-16T19:00:02.000Z",
+        "summary": "Debris discs were long considered to be largely gas-free environments governed by collisional fragmentation, gravitational stirring, and radiative forces. Recent CO detections show that gas is present, but its abundance and origin remain uncertain. The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) revealed a narrow gas and dust ring in the disc HD 121617 with an asymmetric arc 40% brighter than the rest of the ring. We aim to constrain the total gas mass in HD 121617 assuming the dust arc is produced by hydrodynamical gas-dust interactions. We used the Dusty FARGO-ADSG code, modelling dust as Lagrangian particles, including radiation pressure and dust feedback, and varying the total gas mass. Simulations were compared to observations using radiative transfer. An unstable gas ring creates a size-dependent radial and azimuthal dust trap whose efficiency depends on gas mass. Two models, with 50 and 5 Earth masses of gas, reproduce both the ALMA band 7 arc and the outward offset of the VLT/SPHERE scattered-light ring via gas drag and radiation pressure. We infer a conservative gas-mass range of 2.5 to 250 Earth masses. If the ALMA asymmetry is caused by gas drag, the required gas mass compared with the observed CO implies substantial H2, consistent with primordial gas. HD 121617 would then be a hybrid disc between protoplanetary and debris stages. Since a planet could also create an arc, future observations are needed to distinguish these scenarios.",
+        "authors": [
+            {
+                "name": "Philipp Weber"
+            },
+            {
+                "name": "Sebastián Pérez"
+            },
+            {
+                "name": "Clément Baruteau"
+            },
+            {
+                "name": "Sebastian Marino"
+            },
+            {
+                "name": "Fernando Castillo"
+            },
+            {
+                "name": "Marija R. Jankovic"
+            },
+            {
+                "name": "Tim Pearce"
+            },
+            {
+                "name": "Mark C. Wyatt"
+            },
+            {
+                "name": "Antranik A. Sefilian"
+            },
+            {
+                "name": "Johan Olofsson"
+            },
+            {
+                "name": "Gianni Cataldi"
+            },
+            {
+                "name": "Joshua B. Lovell"
+            },
+            {
+                "name": "Carlos del Burgo"
+            },
+            {
+                "name": "A. Meredith Hughes"
+            },
+            {
+                "name": "Sorcha Mac Manamon"
+            },
+            {
+                "name": "Aoife Brennan"
+            },
+            {
+                "name": "Luca Matrà"
+            },
+            {
+                "name": "Julien Milli"
+            },
+            {
+                "name": "Brianna Zawadzki"
+            },
+            {
+                "name": "Eugene Chiang"
+            },
+            {
+                "name": "Meredith MacGregor"
+            },
+            {
+                "name": "David J. Wilner"
+            },
+            {
+                "name": "Myriam Bonduelle"
+            },
+            {
+                "name": "John Carpenter"
+            },
+            {
+                "name": "Yinuo Han"
+            },
+            {
+                "name": "Ágnes Kóspál"
+            },
+            {
+                "name": "Patricia Luppe"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.11709v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.11709v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
+    },
+    "2601.20826": {
+        "id": "http://arxiv.org/abs/2601.12586v1",
+        "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) V: Comparison between scattered light and thermal emission",
+        "updated": "2026-01-18T21:09:56.000Z",
+        "published": "2026-01-18T21:09:56.000Z",
+        "summary": "Debris discs are analogues to our own Kuiper belt around main-sequence stars and are therefore referred to as exoKuiper belts. They have been resolved at high angular resolution at wavelengths spanning the optical to the submillimetre-millimetre regime. Short wavelengths probe the light scattered by such discs, which is dominated by micron-sized dust particles, while millimetre wavelengths probe the thermal emission of millimetre-sized particles. Determining differences in the dust distribution between millimetre- and micron-sized dust is fundamental to revealing the dynamical processes affecting the dust in debris discs. We aim to compare the scattered light from the discs of the ALMA survey to Resolve exoKuiper belt Substructures (ARKS) with the thermal emission probed by ALMA. We focus on the radial distribution of the dust. We used high-contrast scattered light observations obtained with VLT/SPHERE, GPI, and the HST to uniformly study the dust distribution in those systems and compare it to the dust distribution extracted from the ALMA observations carried out in the course of the ARKS project. We also set constraints on the presence of planets by using these high-contrast images combined with exoplanet evolutionary models. 15 of the 24 discs comprising the ARKS sample are detected in scattered light, with TYC9340-437-1 being imaged for the first time at near-infrared wavelengths. For 6 of those 15 discs, the dust surface density seen in scattered light peaks farther out compared to that observed with ALMA. These 6 discs except one are known to also host cold CO gas. Conversely, the systems without significant offsets are not known to host gas, except one. This observational study suggests that the presence of gas in debris discs may affect the small and large grains differently, pushing the small dust to greater distances where the gas is less abundant.",
+        "authors": [
+            {
+                "name": "J. Milli"
+            },
+            {
+                "name": "J. Olofsson"
+            },
+            {
+                "name": "M. Bonduelle"
+            },
+            {
+                "name": "R. Bendahan-West"
+            },
+            {
+                "name": "J. P. Marshall"
+            },
+            {
+                "name": "E. Choquet"
+            },
+            {
+                "name": "A. A. Sefilian"
+            },
+            {
+                "name": "Y. Han"
+            },
+            {
+                "name": "B. Zawadzki"
+            },
+            {
+                "name": "S. Mac Manamon"
+            },
+            {
+                "name": "E. Mansell"
+            },
+            {
+                "name": "C. del Burgo"
+            },
+            {
+                "name": "J. M. Carpenter"
+            },
+            {
+                "name": "A. M. Hughes"
+            },
+            {
+                "name": "M. Booth"
+            },
+            {
+                "name": "E. Chiang"
+            },
+            {
+                "name": "S. Ertel"
+            },
+            {
+                "name": "Th. M. Esposito"
+            },
+            {
+                "name": "Th. Henning"
+            },
+            {
+                "name": "J. Hom"
+            },
+            {
+                "name": "M. R. Jankovic"
+            },
+            {
+                "name": "A. V. Krivov"
+            },
+            {
+                "name": "J. B. Lovell"
+            },
+            {
+                "name": "P. Luppe"
+            },
+            {
+                "name": "M. A. MacGregor"
+            },
+            {
+                "name": "S. Marino"
+            },
+            {
+                "name": "B. C. Matthews"
+            },
+            {
+                "name": "L. Matrà"
+            },
+            {
+                "name": "A. Moór"
+            },
+            {
+                "name": "N. Pawellek"
+            },
+            {
+                "name": "T. D. Pearce"
+            },
+            {
+                "name": "S. Pérez"
+            },
+            {
+                "name": "V. Squicciarin"
+            },
+            {
+                "name": "P. Weber"
+            },
+            {
+                "name": "D. J. Wilner"
+            },
+            {
+                "name": "M. C. Wyatt"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.12586v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.12586v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ],
+        "doi": {
+            "url": "https://doi.org/10.1051/0004-6361/202556523"
+        }
     }
 }

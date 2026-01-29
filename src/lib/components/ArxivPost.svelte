@@ -45,7 +45,7 @@
 	<div class="line"></div>
 {/if}
 
-<div class="checkbox">
+<div class="editor-controls">
 	<label><input type="checkbox" style="width: 20px; height: 20px;" bind:checked={hidden} /> Hide post</label>
 </div>
 <div class={classes}>
@@ -138,10 +138,20 @@
 		color: pink;
 		opacity: 0.5;
 	}
-	.checkbox {
+	.editor-controls {
 		position: absolute;
 		right: 3vw;
 		width: 15vw;
 		font-size: 20px;
+	}
+	@media print {
+		.editor-controls {
+			display: none;
+		}
+	}
+	@media screen and (max-width: 800px) {
+		.editor-controls {
+			display: none;
+		}
 	}
 </style>
