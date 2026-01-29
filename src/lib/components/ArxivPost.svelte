@@ -36,24 +36,34 @@
 				return katex.renderToString(inner, { displayMode: false, throwOnError: false });
 			});
 	}
+
+	let hidden = $state(false);
+	let classes = $derived(hidden ? 'grey' : '');
 </script>
 
 {#if topLine}
 	<div class="line"></div>
 {/if}
 
-<h4 class="title"><a href={arxivAbsLink} target="_blank">{@html renderLaTeX(post.title)}</a></h4>
-<p class="authors">{@html displayAuthors}</p>
-<p class="abstract">{@html renderLaTeX(post.summary)}</p>
-<p style="text-align: left">
-	<a href={arxivAbsLink} style="margin: 0px 10px" target="_blank">arXiv</a>
-	|
-	<a href={arxivPDFLink} style="margin: 0px 10px" target="_blank"> PDF </a>
-	|
-	<a href={nasaADSLink} style="margin: 0px 10px" target="_blank"> ADS </a>
-	|
-	<span style="color: var(--color-darkgrey); margin-left: 10px">{displayDate}</span>
-</p>
+<div class="checkbox">
+	<label><input type="checkbox" style="width: 20px; height: 20px;" bind:checked={hidden} /> Hide post</label>
+</div>
+<div class={classes}>
+	<h4 class="title"><a href={arxivAbsLink} target="_blank">{@html renderLaTeX(post.title)}</a></h4>
+	<div style="display: {hidden ? 'none' : 'block'}">
+		<p class="authors">{@html displayAuthors}</p>
+		<p class="abstract">{@html renderLaTeX(post.summary)}</p>
+		<p style="text-align: left">
+			<a href={arxivAbsLink} style="margin: 0px 10px" target="_blank">arXiv</a>
+			|
+			<a href={arxivPDFLink} style="margin: 0px 10px" target="_blank"> PDF </a>
+			|
+			<a href={nasaADSLink} style="margin: 0px 10px" target="_blank"> ADS </a>
+			|
+			<span style="color: var(--color-darkgrey); margin-left: 10px">{displayDate}</span>
+		</p>
+	</div>
+</div>
 
 <!-- <a href={post.id} target="_blank">
 	<button> arXiv </button>
@@ -124,4 +134,14 @@
 		border-radius: 6px;
 		background-color: var(--color-lightergrey);
 	} */
+	.grey {
+		color: pink;
+		opacity: 0.5;
+	}
+	.checkbox {
+		position: absolute;
+		right: 3vw;
+		width: 15vw;
+		font-size: 20px;
+	}
 </style>
