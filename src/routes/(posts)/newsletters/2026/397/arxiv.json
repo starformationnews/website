@@ -1365,913 +1365,116 @@
         ]
     },
     "2512.24380": {
-        "id": "http://arxiv.org/abs/2601.20826v1",
-        "title": "Euclid preparation. Galaxy power spectrum modelling in redshift space",
-        "updated": "2026-01-28T18:24:23.000Z",
-        "published": "2026-01-28T18:24:23.000Z",
-        "summary": "Accurate modelling of redshift-space distortions (RSD) is essential for maximizing the cosmological information extracted from large galaxy redshift surveys. In preparation for the forthcoming analysis of the Euclid spectroscopic data, we investigate three approaches to modelling RSD effects on the power spectrum multipoles of mock H$α$ emission line galaxies. We focus on two one-loop perturbation theory models -- the effective field theory (EFT) and velocity difference generator (${\\rm VDG_ \\infty}$) -- which differ in their treatment of the real-to-redshift space mapping on small scales, and a third approach, the BACCO emulator, which adopts a hybrid strategy combining perturbation theory with high-resolution N-body simulations. We assess the ability of these models to recover key cosmological parameters, including the expansion rate $h$, the cold dark matter density parameter $ω_{\\rm c}$, and the scalar amplitude $A_{\\rm s}$, across four redshift bins spanning $0.9 \\leq z \\leq 1.8$. In each bin, we find that ${\\rm VDG_ \\infty}$ and BACCO outperform the EFT model across all scales up to $k_{max} \\lesssim 0.35 h\\,Mpc^{-1} $. While BACCO saturates in constraining power at intermediate scales and higher redshift, the ${\\rm VDG_ \\infty}$ model continues to improve parameter constraints beyond $k_{max} \\gtrsim 0.30 h\\,Mpc^{-1}$. The EFT model, although robust on large scales, exhibits significant parameter biases for $k_{max} \\gtrsim 0.25 h\\,Mpc^{-1}$, limiting its applicability to Euclid-like H$α$ samples. Among the full perturbation theory-based models, the enhanced treatment of small-scale RSD effects in ${\\rm VDG_ \\infty}$ improves cosmological parameter constraints by up to a factor of two.",
+        "id": "http://arxiv.org/abs/2512.00246v2",
+        "title": "Variable X-ray Emission of the Planet Hosting T Tauri Star CI Tau",
+        "updated": "2026-01-13T14:30:24.000Z",
+        "published": "2025-11-28T23:32:12.000Z",
+        "summary": "We report results of Chandra X-ray observations of CI Tau, a young magnetically active classical T Tauri star for which previous studies have reported periodic variability attributed to a massive planet in a short-period orbit. CI Tau was clearly detected by Chandra in four separate observations acquired in late 2023. The X-ray emission was steady in the first two observations with a characteristic plasma temperature kT ~ 2 keV (~23 MK) and X-ray luminosity log Lx = 29.74 erg/s. During each of the last two observations obtained two weeks later the count rate increased slowly and the X-ray plasma temperature was much higher but remained nearly steady at kT ~ 4 - 5 keV (~46 - 58 MK) and peak luminosity log Lx = 30.5 erg/s. Such variable X-ray emission in T Tauri stars accompanied by high plasma temperatures is a signature of magnetic activity, consistent with the known presence of a strong magnetic field in CI Tau. We summarize the variable X-ray emission properties of CI Tau within the framework of T Tauri stars of similar mid-K spectral type, identify possible variability mechanisms, and assess the effects of stellar X-ray irradiation on the claimed planet.",
         "authors": [
             {
-                "name": "Euclid Collaboration"
+                "name": "Stephen L. Skinner"
             },
             {
-                "name": "B. Camacho Quevedo"
-            },
-            {
-                "name": "M. Crocce"
-            },
-            {
-                "name": "M. Pellejero Ibañez"
-            },
-            {
-                "name": "R. E. Angulo"
-            },
-            {
-                "name": "A. Pezzotta"
-            },
-            {
-                "name": "A. Eggemeier"
-            },
-            {
-                "name": "G. Gambardella"
-            },
-            {
-                "name": "C. Moretti"
-            },
-            {
-                "name": "E. Sefusatti"
-            },
-            {
-                "name": "A. Moradinezhad Dizgah"
-            },
-            {
-                "name": "M. Zennaro"
-            },
-            {
-                "name": "M. -A. Breton"
-            },
-            {
-                "name": "A. Chudaykin"
-            },
-            {
-                "name": "G. D'Amico"
-            },
-            {
-                "name": "V. Desjacques"
-            },
-            {
-                "name": "S. de la Torre"
-            },
-            {
-                "name": "M. Guidi"
-            },
-            {
-                "name": "M. Kärcher"
-            },
-            {
-                "name": "K. Pardede"
-            },
-            {
-                "name": "C. Porciani"
-            },
-            {
-                "name": "A. Pugno"
-            },
-            {
-                "name": "J. Salvalaggio"
-            },
-            {
-                "name": "E. Sarpa"
-            },
-            {
-                "name": "A. Veropalumbo"
-            },
-            {
-                "name": "B. Altieri"
-            },
-            {
-                "name": "S. Andreon"
-            },
-            {
-                "name": "N. Auricchio"
-            },
-            {
-                "name": "C. Baccigalupi"
-            },
-            {
-                "name": "M. Baldi"
-            },
-            {
-                "name": "S. Bardelli"
-            },
-            {
-                "name": "R. Bender"
-            },
-            {
-                "name": "A. Biviano"
-            },
-            {
-                "name": "E. Branchini"
-            },
-            {
-                "name": "M. Brescia"
-            },
-            {
-                "name": "S. Camera"
-            },
-            {
-                "name": "V. Capobianco"
-            },
-            {
-                "name": "C. Carbone"
-            },
-            {
-                "name": "V. F. Cardone"
-            },
-            {
-                "name": "J. Carretero"
-            },
-            {
-                "name": "S. Casas"
-            },
-            {
-                "name": "F. J. Castander"
-            },
-            {
-                "name": "M. Castellano"
-            },
-            {
-                "name": "G. Castignani"
-            },
-            {
-                "name": "S. Cavuoti"
-            },
-            {
-                "name": "K. C. Chambers"
-            },
-            {
-                "name": "A. Cimatti"
-            },
-            {
-                "name": "C. Colodro-Conde"
-            },
-            {
-                "name": "G. Congedo"
-            },
-            {
-                "name": "L. Conversi"
-            },
-            {
-                "name": "Y. Copin"
-            },
-            {
-                "name": "F. Courbin"
-            },
-            {
-                "name": "H. M. Courtois"
-            },
-            {
-                "name": "H. Degaudenzi"
-            },
-            {
-                "name": "G. De Lucia"
-            },
-            {
-                "name": "H. Dole"
-            },
-            {
-                "name": "M. Douspis"
-            },
-            {
-                "name": "F. Dubath"
-            },
-            {
-                "name": "C. A. J. Duncan"
-            },
-            {
-                "name": "X. Dupac"
-            },
-            {
-                "name": "S. Dusini"
-            },
-            {
-                "name": "S. Escoffier"
-            },
-            {
-                "name": "M. Farina"
-            },
-            {
-                "name": "R. Farinelli"
-            },
-            {
-                "name": "S. Farrens"
-            },
-            {
-                "name": "S. Ferriol"
-            },
-            {
-                "name": "F. Finelli"
-            },
-            {
-                "name": "S. Fotopoulou"
-            },
-            {
-                "name": "N. Fourmanoit"
-            },
-            {
-                "name": "M. Frailis"
-            },
-            {
-                "name": "E. Franceschi"
-            },
-            {
-                "name": "M. Fumana"
-            },
-            {
-                "name": "S. Galeotta"
-            },
-            {
-                "name": "K. George"
-            },
-            {
-                "name": "B. Gillis"
-            },
-            {
-                "name": "C. Giocoli"
-            },
-            {
-                "name": "J. Gracia-Carpio"
-            },
-            {
-                "name": "A. Grazian"
-            },
-            {
-                "name": "F. Grupp"
-            },
-            {
-                "name": "L. Guzzo"
-            },
-            {
-                "name": "S. V. H. Haugan"
-            },
-            {
-                "name": "W. Holmes"
-            },
-            {
-                "name": "F. Hormuth"
-            },
-            {
-                "name": "A. Hornstrup"
-            },
-            {
-                "name": "K. Jahnke"
-            },
-            {
-                "name": "B. Joachimi"
-            },
-            {
-                "name": "S. Kermiche"
-            },
-            {
-                "name": "A. Kiessling"
-            },
-            {
-                "name": "B. Kubik"
-            },
-            {
-                "name": "M. Kümmel"
-            },
-            {
-                "name": "M. Kunz"
-            },
-            {
-                "name": "H. Kurki-Suonio"
-            },
-            {
-                "name": "A. M. C. Le Brun"
-            },
-            {
-                "name": "S. Ligori"
-            },
-            {
-                "name": "P. B. Lilje"
-            },
-            {
-                "name": "V. Lindholm"
-            },
-            {
-                "name": "I. Lloro"
-            },
-            {
-                "name": "G. Mainetti"
-            },
-            {
-                "name": "E. Maiorano"
-            },
-            {
-                "name": "O. Mansutti"
-            },
-            {
-                "name": "S. Marcin"
-            },
-            {
-                "name": "O. Marggraf"
-            },
-            {
-                "name": "M. Martinelli"
-            },
-            {
-                "name": "N. Martinet"
-            },
-            {
-                "name": "F. Marulli"
-            },
-            {
-                "name": "R. J. Massey"
-            },
-            {
-                "name": "E. Medinaceli"
-            },
-            {
-                "name": "M. Melchior"
-            },
-            {
-                "name": "M. Meneghetti"
-            },
-            {
-                "name": "E. Merlin"
-            },
-            {
-                "name": "G. Meylan"
-            },
-            {
-                "name": "A. Mora"
-            },
-            {
-                "name": "M. Moresco"
-            },
-            {
-                "name": "L. Moscardini"
-            },
-            {
-                "name": "C. Neissner"
-            },
-            {
-                "name": "S. -M. Niemi"
-            },
-            {
-                "name": "C. Padilla"
-            },
-            {
-                "name": "S. Paltani"
-            },
-            {
-                "name": "F. Pasian"
-            },
-            {
-                "name": "K. Pedersen"
-            },
-            {
-                "name": "W. J. Percival"
-            },
-            {
-                "name": "V. Pettorino"
-            },
-            {
-                "name": "S. Pires"
-            },
-            {
-                "name": "G. Polenta"
-            },
-            {
-                "name": "M. Poncet"
-            },
-            {
-                "name": "L. A. Popa"
-            },
-            {
-                "name": "F. Raison"
-            },
-            {
-                "name": "J. Rhodes"
-            },
-            {
-                "name": "G. Riccio"
-            },
-            {
-                "name": "F. Rizzo"
-            },
-            {
-                "name": "E. Romelli"
-            },
-            {
-                "name": "M. Roncarelli"
-            },
-            {
-                "name": "R. Saglia"
-            },
-            {
-                "name": "Z. Sakr"
-            },
-            {
-                "name": "A. G. Sánchez"
-            },
-            {
-                "name": "D. Sapone"
-            },
-            {
-                "name": "B. Sartoris"
-            },
-            {
-                "name": "P. Schneider"
-            },
-            {
-                "name": "A. Secroun"
-            },
-            {
-                "name": "G. Seidel"
-            },
-            {
-                "name": "E. Sihvola"
-            },
-            {
-                "name": "P. Simon"
-            },
-            {
-                "name": "C. Sirignano"
-            },
-            {
-                "name": "G. Sirri"
-            },
-            {
-                "name": "A. Spurio Mancini"
-            },
-            {
-                "name": "L. Stanco"
-            },
-            {
-                "name": "P. Tallada-Crespí"
-            },
-            {
-                "name": "D. Tavagnacco"
-            },
-            {
-                "name": "A. N. Taylor"
-            },
-            {
-                "name": "I. Tereno"
-            },
-            {
-                "name": "N. Tessore"
-            },
-            {
-                "name": "S. Toft"
-            },
-            {
-                "name": "R. Toledo-Moreo"
-            },
-            {
-                "name": "F. Torradeflot"
-            },
-            {
-                "name": "I. Tutusaus"
-            },
-            {
-                "name": "J. Valiviita"
-            },
-            {
-                "name": "T. Vassallo"
-            },
-            {
-                "name": "Y. Wang"
-            },
-            {
-                "name": "J. Weller"
-            },
-            {
-                "name": "G. Zamorani"
-            },
-            {
-                "name": "F. M. Zerbi"
-            },
-            {
-                "name": "E. Zucca"
-            },
-            {
-                "name": "V. Allevato"
-            },
-            {
-                "name": "M. Ballardini"
-            },
-            {
-                "name": "A. Boucaud"
-            },
-            {
-                "name": "E. Bozzo"
-            },
-            {
-                "name": "C. Burigana"
-            },
-            {
-                "name": "R. Cabanac"
-            },
-            {
-                "name": "M. Calabrese"
-            },
-            {
-                "name": "A. Cappi"
-            },
-            {
-                "name": "T. Castro"
-            },
-            {
-                "name": "J. A. Escartin Vigo"
-            },
-            {
-                "name": "L. Gabarra"
-            },
-            {
-                "name": "J. Macias-Perez"
-            },
-            {
-                "name": "R. Maoli"
-            },
-            {
-                "name": "J. Martín-Fleitas"
-            },
-            {
-                "name": "N. Mauri"
-            },
-            {
-                "name": "R. B. Metcalf"
-            },
-            {
-                "name": "P. Monaco"
-            },
-            {
-                "name": "A. A. Nucita"
-            },
-            {
-                "name": "M. Pöntinen"
-            },
-            {
-                "name": "I. Risso"
-            },
-            {
-                "name": "V. Scottez"
-            },
-            {
-                "name": "M. Sereno"
-            },
-            {
-                "name": "M. Tenti"
-            },
-            {
-                "name": "M. Tucci"
-            },
-            {
-                "name": "M. Viel"
-            },
-            {
-                "name": "M. Wiesmann"
-            },
-            {
-                "name": "Y. Akrami"
-            },
-            {
-                "name": "I. T. Andika"
-            },
-            {
-                "name": "G. Angora"
-            },
-            {
-                "name": "M. Archidiacono"
-            },
-            {
-                "name": "F. Atrio-Barandela"
-            },
-            {
-                "name": "L. Bazzanini"
-            },
-            {
-                "name": "J. Bel"
-            },
-            {
-                "name": "D. Bertacca"
-            },
-            {
-                "name": "M. Bethermin"
-            },
-            {
-                "name": "A. Blanchard"
-            },
-            {
-                "name": "L. Blot"
-            },
-            {
-                "name": "H. Böhringer"
-            },
-            {
-                "name": "S. Borgani"
-            },
-            {
-                "name": "M. L. Brown"
-            },
-            {
-                "name": "S. Bruton"
-            },
-            {
-                "name": "A. Calabro"
-            },
-            {
-                "name": "F. Caro"
-            },
-            {
-                "name": "C. S. Carvalho"
-            },
-            {
-                "name": "F. Cogato"
-            },
-            {
-                "name": "A. R. Cooray"
-            },
-            {
-                "name": "S. Davini"
-            },
-            {
-                "name": "F. De Paolis"
-            },
-            {
-                "name": "G. Desprez"
-            },
-            {
-                "name": "A. Díaz-Sánchez"
-            },
-            {
-                "name": "S. Di Domizio"
-            },
-            {
-                "name": "J. M. Diego"
-            },
-            {
-                "name": "V. Duret"
-            },
-            {
-                "name": "M. Y. Elkhashab"
-            },
-            {
-                "name": "A. Enia"
-            },
-            {
-                "name": "Y. Fang"
-            },
-            {
-                "name": "A. G. Ferrari"
-            },
-            {
-                "name": "A. Finoguenov"
-            },
-            {
-                "name": "A. Fontana"
-            },
-            {
-                "name": "F. Fontanot"
-            },
-            {
-                "name": "A. Franco"
-            },
-            {
-                "name": "K. Ganga"
-            },
-            {
-                "name": "T. Gasparetto"
-            },
-            {
-                "name": "E. Gaztanaga"
-            },
-            {
-                "name": "F. Giacomini"
-            },
-            {
-                "name": "F. Gianotti"
-            },
-            {
-                "name": "G. Gozaliasl"
-            },
-            {
-                "name": "A. Gruppuso"
-            },
-            {
-                "name": "C. M. Gutierrez"
-            },
-            {
-                "name": "A. Hall"
-            },
-            {
-                "name": "C. Hernández-Monteagudo"
-            },
-            {
-                "name": "H. Hildebrandt"
-            },
-            {
-                "name": "J. Hjorth"
-            },
-            {
-                "name": "J. J. E. Kajava"
-            },
-            {
-                "name": "Y. Kang"
-            },
-            {
-                "name": "V. Kansal"
-            },
-            {
-                "name": "D. Karagiannis"
-            },
-            {
-                "name": "K. Kiiveri"
-            },
-            {
-                "name": "J. Kim"
-            },
-            {
-                "name": "C. C. Kirkpatrick"
-            },
-            {
-                "name": "S. Kruk"
-            },
-            {
-                "name": "L. Legrand"
-            },
-            {
-                "name": "M. Lembo"
-            },
-            {
-                "name": "F. Lepori"
-            },
-            {
-                "name": "G. Leroy"
-            },
-            {
-                "name": "G. F. Lesci"
-            },
-            {
-                "name": "J. Lesgourgues"
-            },
-            {
-                "name": "T. I. Liaudat"
-            },
-            {
-                "name": "M. Magliocchetti"
-            },
-            {
-                "name": "F. Mannucci"
-            },
-            {
-                "name": "C. J. A. P. Martins"
-            },
-            {
-                "name": "L. Maurin"
-            },
-            {
-                "name": "M. Miluzio"
-            },
-            {
-                "name": "A. Montoro"
-            },
-            {
-                "name": "G. Morgante"
-            },
-            {
-                "name": "S. Nadathur"
-            },
-            {
-                "name": "K. Naidoo"
-            },
-            {
-                "name": "A. Navarro-Alsina"
-            },
-            {
-                "name": "S. Nesseris"
-            },
-            {
-                "name": "L. Pagano"
-            },
-            {
-                "name": "D. Paoletti"
-            },
-            {
-                "name": "F. Passalacqua"
-            },
-            {
-                "name": "K. Paterson"
-            },
-            {
-                "name": "L. Patrizii"
-            },
-            {
-                "name": "A. Pisani"
-            },
-            {
-                "name": "D. Potter"
-            },
-            {
-                "name": "G. W. Pratt"
-            },
-            {
-                "name": "S. Quai"
-            },
-            {
-                "name": "M. Radovich"
-            },
-            {
-                "name": "K. Rojas"
-            },
-            {
-                "name": "W. Roster"
-            },
-            {
-                "name": "S. Sacquegna"
-            },
-            {
-                "name": "M. Sahlén"
-            },
-            {
-                "name": "D. B. Sanders"
-            },
-            {
-                "name": "A. Schneider"
-            },
-            {
-                "name": "D. Sciotti"
-            },
-            {
-                "name": "E. Sellentin"
-            },
-            {
-                "name": "L. C. Smith"
-            },
-            {
-                "name": "K. Tanidis"
-            },
-            {
-                "name": "C. Tao"
-            },
-            {
-                "name": "F. Tarsitano"
-            },
-            {
-                "name": "G. Testera"
-            },
-            {
-                "name": "R. Teyssier"
-            },
-            {
-                "name": "S. Tosi"
-            },
-            {
-                "name": "A. Troja"
-            },
-            {
-                "name": "D. Vergani"
-            },
-            {
-                "name": "F. Vernizzi"
-            },
-            {
-                "name": "G. Verza"
-            },
-            {
-                "name": "P. Vielzeuf"
-            },
-            {
-                "name": "S. Vinciguerra"
-            },
-            {
-                "name": "N. A. Walton"
-            },
-            {
-                "name": "A. H. Wright"
+                "name": "Manuel Guedel"
             }
         ],
         "categories": [
-            "astro-ph.CO"
+            "astro-ph.SR"
         ],
-        "primaryCategory": "astro-ph.CO",
+        "primaryCategory": "astro-ph.SR",
         "links": [
             {
-                "href": "https://arxiv.org/abs/2601.20826v1",
+                "href": "https://arxiv.org/abs/2512.00246v2",
                 "rel": "alternate",
                 "type": "text/html"
             },
             {
-                "href": "https://arxiv.org/pdf/2601.20826v1",
+                "href": "https://arxiv.org/pdf/2512.00246v2",
                 "rel": "related",
                 "type": "application/pdf"
             }
         ]
     },
     "2512.06213": {
+        "id": "http://arxiv.org/abs/2511.21800v1",
+        "title": "Globules and pillars in Cygnus X IV. Velocity-resolved [OI] 63 mu map of a peculiar proplyd-like object",
+        "updated": "2025-11-26T17:49:54.000Z",
+        "published": "2025-11-26T17:49:54.000Z",
+        "summary": "We investigated an isolated, globule-shaped object (0.37x0.11 pc), located near the centre of the Cygnus OB2 cluster and named proplyd #7 in optical observations. The source can be a massive star (with or without disc) with a HII region or a G-type T Tauri star with a photo-evaporating disc, embedded in a molecular envelope. We obtained a map of the OI line at 63 micron with 6\" angular resolution and employed archival data of the CII 158 micron line (14\" resolution), using the upGREAT heterodyne receiver aboard SOFIA. We also collected IRAM 30m CO data at 1mm (11\" resolution). All the lines were detected across the whole object. The peak integrated OI emission of ~5 K km/s is located ~10\" west of an embedded YSO. The OI and CII data near the source show bulk emission at ~11 km/s and a line wing at ~13 km/s, while the 12CO 2-1 data reveal additional blue-shifted high-velocity emission. The KOSMA-tau PDR model can explain the emissions in the tail with a low external UV field (<350 Go, mostly consistent with our UV field estimates), but not at the location of the YSO. There, the high line intensities and increased line widths for all lines and a possible bipolar CO outflow suggest the presence of a protostellar disc. However, the existence of a thermal HII region, revealed by combining existing and new radio continuum data, points towards a massive star - and not a T Tauri-type one. We derived molecular and atomic gas masses of ~20 Msun and a few Msun, respectively. The photo-evaporation (only considering external illumination) lifetime of 1.6x10^5 yrs is shorter than the free-fall lifetime of 5.2x10^5 yrs; thus, we find that proplyd #7 might not have had the time to produce many more stars.",
+        "authors": [
+            {
+                "name": "N. Schneider"
+            },
+            {
+                "name": "S. Dannhauer"
+            },
+            {
+                "name": "E. Keilmann"
+            },
+            {
+                "name": "S. Kabanovic"
+            },
+            {
+                "name": "T. Topkaras"
+            },
+            {
+                "name": "V. Ossenkopf-Okada"
+            },
+            {
+                "name": "R. Higgins"
+            },
+            {
+                "name": "A. Brunthaler"
+            },
+            {
+                "name": "Won-Ju Kim"
+            },
+            {
+                "name": "F. Comeron"
+            },
+            {
+                "name": "M. Roellig"
+            },
+            {
+                "name": "T. Csengeri"
+            },
+            {
+                "name": "R. Simon"
+            },
+            {
+                "name": "Y. Okada"
+            },
+            {
+                "name": "M. Justen"
+            },
+            {
+                "name": "S. A. Dzib"
+            },
+            {
+                "name": "G. N. Ortiz-León"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2511.21800v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2511.21800v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ],
+        "doi": {
+            "url": "https://doi.org/10.1051/0004-6361/202557227"
+        }
+    },
+    "2512.06409": {
         "id": "http://arxiv.org/abs/2512.00474v1",
         "title": "Excitation of molecular hydrogen by cosmic-ray protons",
         "updated": "2025-11-29T13:03:19.000Z",
@@ -2319,38 +1522,116 @@
             }
         ]
     },
-    "2512.06409": {
-        "id": "http://arxiv.org/abs/2512.00246v2",
-        "title": "Variable X-ray Emission of the Planet Hosting T Tauri Star CI Tau",
-        "updated": "2026-01-13T14:30:24.000Z",
-        "published": "2025-11-28T23:32:12.000Z",
-        "summary": "We report results of Chandra X-ray observations of CI Tau, a young magnetically active classical T Tauri star for which previous studies have reported periodic variability attributed to a massive planet in a short-period orbit. CI Tau was clearly detected by Chandra in four separate observations acquired in late 2023. The X-ray emission was steady in the first two observations with a characteristic plasma temperature kT ~ 2 keV (~23 MK) and X-ray luminosity log Lx = 29.74 erg/s. During each of the last two observations obtained two weeks later the count rate increased slowly and the X-ray plasma temperature was much higher but remained nearly steady at kT ~ 4 - 5 keV (~46 - 58 MK) and peak luminosity log Lx = 30.5 erg/s. Such variable X-ray emission in T Tauri stars accompanied by high plasma temperatures is a signature of magnetic activity, consistent with the known presence of a strong magnetic field in CI Tau. We summarize the variable X-ray emission properties of CI Tau within the framework of T Tauri stars of similar mid-K spectral type, identify possible variability mechanisms, and assess the effects of stellar X-ray irradiation on the claimed planet.",
+    "2511.02061": {
+        "id": "http://arxiv.org/abs/2601.11824v1",
+        "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) VII: Optically thick gas with broad CO gaussian local line profiles in the HD 121617 disc",
+        "updated": "2026-01-16T23:00:42.000Z",
+        "published": "2026-01-16T23:00:42.000Z",
+        "summary": "CO gas has been detected in $\\sim$20 debris discs. We present ALMA observations of the CO-rich HD 121617 debris disc from the ARKS survey. Using high-resolution Band 7 observations of $^{12}CO \\ J=3-2$, we analyse local CO line profiles to investigate optical depth, CO mass, and temperature. Spectra are aligned and stacked in concentric annuli to produce local line profiles. The resulting profiles are Gaussian-shaped and broadened by Keplerian shear. The line profiles are modelled using both a simplified toy model and a RADMC-3D model including projection effects and Keplerian shear. Fitting the RADMC-3D model to the $^{13}$CO data, we find that an optically thick model with a temperature of 38 K and a CO mass of $2 \\times 10^{-3}$ M$_{\\oplus}$ reproduces the observations. The model reproduces the enhanced emission at orbital azimuths of $\\sim \\pm45^{\\circ}$ and $\\pm135^{\\circ}$, forming an X-shaped structure in the velocity-integrated intensity map, as well as the broader $^{12}$CO linewidth relative to $^{13}$CO. Scaling the model by the ISM abundance ratio ($\\sim$77) also reproduces the $^{12}$CO data, though high optical depths and model assumptions limit mass constraints. We find that azimuthally averaged local line profiles appear Gaussian regardless of optical depth, cautioning against their use for distinguishing optically thin and thick emission. We constrain the mean molecular weight to $12.6_{-1.1}^{+1.3}$, dependent on model assumptions. Our $^{13}$CO results suggest that C$^{18}$O may also be optically thick in CO-rich debris discs and that the mean molecular weight is significantly higher than if H$_2$ were the dominant gas species, suggesting a non-primordial composition.",
         "authors": [
             {
-                "name": "Stephen L. Skinner"
+                "name": "A. Brennan"
             },
             {
-                "name": "Manuel Guedel"
+                "name": "L. Matrà"
+            },
+            {
+                "name": "S. Mac Manamon"
+            },
+            {
+                "name": "S. Marino"
+            },
+            {
+                "name": "G. Cataldi"
+            },
+            {
+                "name": "A. M. Hughes"
+            },
+            {
+                "name": "P. Weber"
+            },
+            {
+                "name": "Y. Han"
+            },
+            {
+                "name": "J. P. Marshall"
+            },
+            {
+                "name": "B. Zawadzki"
+            },
+            {
+                "name": "P. Luppe"
+            },
+            {
+                "name": "A. A. Sefilian"
+            },
+            {
+                "name": "A. Moór"
+            },
+            {
+                "name": "M. A. MacGregor"
+            },
+            {
+                "name": "J. B. Lovell"
+            },
+            {
+                "name": "A. Kóspál"
+            },
+            {
+                "name": "M. Bonduelle"
+            },
+            {
+                "name": "E. Mansell"
+            },
+            {
+                "name": "M. C. Wyatt"
+            },
+            {
+                "name": "T. D. Pearce"
+            },
+            {
+                "name": "J. M. Carpenter"
+            },
+            {
+                "name": "D. J. Wilner"
+            },
+            {
+                "name": "C. del Burgo"
+            },
+            {
+                "name": "S. Pérez"
+            },
+            {
+                "name": "Th. Henning"
+            },
+            {
+                "name": "J. Milli"
+            },
+            {
+                "name": "E. Chiang"
             }
         ],
         "categories": [
-            "astro-ph.SR"
+            "astro-ph.EP"
         ],
-        "primaryCategory": "astro-ph.SR",
+        "primaryCategory": "astro-ph.EP",
         "links": [
             {
-                "href": "https://arxiv.org/abs/2512.00246v2",
+                "href": "https://arxiv.org/abs/2601.11824v1",
                 "rel": "alternate",
                 "type": "text/html"
             },
             {
-                "href": "https://arxiv.org/pdf/2512.00246v2",
+                "href": "https://arxiv.org/pdf/2601.11824v1",
                 "rel": "related",
                 "type": "application/pdf"
             }
-        ]
+        ],
+        "doi": {
+            "url": "https://doi.org/10.1051/0004-6361/202556566"
+        }
     },
-    "2511.02061": {
+    "2601.15413": {
         "id": "http://arxiv.org/abs/2601.13670v1",
         "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) II. The radial structure of debris discs",
         "updated": "2026-01-20T07:12:04.000Z",
@@ -2503,7 +1784,7 @@
             "url": "https://doi.org/10.1051/0004-6361/202556450"
         }
     },
-    "2601.15413": {
+    "2511.02334": {
         "id": "http://arxiv.org/abs/2601.11708v1",
         "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) I: Motivation, sample, data reduction, and results overview",
         "updated": "2026-01-16T19:00:02.000Z",
@@ -2655,115 +1936,6 @@
         ],
         "doi": {
             "url": "https://doi.org/10.1051/0004-6361/202556489"
-        }
-    },
-    "2511.02334": {
-        "id": "http://arxiv.org/abs/2601.11824v1",
-        "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) VII: Optically thick gas with broad CO gaussian local line profiles in the HD 121617 disc",
-        "updated": "2026-01-16T23:00:42.000Z",
-        "published": "2026-01-16T23:00:42.000Z",
-        "summary": "CO gas has been detected in $\\sim$20 debris discs. We present ALMA observations of the CO-rich HD 121617 debris disc from the ARKS survey. Using high-resolution Band 7 observations of $^{12}CO \\ J=3-2$, we analyse local CO line profiles to investigate optical depth, CO mass, and temperature. Spectra are aligned and stacked in concentric annuli to produce local line profiles. The resulting profiles are Gaussian-shaped and broadened by Keplerian shear. The line profiles are modelled using both a simplified toy model and a RADMC-3D model including projection effects and Keplerian shear. Fitting the RADMC-3D model to the $^{13}$CO data, we find that an optically thick model with a temperature of 38 K and a CO mass of $2 \\times 10^{-3}$ M$_{\\oplus}$ reproduces the observations. The model reproduces the enhanced emission at orbital azimuths of $\\sim \\pm45^{\\circ}$ and $\\pm135^{\\circ}$, forming an X-shaped structure in the velocity-integrated intensity map, as well as the broader $^{12}$CO linewidth relative to $^{13}$CO. Scaling the model by the ISM abundance ratio ($\\sim$77) also reproduces the $^{12}$CO data, though high optical depths and model assumptions limit mass constraints. We find that azimuthally averaged local line profiles appear Gaussian regardless of optical depth, cautioning against their use for distinguishing optically thin and thick emission. We constrain the mean molecular weight to $12.6_{-1.1}^{+1.3}$, dependent on model assumptions. Our $^{13}$CO results suggest that C$^{18}$O may also be optically thick in CO-rich debris discs and that the mean molecular weight is significantly higher than if H$_2$ were the dominant gas species, suggesting a non-primordial composition.",
-        "authors": [
-            {
-                "name": "A. Brennan"
-            },
-            {
-                "name": "L. Matrà"
-            },
-            {
-                "name": "S. Mac Manamon"
-            },
-            {
-                "name": "S. Marino"
-            },
-            {
-                "name": "G. Cataldi"
-            },
-            {
-                "name": "A. M. Hughes"
-            },
-            {
-                "name": "P. Weber"
-            },
-            {
-                "name": "Y. Han"
-            },
-            {
-                "name": "J. P. Marshall"
-            },
-            {
-                "name": "B. Zawadzki"
-            },
-            {
-                "name": "P. Luppe"
-            },
-            {
-                "name": "A. A. Sefilian"
-            },
-            {
-                "name": "A. Moór"
-            },
-            {
-                "name": "M. A. MacGregor"
-            },
-            {
-                "name": "J. B. Lovell"
-            },
-            {
-                "name": "A. Kóspál"
-            },
-            {
-                "name": "M. Bonduelle"
-            },
-            {
-                "name": "E. Mansell"
-            },
-            {
-                "name": "M. C. Wyatt"
-            },
-            {
-                "name": "T. D. Pearce"
-            },
-            {
-                "name": "J. M. Carpenter"
-            },
-            {
-                "name": "D. J. Wilner"
-            },
-            {
-                "name": "C. del Burgo"
-            },
-            {
-                "name": "S. Pérez"
-            },
-            {
-                "name": "Th. Henning"
-            },
-            {
-                "name": "J. Milli"
-            },
-            {
-                "name": "E. Chiang"
-            }
-        ],
-        "categories": [
-            "astro-ph.EP"
-        ],
-        "primaryCategory": "astro-ph.EP",
-        "links": [
-            {
-                "href": "https://arxiv.org/abs/2601.11824v1",
-                "rel": "alternate",
-                "type": "text/html"
-            },
-            {
-                "href": "https://arxiv.org/pdf/2601.11824v1",
-                "rel": "related",
-                "type": "application/pdf"
-            }
-        ],
-        "doi": {
-            "url": "https://doi.org/10.1051/0004-6361/202556566"
         }
     },
     "2512.24388": {
@@ -3058,39 +2230,6 @@
         }
     },
     "2601.12128": {
-        "id": "http://arxiv.org/abs/2601.19985v1",
-        "title": "The CO snow line favours strong clumping by the streaming instability in protoplanetary discs with porous grains",
-        "updated": "2026-01-27T19:00:04.000Z",
-        "published": "2026-01-27T19:00:04.000Z",
-        "summary": "Context: The radial drift and fragmentation of small dust grains in protoplanetary discs impedes their growth past centimetre sizes. Several mechanisms have been proposed to overcome these planet formation barriers, such as dust porosity or the streaming instability (SI), which is today regarded as the most promising mechanism to form planetesimals. Aims: Here, we examine whether the conditions for the SI to lead to strong clumping, the first step in planetesimal formation, are realised in protoplanetary discs containing porous grains. Methods: We used results from previous simulations of the evolution of porous grains subjected to growth, fragmentation, compaction and bouncing in protoplanetary discs. In the ensuing disc structures, we determined the regions where the dust-to-gas ratio exceeds the critical value for strong clumping found in simulations of the SI including external turbulence. Results: We find that the conditions for strong clumping are met within the first hundred thousand years in large regions of protoplanetary discs containing porous grains, provided that the CO snow line is taken into account. If the CO snow line is neglected, the conditions are met only very close to the inner disc edge early on, or over large areas well after 200,000 yr.",
-        "authors": [
-            {
-                "name": "Jean-François Gonzalez"
-            },
-            {
-                "name": "Stéphane Michoulier"
-            }
-        ],
-        "categories": [
-            "astro-ph.EP",
-            "astro-ph.GA",
-            "astro-ph.SR"
-        ],
-        "primaryCategory": "astro-ph.EP",
-        "links": [
-            {
-                "href": "https://arxiv.org/abs/2601.19985v1",
-                "rel": "alternate",
-                "type": "text/html"
-            },
-            {
-                "href": "https://arxiv.org/pdf/2601.19985v1",
-                "rel": "related",
-                "type": "application/pdf"
-            }
-        ]
-    },
-    "2601.11712": {
         "id": "http://arxiv.org/abs/2512.00157v1",
         "title": "Astrometric view of companions in the inner dust cavities of protoplanetary disks",
         "updated": "2025-11-28T19:00:06.000Z",
@@ -3176,6 +2315,39 @@
         "doi": {
             "url": "https://doi.org/10.1051/0004-6361/202557086"
         }
+    },
+    "2601.11712": {
+        "id": "http://arxiv.org/abs/2601.19985v1",
+        "title": "The CO snow line favours strong clumping by the streaming instability in protoplanetary discs with porous grains",
+        "updated": "2026-01-27T19:00:04.000Z",
+        "published": "2026-01-27T19:00:04.000Z",
+        "summary": "Context: The radial drift and fragmentation of small dust grains in protoplanetary discs impedes their growth past centimetre sizes. Several mechanisms have been proposed to overcome these planet formation barriers, such as dust porosity or the streaming instability (SI), which is today regarded as the most promising mechanism to form planetesimals. Aims: Here, we examine whether the conditions for the SI to lead to strong clumping, the first step in planetesimal formation, are realised in protoplanetary discs containing porous grains. Methods: We used results from previous simulations of the evolution of porous grains subjected to growth, fragmentation, compaction and bouncing in protoplanetary discs. In the ensuing disc structures, we determined the regions where the dust-to-gas ratio exceeds the critical value for strong clumping found in simulations of the SI including external turbulence. Results: We find that the conditions for strong clumping are met within the first hundred thousand years in large regions of protoplanetary discs containing porous grains, provided that the CO snow line is taken into account. If the CO snow line is neglected, the conditions are met only very close to the inner disc edge early on, or over large areas well after 200,000 yr.",
+        "authors": [
+            {
+                "name": "Jean-François Gonzalez"
+            },
+            {
+                "name": "Stéphane Michoulier"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP",
+            "astro-ph.GA",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "links": [
+            {
+                "href": "https://arxiv.org/abs/2601.19985v1",
+                "rel": "alternate",
+                "type": "text/html"
+            },
+            {
+                "href": "https://arxiv.org/pdf/2601.19985v1",
+                "rel": "related",
+                "type": "application/pdf"
+            }
+        ]
     },
     "2601.12586": {
         "id": "http://arxiv.org/abs/2512.14458v1",
@@ -3675,7 +2847,7 @@
             }
         ]
     },
-    "2601.20826": {
+    "2511.21800": {
         "id": "http://arxiv.org/abs/2601.12586v1",
         "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) V: Comparison between scattered light and thermal emission",
         "updated": "2026-01-18T21:09:56.000Z",
