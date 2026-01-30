@@ -1,7 +1,7 @@
 /* All CSS variables used in the project. */
 :root {
     /* Layout settings */
-    --content-width: min(800px, 90vw);
+    --content-width: min(750px, 90vw);
 
 	/* Custom colours */
 	--color-accent: #990000;  /* This is SFN red - rgb(0.6, 0, 0) in LaTeX */
