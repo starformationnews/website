@@ -11,17 +11,28 @@
 			.reduce((a, b) => (a > b ? a : b))
 			.toLocaleDateString('en-GB', { month: 'long', year: 'numeric' })
 	);
+
+	function setPostHidden(postID, hide) {
+		console.log('Hiding post', postID);
+	}
 </script>
 
 {#if arxivPosts}
-<div class="line"></div>
+	<div class="line"></div>
 	<p>This edition contains the latest abstracts from {maxDate}.</p>
 	{#each Object.values(arxivPosts) as post, index}
-		<ArxivPost {post} topLine={index === 0} bottomLine={true} />
+		<ArxivPost
+			{post}
+			reportState={setPostHidden}
+			isHidden={false}
+			topLine={index === 0}
+			bottomLine={true}
+		/>
 	{/each}
 
 	<p style="">
-		Want to see a paper in <em>The Star Formation Newsletter</em> next month?<br />Submit abstracts to
+		Want to see a paper in <em>The Star Formation Newsletter</em> next month?<br />Submit abstracts
+		to
 		<a href={siteFormPaperSubmission} target="_blank">our submission form.</a>
 	</p>
 
@@ -32,7 +43,7 @@
 
 <style>
 	p {
-		text-align: center; 
+		text-align: center;
 		font-size: 24px;
 	}
 </style>
