@@ -47,9 +47,13 @@
 	style="display: {menuDisplay}"
 >
 	<!-- <a href="/" class:current-page={pathIs('/')}>Home</a> -->
-	 <a href="/" class:current-page={pathIs('/')}>Home</a>
-	<a href="/category/newsletters/" class:current-page={pathStartsWith('/category/newsletters')}>Newsletters</a>
-	<a href="/category/interviews/" class:current-page={pathStartsWith('/category/interviews')}>Interviews</a>
+	<a href="/" class:current-page={pathIs('/')}>Home</a>
+	<a href="/category/newsletters/" class:current-page={pathStartsWith('/category/newsletters')}
+		>Newsletters</a
+	>
+	<a href="/category/interviews/" class:current-page={pathStartsWith('/category/interviews')}
+		>Interviews</a
+	>
 	<a href="/category/phds/" class:current-page={pathStartsWith('/category/phds')}>PhDs</a>
 	<a href="/meetings/" class:current-page={pathStartsWith('/meetings')}>Meetings</a>
 	<a href="/about/" class:current-page={pathStartsWith('/about')}>About</a>
@@ -155,6 +159,13 @@
         } */
 		.navigation > a:hover {
 			color: var(--color-accent) !important;
+		}
+	}
+
+	/* Printing mode */
+	@media print {
+		.navigation, .hamburger {
+			display: none;
 		}
 	}
 </style>
