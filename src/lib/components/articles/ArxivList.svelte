@@ -2,6 +2,7 @@
 	import ArxivPost from './ArxivPost.svelte';
 	import PostList from '../content/PostList.svelte';
 	import { siteFormPaperSubmission } from '$lib/config.js';
+	import { page } from '$app/stores';
 	let { arxivPosts, date } = $props();
 
 	// Infer which month this is
@@ -13,9 +14,28 @@
 	);
 
 	// Hide a post on the backend
-	function setPostHidden(event, postID) {
+	async function setPostHidden(event, postID) {
 		console.log('Hiding post', event.target.checked, postID);
+
+		const response = await fetch('/api/dev/hideArXivPost', {
+			method: 'POST',
+			body: JSON.stringify({
+				postID,
+				hidden: event.target.checked,
+				path: `/src/routes/(posts)${$page.url.pathname}/hidden.json`
+			}),
+			headers: {
+				'Content-Type': 'application/json'
+			}
+		});
+		const { success } = await response.json();
+		
+		if (success) {
+			console.log("Success!")
+		}
 	}
+
+	// console.log()
 </script>
 
 {#if arxivPosts}

@@ -30,14 +30,15 @@
 <!-- Dev-only things -->
 {#if dev}
 	<div class="editor-controls">
-		<label
-			><input
+		<label>
+			<input
 				type="checkbox"
 				style="width: 20px; height: 20px;"
-				onclick={(event) => reportState(event, deversionedPostID)}
+				onclick={async (event) => reportState(event, deversionedPostID)}
 				bind:checked={isHidden}
-			/> Hide post</label
-		>
+			/>
+			Hide post
+		</label>
 	</div>
 {/if}
 
