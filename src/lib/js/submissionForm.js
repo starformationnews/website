@@ -8,9 +8,12 @@ const GOOGLE_SHEETS_URL =
 // console.log('Google sheets url:', GOOGLE_SHEETS_URL);
 
 export async function fetchPaperIDs(year, month, extraMonths) {
+	year = Number(year);
+	month = Number(month);
+
 	const allSubmissions = await downloadSubmissions();
 	const filteredSubmissions = filterSubmissions(allSubmissions, year, month);
-	const paperIDs = parsePaperIDs(filteredSubmissions, extraMonths);
+	const paperIDs = parsePaperIDs(filteredSubmissions, year, month, extraMonths);
 	return deduplicatePaperIDs(paperIDs);
 }
 
@@ -36,9 +39,8 @@ async function downloadSubmissions() {
 }
 
 function filterSubmissions(allSubmissions, year, month) {
-	year = Number(year);
-	month = Number(month); // Zero-indexed! FUCK JS LOL WTAF
 	// Get a date representing the last millisecond in a month
+	// n.b. month is zero-indexed! FUCK JS LOL WTAF
 	const maxAge = new Date(Date.UTC(year, month));
 	const minAge = new Date(Date.UTC(year, month - 1));
 
@@ -62,12 +64,15 @@ function filterSubmissions(allSubmissions, year, month) {
 	return goodEntries;
 }
 
-function parsePaperIDs(submissions, extraMonths) {
+function parsePaperIDs(submissions, year, month, extraMonths) {
 	if (extraMonths === undefined) {
 		extraMonths = 0;
 	}
-	const now = new Date();
-	const minPaperDate = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() - extraMonths));
+
+	const startOfMonth = new Date(Date.UTC(year, month - 1)); // n.b. month zero-indexed in JavaShite
+	const minPaperDate = new Date(
+		Date.UTC(startOfMonth.getUTCFullYear(), startOfMonth.getUTCMonth() - extraMonths)
+	);
 
 	const validSubmissions = new Array();
 	for (let submission of submissions) {
