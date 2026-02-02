@@ -4,15 +4,15 @@
 
 <!-- svelte-ignore non_reactive_update -->
 <script>
-	import Image from '$lib/blocks/Image.svelte';
-	import ArxivList from '$lib/components/ArxivList.svelte';
-	import PostList from '$lib/components/PostList.svelte';
+	import Image from '$lib/components/content/Image.svelte';
+	import ArxivList from '$lib/components/articles/ArxivList.svelte';
+	import PostList from '$lib/components/content/PostList.svelte';
 	import { getPosts } from '$lib/js/posts';
 	import { page } from '$app/stores';
 	import { siteTitle, authorSocialLinks } from '$lib/config.js';
 	import { formatDate } from '$lib/js/format.js';
 	import { getAppropriateDefaultImage, loadArxivData } from '$lib/js/content';
-	import SiteHeader from '$lib/components/SiteHeader.svelte';
+	import SiteHeader from '$lib/components/site/SiteHeader.svelte';
 
 	// Passed props include all blog info (like title, date, etc).
 	let props = $props();

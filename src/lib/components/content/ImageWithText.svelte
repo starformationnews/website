@@ -1,5 +1,5 @@
 <script>
-	import Image from '$lib/blocks/Image.svelte';
+	import Image from '$lib/components/content/Image.svelte';
 	let {
 		swap = false,
 		src = '/assets/default.webp',

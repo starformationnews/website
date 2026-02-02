@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import Icon from '$lib/blocks/Icon.svelte';
+	import Icon from '$lib/components/content/Icon.svelte';
 	let { textColor } = $props();
 
 	function pathIs(string) {

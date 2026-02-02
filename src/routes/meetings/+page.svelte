@@ -1,6 +1,6 @@
 <script>
 	import { siteFormMeetingSubmission } from '$lib/config';
-	import SiteHeader from '$lib/components/SiteHeader.svelte';
+	import SiteHeader from '$lib/components/site/SiteHeader.svelte';
 </script>
 
 <SiteHeader />

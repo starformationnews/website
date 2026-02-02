@@ -7,7 +7,7 @@
 		siteFormPhDSubmission,
 		siteFormMeetingSubmission
 	} from '$lib/config.js';
-	import Icon from '$lib/blocks/Icon.svelte';
+	import Icon from '$lib/components/content/Icon.svelte';
 	const year = new Date().getFullYear();
 
 	// import { getPosts } from '$lib/js/posts.js';

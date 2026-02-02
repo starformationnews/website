@@ -1,7 +1,7 @@
 <script>
 	let { children } = $props();
-	import Header from '$lib/components/Header.svelte';
-	import Footer from '$lib/components/Footer.svelte';
+	import Header from '$lib/components/site/Header.svelte';
+	import Footer from '$lib/components/site/Footer.svelte';
 
 	/* SITEWIDE CSS IMPORTS */
 	import '$lib/css/main.css';

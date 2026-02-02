@@ -1,6 +1,6 @@
 <script>
 	import ArxivPost from './ArxivPost.svelte';
-	import PostList from './PostList.svelte';
+	import PostList from '../content/PostList.svelte';
 	import { siteFormPaperSubmission } from '$lib/config.js';
 	let { arxivPosts, date } = $props();
 
