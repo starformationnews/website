@@ -3,6 +3,7 @@
 	import PostList from '../content/PostList.svelte';
 	import { siteFormPaperSubmission } from '$lib/config.js';
 	import { page } from '$app/stores';
+	import { fade } from 'svelte/transition';
 	let { arxivPosts, date } = $props();
 
 	// Infer which month this is
@@ -14,9 +15,11 @@
 	);
 
 	// Hide a post on the backend
-	async function setPostHidden(event, postID) {
-		console.log('Hiding post', event.target.checked, postID);
+	let showPostHideResult = $state(undefined); // Stores the SetTimeout ID of the
+	let postHideResultMessage = $state('');
+	let postHideResultSuccess = $state(true);
 
+	async function setPostHidden(event, postID) {
 		const response = await fetch('/api/dev/hideArXivPost', {
 			method: 'POST',
 			body: JSON.stringify({
@@ -28,15 +31,32 @@
 				'Content-Type': 'application/json'
 			}
 		});
-		const { success } = await response.json();
-		
-		if (success) {
-			console.log("Success!")
-		}
-	}
+		const { success, message } = await response.json();
 
-	// console.log()
+		// Update all of the relevant states
+		postHideResultSuccess = success;
+		postHideResultMessage = `${message}<br>(${arxivPosts[postID].title.slice(0, 55)}...)`;
+		clearTimeout(showPostHideResult);
+		showPostHideResult = setTimeout(() => {
+			showPostHideResult = undefined;
+		}, 5000);
+	}
 </script>
+
+{#if showPostHideResult}
+	<div class="post-hide-container" out:fade={{ duration: 2500 }}>
+		<p
+			class="post-hide-result"
+			style="background-color: {postHideResultSuccess
+				? postHideResultMessage.slice(0, 3) === 'Hid'
+					? '#befbbd'
+					: '#fbebbd'
+				: '#fbbdbd'}"
+		>
+			{@html postHideResultMessage}
+		</p>
+	</div>
+{/if}
 
 {#if arxivPosts}
 	<div class="line"></div>
@@ -66,5 +86,29 @@
 	p {
 		text-align: center;
 		font-size: 24px;
+	}
+
+	.post-hide-container {
+		position: fixed;
+		left: 0px;
+		bottom: 10px;
+		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		z-index: 1000;
+	}
+
+	.post-hide-result {
+		/* margin: 0px; */
+		background-color: #fbbdbd;
+		border-radius: 10px;
+		padding: 10px;
+		font-size: 20px;
+		text-align: center;
+		margin: 0px;
+		font-weight: 600;
+		/* font-style: italic; */
+		/* font-family: monospace; */
 	}
 </style>

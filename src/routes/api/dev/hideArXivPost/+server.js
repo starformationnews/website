@@ -8,12 +8,11 @@ export async function POST({ request, cookies }) {
 	// Get the file if it exists
 	const shortPath = result.path.replace('/src/routes/(posts)', '');
 	const fullPath = path.join(import.meta.dirname.split('/').slice(0, -5).join('/'), result.path);
+	const message = result.hidden
+		? `Hid post ${result.postID} at ${shortPath}`
+		: `Unhid post ${result.postID} at ${shortPath}`;
 
-	if (result.hidden) {
-		console.log(`DEV: hiding post ${result.postID} at ${shortPath}`);
-	} else {
-		console.log(`DEV: unhiding post ${result.postID} at ${shortPath}`);
-	}
+	console.log("DEV:", message);
 
 	let hiddenPosts = [];
 	if (fs.existsSync(fullPath)) {
@@ -46,7 +45,7 @@ export async function POST({ request, cookies }) {
 		hiddenPosts.splice(index, 1);
 	}
 
+	// Write & return message
 	fs.writeFileSync(fullPath, JSON.stringify(hiddenPosts, undefined, 4), { encoding: 'utf8' });
-
-	return json({ success: true }, { status: 201 });
+	return json({ success: true, message: message }, { status: 201 });
 }

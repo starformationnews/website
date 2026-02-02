@@ -1,12 +1,17 @@
 <script>
 	import { page } from '$app/stores';
 	import Navigation from './Navigation.svelte';
+	import { dev } from '$app/environment';
 
 	const needsWhiteBackground = $derived($page.url.pathname === '/research');
 	const textColor = $derived(needsWhiteBackground ? 'white' : 'black');
 </script>
 
 <header style:--textColor={textColor}>
+	{#if dev}
+		<p class="dev-mode-indicator">(Dev mode)</p>
+	{/if}
+
 	<div class="logo">
 		<a href="/">
 			<h2 class="site-heading">The Star Formation Newsletter</h2>
@@ -14,8 +19,7 @@
 		</a>
 	</div>
 
-	<Navigation {textColor}/>
-	
+	<Navigation {textColor} />
 </header>
 
 <style>
@@ -35,7 +39,7 @@
 	a:hover {
 		color: var(--currentPageColor);
 	}
-	
+
 	.site-heading {
 		margin-top: 0px;
 		padding: 0px;
@@ -51,6 +55,15 @@
 	.logo {
 		padding-top: 5px;
 		padding-bottom: 12px;
+	}
+	.dev-mode-indicator {
+		position: absolute;
+		left: 20px;
+		top: 20px;
+		color: var(--color-accent);
+		font-size: 30px;
+		margin: 0px;
+		font-weight: bold;
 	}
 	/* Computers */
 	@media only screen and (min-width: 801px) {
@@ -87,6 +100,11 @@
 		}
 		.logo {
 			padding-bottom: 8px;
+		}
+		.dev-mode-indicator {
+			font-size: 18px;
+			left: 20px;
+			top: 33px;
 		}
 	}
 </style>
