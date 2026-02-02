@@ -8,5 +8,10 @@ export default defineConfig({
 		Icons({
 			compiler: 'svelte'
 		})
-	]
+	],
+	server: {
+		watch: {
+			ignored: ["**/hidden.json"]
+		}
+	}
 });

@@ -3,6 +3,7 @@ import { render } from 'svelte/server';
 import { randomNumberGenerator } from './random.js';
 import defaultImageCredits from '../assets/images/credits.json';
 import { generateHash } from './random.js';
+import { dev } from '$app/environment';
 
 const localImageURLs = import.meta.glob(['/src/**/*.webp', '/src/**/*.jpg', '/src/**/*.png'], {
 	eager: true,
@@ -58,25 +59,78 @@ const arxivJsonFiles = import.meta.glob(['/src/routes/**/arxiv.json'], {
 	// query: '?url',
 	import: 'default'
 });
+const arxivHiddenJsonFiles = import.meta.glob(['/src/routes/**/hidden.json'], {
+	eager: true,
+	// query: '?url',
+	import: 'default'
+});
 
 /* Loads data in an arxiv.json object for a given page. Assumes that the page is in 
 /src/routes/(posts) and only works if the file is already generated. */
 export function loadArxivData(path) {
-	path = '/src/routes/(posts)' + path + '/arxiv.json';
+	const pathArxiv = '/src/routes/(posts)' + path + '/arxiv.json';
 
-	if (arxivJsonFiles[path] === undefined) {
+	if (arxivJsonFiles[pathArxiv] === undefined) {
 		console.log(
 			'loadArxivData(): Path does not lead to an arxiv.json file! Are you sure',
 			'you generated the arXiv postings .json for this month? Is this path',
-			`correct? Path: ${path}`
+			`correct? Path: ${pathArxiv}`
 		);
 	}
 
-	return addExtraData(sortPosts(arxivJsonFiles[path], path));
+	let posts = arxivJsonFiles[pathArxiv];
+	posts = hidePosts(posts, path);
+	posts = sortPosts(posts, path);
+	posts = formatArxivPostProperties(posts);
+
+	return posts;
+}
+
+/* Hides user-specified posts. */
+function hidePosts(arxivPosts, path) {
+	// Set default value
+	arxivPosts.forEach((post) => {
+		post.hidden = false;
+	});
+
+	// In case there's no hidden post file: do nothing!
+	const pathHidden = '/src/routes/(posts)' + path + '/hidden.json';
+	if (arxivHiddenJsonFiles[pathHidden] === undefined) {
+		if (dev) {
+			console.log(`hidePosts(): No hidden posts file found (yet) at ${pathHidden}`);
+		}
+		return arxivPosts;
+	}
+
+	// In case there are no hidden posts: do nothing!
+	const hiddenIDs = arxivHiddenJsonFiles[pathHidden];
+	if (hiddenIDs.length === 0) {
+		return arxivPosts;
+	}
+
+	// Otherwise: merge it with our results!
+	const idShortArray = arxivPosts.map((post) => post.idShort);
+	for (const id of hiddenIDs) {
+		const index = idShortArray.indexOf(id);
+
+		// Failure case: no match
+		if (index === -1 && dev) {
+			console.log(`hidePosts(): cannot hide ${id} - it doesn't seem to exist in arxiv.json.`);
+		}
+
+		if (index > -1) {
+			if (dev) {
+				arxivPosts[index].hidden = true;
+			} else {
+				arxivPosts.splice(index, 1);
+			}
+		}
+	}
+	return arxivPosts;
 }
 
 /* Adds additional things to the posts, like rendering latex within them, a nice date, and more. */
-function addExtraData(arxivPosts) {
+function formatArxivPostProperties(arxivPosts) {
 	const maxAuthors = 5;
 
 	arxivPosts.forEach((post) => {
@@ -111,8 +165,6 @@ function sortPosts(arxivPosts, path) {
 		String(arxivPosts.length * 42) +
 		arxivPosts.map((post) => post.title.slice(0, 5)).join('');
 
-	console.log(seedString);
-
 	const rng = randomNumberGenerator(seedString);
 
 	// Next, assign every SUBTITLE a random number. This means that posts in a series
@@ -136,10 +188,6 @@ function sortPosts(arxivPosts, path) {
 		}
 		post.index = subtitleIndex[subtitle];
 	}
-
-	console.log(subtitleIndex);
-
-	// console.log(arxivPosts)
 
 	// Then, sort the posts: based on the ID of their subtitle, and then on the titles
 	// themselves. This will HOPEFULLY sort series papers together.

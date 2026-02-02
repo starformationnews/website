@@ -67,7 +67,7 @@
 		<ArxivPost
 			{post}
 			reportState={setPostHidden}
-			isHidden={false}
+			isHidden={post.hidden}
 			topLine={index === 0}
 			bottomLine={true}
 		/>
