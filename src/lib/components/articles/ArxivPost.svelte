@@ -3,20 +3,6 @@
 	import { formatDate, renderLaTeX } from '$lib/js/format';
 	import { dev } from '$app/environment';
 
-	// replaceAll to remove version number (ADS doesn't like them)
-	// TODO these should be on everything and added higher up. Here is messy as fuck!
-	const allAuthors = $derived(post.authors.map((author) => author.name));
-	const displayAuthors = $derived(
-		allAuthors.length > 5
-			? allAuthors.slice(0, 5).join(', ') + ', <em>et al.</em>'
-			: allAuthors.join(', ')
-	);
-	const displayDate = $derived(formatDate(post.published));
-	const deversionedPostID = $derived(post.id.split('/').slice(-1)[0].replaceAll(/v.*/g, ''));
-	const nasaADSLink = $derived(`https://ui.adsabs.harvard.edu/abs/arxiv:${deversionedPostID}`);
-	const arxivAbsLink = $derived(`http://arxiv.org/abs/${deversionedPostID}`);
-	const arxivPDFLink = $derived(`http://arxiv.org/pdf/${deversionedPostID}`);
-
 	let classesOnPost = $derived(isHidden ? 'grey' : '');
 	// $effect(() => {
 	// 	console.log(isHidden);
@@ -34,7 +20,7 @@
 			<input
 				type="checkbox"
 				style="width: 20px; height: 20px;"
-				onclick={async (event) => reportState(event, deversionedPostID)}
+				onclick={async (event) => reportState(event, post.idShort)}
 				bind:checked={isHidden}
 			/>
 			Hide post
@@ -44,18 +30,18 @@
 
 <!-- The post itself -->
 <div class={classesOnPost}>
-	<h4 class="title"><a href={arxivAbsLink} target="_blank">{@html renderLaTeX(post.title)}</a></h4>
+	<h4 class="title"><a href={post.arxivAbsLink} target="_blank">{@html renderLaTeX(post.title)}</a></h4>
 	<div style="display: {isHidden ? 'none' : 'block'}">
-		<p class="authors">{@html displayAuthors}</p>
-		<p class="abstract">{@html renderLaTeX(post.summary)}</p>
+		<p class="authors">{@html post.displayAuthors}</p>
+		<p class="abstract">{@html post.summary}</p>
 		<p style="text-align: left">
-			<a href={arxivAbsLink} style="margin: 0px 10px" target="_blank">arXiv</a>
+			<a href={post.arxivAbsLink} style="margin: 0px 10px" target="_blank">arXiv</a>
 			|
-			<a href={arxivPDFLink} style="margin: 0px 10px" target="_blank"> PDF </a>
+			<a href={post.arxivPDFLink} style="margin: 0px 10px" target="_blank"> PDF </a>
 			|
-			<a href={nasaADSLink} style="margin: 0px 10px" target="_blank"> ADS </a>
+			<a href={post.nasaADSLink} style="margin: 0px 10px" target="_blank"> ADS </a>
 			|
-			<span style="color: var(--color-darkgrey); margin-left: 10px">{displayDate}</span>
+			<span style="color: var(--color-darkgrey); margin-left: 10px">{post.displayDate}</span>
 		</p>
 	</div>
 </div>

@@ -1,4 +1,8 @@
+import { formatDate, renderLaTeX } from '$lib/js/format';
+import { render } from 'svelte/server';
+import { randomNumberGenerator } from './random.js';
 import defaultImageCredits from '../assets/images/credits.json';
+import { generateHash } from './random.js';
 
 const localImageURLs = import.meta.glob(['/src/**/*.webp', '/src/**/*.jpg', '/src/**/*.png'], {
 	eager: true,
@@ -49,17 +53,6 @@ export function getAppropriateDefaultImage(primaryCategory, title) {
 	};
 }
 
-function generateHash(string) {
-	// Taken from here: https://stackoverflow.com/a/7616484
-	// this is ugly as fuck lol javascript is not a real language tbh
-	let hash = 0;
-	for (const char of string) {
-		hash = (hash << 5) - hash + char.charCodeAt(0);
-		hash |= 0; // Constrain to 32bit integer
-	}
-	return hash;
-}
-
 const arxivJsonFiles = import.meta.glob(['/src/routes/**/arxiv.json'], {
 	eager: true,
 	// query: '?url',
@@ -79,7 +72,79 @@ export function loadArxivData(path) {
 		);
 	}
 
-	// console.log("arxiv jsons:", arxivJsonFiles)
+	return addExtraData(sortPosts(arxivJsonFiles[path], path));
+}
 
-	return arxivJsonFiles[path];
+/* Adds additional things to the posts, like rendering latex within them, a nice date, and more. */
+function addExtraData(arxivPosts) {
+	const maxAuthors = 5;
+
+	arxivPosts.forEach((post) => {
+		// Title & abstract
+		post.title = renderLaTeX(post.title);
+		post.summary = renderLaTeX(post.summary);
+
+		// Author list
+		const allAuthors = post.authors.map((author) => author.name);
+		post.displayAuthors =
+			allAuthors.length > maxAuthors
+				? allAuthors.slice(0, maxAuthors).join(', ') + ', <em>et al.</em>'
+				: allAuthors.join(', ');
+
+		// Date
+		post.displayDate = formatDate(post.published);
+
+		// Links
+		post.nasaADSLink = `https://ui.adsabs.harvard.edu/abs/arxiv:${post.idShort}`;
+		post.arxivAbsLink = `https://arxiv.org/abs/${post.idShort}`;
+		post.arxivPDFLink = `https://arxiv.org/pdf/${post.idShort}`;
+	});
+	return arxivPosts;
+}
+
+function sortPosts(arxivPosts, path) {
+	// Pick a seed. This one is impossible to predict but is deterministic on any machine!
+	// We use the current month/year, and the number of posts, and the first ten
+	// characters of the posts.
+	const seedString =
+		path +
+		String(arxivPosts.length * 42) +
+		arxivPosts.map((post) => post.title.slice(0, 5)).join('');
+
+	console.log(seedString);
+
+	const rng = randomNumberGenerator(seedString);
+
+	// Next, assign every SUBTITLE a random number. This means that posts in a series
+	// are hopefully sorted. We try to get subtitles from titles by splitting based on
+	// common punctuation values.
+	const subtitleIndex = new Object();
+	for (const post of arxivPosts) {
+		// Get a subtitle
+		// Grab first thing after punctuation
+		let subtitle = post.title.split('.')[0].split(':')[0].split('(')[0].toLowerCase();
+
+		// Remove the last thing in the title, if possible
+		const subtitleSplit = subtitle.split(' ');
+		if (subtitleSplit.length > 1) {
+			subtitle = subtitleSplit.slice(0, -1).join(' ');
+		}
+
+		// Make a new index for this subtitle
+		if (!subtitleIndex.hasOwnProperty(subtitle)) {
+			subtitleIndex[subtitle] = rng();
+		}
+		post.index = subtitleIndex[subtitle];
+	}
+
+	console.log(subtitleIndex);
+
+	// console.log(arxivPosts)
+
+	// Then, sort the posts: based on the ID of their subtitle, and then on the titles
+	// themselves. This will HOPEFULLY sort series papers together.
+	arxivPosts = arxivPosts.toSorted((a, b) =>
+		a.index !== b.index ? a.index - b.index : a.title.localeCompare(b.title)
+	);
+	return arxivPosts;
 }

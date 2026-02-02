@@ -8,7 +8,7 @@
 
 	// Infer which month this is
 	const maxDate = $derived(
-		Object.values(arxivPosts)
+		arxivPosts
 			.map((post) => new Date(post.published))
 			.reduce((a, b) => (a > b ? a : b))
 			.toLocaleDateString('en-GB', { month: 'long', year: 'numeric' })
@@ -34,8 +34,10 @@
 		const { success, message } = await response.json();
 
 		// Update all of the relevant states
+		const postTitle = arxivPosts.filter((post) => post.idShort === postID)[0].title;
+
 		postHideResultSuccess = success;
-		postHideResultMessage = `${message}<br>(${arxivPosts[postID].title.slice(0, 55)}...)`;
+		postHideResultMessage = `${message}<br>(${postTitle.slice(0, 55)}...)`;
 		clearTimeout(showPostHideResult);
 		showPostHideResult = setTimeout(() => {
 			showPostHideResult = undefined;
@@ -61,7 +63,7 @@
 {#if arxivPosts}
 	<div class="line"></div>
 	<p>This edition contains the latest abstracts from {maxDate}.</p>
-	{#each Object.values(arxivPosts) as post, index}
+	{#each arxivPosts as post, index}
 		<ArxivPost
 			{post}
 			reportState={setPostHidden}

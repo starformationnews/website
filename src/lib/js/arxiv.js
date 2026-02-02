@@ -19,14 +19,18 @@ export async function fetchArXivMetadata(paperIDs) {
 
 	articles = addAdditionalMetadata(articles);
 
-	const articlesObject = new Object();
-	articles.forEach((obj, index) => (articlesObject[obj.idShort] = obj));
-	return articlesObject;
+	return articles;
+
+	// const articlesObject = new Object();
+	// articles.forEach((obj, index) => (articlesObject[obj.idShort] = obj));
+	// return articlesObject;
 }
 
 function addAdditionalMetadata(articles) {
 	articles.forEach((obj) => {
 		obj.idShort = obj.id.split('/').slice(-1)[0].replaceAll(/v.*/g, '');
+		delete obj.links;
+		delete obj.doi;  // Since many don't have it
 	});
 	return articles;
 }
