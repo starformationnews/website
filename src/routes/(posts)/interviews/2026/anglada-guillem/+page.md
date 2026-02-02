@@ -1,6 +1,6 @@
 ---
 title: 'Guillem Anglada in conversation with Bo Reipurth'
-date: 2026-02-03
+date: 2026-02-02
 authors: ['Bo Reipurth']
 categories: ['interviews']
 description: 'Guillem Anglada interviewed by Bo Reipurth.'
