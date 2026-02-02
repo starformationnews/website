@@ -63,13 +63,13 @@
 		/* max-width: calc(75% - 60px); */
 		text-overflow: ellipsis;
 	}
-	.red-line {
+	/* .red-line {
 		background-color: var(--color-accent);
 		height: 3px;
 		width: 80px;
 		border-radius: 2px;
 		margin: 0px;
-	}
+	} */
 	.category {
 		color: var(--color-accent);
 		text-transform: capitalize;
