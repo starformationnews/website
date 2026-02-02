@@ -18,6 +18,9 @@
 	const arxivPDFLink = $derived(`http://arxiv.org/pdf/${deversionedPostID}`);
 
 	let classesOnPost = $derived(isHidden ? 'grey' : '');
+	// $effect(() => {
+	// 	console.log(isHidden);
+	// });
 </script>
 
 {#if topLine}
@@ -31,8 +34,8 @@
 			><input
 				type="checkbox"
 				style="width: 20px; height: 20px;"
+				onclick={(event) => reportState(event, deversionedPostID)}
 				bind:checked={isHidden}
-				onclick={() => reportState(deversionedPostID, isHidden)}
 			/> Hide post</label
 		>
 	</div>

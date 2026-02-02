@@ -12,8 +12,9 @@
 			.toLocaleDateString('en-GB', { month: 'long', year: 'numeric' })
 	);
 
-	function setPostHidden(postID, hide) {
-		console.log('Hiding post', postID);
+	// Hide a post on the backend
+	function setPostHidden(event, postID) {
+		console.log('Hiding post', event.target.checked, postID);
 	}
 </script>
 
