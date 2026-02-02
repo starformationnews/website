@@ -118,7 +118,7 @@ Your browser does not support the video tag.
 **... or even writing valid Svelte code and rendering parts of the site again! Like: the card of a post.**
 
 <script>
-    import PostCard from "$lib/components/PostCard.svelte";
+    import PostCard from "$lib/components/content/PostCard.svelte";
     const post = {title: "This Post Doesn't Exist, I'm Just Demonstrating How We Can Add Stuff", date: "2026-01-01", url: "/", categories: ["Editorials"]}
 </script>
 
