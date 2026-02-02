@@ -31,7 +31,8 @@ export const postsPerPage = 25;
 // Social links for authors.
 // Names should be lowercase with spaces changed to _.
 export const authorSocialLinks = {
-	emily_hunt: 'https://bsky.app/profile/did:plc:jcoy7v3a2t4rcfdh6i4kza25'
+	emily_hunt: 'https://emily.space/',
+	lilly_kormann: 'https://lillykormann.github.io/',
 };
 
 /* SUBMISSION SETTINGS */

@@ -7,7 +7,7 @@
 		siteFormPhDSubmission,
 		siteFormMeetingSubmission
 	} from '$lib/config.js';
-	import Icon from '$lib/blocks/Icon.svelte';
+	import Icon from '$lib/components/content/Icon.svelte';
 	const year = new Date().getFullYear();
 
 	// import { getPosts } from '$lib/js/posts.js';
@@ -104,13 +104,12 @@
 		font-size: 25px;
 	}
 
-	h6 {
+	/* h6 {
 		margin-top: 0px;
 		margin-bottom: 5px;
 		font-size: 20px;
 		font-weight: 600;
-		/* font-style: italic; */
-	}
+	} */
 
 	.footer-links > p {
 		font-size: 16px;

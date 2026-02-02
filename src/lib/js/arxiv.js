@@ -9,7 +9,7 @@ export async function fetchArXivMetadata(paperIDs) {
 		);
 	}
 	const client = arxivClient.default;
-	const articles = await client
+	let articles = await client
 		.ids(paperIDs)
 		.start(0)
 		.maxResults(paperIDs.length)
@@ -17,7 +17,20 @@ export async function fetchArXivMetadata(paperIDs) {
 		// .sortOrder('ascending')
 		.execute();
 
-	const articlesObject = new Object();
-	articles.forEach((obj, index) => (articlesObject[paperIDs[index]] = obj));
-	return articlesObject;
+	articles = addAdditionalMetadata(articles);
+
+	return articles;
+
+	// const articlesObject = new Object();
+	// articles.forEach((obj, index) => (articlesObject[obj.idShort] = obj));
+	// return articlesObject;
+}
+
+function addAdditionalMetadata(articles) {
+	articles.forEach((obj) => {
+		obj.idShort = obj.id.split('/').slice(-1)[0].replaceAll(/v.*/g, '');
+		delete obj.links;
+		delete obj.doi;  // Since many don't have it
+	});
+	return articles;
 }

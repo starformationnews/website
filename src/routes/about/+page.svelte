@@ -1,5 +1,5 @@
 <script>
-	import SiteHeader from '$lib/components/SiteHeader.svelte';
+	import SiteHeader from '$lib/components/site/SiteHeader.svelte';
 	import { siteMailingListSignup } from '$lib/config';
 </script>
 

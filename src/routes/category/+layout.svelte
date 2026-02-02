@@ -1,6 +1,6 @@
 <script>
-	import PostList from '../../lib/components/PostList.svelte';
-	import SiteHeader from '$lib/components/SiteHeader.svelte';
+	import PostList from '../../lib/components/content/PostList.svelte';
+	import SiteHeader from '$lib/components/site/SiteHeader.svelte';
 	import { siteFormPhDSubmission } from '$lib/config';
 
 	let { data, children } = $props();

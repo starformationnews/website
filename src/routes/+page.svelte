@@ -1,6 +1,6 @@
 <script>
-	import PostList from '$lib/components/PostList.svelte';
-	import SiteHeader from '$lib/components/SiteHeader.svelte';
+	import PostList from '$lib/components/content/PostList.svelte';
+	import SiteHeader from '$lib/components/site/SiteHeader.svelte';
 	let { data } = $props();
 </script>
 
