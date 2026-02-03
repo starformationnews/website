@@ -20,7 +20,8 @@ const mdsvexOptions = {
 	// Layouts. _ is default. We need it to be absolute for *reasons*, hence the paths
 	layout: {
 		_: path.join(import.meta.dirname, './src/lib/components/layouts/DefaultArticle.svelte'),
-		newsletter: path.join(import.meta.dirname, './src/lib/components/layouts/Newsletter.svelte')
+		newsletter: path.join(import.meta.dirname, './src/lib/components/layouts/Newsletter.svelte'),
+		thesis: path.join(import.meta.dirname, './src/lib/components/layouts/Thesis.svelte')
 	},
 
 	// Add LaTeX math support. TOTAL PAIN. Has to use a custom plugin because {} are

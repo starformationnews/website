@@ -1,6 +1,8 @@
 ### Our files
 # common non-webp image formats (not allowed!)
 *.jpg
+*.jpeg
+*.heic
 *.png
 
 # vscode folder

@@ -45,6 +45,13 @@ imageURL: 'http://www.eso.org/public/images/eso1436a/';
 
 As a general style thing, please normally put the image for a given article **in the same folder** as the article, and name it 'header.webp'. This isn't essential, but it keeps things tidier.
 
+### Setting the layout
+
+The `layout` parameter in the frontmatter can change the style of your post. Current options:
+
+- `layout: newsletter` will create a newsletter that **automatically includes the relevant arXiv posts**, taken from an arxiv.json file in the same directory.
+- `layout: thesis` will add a few extra options that automate reporting a newly defended thesis.
+
 ### Other options
 
 There are a few more things, including:
@@ -67,12 +74,6 @@ Images can be added to the post like usual markdown. Remember to describe the im
 
 You can add links easily too, just use [the normal markdown format.](https://en.wikipedia.org/wiki/Cats_and_the_Internet)
 
-
-## Adding arXiv posts
-
-If you add `arxiv: true` to your post's frontmatter, then **it will automatically include the relevant arXiv posts**, taken from an arxiv.json file in the same directory.
-
-`Todo: update this part more once it's fully working`
 
 ## Other features
 

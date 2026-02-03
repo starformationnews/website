@@ -84,7 +84,7 @@ date: 2026-02-03
 authors: ['Emily Hunt']
 categories: ['newsletters']
 description: 'This is its 397th Star Formation Newsletter, covering new research postings in January of 2026.'
-arxiv: true  # When true, looks for an arxiv.json in this directory and includes those posts.
+layout: newsletter  # When set, looks for an arxiv.json in this directory and includes those posts.
 # hidden: true  # Set as true until you want to publish; when true, the post won't appear on the page, but can be seen on the site if you know the URL.
 image: './header.webp'  # When set, can be a path to an image. By convention, call it 'header.webp' and put it in the post's directory.
 imageCredit: 'ESO'  # Credit of the image
@@ -104,7 +104,13 @@ The website can automatically download arXiv posts for you!
 
 ### Images
 
-Please make sure that images are in `.webp` format (this saves on filesize!) and have a maximum size of 2000 pixels in any dimension. You can easily convert and resize images on the command line to follow these requirements with ImageMagick, using the commmand:
+Please make sure that images are in `.webp` format (this saves on filesize!) and have a maximum size of 2000 pixels in any dimension. You can easily convert images on the command line with ImageMagick, using the commmand:
+
+```bash
+convert filename.jpg filename.webp
+```
+
+For images **larger than 2000 pixels in any dimension**, you can also resize them with
 
 ```bash
 convert -resize 2000x2000^ filename.jpg filename.webp

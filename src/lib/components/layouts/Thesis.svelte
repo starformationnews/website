@@ -1,0 +1,125 @@
+<!-- Default article layout! 
+Most basic article type: only contains a header & then all content in the .md file. -->
+
+<script>
+	import { formatDate, renderLaTeX } from '$lib/js/format';
+	import ArticleContainer from '../articles/ArticleContainer.svelte';
+	import ArticleHeading from '../articles/ArticleHeading.svelte';
+
+	// Passed props include all blog info (like title, date, etc).
+	let props = $props();
+
+	// Todo this does not support other (neo) pronouns yet
+	const accusativePronouns = {
+		'He/him': 'him',
+		'She/her': 'her',
+		'They/them': 'them'
+	};
+	const possessivePronouns = {
+		'He/him': 'his',
+		'She/her': 'her',
+		'They/them': 'their'
+	};
+
+	let pronounAccusative = $derived(accusativePronouns[props.thesisPronouns]);
+	let pronounPossessive = $derived(possessivePronouns[props.thesisPronouns]);
+	let showAbstract = $state(false);
+
+	// To keep filling out the markdown files easier, some details can be auto-filled.
+	// Description
+	let firstParagraph =
+		$derived(`Congratulations to Dr. ${props.thesisPerson} for successfully defending ${pronounPossessive} PhD thesis
+		on ${formatDate(props.thesisDate)}!`);
+	let description = $derived(props.description ? props.description : firstParagraph);
+</script>
+
+<ArticleContainer>
+	<ArticleHeading {...props} />
+
+	<p>{firstParagraph}</p>
+
+	{@render props.children?.()}
+
+	<p><strong>Title:</strong> {renderLaTeX(props.thesisTitle)}</p>
+
+	{#if props.thesisSupervisor}
+		<p><strong>Supervisor:</strong> {props.thesisSupervisor}</p>
+	{/if}
+
+	<p><strong>Institute:</strong> {props.thesisInstitution}</p>
+
+	{#if props.thesisAbstract}
+		<p>
+			<strong>Abstract:</strong>
+			{#if showAbstract}
+				<!-- <button
+				onclick={() => {
+					showAbstract = false;
+				}}>(hide abstract)</button
+			> -->
+				<!-- <br/> -->
+				{renderLaTeX(props.thesisAbstract)}
+			{:else}
+				<button
+					onclick={() => {
+						showAbstract = true;
+					}}>(show abstract)</button
+				>
+			{/if}
+		</p>
+	{/if}
+
+	{#if props.thesisWebsite || props.thesisEmail}
+		<p>
+			<strong>Want to find out more?</strong> You can get in touch with Dr. {props.thesisPerson} via
+			{#if props.thesisEmail && !props.thesisWebsite}
+				<a href="mailto:{props.thesisEmail}">{pronounPossessive} email address</a>.
+			{/if}
+			{#if props.thesisWebsite && !props.thesisEmail}
+				<a href="mailto:{props.thesisWebsite}">via {pronounPossessive} website.</a>
+			{/if}
+			{#if props.thesisWebsite && props.thesisEmail}
+				<a href="mailto:{props.thesisEmail}">{pronounPossessive} email address</a> or
+				<a href="mailto:{props.thesisWebsite}">via {pronounPossessive} website.</a>
+			{/if}
+		</p>
+	{/if}
+
+	{#if props.thesisJob}
+		<div class="give-me-a-job">
+			<p>
+				<strong>Dr. {props.thesisPerson} is currently looking for a postdoc.</strong><br />Please
+				get in touch with {pronounAccusative} if you know of any openings!
+			</p>
+		</div>
+	{/if}
+</ArticleContainer>
+
+<style>
+	button {
+		border: none;
+		display: inline;
+		background: none;
+		color: var(--color-accent);
+		cursor: pointer;
+		font-size: 20px;
+	}
+	button:hover {
+		color: var(--color-accent-hover);
+	}
+	.give-me-a-job {
+		background-color: color-mix(in srgb, var(--color-lightergrey) 20%, var(--color-sandwhite) 80%);
+		text-align: center;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 20px;
+		padding: 10px;
+		margin-top: 40px;
+	}
+	.give-me-a-job > p {
+		font-size: 23px;
+		margin: 0px;
+		padding: 0px;
+	}
+</style>

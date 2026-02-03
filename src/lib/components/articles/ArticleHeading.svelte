@@ -23,9 +23,13 @@
 	let categories = $derived(props.categories ? props.categories : ['Uncategorised']);
 
 	// Author info
-	let authorInformation = $derived(props.authors ? props.authors : 'The SFN Team');
+	let authorInformation = $derived(props.authors ? props.authors : ['The SFN Team']);
 	let authorLinks = $derived(
-		authorInformation.map((author) => authorSocialLinks[author.toLowerCase().replaceAll(' ', '_')])
+		authorInformation
+			? authorInformation.map(
+					(author) => authorSocialLinks[author.toLowerCase().replaceAll(' ', '_')]
+				)
+			: [undefined]
 	);
 
 	// Image info
