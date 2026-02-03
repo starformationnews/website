@@ -1,8 +1,9 @@
 <!-- <h3> <a href="" target="_blank">Title</a> </h3>
 <p><strong>Date:</strong> </p>
 <p><strong>Location:</strong> </p>
+<p><strong>Abstract Submission Deadline:</strong> </p>
 <p><strong>Registration Deadline:</strong> </p>
-<p><strong>Abstract Submission Deadline:</strong> </p> -->
+ -->
 
 <h3> <a href="https://daoism2026.sciencesconf.org/" target="_blank">Unifying Galactic and Extragalactic Views of Star Formation - Spectroscopic studies & Data Science</a> </h3>
 <p><strong>Date:</strong> 20.4.2026 – 24.4.2026 </p>
@@ -34,6 +35,13 @@
   <li><strong><a href="https://eas.unige.ch/EAS_meeting/session.jsp?id=SS36" target="_blank"> SS36 Synergies between JWST and the ELT for the study of star and planet formation </a></strong></li>
   <li><strong><a href="https://eas.unige.ch/EAS_meeting/session.jsp?id=SS37" target="_blank"> SS37 Planet formation in sub-structured disks: from dust traps to giant planets </a></strong></li>
 </ul> 
+
+<h3> <a href="https://sfb1601.astro.uni-koeln.de/symposium2026/" target="_blank">Cologne-Bonn Symposium on the habitats of massive stars across cosmic time</a> </h3>
+<p><strong>Date:</strong> 17.8.2026 – 21.8.2026 </p>
+<p><strong>Location:</strong> University of Cologne, Cologne, Germany</p>
+<p><strong>Abstract Submission Deadline:</strong> 15.4.2026 </p>
+<p><strong>Registration Deadline:</strong> 30.6.2026 </p>
+
 
 <h3> <a href="https://star-formation-fields.univie.ac.at" target="_blank">Star Formation Fields </a> </h3>
 <p><strong>Date:</strong> 21.9.2026 – 25.9.2026</p>
