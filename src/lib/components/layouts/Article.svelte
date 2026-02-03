@@ -7,6 +7,8 @@
 	import Image from '$lib/components/content/Image.svelte';
 	import ArxivList from '$lib/components/articles/ArxivList.svelte';
 	import PostList from '$lib/components/content/PostList.svelte';
+	import ArticleContainer from '../articles/ArticleContainer.svelte';
+	import ArticleHeading from '../articles/ArticleHeading.svelte';
 	import { getPosts } from '$lib/js/posts';
 	import { page } from '$app/stores';
 	import { siteTitle, authorSocialLinks } from '$lib/config.js';
@@ -16,113 +18,16 @@
 
 	// Passed props include all blog info (like title, date, etc).
 	let props = $props();
-	// setSiteHeader(props)
-
-	// console.log(props)
-
-	// const metadata = $state(props.metadata);
-
-	// Extract some date information!
-	let dateInformation = 'Date undefined';
-	if (props.date) {
-		dateInformation = formatDate(props.date);
-		if (props.updated) {
-			dateInformation += ` | Updated: ${formatDate(props.updated)}`;
-		}
-	}
-
-	// Category info
-	let categories = ['Uncategorised'];
-	if (props.categories) {
-		categories = props.categories;
-	}
-
-	// Author info
-	let authorInformation = 'Anonymous';
-	let authorLinks = [undefined];
-	if (props.authors) {
-		authorInformation = props.authors;
-		authorLinks = authorInformation.map(
-			(author) => authorSocialLinks[author.toLowerCase().replaceAll(' ', '_')]
-		);
-	}
-
-	// Image info
-	let image = props.image;
-	let imageCredit = props.imageCredit;
-	let imageURL = props.imageURL;
-
-	if (props.image === undefined) {
-		const defaultImage = getAppropriateDefaultImage(categories[0], props.title);
-		image = defaultImage.localPath;
-		imageCredit = defaultImage.credit;
-		imageURL = defaultImage.url;
-	} else {
-		// Handle relative links to images
-		if (props.image.slice(0, 2) == './') {
-			image = `/src/routes/(posts)${$page.url.pathname}/${props.image.slice(2)}`;
-		}
-	}
 
 	// Arxiv info
 	let arxivPosts = {};
 	if (props.arxiv) {
 		arxivPosts = loadArxivData($page.url.pathname);
 	}
-
-	let headMetadata = $derived({
-		title: props.title,
-		description: props.description,
-		author: props.authors,
-		image: image
-	});
 </script>
 
-<SiteHeader {...headMetadata} />
-
 <article style="margin-top: 20px">
-	{#if image !== undefined}
-		<div class="header-image">
-			<Image
-				src={image}
-				alt={'Article header image.'}
-				style="margin: auto; width: min(500px, 90vw); height: 320px; object-fit: cover; object-position: 50%"
-			/>
-		</div>
-	{/if}
-
-	<div class="info">
-		<h1 class="heading">{props.title}</h1>
-		<p class="category">
-			{#each categories as category, i}
-				{#if i !== 0}
-					,
-				{/if}
-				<a href="/category/{category.toLowerCase()}">{category.replaceAll('-', ' ')}</a>
-			{/each}
-		</p>
-		<p class="date">
-			{#each authorInformation as author, index}
-				{#if index !== 0}
-					,
-				{/if}
-				{#if authorLinks[index]}
-					<a href={authorLinks[index]} target="_blank">{author}</a>
-				{:else}
-					{author}
-				{/if}
-			{/each}
-			| {dateInformation}
-			{#if imageCredit}
-				| Header image:
-				{#if imageURL}
-					<a href={imageURL} target="_blank">{imageCredit}</a>
-				{:else}
-					{imageCredit}
-				{/if}
-			{/if}
-		</p>
-	</div>
+	<ArticleHeading {...props} />
 
 	{@render props.children?.()}
 
@@ -148,30 +53,6 @@
 </article>
 
 <style>
-	.header-image {
-		text-align: center;
-	}
-	.info {
-		margin-bottom: 50px;
-	}
-	.heading {
-		margin-bottom: 8px;
-	}
-	.category {
-		text-transform: capitalize;
-		font-style: italic;
-		color: var(--color-accent);
-		font-weight: 800;
-		font-size: 17px;
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
-	.date {
-		font-weight: 600;
-		font-size: 17px;
-		margin-top: 5px;
-		margin-bottom: 0px;
-	}
 	h2 {
 		text-align: center;
 	}
