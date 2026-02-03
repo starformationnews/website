@@ -5,25 +5,25 @@
 <p><strong>Abstract Submission Deadline:</strong> </p> -->
 
 <h3> <a href="https://daoism2026.sciencesconf.org/" target="_blank">Unifying Galactic and Extragalactic Views of Star Formation - Spectroscopic studies & Data Science</a> </h3>
-<p><strong>Date:</strong> 20.4.2026 — 24.4.2026 </p>
+<p><strong>Date:</strong> 20.4.2026 – 24.4.2026 </p>
 <p><strong>Location:</strong> Institut d'Astrophysique de Paris, Paris, France</p>
 <p><strong>Abstract Submission Deadline:</strong> 27.2.2026</p> 
 <p><strong>Registration Deadline:</strong> 28.3.2026 </p>
 
 <h3> <a href="https://sites.google.com/unc.edu.ar/seeds2026/home?authuser=0" target="_blank">Stellar Evolution, Exoplanets, and Dynamics of Stellar Systems</a> </h3>
-<p><strong>Date:</strong> 22.4.2026 - 24.4.2026</p>
+<p><strong>Date:</strong> 22.4.2026 – 24.4.2026</p>
 <p><strong>Location:</strong> Observatorio Astronómico de Córdoba, Córdoba, Argentina</p>
 <p><strong>Abstract Submission Deadline:</strong> 27.2.2026 </p>
 <p><strong>Registration Deadline:</strong> 1.4.2026</p>
 
 <h3> <a href="https://events.konkoly.hu/eruptive_yso_workshop" target="_blank">Eruptive YSO Workshop</a> </h3>
-<p><strong>Date:</strong> 18.5.2026 - 22.5.2026</p>
+<p><strong>Date:</strong> 18.5.2026 – 22.5.2026</p>
 <p><strong>Location:</strong> Budapest, Hungary</p>
 <p><strong>Abstract Submission Deadline:</strong> 28.2.2026</p>
 <p><strong>Registration Deadline:</strong> 28.2.2026</p>
 
 <h3> <a href="https://eas.unige.ch/EAS_meeting/" target="_blank">European Astronomical Society Annual Meeting</a> </h3>
-<p><strong>Date:</strong> 29.6.2026 - 3.7.2026 </p>
+<p><strong>Date:</strong> 29.6.2026 – 3.7.2026 </p>
 <p><strong>Location:</strong> SwissTech Convention Centre, Lausanne, Switzerland</p>
 <p><strong>Registration Deadline:</strong> 28.6.2026 </p>
 <p><strong>Abstract Submission Deadline:</strong> 3.3.2026 </p>
@@ -36,19 +36,19 @@
 </ul> 
 
 <h3> <a href="https://star-formation-fields.univie.ac.at" target="_blank">Star Formation Fields </a> </h3>
-<p><strong>Date:</strong> 21.9.2026 - 25.9.2026</p>
+<p><strong>Date:</strong> 21.9.2026 – 25.9.2026</p>
 <p><strong>Location:</strong> Rethymno, Crete </p>
 <p><strong>Abstract Submission Deadline:</strong> 15.4.2026</p> 
 <p><strong>Registration Deadline:</strong> 30.7.2026 </p>
 
 <h3> <a href="https://sites.google.com/view/cosmic-rays-4" target="_blank">Cosmic rays 4: the salt of the star formation recipe</a> </h3>
-<p><strong>Date:</strong> 5.10.2026 - 9.10.2026</p>
+<p><strong>Date:</strong> 5.10.2026 – 9.10.2026</p>
 <p><strong>Location:</strong> Scuola Normale Superiore, Pisa, Italy</p>
 <p><strong>Abstract Submission Deadline:</strong> 28.6.2026</p>
 <p><strong>Registration Deadline:</strong> 28.6.2026</p>
 
 <h3> <a href="https://aries.res.in/iaus412-hfs2026/index.html" target="_blank">IAUS412: Hub-Filament Structures in Star Formation</a> </h3>
-<p><strong>Date:</strong> 30.11.2026 - 4.12.2026 </p>
+<p><strong>Date:</strong> 30.11.2026 – 4.12.2026 </p>
 <p><strong>Location:</strong> Mysuru, India</p>
 <p><strong>Abstract Submission Deadline:</strong> 30.6.2026 </p> 
 <p><strong>Registration Deadline:</strong> 30.9.2026 </p>
