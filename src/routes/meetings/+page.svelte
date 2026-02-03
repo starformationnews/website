@@ -1,6 +1,7 @@
 <script>
 	import { siteFormMeetingSubmission } from '$lib/config';
 	import SiteHeader from '$lib/components/site/SiteHeader.svelte';
+	import Meetings from './Meetings.svelte';
 </script>
 
 <SiteHeader />
@@ -13,3 +14,5 @@
 	Please use <a href={siteFormMeetingSubmission} target="_blank">this Google form</a> to submit meetings,
 	and check back soon for when this page will start to get updated.
 </p>
+
+<Meetings />
