@@ -15,5 +15,9 @@ We wanted to quickly answer a few frequently asked questions about the new websi
 
 1. **Papers are ordered randomly.** Papers with the same subtitle (such as those in a series) are grouped together.
 2. We currently accept abstracts of papers submitted to the arXiv **no more than three months before the current month**. For example: this issue (January 2026) includes submissions from 1st November 2025 onwards.
+3. We will aim to publish new newsletters by the **third working day** of the following month.
+4. The entire SFN is now [**open source**](https://github.com/starformationnews), helping to ensure its sustainability into the future. If you have any suggestions for the new website, feel free to [open a GitHub issue](https://github.com/starformationnews/website/issues).
+
+And now: onto the abstracts!
 
 <br>
