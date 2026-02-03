@@ -1,4 +1,4 @@
-import { formatDate, renderLaTeX } from '$lib/js/format';
+import { formatDate, renderLaTeX, removePunctuation, romanNumeralToNumber } from '$lib/js/format';
 import { render } from 'svelte/server';
 import { randomNumberGenerator } from './random.js';
 import defaultImageCredits from '../assets/images/credits.json';
@@ -187,12 +187,20 @@ function sortPosts(arxivPosts, path) {
 			subtitleIndex[subtitle] = rng();
 		}
 		post.index = subtitleIndex[subtitle];
+
+		// Also make a nicely sortable version of the title
+		post.titleSortable = removePunctuation(post.title)
+			.toUpperCase()
+			.split(' ')
+			.map((word) => String(romanNumeralToNumber(word, true)).padStart(4, '0'))
+			.join(' ');
 	}
 
 	// Then, sort the posts: based on the ID of their subtitle, and then on the titles
-	// themselves. This will HOPEFULLY sort series papers together.
+	// themselves. This will HOPEFULLY sort series papers together, as long as the names
+	// aren't too different!
 	arxivPosts = arxivPosts.toSorted((a, b) =>
-		a.index !== b.index ? a.index - b.index : a.title.localeCompare(b.title)
+		a.index !== b.index ? a.index - b.index : a.titleSortable.localeCompare(b.titleSortable)
 	);
 	return arxivPosts;
 }
