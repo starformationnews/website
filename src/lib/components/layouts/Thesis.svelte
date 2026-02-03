@@ -55,11 +55,11 @@ Most basic article type: only contains a header & then all content in the .md fi
 				<a href="mailto:{props.thesisEmail}">{pronounPossessive} email address</a>.
 			{/if}
 			{#if props.thesisWebsite && !props.thesisEmail}
-				<a href="mailto:{props.thesisWebsite}">via {pronounPossessive} website.</a>
+				<a href="{props.thesisWebsite}">via {pronounPossessive} website.</a>
 			{/if}
 			{#if props.thesisWebsite && props.thesisEmail}
 				<a href="mailto:{props.thesisEmail}">{pronounPossessive} email address</a> or
-				<a href="mailto:{props.thesisWebsite}">via {pronounPossessive} website.</a>
+				<a href="{props.thesisWebsite}">via {pronounPossessive} website.</a>
 			{/if}
 		</p>
 	{/if}
