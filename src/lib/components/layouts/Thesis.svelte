@@ -5,6 +5,7 @@ Most basic article type: only contains a header & then all content in the .md fi
 	import { formatDate, renderLaTeX } from '$lib/js/format';
 	import ArticleContainer from '../articles/ArticleContainer.svelte';
 	import ArticleHeading from '../articles/ArticleHeading.svelte';
+	import ThesisAbstract from '../articles/ThesisAbstract.svelte';
 
 	// Passed props include all blog info (like title, date, etc).
 	let props = $props();
@@ -23,7 +24,6 @@ Most basic article type: only contains a header & then all content in the .md fi
 
 	let pronounAccusative = $derived(accusativePronouns[props.thesisPronouns]);
 	let pronounPossessive = $derived(possessivePronouns[props.thesisPronouns]);
-	let showAbstract = $state(false);
 
 	// To keep filling out the markdown files easier, some details can be auto-filled.
 	// Description
@@ -38,8 +38,6 @@ Most basic article type: only contains a header & then all content in the .md fi
 
 	<p>{firstParagraph}</p>
 
-	{@render props.children?.()}
-
 	<p><strong>Title:</strong> {renderLaTeX(props.thesisTitle)}</p>
 
 	{#if props.thesisSupervisor}
@@ -48,26 +46,7 @@ Most basic article type: only contains a header & then all content in the .md fi
 
 	<p><strong>Institute:</strong> {props.thesisInstitution}</p>
 
-	{#if props.thesisAbstract}
-		<p>
-			<strong>Abstract:</strong>
-			{#if showAbstract}
-				<!-- <button
-				onclick={() => {
-					showAbstract = false;
-				}}>(hide abstract)</button
-			> -->
-				<!-- <br/> -->
-				{renderLaTeX(props.thesisAbstract)}
-			{:else}
-				<button
-					onclick={() => {
-						showAbstract = true;
-					}}>(show abstract)</button
-				>
-			{/if}
-		</p>
-	{/if}
+	<ThesisAbstract>{@render props.children?.()}</ThesisAbstract>
 
 	{#if props.thesisWebsite || props.thesisEmail}
 		<p>
@@ -96,17 +75,6 @@ Most basic article type: only contains a header & then all content in the .md fi
 </ArticleContainer>
 
 <style>
-	button {
-		border: none;
-		display: inline;
-		background: none;
-		color: var(--color-accent);
-		cursor: pointer;
-		font-size: 20px;
-	}
-	button:hover {
-		color: var(--color-accent-hover);
-	}
 	.give-me-a-job {
 		background-color: color-mix(in srgb, var(--color-lightergrey) 20%, var(--color-sandwhite) 80%);
 		text-align: center;
