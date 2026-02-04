@@ -30,6 +30,7 @@
 <p><strong>Abstract Submission Deadline:</strong> 3.3.2026 </p>
 <p><strong>Sessions of Interest:</strong> </p>
 <ul>
+  <li><strong><a href="https://eas.unige.ch/EAS_meeting/session.jsp?id=SS8" target="_blank"> SS8 Local Group star formation in the conditions of Cosmic Noon: seeing the impact of JWST</a></strong></li>
   <li><strong><a href="https://eas.unige.ch/EAS_meeting/session.jsp?id=SS11" target="_blank"> SS11 Young stellar structures in the Milky Way </a></strong></li>
   <li><strong><a href="https://eas.unige.ch/EAS_meeting/session.jsp?id=SS30" target="_blank"> SS30 A synoptic view of star formation with the VLTI and JWST </a></strong></li>
   <li><strong><a href="https://eas.unige.ch/EAS_meeting/session.jsp?id=SS36" target="_blank"> SS36 Synergies between JWST and the ELT for the study of star and planet formation </a></strong></li>
