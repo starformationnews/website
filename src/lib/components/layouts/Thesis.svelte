@@ -76,7 +76,7 @@ Most basic article type: only contains a header & then all content in the .md fi
 
 <style>
 	.give-me-a-job {
-		background-color: color-mix(in srgb, var(--color-lightergrey) 20%, var(--color-sandwhite) 80%);
+		background-color: var(--color-sandwhite-dark);
 		text-align: center;
 		width: 80%;
 		margin-left: auto;

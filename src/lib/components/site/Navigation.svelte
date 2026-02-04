@@ -125,7 +125,7 @@
 		.navigation {
 			display: none;
 			z-index: 100;
-			background-color: var(--color-offwhite);
+			background-color: var(--color-sandwhite);;
 			border-left: 1px solid var(--textColor);
 			border-bottom: 1px solid var(--textColor);
 			border-right: 1px solid var(--textColor);
