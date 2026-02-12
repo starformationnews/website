@@ -1,4 +1,5 @@
-<!-- <h3> <a href="" target="_blank">Title</a> </h3>
+<!-- 
+<h3> <a href="" target="_blank">Title</a> </h3>
 <p><strong>Date:</strong> </p>
 <p><strong>Location:</strong> </p>
 <p><strong>Abstract Submission Deadline:</strong> </p>
@@ -36,6 +37,24 @@
   <li><strong><a href="https://eas.unige.ch/EAS_meeting/session.jsp?id=SS36" target="_blank"> SS36 Synergies between JWST and the ELT for the study of star and planet formation </a></strong></li>
   <li><strong><a href="https://eas.unige.ch/EAS_meeting/session.jsp?id=SS37" target="_blank"> SS37 Planet formation in sub-structured disks: from dust traps to giant planets </a></strong></li>
 </ul> 
+
+<h3> <a href="https://www.aromaticuniverse.space" target="_blank">Exploring the aromatic universe in the JWST era</a> </h3>
+<p><strong>Date:</strong> 6.7.2026 – 10.7.2026</p>
+<p><strong>Location:</strong> Western University, London, Ontario, Canada</p>
+<p><strong>Abstract Submission Deadline:</strong> 15.3.2026</p>
+<p><strong>Registration Deadline:</strong> 15.6.2026</p>
+
+<h3> <a href="https://workshops.ice.csic.es/event/8/" target="_blank">Igniting stars, crafting planets: The multiscale journey of star and planet formation</a> </h3>
+<p><strong>Date:</strong> 13.7.2026 - 17.7.2026</p>
+<p><strong>Location:</strong> Tarragona, Spain</p>
+<p><strong>Abstract Submission Deadline:</strong> 15.3.2026</p>
+<p><strong>Registration Deadline:</strong> 1.7.2026</p>
+
+<h3> <a href="https://discsontheexe.org/" target="_blank">Discs on the Exe: From protostellar discs to debris discs and planets</a> </h3>
+<p><strong>Date:</strong> 27.7.2026 – 31.7.2026</p>
+<p><strong>Location:</strong> University of Exeter, Exeter, UK</p>
+<p><strong>Abstract Submission Deadline:</strong> 17.3.2026</p>
+<p><strong>Registration Deadline:</strong> 5.5.2026</p>
 
 <h3> <a href="https://sfb1601.astro.uni-koeln.de/symposium2026/" target="_blank">Cologne-Bonn Symposium on the habitats of massive stars across cosmic time</a> </h3>
 <p><strong>Date:</strong> 17.8.2026 – 21.8.2026 </p>
