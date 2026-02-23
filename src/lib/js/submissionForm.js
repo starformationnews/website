@@ -1,4 +1,7 @@
 import Papa from 'papaparse'; // how the fuck is this a real package name
+import fs from 'fs';
+import path from 'path';
+import { dateToSFNID } from './sfn.js';
 
 const maxPaperAge = 1; // Max months back a paper can have in age
 const SUPPRESS_ARTICLE_WARNINGS = process.env.SUPPRESS_ARTICLE_WARNINGS === '1';
@@ -11,17 +14,34 @@ export async function fetchPaperIDs(year, month, extraMonths) {
 	year = Number(year);
 	month = Number(month);
 
+	console.log('\n-----------------------');
+	console.log('DOWNLOADING SUBMISSIONS TABLE');
+	console.log('-----------------------');
 	const allSubmissions = await downloadSubmissions();
+
+	console.log('\n-----------------------');
+	console.log('FILTERING SUBMISSIONS BY DATE');
+	console.log('-----------------------');
 	const filteredSubmissions = filterSubmissions(allSubmissions, year, month);
+
+	console.log('\n-----------------------');
+	console.log('PARSING AND CHECKING PAPER IDs');
+	console.log('-----------------------');
 	const paperIDs = parsePaperIDs(filteredSubmissions, year, month, extraMonths);
-	return deduplicatePaperIDs(paperIDs);
+
+	console.log('\n-----------------------');
+	console.log('DEDUPLICATING PAPER IDs');
+	console.log('-----------------------');
+	const deduplicatedPaperIDs = deduplicatePaperIDs(paperIDs, year, month, extraMonths);
+
+	return deduplicatedPaperIDs;
 }
 
 async function downloadSubmissions() {
-	console.log('Downloading submissions');
 	if (GOOGLE_SHEETS_URL === '' || GOOGLE_SHEETS_URL === undefined) {
 		throw new Error('You must set the GOOGLE_SHEETS_URL environment variable.');
 	}
+	console.log('Starting download...');
 	const rawCSV = await fetch(GOOGLE_SHEETS_URL);
 	const readableCSV = await rawCSV.text();
 	// console.log(readableCSV);
@@ -101,13 +121,62 @@ function parsePaperIDs(submissions, year, month, extraMonths) {
 	return validSubmissions;
 }
 
-function deduplicatePaperIDs(paperIDs) {
-	const startLength = paperIDs.length;
+function deduplicatePaperIDs(paperIDs, year, month, extraMonths) {
+	// Ensure only unique entries are here
+	let startLength = paperIDs.length;
+	let uniquePaperIDs = [...new Set(paperIDs)]; // Gets unique vals in array https://stackoverflow.com/a/14438954
+	console.log(
+		`Removed ${startLength - uniquePaperIDs.length} IDs submitted multiple times this month`
+	);
 
-	// Gets unique vals in array https://stackoverflow.com/a/14438954
-	const uniquePaperIDs = [...new Set(paperIDs)];
+	// Next off, remove anything from prior & future months
+	const startOfMonth = new Date(Date.UTC(year, month - 1));
 
-	console.log(`Removed ${startLength - uniquePaperIDs.length} duplicate IDs`);
+	// Check a few months in the future AND past for duplicates. We check the future
+	// just to ensure compatibility with anyone backfilling prior months.
+	const skippedMonths = new Array();
+	for (let i = -2 * extraMonths; i <= 2 * extraMonths; i++) {
+		// Ignore this month
+		if (i === 0) {
+			continue;
+		}
+
+		// See if the trial month exists at all
+		const thisMonth = new Date(
+			Date.UTC(startOfMonth.getUTCFullYear(), startOfMonth.getUTCMonth() - i)
+		);
+		const year = thisMonth.getUTCFullYear();
+		const id = dateToSFNID(thisMonth);
+
+		const location = path.join(
+			import.meta.dirname,
+			`/../../routes/(posts)/newsletters/${year}/${id}/arxiv.json`
+		);
+
+		// If it doesn't exist, we skip it
+		if (!fs.existsSync(location)) {
+			skippedMonths.push(id);
+			continue;
+		}
+
+		// Otherwise, remove duplicates
+		console.log(`Checking for duplicates in SFN ${id}...`);
+		const pastPapers = JSON.parse(fs.readFileSync(location));
+		const pastPaperIDs = new Set(pastPapers.map((paper) => paper.idShort));
+
+		startLength = uniquePaperIDs.length;
+
+		uniquePaperIDs = uniquePaperIDs.filter((id) => !pastPaperIDs.has(id));
+		console.log(
+			`- Removed ${startLength - uniquePaperIDs.length} papers that overlap with SFN ${id}`
+		);
+	}
+
+	console.log(
+		'The following issues had no arxiv.json and were not checked:',
+		skippedMonths.toSorted().join(', ')
+	);
+
 	console.log(`Final query: ${uniquePaperIDs.length} IDs`);
 	return uniquePaperIDs;
 }
@@ -161,13 +230,24 @@ function checkArxivID(id, minPaperDate) {
 		};
 	}
 
+	// Next, check that the paper number has length of five or greater (current arxiv format)
+	if (parts[1].length < 5) {
+		return {
+			isValid: false,
+			error: `Paper number part of ID has length below 5 (${parts[1].length})`
+		};
+	}
+
 	// Finally, also date the paper's year/month from the ID
 	const paperDate = new Date(Date.UTC('20' + parts[0].slice(0, 2), Number(parts[0].slice(2)) - 1));
 
 	if (paperDate < minPaperDate) {
+		const options = { month: 'short', year: 'numeric' };
+		const minPaperDateString = minPaperDate.toLocaleDateString('en-UK', options);
+		const paperDateString = paperDate.toLocaleDateString('en-UK', options);
 		return {
 			isValid: false,
-			error: `Date of paper posting is before minimum considered date for this month (${paperDate})`
+			error: `Date of paper posting (${paperDateString}) is before minimum considered month (${minPaperDateString})`
 		};
 	}
 
