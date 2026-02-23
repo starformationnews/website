@@ -132,10 +132,15 @@ function deduplicatePaperIDs(paperIDs, year, month, extraMonths) {
 	// Next off, remove anything from prior & future months
 	const startOfMonth = new Date(Date.UTC(year, month - 1));
 
+	// We make extraMonths MUCH more paranoid by default, checking forward/back 6 months by default.
+	// This isn't super necessary, but it provides a lot of insulation against future changes to the
+	// extraMonths parameter.
+	extraMonths = Math.max(extraMonths, 6);
+
 	// Check a few months in the future AND past for duplicates. We check the future
 	// just to ensure compatibility with anyone backfilling prior months.
 	const skippedMonths = new Array();
-	for (let i = -2 * extraMonths; i <= 2 * extraMonths; i++) {
+	for (let i = -extraMonths; i <= extraMonths; i++) {
 		// Ignore this month
 		if (i === 0) {
 			continue;

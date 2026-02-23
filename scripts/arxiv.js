@@ -9,7 +9,7 @@ import fs from 'fs';
 /* Overall settings */
 // Do this to not query the arXiv API and not write a file. This is useful for debugging, as
 // sometimes the arXiv API errors are absurdly long...
-const dryRun = false;  // Todo this should be a command line arg really
+const dryRun = true;  // Todo this should be a command line arg really
 
 // Max number of extra months submissions can be in age. When zero, only current month included
 // N.B. if this is reduced in the future, this may cause duplicate submissions from prior months.
