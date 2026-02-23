@@ -71,7 +71,7 @@ function filterSubmissions(allSubmissions, year, month) {
 		.map((row) => ({
 			timestamp: shitGoogleSheetsTimestampToDate(row.timestamp),
 			// Split based on whitespace or comma https://stackoverflow.com/a/10341725
-			papers: row.papers.split(/[,\s]\s*/), // Todo: A very wrong string will fuck this
+			papers: row.papers.trim().split(/[,\s]\s*/), // Todo: A very wrong string will fuck this
 			email: row.email,
 			mailing: row.mailing === 'Yes',
 			hidden: row.hidden !== 'FALSE'
@@ -201,7 +201,7 @@ function shitGoogleSheetsTimestampToDate(bullshit) {
 function checkArxivID(id, minPaperDate) {
 	// Blank IDs (happens on newlines added e.g. by mistake)
 	if (id.trim() === '') {
-		return {isValid: false, error: "ID is blank and only contains whitespace."}
+		return { isValid: false, error: 'ID is blank and only contains whitespace.' };
 	}
 
 	// Since April 2007: ID should contain exactly one . and have something that
