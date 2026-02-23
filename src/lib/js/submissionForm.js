@@ -110,7 +110,7 @@ function parsePaperIDs(submissions, year, month, extraMonths) {
 				// Todo: this should really output a file of errors, or there should be an option for it
 				console.log('Paper submission rejected!');
 				console.log('-- Error:', checks.error);
-				console.log('-- Submission:', paper);
+				console.log('-- Submission:', paper.trim() === '' ? '(BLANK)' : paper);
 				console.log('-- Extracted ID:', paperID);
 				console.log('-- Submitted by:', submission.email);
 			}
@@ -199,8 +199,14 @@ function shitGoogleSheetsTimestampToDate(bullshit) {
 }
 
 function checkArxivID(id, minPaperDate) {
+	// Blank IDs (happens on newlines added e.g. by mistake)
+	if (id.trim() === '') {
+		return {isValid: false, error: "ID is blank and only contains whitespace."}
+	}
+
 	// Since April 2007: ID should contain exactly one . and have something that
 	// converts into a number on either side. This checks that!
+	// We also assume that the right hand side-number is at least 5 characters long.
 	const parts = id.split('.');
 	if (parts.length !== 2) {
 		return {
