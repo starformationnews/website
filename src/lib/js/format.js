@@ -10,21 +10,32 @@ export const numberFormatter = Intl.NumberFormat('en', {
 });
 
 export function renderLaTeX(text) {
-	return text
-		.replaceAll(' -- ', ' – ')
-		.replaceAll('--', '—')
-		.replaceAll(/\$\$(.*?)\$\$/g, function (outer, inner) {
-			return katex.renderToString(inner, { displayMode: true, throwOnError: false });
-		})
-		.replaceAll(/\$(.*?)\$/g, function (outer, inner) {
-			return katex.renderToString(inner, { displayMode: false, throwOnError: false });
-		})
-		.replaceAll(/\\\[(.*?)\\\]/g, function (outer, innner) {
-			return katex.renderToString(inner, { displayMode: true, throwOnError: false });
-		})
-		.replaceAll(/\\\((.*?)\\\)/g, function (outer, innner) {
-			return katex.renderToString(inner, { displayMode: false, throwOnError: false });
-		});
+	try {
+		text = text
+			.replaceAll(' -- ', ' – ')
+			.replaceAll('--', '—')
+			.replaceAll(/\$\$(.*?)\$\$/g, function (outer, inner) {
+				return katex.renderToString(inner, { displayMode: true, throwOnError: false });
+			})
+			.replaceAll(/\$(.*?)\$/g, function (outer, inner) {
+				return katex.renderToString(inner, { displayMode: false, throwOnError: false });
+			})
+			.replaceAll(/\\\[(.*?)\\\]/g, function (outer, inner) {
+				return katex.renderToString(inner, { displayMode: true, throwOnError: false });
+			})
+			.replaceAll(/\\\((.*?)\\\)/g, function (outer, inner) {
+				return katex.renderToString(inner, { displayMode: false, throwOnError: false });
+			});
+	} catch (e) {
+		console.error("Error while processing text!")
+		console.error(e.name)
+		console.error(e.message)
+		console.error(e.stack)
+		console.error("Raw text:\n", text)
+		// console.error(e.name)
+	}
+
+	return text;
 }
 
 const ROMAN_NUMERAL_VALUES = {
