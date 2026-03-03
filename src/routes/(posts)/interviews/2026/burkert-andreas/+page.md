@@ -200,7 +200,7 @@ currently over 1200 citations, was a study you wrote back in 1995 on
 the structure of dark matter halos in dwarf galaxies. What accounts
 for this popularity? *
 
-**A:**Starting 1991 it was realised that simulated dark matter halos have density distributions
+**A:** Starting 1991 it was realised that simulated dark matter halos have density distributions
 that diverge towards the center as 1/r or steeper.
 Navarro et al. (1997) showed later on that halos have universal density distributions
 with a profile
