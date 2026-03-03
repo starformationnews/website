@@ -4,7 +4,7 @@ date: 2026-02-02
 authors: ['Bo Reipurth']
 categories: ['interviews']
 description: 'Guillem Anglada interviewed by Bo Reipurth.'
-image: './anglada.webp'
+image: './header.webp'
 # link: 
 ---
 
