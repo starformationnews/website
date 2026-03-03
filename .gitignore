@@ -11,6 +11,8 @@
 
 ### GitHub's default node.js .gitignore
 node_modules
+# yes emil you can hate on mac again
+node_modules.nosync
 
 # Output
 .output
