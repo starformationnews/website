@@ -15,7 +15,7 @@ layout: thesis
 # REMEMBER TO ADD THE ABSTRACT BELOW!
 thesisPerson: ""
 thesisPronouns: ""
-thesisDate: "2025-06-04"  # Backwards!
+thesisDate: "2025-06-04"  # Backwards! year-month-day
 thesisTitle: ""
 # thesisSupervisor: "Prof. Example"
 thesisInstitution: ""
