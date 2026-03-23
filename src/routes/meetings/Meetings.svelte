@@ -56,6 +56,10 @@
 <p><strong>Abstract Submission Deadline:</strong> 17.3.2026</p>
 <p><strong>Registration Deadline:</strong> 5.5.2026</p>
 
+<h3> <a href="https://ppvii.org/spg2026/" target="_blank">The Formation of Stars and Planets in the Evolving Galaxy</a> </h3>
+<p><strong>Date:</strong> 3.8.2026 – 7.8.2026</p>
+<p><strong>Location:</strong> Tenbusu Hall, Tenbusu Naha, 3-2-10, Makishi, Naha, Okinawa, Japan</p>
+
 <h3> <a href="https://sfb1601.astro.uni-koeln.de/symposium2026/" target="_blank">Cologne-Bonn Symposium on the habitats of massive stars across cosmic time</a> </h3>
 <p><strong>Date:</strong> 17.8.2026 – 21.8.2026 </p>
 <p><strong>Location:</strong> University of Cologne, Cologne, Germany</p>
@@ -73,6 +77,11 @@
 <p><strong>Date:</strong> 21.9.2026 – 25.9.2026</p>
 <p><strong>Location:</strong> National Radio Astronomy Observatory, Charlottesville, Virginia, USA </p>
 <p><strong>Abstract Submission Deadline:</strong> 30.4.2026</p> 
+
+<h3> <a href="https://iram-institute.org/science-portal/events/interferometry-school/13th-iram-interferometry-school-2026/" target="_blank">The 13th IRAM Millimeter Interferometry School</a> </h3>
+<p><strong>Date:</strong> 28.9.2026 – 3.10.2026 </p>
+<p><strong>Location:</strong> Grenoble, France</p>
+<p><strong>Registration Deadline:</strong> 31.5.2026</p>
 
 <h3> <a href="https://sites.google.com/view/cosmic-rays-4" target="_blank">Cosmic rays 4: the salt of the star formation recipe</a> </h3>
 <p><strong>Date:</strong> 5.10.2026 – 9.10.2026</p>
