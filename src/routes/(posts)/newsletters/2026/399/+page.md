@@ -1,11 +1,11 @@
 ---
 title: 'Star Formation Newsletter #399'
 date: 2026-04-03
-authors: ['Lilly Kormann',]
+authors: ['Lilly Kormann','Moa Huppenkothen', 'João Alves']
 categories: ['newsletters']
 description: 'Since 1992, The Star Formation Newsletter has been the premier destination for keeping up with news from the star formation community. This is its 397th edition, covering new research postings in January of 2026.'
 layout: newsletter
-hidden: true
+#hidden: true
 image: './header.webp'
 imageCredit: "NASA, ESA, CSA, STScI"
 imageURL: "https://esawebb.org/images/weic2513a/"
