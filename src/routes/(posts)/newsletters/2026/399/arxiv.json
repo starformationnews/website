@@ -226,36 +226,6 @@
         "idShort": "2603.08529"
     },
     {
-        "id": "http://arxiv.org/abs/2603.11155v1",
-        "title": "Solar twins in Gaia DR3 GSP-Spec II. Age distribution and its implications for the Sun's migration",
-        "updated": "2026-03-11T18:00:00.000Z",
-        "published": "2026-03-11T18:00:00.000Z",
-        "summary": "Solar twins are among the most powerful tracers of Galactic disk evolution owing to their unique property of sharing nearly solar metallicities ([Fe/H] ~ 0) while spanning a wide range of ages. To grasp solar twins as relics of Galaxy evolution, individual twins must be tagged with ages. A sufficiently large and well-characterized stellar sample then allows us to construct an age distribution that encodes the star formation history beyond our local region, modulated by the efficiency of radial migration of stars. Based on our catalog of 6,594 high-quality local (<~ 300 pc) solar twins from the Gaia Data Release 3 spectroscopic (GSP-Spec) catalog, we derived their age distribution after carefully deconvolving the selection function. We find two distinct features: a narrow peak around ~ 2 Gyr and a broad bump extending over ~ 4--6 Gyr. First, we argue that the former corresponds to a relatively recent burst of star formation that occurred in the disk, including at least a local region within a few kiloparsecs of the Sun, which is in good agreement with previous results deduced from independent works. On the other hand, the older bump, closely associated with the Sun's birth epoch, is intriguing since this finding challenges the predicted presence of a corotation barrier built by the Galactic bar, which is thought to prevent stars born inside R_GC ~ 6 kpc from reaching the solar neighborhood. We propose that the large number of local twins with ages between 4 and 6 Gyr provides compelling evidence that the Sun's long-distance (>= 3 kpc) migration is shared by many inner disk stars. This, in turn, suggests a possible link with the epoch of bar formation, which may have triggered enhanced star formation in the inner disk and induced efficient radial migration.",
-        "authors": [
-            {
-                "name": "Takuji Tsujimoto"
-            },
-            {
-                "name": "Daisuke Taniguchi"
-            },
-            {
-                "name": "Alejandra Recio-Blanco"
-            },
-            {
-                "name": "Pedro A. Palicio"
-            },
-            {
-                "name": "Patrick de Laverny"
-            }
-        ],
-        "categories": [
-            "astro-ph.GA",
-            "astro-ph.SR"
-        ],
-        "primaryCategory": "astro-ph.GA",
-        "idShort": "2603.11155"
-    },
-    {
         "id": "http://arxiv.org/abs/2603.09873v1",
         "title": "A Modified Conveyor Belt Model: Implications for Surface Density Thresholds for Massive Star Formation",
         "updated": "2026-03-10T16:35:49.000Z",
@@ -319,50 +289,6 @@
         ],
         "primaryCategory": "astro-ph.SR",
         "idShort": "2603.01979"
-    },
-    {
-        "id": "http://arxiv.org/abs/2603.18737v1",
-        "title": "The edge of the Milky Way's star-forming disc: Evidence from a 'U-shaped' stellar age profile",
-        "updated": "2026-03-19T10:39:33.000Z",
-        "published": "2026-03-19T10:39:33.000Z",
-        "summary": "We leveraged reliable age and distance estimates from LAMOST-DR3 and APOGEE-DR17+AstroNN combined with \\gaia\\ data to perform a detailed analysis of the stellar age distribution in the Milky Way's (MW) outer disc using giant stars. Selecting stars near the midplane ($|z|<0.3$ kpc) on near-circular orbits ($λ_c > 0.9$), we analysed these independent datasets that employed different age-estimation methods. Our stringent kinematic selection criteria effectively exclude halo stars, ensuring that the observed age trends reflect genuine disc properties rather than contamination from older halo populations. Our results reveal a 'U-shaped' stellar age profile, where a negative gradient in the inner disc transitions to a positive gradient in the outer disc region. We identify the minimum in the stellar age profile at $R_{\\rm min}=11.28 \\pm 0.58$ kpc and $R_{\\rm min}=12.15\\pm 0.62$ kpc for the APOGEE-DR17 and LAMOST-DR3 samples, respectively. Using N-body+SPH simulations, we demonstrate that $R_{\\rm min}$ corresponds to the break radius in the stellar density profile ($R_{\\rm br}$), marking the edge of the Galaxy's star-forming disc. This break arises from a sharp decline in the star formation rate, with the outer positive age gradient produced by the radial migration of stars born inside $R_{\\rm br}$. The cessation of star formation in the outer disc might be due to several mechanisms, including the dynamical influence of the bar's outer Lindblad resonance, the onset of the Galactic warp, or thermally regulated star formation. Overall, our results support the picture that the MW has a Type II (down-bending) stellar disc with a break at $R_{\\rm br} \\approx 11.28-12.15$ kpc, where the combination of star-formation cut-off and radial migration produces the observed U-shaped age profile.",
-        "authors": [
-            {
-                "name": "Karl Fiteni"
-            },
-            {
-                "name": "Stuart Robert Anderson"
-            },
-            {
-                "name": "Victor. P. Debattista"
-            },
-            {
-                "name": "Joseph Caruana"
-            },
-            {
-                "name": "João A. S. Amarante"
-            },
-            {
-                "name": "Steven Gough-Kelly"
-            },
-            {
-                "name": "Laurent Eyer"
-            },
-            {
-                "name": "Leandro Beraldo e Silva"
-            },
-            {
-                "name": "Tigran Khachaturyants"
-            },
-            {
-                "name": "Virginia Cuomo"
-            }
-        ],
-        "categories": [
-            "astro-ph.GA"
-        ],
-        "primaryCategory": "astro-ph.GA",
-        "idShort": "2603.18737"
     },
     {
         "id": "http://arxiv.org/abs/2603.20666v2",
