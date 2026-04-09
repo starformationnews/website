@@ -70,7 +70,7 @@
 <h3> <a href="https://star-formation-fields.univie.ac.at" target="_blank">Star Formation Fields </a> </h3>
 <p><strong>Date:</strong> 21.9.2026 – 25.9.2026</p>
 <p><strong>Location:</strong> Rethymno, Crete </p>
-<p><strong>Abstract Submission Deadline:</strong> 15.4.2026</p> 
+<p><strong>Abstract Submission Deadline:</strong> 1.5.2026</p> 
 <p><strong>Registration Deadline:</strong> 30.7.2026 </p>
 
 <h3> <a href="https://sites.google.com/view/disksincontext" target="_blank">DISCO: Disks in Context</a> </h3>
