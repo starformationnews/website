@@ -1,5 +1,5 @@
 ---
-title: 'Open call to organize Protostars and Planets VIII'
+title: 'Apply to host the next Protostars and Planets conference'
 date: 2026-04-17
 authors: ['Shu-ichiro Inutsuka', 'The PPVII SAC']
 categories: ['announcements']
