@@ -8,7 +8,7 @@ image: './header.webp'
 imageCredit: 'ESO/R. Chini'
 imageURL: 'https://www.eso.org/public/images/potw1044a/'
 # updated: 2026-01-14
-hidden: true
+# hidden: true
 ---
 
 To all concerned,
