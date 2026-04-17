@@ -66,7 +66,7 @@
 		font-weight: bold;
 	}
 	/* Computers */
-	@media only screen and (min-width: 801px) {
+	@media only screen and (min-width: 901px) {
 		.site-heading {
 			font-size: 45px;
 			margin-top: 8px;
@@ -85,7 +85,7 @@
 		}
 	} */
 	/* Phones */
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 900px) {
 		header {
 			border-bottom: 1px solid var(--textColor);
 		}

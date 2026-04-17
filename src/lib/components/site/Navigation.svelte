@@ -51,6 +51,9 @@
 	<a href="/category/newsletters/" class:current-page={pathStartsWith('/category/newsletters')}
 		>Newsletters</a
 	>
+	<a href="/category/Announcements/" class:current-page={pathStartsWith('/category/interviews')}
+		>Announcements</a
+	>
 	<a href="/category/interviews/" class:current-page={pathStartsWith('/category/interviews')}
 		>Interviews</a
 	>
@@ -94,7 +97,7 @@
 	}
 
 	/* Computers */
-	@media only screen and (min-width: 801px) {
+	@media only screen and (min-width: 901px) {
 		.hamburger {
 			display: none;
 		}
@@ -121,7 +124,7 @@
 		}
 	} */
 	/* Phones */
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 900px) {
 		.navigation {
 			display: none;
 			z-index: 100;
