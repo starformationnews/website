@@ -5,8 +5,8 @@ authors: ['Shu-ichiro Inutsuka', 'The PPVII SAC']
 categories: ['announcements']
 description: 'Submissions are now open to host Protostars and Planets VIII.'
 image: './header.webp'
-imageCredit: 'ALMA (ESO/NAOJ/NRAO)'
-imageURL: 'http://www.eso.org/public/images/eso1436a/'
+imageCredit: 'ESO/R. Chini'
+imageURL: 'https://www.eso.org/public/images/potw1044a/'
 # updated: 2026-01-14
 hidden: true
 ---
