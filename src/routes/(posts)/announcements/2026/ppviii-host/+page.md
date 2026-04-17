@@ -3,8 +3,8 @@ title: 'Applications to host Protostars and Planets VIII'
 date: 2026-04-17
 authors: ['Shu-ichiro Inutsuka', 'The PPVII SAC']
 categories: ['announcements']
-description: 'The Star Formation Newsletter is back after a hiatus. This post explains its future direction.'
-# image: './header.webp'
+description: 'Submissions are now open to host Protostars and Planets VIII.'
+image: './header.webp'
 # imageCredit: 'ALMA (ESO/NAOJ/NRAO)'
 # imageURL: 'http://www.eso.org/public/images/eso1436a/'
 # updated: 2026-01-14
