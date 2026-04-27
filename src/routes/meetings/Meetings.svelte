@@ -95,6 +95,12 @@
 <p><strong>Abstract Submission Deadline:</strong> 30.6.2026 </p> 
 <p><strong>Registration Deadline:</strong> 30.9.2026 </p>
 
+<h3> <a href="https://www.munich-iapbp.de/activities/activities-2027/solar-system" target="_blank">The Galactic Journey of the Solar System: Astronomical, Geological, and Paleo-Climatological Perspectives</a> </h3>
+<p><strong>Date:</strong> 3.5.2027 – 28.5.2027 </p>
+<p><strong>Location:</strong> MIAPbP, Garching, Germany</p>
+<p><strong>Abstract Submission Deadline:</strong> 30.8.2026</p>
+<p><strong>Registration Deadline:</strong> 30.8.2026</p>
+
 <style>
     h3 {
         border-top: 1px solid var(--color-lightgrey);
