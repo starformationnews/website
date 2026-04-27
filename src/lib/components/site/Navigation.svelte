@@ -51,7 +51,7 @@
 	<a href="/category/newsletters/" class:current-page={pathStartsWith('/category/newsletters')}
 		>Newsletters</a
 	>
-	<a href="/category/Announcements/" class:current-page={pathStartsWith('/category/interviews')}
+	<a href="/category/announcements/" class:current-page={pathStartsWith('/category/announcements')}
 		>Announcements</a
 	>
 	<a href="/category/interviews/" class:current-page={pathStartsWith('/category/interviews')}
