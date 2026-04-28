@@ -14,7 +14,6 @@ Includes arXiv posts for the month, which must be downloaded and put in an arxiv
 </script>
 
 <ArticleContainer>
-
 	<ArticleHeading {...props} />
 
 	{@render props.children?.()}
@@ -25,6 +24,5 @@ Includes arXiv posts for the month, which must be downloaded and put in an arxiv
 		<p>Unable to load arXiv posts for this month.</p>
 	{/if}
 
-	<RecentNews />
-
+	<RecentNews url={$page.url.pathname} {...props} />
 </ArticleContainer>

@@ -3,11 +3,32 @@ import { postsPerPage } from '../config';
 import { getAppropriateDefaultImage } from './content';
 
 /* Adapted from https://github.com/josh-collinsworth/sveltekit-blog-starter/blob/main/src/lib/assets/js/fetchPosts.js */
-export async function getPosts({ cursor = 0, page = 0, limit = postsPerPage, category = 'all' }) {
+export async function getPosts({
+	cursor = 0,
+	page = 0,
+	limit = postsPerPage,
+	category = 'all',
+	badCategories = undefined,
+	minDate = undefined,
+	maxDate = undefined,
+	excludeHiddenPosts = false,
+	excludedURLs = undefined
+}) {
 	let { posts, allCategories } = await fetchPosts();
 
 	// Now, filter out any post categories we don't want
-	let { sortedPosts, totalPages } = filterAndSortPosts(category, posts, cursor, page, limit);
+	let { sortedPosts, totalPages } = filterAndSortPosts(
+		category,
+		badCategories,
+		posts,
+		cursor,
+		page,
+		limit,
+		minDate,
+		maxDate,
+		excludeHiddenPosts,
+		excludedURLs
+	);
 
 	// Select only desired metadata information
 	sortedPosts = filterMetadata(sortedPosts);
@@ -33,6 +54,11 @@ async function fetchPosts() {
 		)
 	);
 
+	// Ensure that dates are actually a datetime (they can come up in an odd format otherwise)
+	for (const post of posts) {
+		post.date = new Date(post.date);
+	}
+
 	// Remove any unpublished posts if not in a dev environment
 	posts = removeUnpublishedPosts(posts);
 
@@ -42,13 +68,68 @@ async function fetchPosts() {
 	return { posts, allCategories };
 }
 
-function filterAndSortPosts(category, posts, cursor, page, limit) {
-	if (category && category !== 'all') {
-		posts = posts.filter((post) =>
-			post.categories.map((a) => a.toLowerCase()).includes(category.toLowerCase())
-		);
+function filterAndSortPosts(
+	category,
+	badCategories,
+	posts,
+	cursor,
+	page,
+	limit,
+	minDate,
+	maxDate,
+	excludeHiddenPosts,
+	excludedURLs
+) {
+	// Filter based on post category
+	if ((category && category !== 'all') || badCategories) {
+		// First off, make sure each post has a set of post categories
+		posts.forEach((post) => {
+			post.categoriesSet = new Set(post.categories.map((a) => a.toLowerCase()));
+		});
+
+		// Then, decide if we need to filter on good categories
+		if (category && category !== 'all') {
+			if (typeof category === 'string' || category instanceof String) {
+				category = new Array(category);
+			}
+			category = new Set(category);
+			posts = posts.filter((post) => post.categoriesSet.intersection(category).size > 0);
+		}
+
+		// Finally, on bad categories too
+		if (badCategories) {
+			if (typeof badCategories === 'string' || badCategories instanceof String) {
+				badCategories = new Array(badCategories);
+			}
+			badCategories = new Set(badCategories);
+			posts = posts.filter((post) => post.categoriesSet.intersection(badCategories).size === 0);
+		}
 	}
+
 	const totalPages = Math.max(Math.ceil(posts.length / postsPerPage), 1);
+
+	// Remove hidden posts
+	if (excludeHiddenPosts) {
+		posts = posts.filter((post) => post.hidden !== true);
+	}
+
+	// Remove posts with bad URL
+	if (excludedURLs) {
+		if (typeof excludedURLs === 'string' || excludedURLs instanceof String) {
+			excludedURLs = new Array(excludedURLs);
+		}
+		excludedURLs = new Set(excludedURLs);
+		posts = posts.filter((post) => !excludedURLs.has(post.url));
+	}
+
+	// Filter by date
+	if (minDate !== undefined) {
+		// minDate = minDate.getTime();
+		posts = posts.filter((post) => post.date >= minDate);
+	}
+	if (maxDate !== undefined) {
+		posts = posts.filter((post) => post.date <= maxDate);
+	}
 
 	// Sort by date
 	posts.forEach((post) => (post.date = new Date(post.date)));
@@ -83,7 +164,7 @@ function filterMetadata(sortedPosts) {
 		// Handle posts with a locally referenced path, which we need to santize
 		if (post.image.startsWith('./')) {
 			const folder = post.path.split('/').slice(0, -1).join('/');
-			post.image = folder + "/" + post.image.slice(2);
+			post.image = folder + '/' + post.image.slice(2);
 		}
 	});
 	return sortedPosts;
