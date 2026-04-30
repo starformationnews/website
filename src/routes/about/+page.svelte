@@ -25,3 +25,5 @@
 	<li><strong>Moa Huppenkothen:</strong> Editor</li>
 	<li><strong>Lilly Kormann:</strong> Editor</li>
 </ul>
+
+<p>Have you got a question? Get in touch by emailing <strong><a href="mailto:sfn.astro@univie.ac.at">sfn.astro@univie.ac.at</a></strong>.</p>
