@@ -1,7 +1,7 @@
 <script>
 	import PostList from '../../lib/components/content/PostList.svelte';
 	import SiteHeader from '$lib/components/site/SiteHeader.svelte';
-	import { siteFormPhDSubmission } from '$lib/config';
+	import { siteFormPhDSubmission, siteFormAnnouncementSubmission } from '$lib/config';
 
 	let { data, children } = $props();
 
@@ -27,12 +27,19 @@
 
 {#if data.category === 'phds'}
 	<p style="margin-top: -20px; margin-bottom: 40px">
-		<em
-			>Have you recently defended your PhD? Let us know with <a
-				href={siteFormPhDSubmission}
-				target="_blank">this form</a
-			>.</em
-		>
+		Have you recently defended your PhD? Let us know with <a
+			href={siteFormPhDSubmission}
+			target="_blank">this form</a
+		>.
+	</p>
+{/if}
+
+{#if data.category === 'announcements'}
+	<p style="margin-top: -20px; margin-bottom: 40px">
+		Have a general announcement to post? Let us know with <a
+			href={siteFormAnnouncementSubmission}
+			target="_blank">this form</a
+		>.
 	</p>
 {/if}
 
