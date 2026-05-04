@@ -111,7 +111,7 @@
 	}
 	.category {
 		text-transform: capitalize;
-		font-style: italic;
+		/* font-style: italic; */
 		color: var(--color-accent);
 		font-weight: 800;
 		font-size: 17px;
