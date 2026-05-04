@@ -11,5 +11,10 @@ imageCredit: "Judy Schmidt"
 imageURL: "https://www.flickr.com/photos/geckzilla/"
 ---
 
-Aside from the monthly newsletter, we also post newly defended PhDs, interviews, and other news throughout the month. You can always find them on [the homepage](/) of our site. In addition, our list of [upcoming meetings](/meetings) is now updated.
+This month, we also began a new announcements section on the site, which includes four new announcements:
+- [First data release from JDISCS](/announcements/2026/jdiscs)
+- [Apply to host the next Protostars & Planets conference](/announcements/2026/ppviii-host)
+- [PLATO's guest observers programme: AO-1 call closing soon](/announcements/2026/plato-first-call)
+- [Why choose RMxAA for your next star formation paper?](/announcements/2026/rmxaa)
 
+New announcements can be submitted using [this form](https://docs.google.com/forms/d/e/1FAIpQLSe2XpItBgTvYOygoE-W1xXeMeESVUs1a8IylGnVbbIyLATu6A/viewform).
