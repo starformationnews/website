@@ -66,6 +66,10 @@
 <p><strong>Abstract Submission Deadline:</strong> 15.4.2026 </p>
 <p><strong>Registration Deadline:</strong> 30.6.2026 </p>
 
+<h3> <a href="https://meetingorganizer.copernicus.org/EPSC2026/session/59187" target="_blank">Invitation to contribute to EPSC 2026 SB9 – From Primitive Bodies to Rocky Planets: Carbon Chemistry and Chemical Evolution</a> </h3>
+<p><strong>Date:</strong> 6.9.2026 – 11.9.2026</p>
+<p><strong>Location:</strong> The Hague, The Netherlands</p>
+<p><strong>Abstract Submission Deadline:</strong> 12.5.2026</p>
 
 <h3> <a href="https://star-formation-fields.univie.ac.at" target="_blank">Star Formation Fields </a> </h3>
 <p><strong>Date:</strong> 21.9.2026 – 25.9.2026</p>
