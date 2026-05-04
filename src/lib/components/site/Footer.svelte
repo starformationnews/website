@@ -5,7 +5,8 @@
 		siteMailingListSignup,
 		siteFormPaperSubmission,
 		siteFormPhDSubmission,
-		siteFormMeetingSubmission
+		siteFormMeetingSubmission,
+		siteFormAnnouncementSubmission
 	} from '$lib/config.js';
 	import Icon from '$lib/components/content/Icon.svelte';
 	const year = new Date().getFullYear();
@@ -66,6 +67,9 @@
 				</p>
 				<p>
 					<a href={siteFormPhDSubmission} target="_blank">Submit recently defended PhDs</a>
+				</p>
+				<p>
+					<a href={siteFormAnnouncementSubmission} target="_blank">Submit general announcements</a>
 				</p>
 			</div>
 		</div>

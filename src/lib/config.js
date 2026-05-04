@@ -14,6 +14,8 @@ export const siteFormPhDSubmission =
 	'https://docs.google.com/forms/d/e/1FAIpQLSdkOrOemMuImYBe-FkeEqIka7GXW0EZnlJQcXYO8CUmDmPypA/viewform';
 export const siteFormMeetingSubmission =
 	'https://docs.google.com/forms/d/e/1FAIpQLScVbCbQlYw0NR_x8JxA5DsGErFKiFfT2oKICZgNZMOwe7zuXQ/viewform';
+export const siteFormAnnouncementSubmission =
+	'https://docs.google.com/forms/d/e/1FAIpQLSe2XpItBgTvYOygoE-W1xXeMeESVUs1a8IylGnVbbIyLATu6A/viewform';
 
 /* SOCIAL SETTINGS */
 // Ensure that any icons are also in icons.js
