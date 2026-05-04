@@ -128,17 +128,19 @@
 		.navigation {
 			display: none;
 			z-index: 100;
-			background-color: var(--color-sandwhite);;
+			background-color: var(--color-sandwhite-dark);
 			border-left: 1px solid var(--textColor);
 			border-bottom: 1px solid var(--textColor);
 			border-right: 1px solid var(--textColor);
 			position: absolute;
-			width: 50vw;
+			width: max(50vw, fit-content);
 			right: 2.5vw;
 			flex-flow: column;
 			text-align: right;
 			overflow: hidden;
 			margin-top: 1px;
+			padding-left: 10px;
+			padding-right: 10px;
 
 			/* Things to turn off when menu opened */
 			/* border-bottom: 0px solid var(--textColor);
@@ -149,8 +151,7 @@
 			color: var(--color-accent) !important;
 		}
 		.navigation > a {
-			margin-right: 10px;
-			font-size: 30px;
+			font-size: 25px;
 			font-weight: 650;
 		}
 		.navigation > a:not(:first-child) {
