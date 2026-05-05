@@ -27,7 +27,7 @@
 	let authorLinks = $derived(
 		authorInformation
 			? authorInformation.map(
-					(author) => authorSocialLinks[author.toLowerCase().replaceAll(' ', '_')]
+					(author) => authorSocialLinks[author.toLowerCase()]
 				)
 			: [undefined]
 	);

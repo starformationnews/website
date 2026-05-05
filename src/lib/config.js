@@ -1,7 +1,7 @@
 /* SITE SETTINGS */
 export const siteTitle = 'The Star Formation Newsletter';
 export const siteURL = 'https://starformationnews.org'; // Not actually used in many places, it's just for SEO  // Todo update this
-export const siteKeywords = "star formation, planet formation, news, astronomy, astrophysics"
+export const siteKeywords = 'star formation, planet formation, news, astronomy, astrophysics';
 export const siteDescription =
 	'Since its founding in 1992, The Star Formation Newsletter has been the premier way to keep up with new research in star and planet formation.';
 
@@ -31,12 +31,11 @@ export const postsPerPage = 25;
 
 /* AUTHORS */
 // Social links for authors.
-// Names should be lowercase with spaces changed to _.
+// Names should be lowercase. Keep any accents etc. in names.
 export const authorSocialLinks = {
-	emily_hunt: 'https://emily.space/',
-	lilly_kormann: 'https://lillykormann.github.io/',
+	'emily hunt': 'https://emily.space/',
+	'lilly kormann': 'https://lillykormann.github.io/',
+	'joão alves': 'https://joaoalves.org/'
 };
 
 /* SUBMISSION SETTINGS */
-
-
