@@ -154,4 +154,5 @@ Some git/GitHub steps are required here.
 Currently, the best people to ask for help are...
 
 - Emily [@emilyhunt](https://github.com/emilyhunt), who wrote the website's source code
+- Lilly [@lillykormann](https://github.com/lillykormann), who is experienced at writing posts and using the SFN as an editor
 
