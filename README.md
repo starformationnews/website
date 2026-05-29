@@ -74,6 +74,36 @@ which previews a copy of the built site locally.
 
 New posts (newsletters, PhD theses, etc) live in the **posts** directory, and are written in markdown format. Each new post lives in its own folder; this folder is the **path** the post will live under on the website. A `+page.md` file within that folder is then the content displayed on that page.
 
+### Creating a newsletter
+
+Newsletters are a special case of post. A script is able to automatically download arXiv posts for a given month for you. To run the script, do
+
+```bash
+npm run arxiv -- --id=<id>
+```
+
+or, as a shorthand,
+
+```bash
+npm run arxiv <id>
+```
+
+where `<id>` is the id of the SFN to generate. This command also has a number of positional arguments (which MUST be preceded by a `--`, as npm is weird). The supported arguments are:
+
+- `--id` (int): specify the id of the SFN to generate, relative forwards/backwards from SFN 400 (April 2026).
+- `--year` (int) and `--month` (int): specify the year and month of the SFN to generate, as an alternative to using `--id`.
+- `--force` (flag): force re-download the `arxiv.json` file containing arXiv posts.
+- `--dry-run` (flag): will not download metadata from arXiv or create new folders. Useful to check arXiv ID extraction.
+- `--extra-months` (int): allows for setting a different number of past months to include. The SFN defaults to 2 (i.e. the current month and prior two are included; a total of three months). 
+
+An example using many of these commands would be:
+
+```bash
+npm run arxiv -- --year=2025 --month=4 --force --extra-months=0
+```
+
+Make sure to then proceed to filling out the frontmatter, testing your new post on a local environment with `npm run dev`, and choosing an image for your post.
+
 ### Filling out the frontmatter
 
 Each markdown file should contain **frontmatter**. These are properties of the post that live at the top of it. The best way to learn is probably to look at the frontmatter of an existing post; a working example for a newsletter is below:
@@ -90,17 +120,6 @@ image: './header.webp'  # When set, can be a path to an image. By convention, ca
 imageCredit: 'ESO'  # Credit of the image
 imageURL: 'https://link.com/to/the/image'  # Link to where the image was sourced from
 ```
-
-### Adding arXiv information
-
-The website can automatically download arXiv posts for you!
-
-1. Ensure that you have already created the folder where the newsletter will live.
-
-2. Run `npm run arxiv <year> <month>` to download relevant entries from the website. This creates an arXiv.json file for that month.
-
-3. Preview the site and check that all papers are relevant and displayed correctly.
-
 
 ### Images
 
