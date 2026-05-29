@@ -1,7 +1,7 @@
 /* Run as "node scripts/generate-old-articles.js" (not on the package.json because it's dangerous)
 has no error handling yet so dont fuck up 
 */
-import { SFNIDToStartOfMonth } from '../src/lib/js/sfn.js';
+import { SFNIDToStartOfMonth_LegacyVersionSupportsHawaiiSFN } from '../src/lib/js/sfn.js';
 import fs from 'fs';
 
 console.log(
@@ -10,7 +10,7 @@ console.log(
 
 for (let id = 1; id <= 376; id++) {
 // for (let id = 1; id <= 100; id++) {
-	const date = SFNIDToStartOfMonth(id);
+	const date = SFNIDToStartOfMonth_LegacyVersionSupportsHawaiiSFN(id);
 	const month = date.toLocaleDateString('en-GB', { month: 'long' });
 	const year = date.toLocaleDateString('en-GB', { year: 'numeric' });
 	const directory = `src/routes/(posts)/newsletters/previous-articles/${id}`;

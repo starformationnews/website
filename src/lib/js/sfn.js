@@ -11,9 +11,22 @@ export function dateToSFNID(date) {
 }
 
 export function SFNIDToStartOfMonth(id) {
+	if (id < 334) {
+		throw new Error("This function only works on new SFN issues.")
+	}
+
+	const totalMonths = id - 334 + 9;
+
+	const years = Math.floor(totalMonths / 12) + 2020;
+	const months = totalMonths % 12;
+	return new Date(Date.UTC(years, months, 1));
+}
+
+export function SFNIDToStartOfMonth_LegacyVersionSupportsHawaiiSFN(id) {
 	let totalMonths = id + 8;
 
 	// Many special cases...
+	// This one was duplicated
 	if (id >= 7) {
 		totalMonths--;
 	}
