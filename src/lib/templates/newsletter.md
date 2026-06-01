@@ -1,5 +1,5 @@
 ---
-title: "Star Formation Newsletter ${SFN_NUMBER}"
+title: "Star Formation Newsletter #${SFN_NUMBER}"
 date: ${YEAR}-${MONTH}-${DAY}  # TODO: Ensure that the publication date is correct.
 # authors: ["Lilly Kormann"]  # TODO: Add names of authors as a list.
 categories: ["newsletters"]
