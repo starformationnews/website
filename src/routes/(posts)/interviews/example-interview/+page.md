@@ -6,7 +6,7 @@ categories: ['interviews']
 description: 'NAME_INTERVIEW interviewed by Bo Reipurth.'
 #image: './header.webp'
 # link: 
-
+hidden: true
 # Add interview text BELOW this line in markdown!
 ---
 
