@@ -8,5 +8,5 @@ layout: newsletter
 image: "./header.webp" # TODO: Add an image. Be sure to credit it and add a URL. See instructions in README.md
 imageCredit: "ESO/G. Beccari"  # TODO: Credit your image.
 imageURL: "https://www.eso.org/public/images/eso1723a/"  # TODO: Add source image url. e.g. "https://example.com/telescope/image_of_the_week_25"
-hidden: true  # Uncomment if you want to hide the post on the main site
+#hidden: true  # Uncomment if you want to hide the post on the main site
 ---
