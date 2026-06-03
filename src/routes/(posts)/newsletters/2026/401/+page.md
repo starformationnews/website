@@ -1,7 +1,7 @@
 ---
 title: "Star Formation Newsletter #401"
 date: 2026-06-03  # TODO: Ensure that the publication date is correct.
-authors: ["Lilly Kormann, João Alves"]  # TODO: Add names of authors as a list.
+authors: ["Lilly Kormann", "João Alves"]  # TODO: Add names of authors as a list.
 categories: ["newsletters"]
 description: "Since 1992, The Star Formation Newsletter has been the premier destination for keeping up with news from the star formation community. This is issue 401, covering new research postings in May of 2026."
 layout: newsletter
