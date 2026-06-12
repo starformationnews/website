@@ -122,6 +122,12 @@ function hidePosts(arxivPosts, path) {
 			arxivPosts[index].hidden = true;
 		}
 	}
+
+	// We also actually make sure to just outright remove everything hidden if not in dev mode
+	if (!dev) {
+		arxivPosts = arxivPosts.filter((post) => !post.hidden);
+	}
+
 	return arxivPosts;
 }
 
