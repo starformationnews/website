@@ -114,16 +114,12 @@ function hidePosts(arxivPosts, path) {
 		const index = idShortArray.indexOf(id);
 
 		// Failure case: no match
-		if (index === -1 && dev) {
+		if (index === -1) {
 			console.log(`hidePosts(): cannot hide ${id} - it doesn't seem to exist in arxiv.json.`);
 		}
 
 		if (index > -1) {
-			if (dev) {
-				arxivPosts[index].hidden = true;
-			} else {
-				arxivPosts.splice(index, 1);
-			}
+			arxivPosts[index].hidden = true;
 		}
 	}
 	return arxivPosts;
