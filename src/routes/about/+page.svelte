@@ -22,8 +22,9 @@
 <ul>
 	<li><strong>João Alves:</strong> Editor-in-Chief</li>
 	<li><strong>Emily Hunt:</strong> Technical Editor</li>
+	<li><strong>Lilly Kormann:</strong> Senior Editor</li>
 	<li><strong>Moa Huppenkothen:</strong> Editor</li>
-	<li><strong>Lilly Kormann:</strong> Editor</li>
+	<li><strong>Alena Rottensteiner:</strong> Editor</li>
 </ul>
 
 <p>Have you got a question? Get in touch by emailing <strong><a href="mailto:sfn.astro@univie.ac.at">sfn.astro@univie.ac.at</a></strong>.</p>

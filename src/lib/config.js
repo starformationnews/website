@@ -35,7 +35,8 @@ export const postsPerPage = 25;
 export const authorSocialLinks = {
 	'emily hunt': 'https://emily.space/',
 	'lilly kormann': 'https://lillykormann.github.io/',
-	'joão alves': 'https://joaoalves.org/'
+	'joão alves': 'https://joaoalves.org/',
+	'alena rottensteiner': 'https://alenarottensteiner.org/'
 };
 
 /* SUBMISSION SETTINGS */
