@@ -6,6 +6,7 @@
 <p><strong>Registration Deadline:</strong> </p>
  -->
 
+ <!-- 
 <h3> <a href="https://daoism2026.sciencesconf.org/" target="_blank">Unifying Galactic and Extragalactic Views of Star Formation - Spectroscopic studies & Data Science</a> </h3>
 <p><strong>Date:</strong> 20.4.2026 – 24.4.2026 </p>
 <p><strong>Location:</strong> Institut d'Astrophysique de Paris, Paris, France</p>
@@ -23,6 +24,8 @@
 <p><strong>Location:</strong> Budapest, Hungary</p>
 <p><strong>Abstract Submission Deadline:</strong> 28.2.2026</p>
 <p><strong>Registration Deadline:</strong> 28.2.2026</p>
+
+-->
 
 <h3> <a href="https://eas.unige.ch/EAS_meeting/" target="_blank">European Astronomical Society Annual Meeting</a> </h3>
 <p><strong>Date:</strong> 29.6.2026 – 3.7.2026 </p>
@@ -87,17 +90,31 @@
 <p><strong>Location:</strong> Grenoble, France</p>
 <p><strong>Registration Deadline:</strong> 31.5.2026</p>
 
+<h3> <a href="https://vlti-ec.konkoly.hu/matisse2026/" target="_blank">MATISSE Science Days</a> </h3>
+<p><strong>Date:</strong> 29.9.2026 – 2.10.2026 </p>
+<p><strong>Location:</strong> Budapest, Hungary</p>
+
 <h3> <a href="https://sites.google.com/view/cosmic-rays-4" target="_blank">Cosmic rays 4: the salt of the star formation recipe</a> </h3>
 <p><strong>Date:</strong> 5.10.2026 – 9.10.2026</p>
 <p><strong>Location:</strong> Scuola Normale Superiore, Pisa, Italy</p>
 <p><strong>Abstract Submission Deadline:</strong> 28.6.2026</p>
 <p><strong>Registration Deadline:</strong> 28.6.2026</p>
 
+<h3> <a href="https://ngvla.nao.ac.jp/ngVLA_Sendai/" target="_blank">ngVLA International Science Conference 2026</a> </h3>
+<p><strong>Date:</strong> 10.11.2026 – 13.11.2026</p>
+<p><strong>Location:</strong> Sendai SME Activation Center, Sendai, Japan</p>
+<p><strong>Abstract Submission Deadline:</strong> 31.7.2026</p>
+<p><strong>Registration Deadline:</strong> 9.10.2026</p>
+
 <h3> <a href="https://aries.res.in/iaus412-hfs2026/index.html" target="_blank">IAUS412: Hub-Filament Structures in Star Formation</a> </h3>
 <p><strong>Date:</strong> 30.11.2026 – 4.12.2026 </p>
 <p><strong>Location:</strong> Mysuru, India</p>
 <p><strong>Abstract Submission Deadline:</strong> 30.6.2026 </p> 
 <p><strong>Registration Deadline:</strong> 30.9.2026 </p>
+
+<h3> <a href="https://www.sexten-cfa.eu/event/break-game-set-settling-the-long-standing-debate-on-the-disk-evolution-mechanisms-and-their-impact-on-planet-formation/" target="_blank">Break-Game-Set: Settling the long-standing debate on the disc evolution mechanisms and their impact on planet formation</a> </h3>
+<p><strong>Date:</strong> 8.2.2027 – 12.2.2027</p>
+<p><strong>Location:</strong> Haus Sexten/Sexten Center for Astrophysics, Sexten, Italy</p>
 
 <h3> <a href="https://www.munich-iapbp.de/activities/activities-2027/solar-system" target="_blank">The Galactic Journey of the Solar System: Astronomical, Geological, and Paleo-Climatological Perspectives</a> </h3>
 <p><strong>Date:</strong> 3.5.2027 – 28.5.2027 </p>
