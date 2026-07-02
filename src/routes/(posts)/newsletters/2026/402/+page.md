@@ -8,5 +8,5 @@ layout: newsletter
 image: "./header.webp" 
 imageCredit: "ESA/Webb, NASA & CSA, T. Megeath, M. Zamani (ESA/Webb) Acknowledgement: M. Özsaraç"  
 imageURL: "https://www.esa.int/ESA_Multimedia/Images/2026/06/Webb_unveils_young_stars_across_every_stage_of_formation"  
-# hidden: true  # Uncomment if you want to hide the post on the main site
+hidden: true  # Uncomment if you want to hide the post on the main site
 ---
