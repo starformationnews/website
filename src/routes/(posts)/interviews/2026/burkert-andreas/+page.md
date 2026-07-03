@@ -1,5 +1,5 @@
 ---
-title: 'An interview with Andreas Burkert'
+title: 'Andreas Burkert in conversation with Bo Reipurth'
 date: 2026-03-03
 authors: ['Bo Reipurth']
 categories: ['interviews']
