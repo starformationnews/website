@@ -17,6 +17,7 @@ thesisPerson: ""
 thesisPronouns: ""
 thesisDate: "2025-06-04"  # Backwards! year-month-day
 thesisTitle: ""
+# thesisLink: ""  # Direct link to thesis (e.g. DOI)
 # thesisSupervisor: "Prof. Example"
 thesisInstitution: ""
 thesisKeywords: ""

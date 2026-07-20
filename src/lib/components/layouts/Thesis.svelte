@@ -25,6 +25,8 @@ Most basic article type: only contains a header & then all content in the .md fi
 	let pronounAccusative = $derived(accusativePronouns[props.thesisPronouns]);
 	let pronounPossessive = $derived(possessivePronouns[props.thesisPronouns]);
 
+	let apostropheFormat = $derived(props.thesisPerson.slice(-1) === 's' ? "'" : "'s");
+
 	// To keep filling out the markdown files easier, some details can be auto-filled.
 	// Description
 	let firstParagraph =
@@ -44,22 +46,38 @@ Most basic article type: only contains a header & then all content in the .md fi
 		<p><strong>Supervisor:</strong> {props.thesisSupervisor}</p>
 	{/if}
 
+	<!-- {#if props.thesisLink}
+		<p>
+			You can read {pronounPossessive} thesis
+			<a href={props.thesisLink} target="_blank">at this link</a>.
+		</p>
+	{/if} -->
+
 	<p><strong>Institute:</strong> {props.thesisInstitution}</p>
 
 	<ThesisAbstract>{@render props.children?.()}</ThesisAbstract>
 
-	{#if props.thesisWebsite || props.thesisEmail}
+	{#if props.thesisLink}
 		<p>
+			Dr. {props.thesisPerson}{apostropheFormat} thesis is available online! You can read it
+			<a href={props.thesisLink} target="_blank">at this link</a>.
+		</p>
+	{/if}
+
+	<!-- <div style="height: 20px"></div> -->
+
+	{#if props.thesisWebsite || props.thesisEmail}
+		<p style="margin-top: 40px">
 			<strong>Want to find out more?</strong> You can get in touch with Dr. {props.thesisPerson} via
 			{#if props.thesisEmail && !props.thesisWebsite}
 				<a href="mailto:{props.thesisEmail}">{pronounPossessive} email address</a>.
 			{/if}
 			{#if props.thesisWebsite && !props.thesisEmail}
-				<a href="{props.thesisWebsite}">via {pronounPossessive} website.</a>
+				<a href={props.thesisWebsite}>via {pronounPossessive} website.</a>
 			{/if}
 			{#if props.thesisWebsite && props.thesisEmail}
 				<a href="mailto:{props.thesisEmail}">{pronounPossessive} email address</a> or
-				<a href="{props.thesisWebsite}">via {pronounPossessive} website.</a>
+				<a href={props.thesisWebsite}>via {pronounPossessive} website.</a>
 			{/if}
 		</p>
 	{/if}
