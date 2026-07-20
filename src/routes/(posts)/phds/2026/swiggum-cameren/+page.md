@@ -17,6 +17,7 @@ thesisPerson: "Cameren Swiggum"
 thesisPronouns: "He/him"
 thesisDate: "2025-08-29"  # Backwards!
 thesisTitle: "The forest for the trees:  Tracing the Galactic-scale origins of local star formation"
+thesisLink: "https://doi.org/10.25365/thesis.79375"
 thesisSupervisor: "Prof. João Alves"
 thesisInstitution: "Department of Astrophysics, University of Vienna, Vienna, Austria"
 thesisKeywords: "Gaia, Galactic Structure, Galactic Dynamics, Star Clusters, the ISM"
