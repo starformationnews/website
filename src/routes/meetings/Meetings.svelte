@@ -25,8 +25,6 @@
 <p><strong>Abstract Submission Deadline:</strong> 28.2.2026</p>
 <p><strong>Registration Deadline:</strong> 28.2.2026</p>
 
--->
-
 <h3> <a href="https://eas.unige.ch/EAS_meeting/" target="_blank">European Astronomical Society Annual Meeting</a> </h3>
 <p><strong>Date:</strong> 29.6.2026 – 3.7.2026 </p>
 <p><strong>Location:</strong> SwissTech Convention Centre, Lausanne, Switzerland</p>
@@ -52,6 +50,8 @@
 <p><strong>Location:</strong> Tarragona, Spain</p>
 <p><strong>Abstract Submission Deadline:</strong> 15.3.2026</p>
 <p><strong>Registration Deadline:</strong> 1.7.2026</p>
+
+-->
 
 <h3> <a href="https://discsontheexe.org/" target="_blank">Discs on the Exe: From protostellar discs to debris discs and planets</a> </h3>
 <p><strong>Date:</strong> 27.7.2026 – 31.7.2026</p>
@@ -121,6 +121,10 @@
 <p><strong>Location:</strong> MIAPbP, Garching, Germany</p>
 <p><strong>Abstract Submission Deadline:</strong> 30.8.2026</p>
 <p><strong>Registration Deadline:</strong> 30.8.2026</p>
+
+<h3> <a href="https://derekfest.wordpress.com" target="_blank">Star formation in the Aegean: From Clouds to Protostars</a> </h3>
+<p><strong>Date:</strong> 31.5.2027 – 4.6.2027</p>
+<p><strong>Location:</strong> Spetses Island, Greece</p>
 
 <style>
     h3 {
