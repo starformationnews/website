@@ -1,26 +1,35 @@
 <script>
 	import { formatDate } from '$lib/js/format';
 	import { getAppropriateDefaultImage, convertPathOnLocalImages } from '$lib/js/content';
-	let { post, noBottomLine = false } = $props();
+	let { post, style = 'auto' } = $props();
 
 	const alt = $derived(`Post thumbnail for blog post ${post.title}`);
 	const url = $derived(post.link !== undefined ? post.link : post.url);
-	const date = $derived(post.hideDate === undefined ? ' | ' + formatDate(post.date) : ' | (no date)');
+	const date = $derived(
+		post.hideDate === undefined ? ' | ' + formatDate(post.date) : ' | (no date)'
+	);
+
+	const imageSrc = $derived(
+		post.image !== undefined
+			? convertPathOnLocalImages(post.image)
+			: convertPathOnLocalImages(
+					getAppropriateDefaultImage(post.categories[0], post.title).localPath
+				)
+	);
+	const classMap = {
+		auto: 'horizontal',
+		horizontal: 'horizontal',
+		vertical: 'vertical',
+		impact: 'impact'
+	};
+	// @ts-ignore
+	const containerClass = $derived(classMap[style]);
 </script>
 
-<div class="container" style={noBottomLine ? 'border-bottom: none' : ''}>
-	<div class="image-item">
+<div class="container {containerClass}">
+	<div class="image">
 		<a href={url}>
-			{#if post.image !== undefined}
-				<img src={convertPathOnLocalImages(post.image)} {alt} />
-			{:else}
-				<img
-					src={convertPathOnLocalImages(
-						getAppropriateDefaultImage(post.categories[0], post.title).localPath
-					)}
-					{alt}
-				/>
-			{/if}
+			<img src={imageSrc} {alt} />
 		</a>
 	</div>
 	<div class="text-item">
@@ -48,15 +57,18 @@
 	.container {
 		/* background-color: var(--color-offwhite); */
 		/* border-radius: 20px; */
-		border-bottom: 1px var(--color-lightgrey) solid;
+		display: flex;
+		justify-content: flex-start;
+		gap: 20px;
 		padding: 30px 20px;
 		width: calc(100% - 40px); /* Width - padding */
 		margin-bottom: 0px;
 	}
-	.image-item {
+	.image {
 		flex: 0 0 20%;
 		padding: 0px;
-		height: 120px;
+		width: 100%;
+		/* height: 200px; */
 	}
 	.text-item {
 		flex: 1 1 auto;
@@ -85,6 +97,7 @@
 		object-fit: cover;
 		object-position: 50%;
 		width: 100%;
+		/* height: 100%; */
 	}
 	h3 > a {
 		color: black;
@@ -93,43 +106,31 @@
 		color: var(--color-accent);
 	}
 
+	/* POST STYLES */
+	/* STYLE 1: horizontal by default, changes to vertical  */
+	.horizontal {
+		flex-flow: row;
+		align-items: flex-start;
+	}
+
 	/* Computers */
 	@media only screen and (min-width: 800px) {
-		.container {
-			display: flex;
+		.horizontal {
 			flex-flow: row;
-			justify-content: flex-start;
 			align-items: flex-start;
-			gap: 20px;
 		}
 		img {
 			height: 120px;
 		}
 	}
-	/* Tablets */
-	/* @media screen and (min-width: 801px) and (max-width: 999px) {
-		.container {
-			display: flex;
-			flex-flow: row;
-			justify-content: flex-start;
-			align-items: flex-start;
-			gap: 20px;
-		}
-		img {
-			height: 120px;
-		}
-	} */
 	/* Phones */
 	@media screen and (max-width: 800px) {
-		.container {
-			display: flex;
+		.horizontal {
 			flex-flow: column wrap;
-			justify-content: flex-start;
-			align-items: left;
-			gap: 20px;
+			align-items: center;
 		}
 		img {
-			height: 200px;
+			height: 250px;
 		}
 	}
 </style>

@@ -1,5 +1,5 @@
 <script>
-	import PostList from '$lib/components/content/PostList.svelte';
+	import PostList from '$lib/components/content/PostListSimple.svelte';
 	import { getPosts } from '$lib/js/posts';
 
 	// Passed props include all blog info (like title, date, etc).

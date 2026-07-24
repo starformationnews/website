@@ -1,12 +1,15 @@
 <script>
-	import PostCard from './PostCard.svelte';
-	let { posts, page, total, category } = $props();
+	import Post from './Post.svelte';
+	let { posts, page, total, category, direction = 'vertical' } = $props();
 </script>
 
 <!-- Display posts -->
 {#if posts && posts.length}
 	{#each posts as post, index}
-		<PostCard {post} noBottomLine={index === posts.length - 1}/>
+		<Post {post} />
+		{#if index < posts.length - 1 && direction === 'vertical'}
+			<div style="border-bottom: 1px var(--color-lightgrey) solid;"></div>
+		{/if}
 	{/each}
 {:else}
 	<p>No posts under this category yet - check back later!</p>

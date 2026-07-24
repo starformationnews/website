@@ -1,5 +1,5 @@
 <script>
-	import PostList from '../../lib/components/content/PostList.svelte';
+	import PostList from '../../lib/components/content/PostListSimple.svelte';
 	import SiteHeader from '$lib/components/site/SiteHeader.svelte';
 	import { siteFormPhDSubmission, siteFormAnnouncementSubmission } from '$lib/config';
 

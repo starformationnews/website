@@ -1,6 +1,6 @@
 <script>
 	import ArxivPost from './ArxivPost.svelte';
-	import PostList from '../content/PostList.svelte';
+	import PostList from '../content/PostListSimple.svelte';
 	import { siteFormPaperSubmission } from '$lib/config.js';
 	import { page } from '$app/stores';
 	import { fade } from 'svelte/transition';
