@@ -51,13 +51,13 @@
 <p><strong>Abstract Submission Deadline:</strong> 15.3.2026</p>
 <p><strong>Registration Deadline:</strong> 1.7.2026</p>
 
--->
-
 <h3> <a href="https://discsontheexe.org/" target="_blank">Discs on the Exe: From protostellar discs to debris discs and planets</a> </h3>
 <p><strong>Date:</strong> 27.7.2026 – 31.7.2026</p>
 <p><strong>Location:</strong> University of Exeter, Exeter, UK</p>
 <p><strong>Abstract Submission Deadline:</strong> 17.3.2026</p>
 <p><strong>Registration Deadline:</strong> 5.5.2026</p>
+
+--> 
 
 <h3> <a href="https://ppvii.org/spg2026/" target="_blank">The Formation of Stars and Planets in the Evolving Galaxy</a> </h3>
 <p><strong>Date:</strong> 3.8.2026 – 7.8.2026</p>
@@ -125,6 +125,12 @@
 <h3> <a href="https://derekfest.wordpress.com" target="_blank">Star formation in the Aegean: From Clouds to Protostars</a> </h3>
 <p><strong>Date:</strong> 31.5.2027 – 4.6.2027</p>
 <p><strong>Location:</strong> Spetses Island, Greece</p>
+
+<h3> <a href="https://www.grc.org/origins-of-solar-systems-conference/2027/" target="_blank">Gordon Research Conference on Origins of Solar Systems</a> </h3>
+<p><strong>Date:</strong> 13.6.2027 – 18.6.2027</p>
+<p><strong>Location:</strong> Mount Holyoke College, South Hadley, Massachusetts, USA</p>
+<p><strong>Abstract Submission Deadline:</strong> 15.3.2027</p>
+<p><strong>Registration Deadline:</strong> 15.3.2027</p>
 
 <style>
     h3 {
