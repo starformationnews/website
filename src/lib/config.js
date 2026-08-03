@@ -36,7 +36,8 @@ export const authorSocialLinks = {
 	'emily hunt': 'https://emily.space/',
 	'lilly kormann': 'https://lillykormann.github.io/',
 	'joão alves': 'https://joaoalves.org/',
-	'alena rottensteiner': 'https://alenarottensteiner.org/'
+	'alena rottensteiner': 'https://alenarottensteiner.org/',
+	'tobias berger': 'https://at.linkedin.com/in/tobias-berger-030087257/en'
 };
 
 /* SUBMISSION SETTINGS */
