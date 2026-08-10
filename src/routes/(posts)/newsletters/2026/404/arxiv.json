@@ -1,0 +1,49 @@
+[
+    {
+        "id": "http://arxiv.org/abs/2608.04890v1",
+        "title": "Asymmetry in the protostellar system HOPS 198: Evidence for the evolution of outflow opening angle driven by density of the surrounding core",
+        "updated": "2026-08-05T14:16:23.000Z",
+        "published": "2026-08-05T14:16:23.000Z",
+        "summary": "Protostellar outflows are thought to be responsible for the low star formation efficiency of protostellar cores. However, whether outflows can disperse a significant fraction of the gas in the core depends on the outflow opening angle. It is established that the outflow opening angle increases during the early stages of the protostellar evolution, but the underlying mechanism is poorly understood. Observations of HOPS 198, a Class 0 protostar in the Orion A molecular cloud, provide insights into this question. HOPS 198 exhibits a strong east-west asymmetry in its outflow and its core. The opening angle of the eastern lobe ($\\sim80^{\\circ}$) is more than twice wider than that of the western lobe ($\\sim30^{\\circ}$), while the surface density of the west side of the core is $1.5-2.8$ times higher than the east side. Using an analytical model in which the molecular outflow morphology is shaped by interactions between the wide-angle protostellar wind ($\\gtrsim 80^{\\circ}$) and surrounding material in the core, we find that the difference in opening angle for the two lobes can be explained by the difference in core density on the two sides. This result supports the hypothesis that the evolution of the outflow opening angle is driven by the evolution in the density of the protostellar core.",
+        "authors": [
+            {
+                "name": "Donglin Wu"
+            },
+            {
+                "name": "Héctor Arce"
+            },
+            {
+                "name": "Cheng-Han Hsieh"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.04890"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.05516v1",
+        "title": "Hot molecular cores in the W49A molecular cloud complex",
+        "updated": "2026-08-06T01:38:47.000Z",
+        "published": "2026-08-06T01:38:47.000Z",
+        "summary": "We present a comprehensive dataset of hot molecular cores (HMCs) in the W49A molecular cloud complex based on high-resolution ALMA observations, including the 1.3~mm continuum, 12 molecular lines, and the H30alpha recombination line. In total, 18 HMCs are identified in the CH$_{3}$CN ($J_K=12_3-11_3$) map, together with 20 continuum sources in the 1.3~mm map. Ten HMCs have peaks coincident within 0\\farcs1 of the 1.3~mm continuum peaks, indicating that thermal dust emission dominates the 1.3~mm emission for these sources. Correlation analyses of the line luminosities suggest a common structural picture for HMCs, in which five distinct regions with different physical and chemical properties coexist: hot and dense gas (CH$_3$CN, HC$_3$N, HNCO, OCS, H$_2$CO), outflow gas (SiO, SO), envelope gas (SO$_2$, CH$_3$OH), extended gas ($^{13}$CS, DCN, C$^{18}$O), and ionized gas (H30alpha). We find an empirical relation $X(\\mathrm{CH_3CN})=2.5\\times10^{-7}\\exp[-490/T_\\mathrm{rot}]$ between the fractional abundance and rotation temperature of CH$_{3}$CN, suggesting that $T\\gtrsim200$--300~K is required to achieve high abundances of $\\sim10^{-7}$. We find that HMCs without embedded H/UCHII regions are more numerous than, or at least comparable in number to, HMCs with such regions, suggesting that the former may have longer lifetimes ($\\sim$10$^{5}$~yr) than the latter ($\\sim$10$^{4}$~yr). We discuss the implications of these results for the core accretion and competitive accretion models.",
+        "authors": [
+            {
+                "name": "Ryosuke Miyawaki"
+            },
+            {
+                "name": "Masahiko Hayashi"
+            },
+            {
+                "name": "Tetsuo Hasegawa"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.05516"
+    }
+]
