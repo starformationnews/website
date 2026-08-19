@@ -57,11 +57,11 @@
 <p><strong>Abstract Submission Deadline:</strong> 17.3.2026</p>
 <p><strong>Registration Deadline:</strong> 5.5.2026</p>
 
---> 
-
 <h3> <a href="https://ppvii.org/spg2026/" target="_blank">The Formation of Stars and Planets in the Evolving Galaxy</a> </h3>
 <p><strong>Date:</strong> 3.8.2026 – 7.8.2026</p>
 <p><strong>Location:</strong> Tenbusu Hall, Tenbusu Naha, 3-2-10, Makishi, Naha, Okinawa, Japan</p>
+
+--> 
 
 <h3> <a href="https://sfb1601.astro.uni-koeln.de/symposium2026/" target="_blank">Cologne-Bonn Symposium on the habitats of massive stars across cosmic time</a> </h3>
 <p><strong>Date:</strong> 17.8.2026 – 21.8.2026 </p>
@@ -131,6 +131,10 @@
 <p><strong>Location:</strong> Mount Holyoke College, South Hadley, Massachusetts, USA</p>
 <p><strong>Abstract Submission Deadline:</strong> 15.3.2027</p>
 <p><strong>Registration Deadline:</strong> 15.3.2027</p>
+
+<h3> <a href="http://eas.unige.ch/EAS2027" target="_blank">EAS 2027</a> </h3>
+<p><strong>Date:</strong> 21.6.2027 – 25.6.2027</p>
+<p><strong>Location:</strong> Austria Centre Vienna, Vienna, Austria</p>
 
 <style>
     h3 {
