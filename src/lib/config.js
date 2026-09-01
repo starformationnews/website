@@ -37,7 +37,9 @@ export const authorSocialLinks = {
 	'lilly kormann': 'https://lillykormann.github.io/',
 	'joão alves': 'https://joaoalves.org/',
 	'alena rottensteiner': 'https://alenarottensteiner.org/',
-	'tobias berger': 'https://at.linkedin.com/in/tobias-berger-030087257/en'
+	'tobias berger': 'https://at.linkedin.com/in/tobias-berger-030087257/en',
+	'lotta sonntag': 'https://www.linkedin.com/in/lotta-sonntag-358b58251/',
+	'fabian ertl': 'https://www.linkedin.com/in/fabian-ertl-59bb66432/'
 };
 
 /* SUBMISSION SETTINGS */
