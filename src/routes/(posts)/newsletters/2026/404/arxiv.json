@@ -1,5 +1,54 @@
 [
     {
+        "id": "http://arxiv.org/abs/2608.10094v1",
+        "title": "SMA Observations Reveal Abundant HNC Chemistry in Transition Disks",
+        "updated": "2026-08-10T18:05:22.000Z",
+        "published": "2026-08-10T18:05:22.000Z",
+        "summary": "The physical and chemical conditions of protoplanetary disks shape the properties of nascent planetary systems. The line ratios and relative abundances of the HCN-HNC isomer pair are well-suited for tracing these gas conditions, since isomer chemistry is linked to the underlying temperature, elemental abundances, and irradiation environment of the emitting gas. While HCN emits bright lines regularly observed in disks, the fainter HNC lines are targeted significantly less often, precluding our ability to calibrate the HNC-to-HCN ratio as a tracer of disk properties. Here, we present new Submillimeter Array observations of five transition disks around the T Tauri stars GM Aur, J1604, LkCa 15, GG Tau, and V4046 Sgr, covering the J=3-2 and J=4-3 lines of HCN and HNC. We detected at least one line of both HCN and HNC in each source and measured disk-integrated HNC-to-HCN flux and column density ratios of $\\approx$0.1-0.7 and 0.1-0.4, respectively. For all sources, measured HNC fluxes exceed predictions from models of full (non-transition) disks by $\\approx$3-10x, while HCN fluxes appear typical. The relative brightness of HNC vs. HCN in transition disks strongly suggests a link between the presence of a cavity and efficient HNC production. We corroborate this trend using chemical models of the DM Tau transition disk, showing HNC production and destruction are connected to the radiation environment. In our sample, disk-integrated HNC-to-HCN column density ratio shows no trend with disk gas temperature but positively correlates with disk mass due to increased HNC abundance in the larger reservoirs of cooler gas in more massive disks.",
+        "authors": [
+            {
+                "name": "Kyle Gresko"
+            },
+            {
+                "name": "Charles J. Law"
+            },
+            {
+                "name": "Deryl E. Long"
+            },
+            {
+                "name": "L. Ilsedore Cleeves"
+            },
+            {
+                "name": "Feng Long"
+            },
+            {
+                "name": "Yuri Aikawa"
+            },
+            {
+                "name": "Jennifer B. Bergner"
+            },
+            {
+                "name": "Romane Le Gal"
+            },
+            {
+                "name": "Viviana V. Guzmán"
+            },
+            {
+                "name": "Karin I. Öberg"
+            },
+            {
+                "name": "David J. Wilner"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP",
+            "astro-ph.GA",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2608.10094"
+    },
+    {
         "id": "http://arxiv.org/abs/2608.10227v2",
         "title": "Electron temperature and emission measure of HII regions in the central molecular zone (CMZ) from H40 αrecombination line and continuum emissions by ALMA CMZ Exploration Survey - ACES -",
         "updated": "2026-08-12T03:04:44.000Z",
@@ -234,6 +283,26 @@
         "idShort": "2608.05453"
     },
     {
+        "id": "http://arxiv.org/abs/2608.05297v1",
+        "title": "Expanding stellar associations as Galactic accelerometers",
+        "updated": "2026-08-05T18:00:17.000Z",
+        "published": "2026-08-05T18:00:17.000Z",
+        "summary": "The gravitational potential of the Milky Way is fundamental for understanding the evolution of our Galaxy and the nature of dark matter. We introduce a new method to constrain the Galactic potential using expanding young stellar associations. We exploit the physical constraint that these stars share a common, compact origin to reconstruct their most likely orbits and infer the gravitational potential in which they have evolved. We define the size of an association using the trace and determinant of its position covariance matrix. By integrating synthetic associations backward in different trial potentials, we show how the true potential can be identified as the one that minimises these metrics. We demonstrate that, while current observational errors are still too large, upcoming observations will allow us to distinguish between different potentials. Our results suggest that with Gaia DR4 astrometry and radial velocity errors below 0.2 km/s, the halo mass can be constrained with a precision of 0.6 trillion solar masses and the concentration with a precision of < 0.8 using a single association, albeit with significant degeneracies. In addition, we show that the inferred dynamical traceback age is sensitive to the gravitational potential, suggesting that independent age information can help break existing degeneracies, but also that traceback-age estimates are not independent of the assumed potential. Expanding stellar associations carry information about the gravitational potential in which they have evolved. With the arrival of next-generation astrometry and high-precision radial velocities, they will provide a complementary tool for constraining the Galactic potential.",
+        "authors": [
+            {
+                "name": "Till Sawala"
+            },
+            {
+                "name": "Núria Miret Roig"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.05297"
+    },
+    {
         "id": "http://arxiv.org/abs/2608.17593v1",
         "title": "Complex morphology and kinematics at the heart of the very low luminosity object IRAM 04191+1522",
         "updated": "2026-08-18T09:58:41.000Z",
@@ -264,6 +333,36 @@
         ],
         "primaryCategory": "astro-ph.SR",
         "idShort": "2608.17593"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.08891v1",
+        "title": "Gas Flows and Mass Accretion Rates in Eight Dippers: HD 142666, HD 143006, HD 145718, V935 Sco, DoAr 25, EPIC 204638512, EPIC 205151387, and EPIC 203850058",
+        "updated": "2026-08-09T20:10:12.000Z",
+        "published": "2026-08-09T20:10:12.000Z",
+        "summary": "One of the scenarios used to explain the dipper phenomenon in stars is having the innermost disk regions being close to the line of sight to the star - inclined greater than 60 degrees - regardless of the inclination of the outermost disk (\"mis-aligned\" or \"broken\" disks). If the dust and gas in these disks sample the same material, edge-on disks will be viewed through larger column densities of gas and dust than the average disk. We have examined inter-night variability of eight Kepler-discovered dipper stars using the SpeX spectrograph on NASA's Infrared Telescope facility at a spectral resolving power of R~750. The He I line at 1.083 microns exhibits a wide variety of profiles, which change from night to night. In the majority of cases, an inverse P Cygni profile, indicative of inflowing gas, is present. The line profile (and continuum flux level) often change on time scales of 1 day. The Paschen and Brackett lines also change on similar time scales. In one object, V935 Sco, Pa beta and Br gamma went from being in emission to being in absorption over the course of 5 weeks. In another, EPIC 203850058, Pa beta went from being in emission in 2017 to vanishing altogether in 2018. The accretion rates determined using Pa beta for these stars tend to be smaller than those using Br gamma, indicating that the former line is more susceptible to self-absorption than the latter, as would be expected for a highly inclined disk.",
+        "authors": [
+            {
+                "name": "Michael L. Sitko"
+            },
+            {
+                "name": "Ray W. Russell"
+            },
+            {
+                "name": "Korash D. Assani"
+            },
+            {
+                "name": "Lucia Villanueva"
+            },
+            {
+                "name": "Jesus Hernandez"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.08891"
     },
     {
         "id": "http://arxiv.org/abs/2608.16179v1",
@@ -453,6 +552,23 @@
         "idShort": "2608.23537"
     },
     {
+        "id": "http://arxiv.org/abs/2608.23464v1",
+        "title": "Fragmentation and tidal locking in young quadruple systems",
+        "updated": "2026-08-24T16:32:09.000Z",
+        "published": "2026-08-24T16:32:09.000Z",
+        "summary": "Young quadruple systems provide a particularly simple setting in which the connection between successive levels of fragmentation can be studied. Motivated by the recurring symmetric configurations observed in a small number of young systems, we propose a theoretical framework in which such configurations arise naturally during rapid collapse. Rotational fragmentation followed by secondary fragmentation can produce two comparable-mass components of a wide pair, each of which further fragments into an unequal-mass close pair. The combination of tidal forces and accretion-driven shear can then establish a preferred phase relation, with the lower-mass component located on the inner, preceding side of the higher-mass component in each close pair. During subsequent capture, this phase relation can shift, placing the lower-mass component on the inner, trailing side. Asymmetric partitioning of a coherent, rapidly accreting flow can also tilt the spin axes of the fragments, providing a possible origin for spin misalignments without requiring an initially incoherent large-scale flow. The proposed mechanism therefore provides a possible physical origin for the characteristic phase relations in young quadruple configurations and for stochastic spin orientations within star clusters.",
+        "authors": [
+            {
+                "name": "Xunchuan Liu"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.23464"
+    },
+    {
         "id": "http://arxiv.org/abs/2607.25515v1",
         "title": "Chemistry of Dark Molecular Clouds",
         "updated": "2026-07-28T09:55:28.000Z",
@@ -518,6 +634,78 @@
         ],
         "primaryCategory": "astro-ph.SR",
         "idShort": "2608.26097"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.25170v1",
+        "title": "ABYSS. IV. Identifying signatures of stellar youth in APOGEE spectra",
+        "updated": "2026-08-25T21:35:09.000Z",
+        "published": "2026-08-25T21:35:09.000Z",
+        "summary": "We develop a convolutional neural network classifier that performs spectroscopic identification of stellar youth (<40 Myr) in APOGEE spectra. This classifier is sensitive to several youth-related features, including rotational broadening, which is common in younger stars, and to several discrete lines that appear to be indicative of a very spotted photosphere. The model is successful at identifying youth across a wide range of stars, achieving its strongest performance at discriminating young M and K dwarfs, while maintaining useful discriminatory power for hotter stars as well. This work enables more robust separation of pre-main-sequence stars from more evolved sources in the field even when they have comparable Teff and log(g), providing a reliable means to substantially reduce contamination in photometrically selected YSO candidates. In addition to constructing a classifier for APOGEE spectra, we also perform classification of young stars in optical BOSS spectra.",
+        "authors": [
+            {
+                "name": "Valentina Bonilla Villalobos"
+            },
+            {
+                "name": "Marina Kounkel"
+            },
+            {
+                "name": "Joseph Mullen"
+            },
+            {
+                "name": "Eleonora Zari"
+            },
+            {
+                "name": "Alexandre Roman-Lopes"
+            },
+            {
+                "name": "Keivan Stassun"
+            },
+            {
+                "name": "Ricardo López-Valdivia"
+            },
+            {
+                "name": "Jinyoung S. Kim"
+            },
+            {
+                "name": "Mojgan Aghakhanloo"
+            },
+            {
+                "name": "Facundo Pérez Paolino"
+            },
+            {
+                "name": "Jonathan C. Tan"
+            },
+            {
+                "name": "Jesús Hernández"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.GA",
+            "astro-ph.IM"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.25170"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.27359v1",
+        "title": "$N$-body simulations of the open cluster population in the Milky Way and the impact of GMC encounters",
+        "updated": "2026-08-27T16:57:41.000Z",
+        "published": "2026-08-27T16:57:41.000Z",
+        "summary": "We investigate the population of open clusters in the Solar Neighbourhood and model the effect of encounters with giant molecular clouds (GMCs) over the last 1 Gyr. We combine a Galactic model with $N$-body simulations of 20692 unique clusters in the mass range $[50-24000]$ $\\mathrm{M}_{\\odot}$. Each cluster is simulated twice: with and without tidal forces from the GMCs. We find that an initial cluster mass function truncated at $\\sim 9000$ $\\mathrm{M}_{\\odot}$ best reproduces the observed mass function evolution. For the age function, the observations show a decline in clusters for ages older than $\\sim 1$ Myr, whereas our simulated clusters show a decline after $\\sim 50$ Myr. The observed early disruption suggests that some clusters form supervirial, whereas our simulated clusters are created in virial equilibrium. Low-mass ($<600 \\, \\mathrm{M}_{\\odot}$) clusters are most sensitive to GMC encounters, which accelerate their disruption in the first $\\sim 200$ Myr. After $\\sim 500$ Myr, the impact of GMCs becomes irrelevant since the clusters will have been destroyed regardless of whether they experience GMC encounters or not. The survival of intermediate-mass ($600-6000\\, \\mathrm{M}_{\\odot}$) clusters is significantly reduced by GMCs at ages up to 1 Gyr. High-mass ($>6000 \\, \\mathrm{M}_{\\odot}$) clusters survive to 1 Gyr with minimal disruption with or without GMCs. We find that clusters that have had strong GMC encounters within the last $20$ Myr should have tidal tails that are randomly orientated with respect to the Galactic centre.",
+        "authors": [
+            {
+                "name": "Timmi G. Jørgensen"
+            },
+            {
+                "name": "Ross P. Church"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.27359"
     },
     {
         "id": "http://arxiv.org/abs/2608.20307v1",
@@ -590,6 +778,118 @@
         "idShort": "2608.21028"
     },
     {
+        "id": "http://arxiv.org/abs/2608.22576v1",
+        "title": "A superflare of BP Tau simultaneously caught by EP X-ray and TESS optical observations",
+        "updated": "2026-08-23T19:58:33.000Z",
+        "published": "2026-08-23T19:58:33.000Z",
+        "summary": "Multiwavelength observations of stellar flares trace the activity of different components of the stars' outer atmosphere, providing insight into their interactions. In the present paper, we report a superflare from BP Tau, simultaneously observed with the Wide-field X-ray Telescope (WXT) on board the Einstein Probe (EP) satellite and TESS. While we attribute the X-ray flux increase to a magnetically powered flare, the optical light curve likely results from the superposition of the flare and an accretion burst. The X-ray flare has a mean flux of $(1.5^{+0.3}_{-0.4})\\times10^{-11}$ erg cm$^{-2}$ s$^{-1}$ in the WXT energy band (0.5-4.0 keV), with e-folding times of $1.7\\pm1.0$ ks and $14\\pm5$ ks for the rise and decay phase, respectively. The corresponding time-integrated flare energy is $(1.0\\pm 0.2)\\times 10^{36}$ erg. The optical flare has an e-folding time of $0.33\\pm0.04$ ks for the rise phase, but the data do not constrain the decay timescale. Assuming a decay phase equal to the rise phase, the resulting optical flare energy is $(2.8\\pm0.4)\\times10^{34}$ erg in the TESS band ($\\sim6,000$-$\\sim10,000$ Å), corresponding to a bolometric energy of $(1.9\\pm0.3)\\times10^{35}$ erg (assuming a blackbody at 11000 K). The Follow-up X-ray Telescope (FXT) on EP triggered an observation $\\sim1.5$ day after the flare, with a flux of $(4.6^{+0.2}_{-0.5})\\times10^{-13}$ erg cm$^{-2}$ s$^{-1}$ (0.5-10.0 keV), indicating that BP Tau had returned to quiescence. This work demonstrates the potential of jointly analyzing EP and TESS data for superflares. WXT is expected to detect $\\sim800$ superflares per year, with FXT capable of slewing to the flaring star within $\\sim3$-5 minutes. The large field of view of both missions offers us the opportunity to study multiwavelength variability during energetic flares.",
+        "authors": [
+            {
+                "name": "Xingyu Zhou"
+            },
+            {
+                "name": "Mingjun Liu"
+            },
+            {
+                "name": "Gregory J. Herczeg"
+            },
+            {
+                "name": "P. Christian Schneider"
+            },
+            {
+                "name": "Fabio Favata"
+            },
+            {
+                "name": "Chenwei Yang"
+            },
+            {
+                "name": "Chichuan Jin"
+            },
+            {
+                "name": "Dongyue Li"
+            },
+            {
+                "name": "Xuan Mao"
+            },
+            {
+                "name": "Yi-Han Iris Yin"
+            },
+            {
+                "name": "Minghao Zhang"
+            },
+            {
+                "name": "Weimin Yuan"
+            },
+            {
+                "name": "Hongyan Zhou"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.22576"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.27576v1",
+        "title": "Stellar Flares Rather than High $T_{int}$ As Possible Cause for the Missing Methane in Young Exoplanets: The Case Study of V1298~Tau\\,b",
+        "updated": "2026-08-27T18:04:09.000Z",
+        "published": "2026-08-27T18:04:09.000Z",
+        "summary": "Recent observations of V1298~Tau\\,b, a warm sub-Neptune (R$=9.85 \\pm 0.3\\,R_\\oplus$, M$=13.1 \\pm 5.3, M_\\oplus$, T$_\\mathrm{eq} = 670\\,$K) orbiting a young (10-30\\,Myr) K star, show depleted methane and surprising abundances of CO$_2$ in its atmosphere. This makes the planet an interesting target to study the \"missing methane problem\", where HST, Spitzer, and JWST have revealed many sub-Jovian planets with effective temperatures cooler than 800\\,K to be depleted in methane compared to equilibrium chemistry predictions. On V1298~Tau\\,b, an intrinsic temperature (T$_\\mathrm{int}$) of 500\\,K is required to explain the methane depletion if strong mixing from a warm interior is the reason for the missing methane, but this T$_\\mathrm{int}$ is too large for a planet of its age and size according to standard interior structure evolution theories. Here, we show that stellar flares can result in methane depletion in a warm planet's atmosphere with nominal T$_\\mathrm{int} \\sim 100$\\,K. During a stellar flare, fast methane photolysis rates cannot be balanced by diffusion from below into the upper atmospheric layers probed by observations. Young active stars flare frequently, and we show that the timescale of diffusion for the methane to recover from a flare-induced depletion can be slow compared to the flare frequency. Over time, the atmosphere reaches a new steady state set by the average flare frequency and energy. This new steady state shows depleted methane in the 2\\,mbar region, and abundant CO, CO${_2}$, and HCN, which results in synthetic transmission spectra that reproduce the main features of the recent JWST observations of V1298~Tau\\,b.",
+        "authors": [
+            {
+                "name": "Danica Adams"
+            },
+            {
+                "name": "Pierre-Alexis Roy"
+            },
+            {
+                "name": "Hilke Schlichting"
+            },
+            {
+                "name": "Björn Benneke"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2608.27576"
+    },
+    {
+        "id": "http://arxiv.org/abs/2607.27543v1",
+        "title": "Setting the Stage: The Early History of the Solar System",
+        "updated": "2026-07-30T00:28:10.000Z",
+        "published": "2026-07-30T00:28:10.000Z",
+        "summary": "This article reviews the early history of our solar system from an astrobiological perspective and presents evidence from meteorites and astronomical observations. The purpose is to trace the formation of key molecules that participated in the building blocks of life. The Sun and its planetary system started from a section of a molecular cloud that collapsed into a protoplanetary disk. In the center of the protoplanetary disk, the protosun heated the surrounding material. The dust and gas inherited from the cloud remained pristine farther away from the protostar, while new compounds were created in the gas and on the icy mantles of the dust. The dust accreted into pebbles, pebbles formed planetesimals, and planetesimals collided and accreted pebbles to create planets. Meanwhile, the protosun became the Sun when its core reached the pressure and temperature required to transform hydrogen into helium. During this process, the Sun emitted high-energy radiation and particles that impacted the chemistry in the disk and the early evolution of the terrestrial planets.",
+        "authors": [
+            {
+                "name": "Antgona Segura"
+            },
+            {
+                "name": "Rachel L. Smith"
+            },
+            {
+                "name": "Myriam Telus"
+            },
+            {
+                "name": "Edward Schwieterman"
+            },
+            {
+                "name": "Rachel Osten"
+            },
+            {
+                "name": "Sukrit Ranjan"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2607.27543"
+    },
+    {
         "id": "http://arxiv.org/abs/2607.28832v1",
         "title": "EWOCS-VIII: Internal kinematics and expansion of Westerlund 1 from VVVX proper motions",
         "updated": "2026-07-30T20:51:36.000Z",
@@ -648,6 +948,78 @@
         ],
         "primaryCategory": "astro-ph.GA",
         "idShort": "2607.28832"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.10142v1",
+        "title": "A Pre-Main Sequence Binary Viewed Through its Circumbinary Disk: A New Phase for KH 15D",
+        "updated": "2026-08-10T18:57:19.000Z",
+        "published": "2026-08-10T18:57:19.000Z",
+        "summary": "The binary T Tauri system, KH 15D, is poised to provide unprecedented detail of gas and ices located between $\\sim$3-5 AU of its circumbinary disk over the next few years. We analyze for the first time a complete set of ground-based time series photometry of the KH 15D system for which the 2022 October - 2025 April data have never been presented. By combining the latest $I$-band data with historical measurements, we show that the era of large amplitude photometric variability has ended. We define a revised photometric period of $P$ = 48.365 $\\pm$ 0.005 days, which accurately phases data over a time span of seventy-five years. We adopt magnitudes and colors for the stars that define the epochs when either star A (1995-2008) or star B (2010-2012) is the primary source of the out-of-eclipse brightness of the system. We determine for the first time the effective optical depth for the system between 2002 and 2025 assuming gray extinction. The current out-of-eclipse system color is consistent with a combination of the light from both stars, supporting the previously suggested model in which the trailing edge of the circumbinary disk is more transparent than the leading edge. We continue to see evidence for ``clumps'' and variable transparency along ingress and egress when the stars are probing the occulting material and suggest that observations made during these phases should permit studies of the physical and chemical nature of the planet-forming zone with the circumbinary disk.",
+        "authors": [
+            {
+                "name": "Catrina M. Hamilton"
+            },
+            {
+                "name": "Adi B. Chacko"
+            },
+            {
+                "name": "George A. Carson"
+            },
+            {
+                "name": "Aidan J. Pidgeon"
+            },
+            {
+                "name": "C. Nicole Foley"
+            },
+            {
+                "name": "Hillel Finder"
+            },
+            {
+                "name": "Kyle Gimmy"
+            },
+            {
+                "name": "Aleezah Ali"
+            },
+            {
+                "name": "William Herbst"
+            },
+            {
+                "name": "Dirk Froebrich"
+            },
+            {
+                "name": "Brian A. Skiff"
+            },
+            {
+                "name": "Bart Staels"
+            },
+            {
+                "name": "Shawn Dvorak"
+            },
+            {
+                "name": "Jochen Eislöffel"
+            },
+            {
+                "name": "Teryn Huff"
+            },
+            {
+                "name": "Gavin Frueh"
+            },
+            {
+                "name": "Abigail Mead"
+            },
+            {
+                "name": "Lia M. Gilmore"
+            },
+            {
+                "name": "Robert J. Boyle"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.10142"
     },
     {
         "id": "http://arxiv.org/abs/2608.17869v1",
@@ -862,6 +1234,52 @@
         "idShort": "2608.02814"
     },
     {
+        "id": "http://arxiv.org/abs/2608.10737v1",
+        "title": "Exploring the long-term temporal variability in polarization through multi-epoch optical spectro-polarimetry - Part I: A sample of Herbig Ae/Be and classical Be stars",
+        "updated": "2026-08-11T09:55:26.000Z",
+        "published": "2026-08-11T09:55:26.000Z",
+        "summary": "Polarization signatures across emission line features, together with their temporal evolution, offer a powerful probe of the circumstellar environments of astrophysical sources, on spatial scales otherwise inaccessible to direct imaging techniques. However, the photon-hungry nature of spectro-polarimetry has significantly limited the availability of such datasets in the literature. This work reports a multi-epoch spectro-polarimetric monitoring campaign targeting a sample of Herbig Ae/Be and classical Be stars. The initial observations were obtained during the commissioning and performance-verification phase of ProtoPol, a recently developed medium-resolution echelle spectro-polarimeter mounted on the Physical Research Laboratory (PRL) 2.5m telescope, Mt Abu, India. Given the limited number of comparable datasets available for this class of objects, follow-up observations of the same targets were carried out repeatedly over more than 28 months (December 2023-March 2026), enabling an investigation of the temporal behavior of their polarimetric properties. Our sample comprises 11 Herbig Ae/Be stars and 10 classical Be stars. Our observations found that, while the H$α$ polarization remained relatively constant for the classical Be stars, they showed significant variability for most of the Herbig stars in the sample. The observations presented here constitute one of the rare multi-epoch spectro-polarimetric datasets spanning more than two years and should be of considerable interest to the broader astronomical community. This paper is Part-I of a two-part series of sample studies; corresponding results for symbiotic and red giant stars are presented in Part-II.",
+        "authors": [
+            {
+                "name": "Arijit Maiti"
+            },
+            {
+                "name": "Mudit K. Srivastava"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.10737"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.11312v2",
+        "title": "Formation of multiple dust rings and gaps in protoplanetary discs by a single migrating planet. A parameter study in locally isothermal discs",
+        "updated": "2026-08-17T14:48:42.000Z",
+        "published": "2026-08-11T18:01:02.000Z",
+        "summary": "ALMA observations show that large protoplanetary discs usually contain multiple concentric dust rings separated by dark gaps. A natural explanation is dust-trapping at the edges of gaps opened by newly formed planets. However, planets typically migrate inward on timescales shorter than disc lifetimes, seemingly at odds with rings at large radii. We aim to investigate the conditions under which migrating planets can form long-lived, multi-ringed structures out to $r\\sim 150$ au to constrain the parameter space for the planetary origin hypothesis of rings. Using the FargoCPT hydrodynamics code, we ran two-dimensional, locally isothermal disc models with a single migrating planet, varying disc aspect ratio, viscosity ($α$), and planetary mass. In all models, the planet eventually stalls in a deep gap. At $α\\leq 10^{-4}$, secondary spirals launched by the planet can open additional gaps at smaller radii. When planets exceed twice the local thermal mass before stalling, they enter a regime of alternating slow and type-III rapid migration, leaving partial gaps outside their orbit. The gap edges consistently feature pressure maxima that trap dust. These begin as large vortices at $α\\leq 10^{-4}$, but gradually smear out into rings before dissipating. The type-III remnant rings dissipate quickly at $α=10^{-3}$, but persist for at least 300-500 kyr at $α\\leq 10^{-4}$. Both smear-out and dissipation timescales increase with lower $α$. Our results show that migrating planets can reproduce observed multi-ringed structures in discs with $α\\lesssim 10^{-4}$ through their stall ($r\\lesssim 50$ au), secondary gap-opening ($r\\lesssim 20$ au), and type-III migration remnants (extending to $r\\sim 150$ au for Jupiter-mass planets in sufficiently massive discs). Longer simulations will be required to compare the statistics of ring-to-vortex occurrence to observations.",
+        "authors": [
+            {
+                "name": "Sören C. Meiners"
+            },
+            {
+                "name": "Kim M. Weiskopf"
+            },
+            {
+                "name": "Thomas Rometsch"
+            },
+            {
+                "name": "Cornelis P. Dullemond"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2608.11312"
+    },
+    {
         "id": "http://arxiv.org/abs/2608.21139v1",
         "title": "Angular momentum in isolated disc galaxies: Insights from TNG100",
         "updated": "2026-08-21T14:16:34.000Z",
@@ -993,6 +1411,152 @@
         "idShort": "2608.26261"
     },
     {
+        "id": "http://arxiv.org/abs/2607.28278v1",
+        "title": "JWST's Constraints on the Substellar IMF in NGC 2024",
+        "updated": "2026-07-30T14:28:02.000Z",
+        "published": "2026-07-30T14:28:02.000Z",
+        "summary": "A recent study has reported the detection of a turnover in the initial mass function (IMF) below 12 Mjup and the possible detection of a minimum mass near 3 Mjup in the heavily embedded cluster NGC 2024 (<1 Myr), which was based on a sample of brown dwarf candidates in NIRCam images from the James Webb Space Telescope (JWST). I have used those NIRCam data in conjunction with archival spectra from JWST's Near-Infrared Spectrograph (NIRSpec) to constrain the substellar IMF in NGC 2024. I present NIRSpec data for 87 sources, 67 of which are within the NIRCam field. Based on those spectra and data from previous studies (e.g., X-ray emission), I have classified 45 of the NIRSpec targets as members of NGC 2024, 17 of which have spectral types indicative of brown dwarfs (M6.5-L; 13 are within NIRCam). The latter have mass estimates as low as 4 Mjup according to theoretical evolutionary models. There remain a few photometric candidates lacking spectra that extend down to the completeness limit of the images (>=2 Mjup for Ak>=1), so the minimum mass of the IMF has not been detected. It is not possible to measure a reliable substellar IMF from the NIRCam images because of the small number of brown dwarfs encompassed by them, a bias against objects at lower masses due to the high extinctions, and incompleteness at >=10 Mjup due to the saturation limit. Thus, there is no evidence in the JWST data for a turnover below 12jup.",
+        "authors": [
+            {
+                "name": "K. L. Luhman"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2607.28278"
+    },
+    {
+        "id": "http://arxiv.org/abs/2607.25770v1",
+        "title": "JWST/MIRI Detection of Molecular H$_2$ Winds from an Edge-on Class II Source HV Tau C",
+        "updated": "2026-07-28T14:29:23.000Z",
+        "published": "2026-07-28T14:29:23.000Z",
+        "summary": "The evolution of protoplanetary disks is regulated by accretion onto the central star and mass loss through jets and winds. While atomic and ionized outflows are commonly observed, molecular winds in evolved Class II disks remain rarely detected. We characterize the spatial, thermal, kinematic, and dynamical properties of molecular hydrogen (H$_2$) emission from the nearly edge-on Class II disk HV Tau C and assess the impact of its molecular wind. We also constrain accretion using H I recombination lines detected in the same mid-infrared spectrum. Using JWST/MIRI-MRS data from the MINDS Cycle 1 GTO program, we analyze spatially resolved pure-rotational H$_2$ emission. Rotational and position-velocity diagrams constrain excitation and kinematics, from which we estimate wind properties. We detect extended H$_2$ emission tracing a wide-angled, biconical molecular wind extending beyond the near-infrared scattered-light disk, ALMA 887 $μ$m dust continuum, and compact $^{12}$CO ($J=3$-$2$) gas disk. The H$_2$ rotational diagram requires warm ($\\sim$600K) and hot ($\\sim$2000K) components, similar to those in younger protostars. The gas shows outward motions of a few tens of km s$^{-1}$ and dynamical timescales of tens to hundreds of years. The inferred mass-loss rate is $\\sim10^{-8}$ M$_\\odot$ yr$^{-1}$, while accretion rates derived from H I lines are $10^{-10}$-$10^{-8}$ M$_\\odot$ yr$^{-1}$. The accretion rate may be underestimated because of the edge-on geometry. Our results show that wide-angled molecular H$_2$ winds can persist into the Class II phase, with outflow rates comparable to some protostellar systems, suggesting that such winds may remain important for angular momentum removal, disk evolution, and dispersal. (Abstract modified; see the paper for the full version.)",
+        "authors": [
+            {
+                "name": "Vinod Chandra Pathak"
+            },
+            {
+                "name": "P. Manoj"
+            },
+            {
+                "name": "Himanshu Tyagi"
+            },
+            {
+                "name": "B. Shridharan"
+            },
+            {
+                "name": "Th. Henning"
+            },
+            {
+                "name": "I. Kamp"
+            },
+            {
+                "name": "A. Caratti o Garatti"
+            },
+            {
+                "name": "B. Banerjee"
+            },
+            {
+                "name": "Mayank Narang"
+            },
+            {
+                "name": "E. F. van Dishoeck"
+            },
+            {
+                "name": "Kamber Schwarz"
+            },
+            {
+                "name": "Manuel Güdel"
+            },
+            {
+                "name": "Alice Somigliana"
+            },
+            {
+                "name": "Giulia Perotti"
+            },
+            {
+                "name": "Aditya M. Arabhavi"
+            },
+            {
+                "name": "Sujay Vijay Jadhav"
+            },
+            {
+                "name": "Göran Olofsson"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.EP",
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2607.25770"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.03140v3",
+        "title": "PDRs4All XXII. Near-Infrared continuum in the Orion Bar",
+        "updated": "2026-08-17T01:03:09.000Z",
+        "published": "2026-08-04T05:13:49.000Z",
+        "summary": "Conspicuous excess emission is present in the near-infrared (NIR) region in various objects, including reflection nebulae, planetary nebulae, and nearby galaxies. However, the spatial distribution and spectral shape of the excess emission remain poorly understood. We studied the NIR continuum emission spectroscopically and obtained its spatial distribution relative to the aromatic infrared band (AIB) at 3.3um in the Orion Bar prototypical photodissociation region (PDR). We aim to characterize its spectral shape and discuss its origin. We employed 3D spectroscopic data of the Orion Bar taken with the integrated field unit of NIRSpec on JWST from the Early Release Science program \"PDRs4All.\" Contribution from the foreground ionized gas was estimated using the Cloudy code and subtracted. The observed regions were divided into nine physically distinct regions and an average spectrum was derived for each region. The nine regions, including the ionized gas, atomic PDR, and molecular PDR, clearly show remaining continuum in the region 1--4.5um. The continuum at wavelengths longer than 2.7um shows good correlations with the 3.3um AIB, while the correlation of the continuum at 1.2um is not significant. We further find that the NIR continuum in the Orion Bar can be approximated by a summation of two blackbodies. The low-temperature component correlates with the AIB well, while the high-temperature component does not. The average spectra also show absorption features at 3.0 and 4.27um, which are attributed to the presence in the spectra of water ice and CO2 ice. We discuss possible origins of the NIR continuum, among which recurrent fluorescence from carbon clusters better explains the observed low-temperature component. The presence of ice species suggests a contribution from a deeper layer of the PDR along the line of sight producing characteristic ice absorption features.",
+        "authors": [
+            {
+                "name": "Takashi Onaka"
+            },
+            {
+                "name": "Emmanuel Dartois"
+            },
+            {
+                "name": "Els Peeters"
+            },
+            {
+                "name": "Olivier Berne"
+            },
+            {
+                "name": "Emilie Habart"
+            },
+            {
+                "name": "Christiaan Boersma"
+            },
+            {
+                "name": "Jan Cami"
+            },
+            {
+                "name": "Asuncion Fuente"
+            },
+            {
+                "name": "Javier R. Goicoechea"
+            },
+            {
+                "name": "Ozan Lacinbala"
+            },
+            {
+                "name": "Yoko Okada"
+            },
+            {
+                "name": "Alexander G. G. M. Tielens"
+            },
+            {
+                "name": "Dries Van De Putte"
+            },
+            {
+                "name": "Francois Boulanger"
+            },
+            {
+                "name": "Thomas Pino"
+            },
+            {
+                "name": "Yong Zhang"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.03140"
+    },
+    {
         "id": "http://arxiv.org/abs/2608.16204v1",
         "title": "The dust-rich, gas-depleted protosolar disk as the birthplace of chondrules",
         "updated": "2026-08-17T07:36:18.000Z",
@@ -1023,6 +1587,156 @@
         ],
         "primaryCategory": "astro-ph.EP",
         "idShort": "2608.16204"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.10779v1",
+        "title": "Bernhard-1: An Eccentric Binary Periodically Obscured by its Misaligned Circumbinary Disk",
+        "updated": "2026-08-11T10:31:22.000Z",
+        "published": "2026-08-11T10:31:22.000Z",
+        "summary": "Bernhard-1 is a proposed KH 15D-like circumbinary disk occultation (CBO) system, but its binary nature and disk geometry have not previously been confirmed. We present new optical and near-infrared spectroscopy together with multi-band photometric monitoring of the system. The radial velocities confirm that Bernhard-1 hosts a highly eccentric binary with $e = 0.80 \\pm 0.09$, confirming that the periodic photometric variability arises from occultation by a misaligned circumbinary disk. Joint modeling of the spectra and phase-dependent spectral energy distributions yields pre-main-sequence components with masses of $\\sim 1.1\\,M_\\odot$ and $\\sim 0.8\\,M_\\odot$. Combining stellar isochrones with the measured lithium abundance yields a system age of $\\sim$ 10 Myr. Together with the spatial, astrometric, and metallicity properties of Bernhard-1, this suggests that Bernhard-1 is probably a member of the open cluster Dolidze 42. By combining the RV orbit with a semi-transparent occultation-screen model, we infer a disk--binary mutual inclination of roughly $50^\\circ$ or $130^\\circ$, with the degeneracy arising from the unknown disk rotation direction. This geometric method can be applied to any CBO system once radial velocity monitoring yields an orbital solution. The new light curves deviate from earlier model predictions, consistent with ongoing disk precession, while the phase-dependent H$α$ profiles indicate pulsed accretion near periastron. Bernhard-1 therefore joins KH 15D and Bernhard-2 as a rare spectroscopically confirmed CBO system.",
+        "authors": [
+            {
+                "name": "Zhecheng Hu"
+            },
+            {
+                "name": "Wei Zhu"
+            },
+            {
+                "name": "Ping Chen"
+            },
+            {
+                "name": "Richard Post"
+            },
+            {
+                "name": "Weicheng Zang"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.10779"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.19364v1",
+        "title": "Early Planet Formation in Embedded Disks (eDisk). XXIV: Systematic Investigation of Disk Structures based on Visibility Analysis",
+        "updated": "2026-08-19T18:32:31.000Z",
+        "published": "2026-08-19T18:32:31.000Z",
+        "summary": "The dust continuum emission from young protostellar disks encodes key information about their mass distribution and early evolution, yet uniform high-resolution comparative studies remain limited. We present a systematic uv-plane analysis of parametric intensity models applied to ALMA Band-6 (1.3 mm) observations of 23 disks (19 protostellar systems with 4 being in binary) from the eDisk sample, spanning Gaussian profiles to power-law cores with exponential tails (PLCT), including asymmetric extensions. Gaussian models generally fail to reproduce the centrally peaked emission and extended outer structure observed in most disks, whereas the PLCT framework provides a significantly improved description of radial brightness profiles. Incorporating azimuthal asymmetries further reduces residuals in 15 of 17 inclined disks, indicating that departures from axisymmetry are common at early stages. Only two disks, L1489 IRS and Oph IRS63, exhibit clear gap and ring substructures, while most appear smooth at the spatial resolution and sensitivity of our observations. These systems are among the most evolved in the sample, and the absence of flat-spectrum sources limits the evolutionary range probed, {suggesting that the detection of prominent gaps and rings is not common} in the earliest phases of disk evolution. Using a uniform definition of disk radius based on the 95\\% enclosed flux, we find a positive correlation with stellar mass, $R_{\\rm disk} \\propto M_{\\star}^{1.5 \\pm 0.1}$, with disks in binary systems systematically smaller than those around isolated protostars. While the models capture overall morphology and large-scale asymmetries, distinguishing intrinsic structures from radiative transfer effects in optically thick regions remains challenging.",
+        "authors": [
+            {
+                "name": "Mayank Narang"
+            },
+            {
+                "name": "Jerry Xu"
+            },
+            {
+                "name": "Leslie W. Looney"
+            },
+            {
+                "name": "Nagayoshi Ohashi"
+            },
+            {
+                "name": "Anika Khandavalli"
+            },
+            {
+                "name": "Patrick Sheehan"
+            },
+            {
+                "name": "Jonathan P. Williams"
+            },
+            {
+                "name": "Shigehisa Takakuwa"
+            },
+            {
+                "name": "Jes K. Jørgensen"
+            },
+            {
+                "name": "Ilseung Han"
+            },
+            {
+                "name": "Woojin Kwon"
+            },
+            {
+                "name": "Zhi-Yun Li"
+            },
+            {
+                "name": "Nguyen Thi Phuong"
+            },
+            {
+                "name": "John J. Tobin"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.EP",
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.19364"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.09896v1",
+        "title": "Nascent Embedded-protostar Survey in Taurus (NEST) II: Measuring Dust Mass, Disk Size, and Gas Mass",
+        "updated": "2026-08-10T17:44:10.000Z",
+        "published": "2026-08-10T17:44:10.000Z",
+        "summary": "Envelope-embedded protostellar disks represent the earliest stage of protoplanetary disk evolution, but their masses and sizes are difficult to measure because disk emission is entangled with the envelope. We analyze 26 protostellar disk systems in Taurus using ALMA Band 7 (345 GHz; ~0.3'') and VLA Ka-band (33 GHz; ~0.2'') continuum observations, together with molecular-line data to constrain disk gas masses. At 345 GHz, the median flux density, dust mass, and radius are 71 mJy, 5.5 M_Mearth, and 28 AU, with 68% ranges of 54-107 mJy, 3.9-9.4 M_Mearth, and 25-39 AU. At 33 GHz, the corresponding medians are 0.43 mJy, 39 M_Mearth, and 32 AU, with ranges of 0.41-0.80 mJy, 34-52 M_Mearth, and 29-33 AU. Taurus Class I disks are fainter and less massive than those in Orion, comparable to Perseus Class I disks but fainter than Perseus Class 0 disks, and brighter and more massive than those in Ophiuchus. Within Taurus, Class 0/I disks are brighter than Class II disks at both frequencies, although their inferred dust masses are comparable at 345 GHz and slightly higher at 33 GHz. Radiative-transfer modeling of CO isotopologue emission yields a median gas mass of 6.7 x 10^-4 M_Msun. The resulting CO-inferred gas-to-dust ratios span a broad range, with a mean of 147 +/- 75, a median of 26, and a 16th-84th percentile range of 8-147. This distribution overlaps the Taurus Class II population at the low end and ISM-like or higher values, including the AGE-PRO Ophiuchus Class 0/I population, at the high end.",
+        "authors": [
+            {
+                "name": "Noshin Yesmin"
+            },
+            {
+                "name": "Patrick Sheehan"
+            },
+            {
+                "name": "John Tobin"
+            },
+            {
+                "name": "Aislinn Coleman-Plante"
+            },
+            {
+                "name": "Nicholas P. Ballering"
+            },
+            {
+                "name": "Tyler L. Bourke"
+            },
+            {
+                "name": "Josh Eisner"
+            },
+            {
+                "name": "Hauyu Baobab Liu"
+            },
+            {
+                "name": "Zhi-Yun Li"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.09896"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.10884v2",
+        "title": "The Radcliffe Wave is not alone in the Local System",
+        "updated": "2026-08-12T12:37:04.000Z",
+        "published": "2026-08-11T13:02:17.000Z",
+        "summary": "The spatial distribution of open star clusters (OSCs) younger than 30 million years old in the Local System was studied. It was shown for the first time that a significant number of OSCs belong to the recently discovered Vela Ridge gas and dust supercloud. The most intriguing property of this sample of OSCs is the presence of periodic perturbations in their vertical coordinates with a maximum amplitude of 47 pc and a wavelength of 1.1 kpc. Thus, the discovered chain of young OSCs is analogous to the Radcliffe Wave, but with a lower amplitude of vertical perturbations, a shorter wavelength, and is, on average, 2 million years older.",
+        "authors": [
+            {
+                "name": "V. V. Bobylev"
+            },
+            {
+                "name": "A. T. Bajkova"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.10884"
     },
     {
         "id": "http://arxiv.org/abs/2608.04984v1",
@@ -1080,6 +1794,127 @@
         "idShort": "2608.04890"
     },
     {
+        "id": "http://arxiv.org/abs/2608.00719v1",
+        "title": "Supernova feedback in porous photoionized Giant Molecular Clouds",
+        "updated": "2026-08-01T15:36:51.000Z",
+        "published": "2026-08-01T15:36:51.000Z",
+        "summary": "We present a new suite of numerical simulations of Type II supernovae (SNe) detonating in Giant Molecular Clouds with a variety of density structures shaped by photoionization feedback. Ionizing radiation sculpts cavities and channels that guide SN energy to emerge from the cloud as shock-driven blowouts, rather than as a coherent spherically expanding shell as assumed in most sub-grid SN models adopted in galaxy or cosmological simulations. We investigate how such outflows differ to the 1-D descriptions, and whether or not the perturbations induced by the blowouts are sensitive to the host cloud's structure. A channelling parameter $P_\\mathrm{chnl}$ is introduced to characterise the cloud's porosity and boundness using the morphology of the ionized channels. Our results reveal that the outflow velocities, whilst consistently higher than that of the spherical blasts, are in fact rather independent of the porosity of its local environment. The total kinetic energy and momentum deposited also appear similar across all runs. What is most sensitive to $P_\\mathrm{chnl}$ is the mass of the materials carried in the outflows and their migration distances. It implies that SNe exploding in compact clouds with distinctive channel structures may have more confined metal injection radii and shortened turbulent driving scales, which consequently lead to a clumpier interstellar medium with higher density and metallicity fluctuations. We argue that molecular cloud structures play an equally important role to SN rates and energy budgets in stellar feedback sub-grid modelling.",
+        "authors": [
+            {
+                "name": "Cheryl S. C. Lau"
+            },
+            {
+                "name": "Ian A. Bonnell"
+            },
+            {
+                "name": "Yueh-Ning Lee"
+            },
+            {
+                "name": "Ke-Jung Chen"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.00719"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.00441v1",
+        "title": "Hub-filament systems and the growth of massive stars: episodic accretion, clustered environments, and projection effects",
+        "updated": "2026-08-01T04:45:26.000Z",
+        "published": "2026-08-01T04:45:26.000Z",
+        "summary": "The processes controlling the early mass growth of future massive stars remain poorly understood, particularly the connection of this growth to star clustering and hub-filament systems (HFSs). This connection is difficult to establish observationally, because projection effects and line-of-sight confusion in position-position-velocity (PPV) data can distort the information about the intrinsic filamentary structure. To investigate this connection, we used a three-dimensional magnetohydrodynamic (MHD) simulation of star formation, where stars are represented by accreting sink particles. We identify clustered stellar environments, reconstruct time-dependent accretion histories, and investigate the relation between enhanced-accretion episodes and the locations of HFSs. We also use line radiative transfer modeling to produce synthetic molecular-line observations and examine how the same structures appear in projected PPV data. In our simulation, we find that 80% of future massive stars are associated with clustered environments. Their growth is also highly episodic: typically, about 40% of the accreted mass is gained during periods of enhanced accretion that occupy only about 10% of the total growth time. Periods of enhanced accretion occur slightly closer to three-dimensional HFS proxies, suggesting a possible link between HFS morphology and episodic accretion in future massive stars. Overall, our results suggest that the early growth of future massive stars is connected to both their clustered environment and the HFS structure of the surrounding gas, and projection effects must be considered when interpreting HFS in PPV data.",
+        "authors": [
+            {
+                "name": "Dana Makarova"
+            },
+            {
+                "name": "Dana Alina"
+            },
+            {
+                "name": "Paolo Padoan"
+            },
+            {
+                "name": "Baurzhan Kumarioldanov"
+            },
+            {
+                "name": "Mika Juvela"
+            },
+            {
+                "name": "Dilda Berdikhan"
+            },
+            {
+                "name": "Naval Bhadari"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.00441"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.05809v1",
+        "title": "GeV γ-ray emission in the star-forming region S140",
+        "updated": "2026-08-06T09:42:28.000Z",
+        "published": "2026-08-06T09:42:28.000Z",
+        "summary": "We report the detection of a GeV γ-ray source in the S140 HII region using 17.75 years of Fermi-LAT data, with a source-detection significance of ~32.1σ in the 0.1-500 GeV energy band. The emission is significantly extended (AIC evidence ratio above 1 GeV is 2x10^9) and is therefore designated as 4FGL J2220.8+6319e. The γ-ray emission coincides spatially with a molecular cloud that hosts the massive young stellar object S140 IRS1. Its spectrum is best fitted by a log-parabolic spectrum (TS_cur(LP) = 104.1) and can be reproduced by both hadronic and leptonic models. The jet driven by S140 IRS1 offers a viable particle acceleration site, yielding injection timescales and maximum particle energies consistent with theoretical expectations, whereas stellar winds are energetically disfavored.",
+        "authors": [
+            {
+                "name": "Li-Nuo Yang"
+            },
+            {
+                "name": "Pak-Hin Thomas Tam"
+            }
+        ],
+        "categories": [
+            "astro-ph.HE"
+        ],
+        "primaryCategory": "astro-ph.HE",
+        "idShort": "2608.05809"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.06268v1",
+        "title": "A Streamer Driving Misalignment in the Circumtriple Disk of GW Ori",
+        "updated": "2026-08-06T16:59:58.000Z",
+        "published": "2026-08-06T16:59:58.000Z",
+        "summary": "GW Orionis is a triple stellar system with a disk featuring three misaligned dust rings. We present ALMA molecular line data of CO isotopologues, revealing a streamer feeding the disk in $^{12}$CO and $^{13}$CO. Through multi-pointing observations, we find the streamer extends to $\\sim30''$ on-sky ($\\sim12,000$~AU) and estimate a mass of 1.6 M$_{\\rm Jup}$ using $^{13}$CO. Fitting the morphology and kinematics of the streamer, we estimate the mass infall timescale of 0.04 Myrs and a mass infall rate of $3.6\\times10^{-8}$~M$_{\\odot}$~yr$^{-1}$, approximately an order of magnitude lower than the stellar accretion rate. Our best-fit trajectory shows that the streamer meets the disk at the outermost dust ring and that the streamer's angular momentum vector is closely aligned with this outermost ring within $\\approx3^\\circ$, in contrast to the $\\approx32^\\circ$ misalignment with the innermost ring, suggesting the streamer is the likely cause of the misalignment. However, the total angular momentum of the streamer is smaller than that of GW Ori's disk; this, together with the low accretion rate, indicates that we are probably witnessing the end stages of infall. Total Power observations reveal bright emission connecting the streamer to the surrounding star-forming region, with a projected distance falling well within the Bondi-Hoyle radius, implying the streamer could have originated through Bondi-Hoyle accretion as GW Ori moves through its natal cloud. Together, these results suggest that GW Ori remains dynamically linked to its parental cloud through ongoing accretion, with the streamer serving as the likely driver of its misaligned disk structure.",
+        "authors": [
+            {
+                "name": "Maria Galloway-Sprietsma"
+            },
+            {
+                "name": "Jaehan Bae"
+            },
+            {
+                "name": "Toni Phillips"
+            },
+            {
+                "name": "Jane Huang"
+            },
+            {
+                "name": "Myriam Benisty"
+            },
+            {
+                "name": "Matthew Porter"
+            },
+            {
+                "name": "Christian Ginski"
+            },
+            {
+                "name": "Andrew Winter"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP",
+            "astro-ph.GA",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2608.06268"
+    },
+    {
         "id": "http://arxiv.org/abs/2608.13639v1",
         "title": "Effects of Pebble Accretion Isolation Mass on Observable Exoplanet Properties",
         "updated": "2026-08-13T18:00:00.000Z",
@@ -1107,6 +1942,42 @@
         ],
         "primaryCategory": "astro-ph.EP",
         "idShort": "2608.13639"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.14381v2",
+        "title": "The Galactic Centre G+0.633-0.0604 Molecular Cloud: A New Gold Mine for Astrochemistry",
+        "updated": "2026-08-18T10:01:01.000Z",
+        "published": "2026-08-14T15:20:57.000Z",
+        "summary": "Astrochemistry is living a golden age, with more than a quarter of the ~350 molecules in the current interstellar census having been detected over the last three years. One of the sources driving this progress is the G+0.693-0.027 cloud, located in the northern part of the Galactic Centre Sgr B2 complex. In this contribution, we present the astrochemical characterisation of G+0.633-0.0604, a newly discovered chemically rich molecular cloud at the southern edge of Sgr B2. With an inventory of >120 species, G+0.633 provides robust second detections of several prebiotic molecules only reported towards G+0.693, establishing it as the first confirmed astrochemical twin of G+0.693 while demonstrating that the extraordinary chemistry of this cloud is not unique. Furthermore, G+0.633 offers an observational advantage over G+0.693 since it displays half narrower linewidths. Together, G+0.633 and G+0.693 form a unique benchmark pair for unveiling molecular complexity and prebiotic chemistry in the interstellar medium.",
+        "authors": [
+            {
+                "name": "D. San Andrés"
+            },
+            {
+                "name": "V. M. Rivilla"
+            },
+            {
+                "name": "L. Colzi"
+            },
+            {
+                "name": "M. Sanz-Novo"
+            },
+            {
+                "name": "S. Martín"
+            },
+            {
+                "name": "I. Jiménez-Serra"
+            },
+            {
+                "name": "S. Zeng"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.14381"
     },
     {
         "id": "http://arxiv.org/abs/2608.17226v1",
@@ -1163,6 +2034,50 @@
         "idShort": "2608.17226"
     },
     {
+        "id": "http://arxiv.org/abs/2608.24407v1",
+        "title": "Volatile depletion in rocky planets as a chemical fingerprint of hybrid accretion",
+        "updated": "2026-08-25T11:16:00.000Z",
+        "published": "2026-08-25T11:16:00.000Z",
+        "summary": "Volatile depletion in rocky planets relative to their host stars is commonplace in both the Solar System and exoplanetary systems, yet the connections between planet formation and composition remain elusive. Here we model devolatilization during pebble accretion in combination with collisional growth from volatile-depleted planetesimals to explore the formation pathways of Earth and Mars. Using Bayesian inference, we find that bulk silicate Earth is best reproduced by ${\\gtrsim}$75% contribution from two protoplanets formed via pebble accretion, supplemented by up to $\\sim$25% material from planetesimals that are compositionally akin to the asteroid Vesta. Using instead a planetesimal volatile-depletion curve that is not observed among known meteorite parent bodies would allow the planetesimal contribution to reach 40$^{+15}_{-14}$%. In comparison, bulk silicate Mars reflects 27$\\pm$5% pebble-accreted material and 73${\\pm}$5% Vesta-like planetesimals. We identify volatile depletion as a chemical fingerprint of hybrid accretion, in which both pebble accretion and collisional assembly contribute to terrestrial planet growth. By quantitatively linking formation pathways to volatile budgets, our findings demonstrate how planetary accretion histories can be inferred from elemental signatures, with broad implications for interpreting the chemical diversity of rocky exoplanets.",
+        "authors": [
+            {
+                "name": "Haiyang S. Wang"
+            },
+            {
+                "name": "Anders Johansen"
+            },
+            {
+                "name": "Ziyan Xu"
+            },
+            {
+                "name": "Marie-Luise Steinmeyer"
+            },
+            {
+                "name": "Michiel Lambrechts"
+            },
+            {
+                "name": "Elishevah van Kooten"
+            },
+            {
+                "name": "Chao-Chin Yang"
+            },
+            {
+                "name": "Zhaohuan Zhu"
+            },
+            {
+                "name": "Dante S. Lauretta"
+            },
+            {
+                "name": "Martin Bizzarro"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2608.24407"
+    },
+    {
         "id": "http://arxiv.org/abs/2608.21002v1",
         "title": "Gas-phase and Surface Chemistry in the Massive Star-Forming Region RCW\\,120",
         "updated": "2026-08-21T11:42:18.000Z",
@@ -1188,6 +2103,78 @@
         ],
         "primaryCategory": "astro-ph.GA",
         "idShort": "2608.21002"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.21978v1",
+        "title": "MIAO-ALMA: Shocks and Protostellar Outflows in 70 $μ$m-dark clumps with $L/M$ $<$ 1 $L_{\\odot}$/$M_{\\odot}$",
+        "updated": "2026-08-22T14:28:02.000Z",
+        "published": "2026-08-22T14:28:02.000Z",
+        "summary": "To investigate the initial conditions of high-mass star-forming regions, we use SiO (2-1) emission to trace early shock-related kinematics toward sixteen 70 $μ$m-dark and massive clumps with luminosity-to-mass ratios ($L/M$) $< 1\\,L_{\\odot}/M_{\\odot}$, as part of the Multiwavelength Line-Imaging Survey of the 70 $μ$m-dark and bright clouds (MIAO) project. Using ALMA observations at a spatial resolution of $\\sim$0.06 pc and a velocity resolution of 0.21 km s$^{-1}$, we identify a total of thirty-seven outflows with a variety of morphologies. Outflow parameters were derived by integrating the HCO$^+$ (1-0) line wings, excluding the quiescent dense core component traced by H$^{13}$CO$^+$ (1-0). We find that outflow masses and velocities show moderate positive correlations with the masses of their driving cores. Owing to the high sensitivity of our observations, which yield longer projected outflow lengths compared to previous studies, the derived outflow dynamical ages span $\\sim10^{3}$-$10^{5}$ yr. We detect six narrow-linewidth (0.6-1.4 km s$^{-1}$) and three broad ($>$ 2 km s$^{-1}$) SiO (2-1) features not associated with outflows driven by clearly identified protostars. Lacking coincident 3 mm dust continuum cores, their origins may be young outflows from undetected low-mass protostars, dissipating shocks, cloud-cloud collisions, or projection effects when the outflows lie close to the plane of the sky. The detection of these shocks and outflows in such extremely young environments demonstrates that protostellar activity has already begun.",
+        "authors": [
+            {
+                "name": "Shuting Lin"
+            },
+            {
+                "name": "Siyi Feng"
+            },
+            {
+                "name": "Junzhi Wang"
+            },
+            {
+                "name": "Shanghuo Li"
+            },
+            {
+                "name": "Dan Miao"
+            },
+            {
+                "name": "Zhi-Yu Zhang"
+            },
+            {
+                "name": "Sheng-Yuan Liu"
+            },
+            {
+                "name": "Nami Sakai"
+            },
+            {
+                "name": "Fengwei Xu"
+            },
+            {
+                "name": "Hauyu Baobab Liu"
+            },
+            {
+                "name": "Henrik Beuther"
+            },
+            {
+                "name": "Di Li"
+            },
+            {
+                "name": "Qizhou Zhang"
+            },
+            {
+                "name": "Tie Liu"
+            },
+            {
+                "name": "Patricio Sanhueza"
+            },
+            {
+                "name": "Olli Sipilä"
+            },
+            {
+                "name": "Ken'ichi Tatematsu"
+            },
+            {
+                "name": "Jaime E. Pineda"
+            },
+            {
+                "name": "Xing Lu"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.21978"
     },
     {
         "id": "http://arxiv.org/abs/2608.22649v1",
@@ -1255,50 +2242,6 @@
         "idShort": "2608.22649"
     },
     {
-        "id": "http://arxiv.org/abs/2608.24407v1",
-        "title": "Volatile depletion in rocky planets as a chemical fingerprint of hybrid accretion",
-        "updated": "2026-08-25T11:16:00.000Z",
-        "published": "2026-08-25T11:16:00.000Z",
-        "summary": "Volatile depletion in rocky planets relative to their host stars is commonplace in both the Solar System and exoplanetary systems, yet the connections between planet formation and composition remain elusive. Here we model devolatilization during pebble accretion in combination with collisional growth from volatile-depleted planetesimals to explore the formation pathways of Earth and Mars. Using Bayesian inference, we find that bulk silicate Earth is best reproduced by ${\\gtrsim}$75% contribution from two protoplanets formed via pebble accretion, supplemented by up to $\\sim$25% material from planetesimals that are compositionally akin to the asteroid Vesta. Using instead a planetesimal volatile-depletion curve that is not observed among known meteorite parent bodies would allow the planetesimal contribution to reach 40$^{+15}_{-14}$%. In comparison, bulk silicate Mars reflects 27$\\pm$5% pebble-accreted material and 73${\\pm}$5% Vesta-like planetesimals. We identify volatile depletion as a chemical fingerprint of hybrid accretion, in which both pebble accretion and collisional assembly contribute to terrestrial planet growth. By quantitatively linking formation pathways to volatile budgets, our findings demonstrate how planetary accretion histories can be inferred from elemental signatures, with broad implications for interpreting the chemical diversity of rocky exoplanets.",
-        "authors": [
-            {
-                "name": "Haiyang S. Wang"
-            },
-            {
-                "name": "Anders Johansen"
-            },
-            {
-                "name": "Ziyan Xu"
-            },
-            {
-                "name": "Marie-Luise Steinmeyer"
-            },
-            {
-                "name": "Michiel Lambrechts"
-            },
-            {
-                "name": "Elishevah van Kooten"
-            },
-            {
-                "name": "Chao-Chin Yang"
-            },
-            {
-                "name": "Zhaohuan Zhu"
-            },
-            {
-                "name": "Dante S. Lauretta"
-            },
-            {
-                "name": "Martin Bizzarro"
-            }
-        ],
-        "categories": [
-            "astro-ph.EP"
-        ],
-        "primaryCategory": "astro-ph.EP",
-        "idShort": "2608.24407"
-    },
-    {
         "id": "http://arxiv.org/abs/2608.05264v1",
         "title": "Inventories of Rich Carbon-Chain Chemistry in Prestellar and Starless Cores in the Perseus Molecular Cloud",
         "updated": "2026-08-05T17:40:50.000Z",
@@ -1331,6 +2274,38 @@
         ],
         "primaryCategory": "astro-ph.GA",
         "idShort": "2608.05264"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.27067v1",
+        "title": "HURACAN: A comparison of stellar and interstellar proper motions inside L1688",
+        "updated": "2026-08-27T12:52:59.000Z",
+        "published": "2026-08-27T12:52:59.000Z",
+        "summary": "The assumption that molecular clouds are kinematically coupled to the young stellar populations forming within them is observationally still poorly constrained. With the transverse component $v_{\\textrm{t}}$ of the interstellar medium (ISM) motion being largely unknown, the three-dimensional kinematic state of even the closest clouds remains incomplete. We provide the first direct measurement of the transverse motion of the ISM inside the Ophiuchus cloud L1688 and compare it with the kinematics of the surrounding young stellar populations. The measurement was obtained using intensity-based image registration applied to archival data, allowing us to generate a proper motion field of the studied regions and determine the cloud's bulk motion, $(μ_{α^*},μ_δ)^{\\mathrm{ISM}}_{\\mathrm{median}}=(-3.0, -24.1)$ mas yr$^{-1}$. This motion differs from the kinematics of the youngest population in Upper Scorpius by $3\\pm1$ km s$^{-1}$, highlighting the possibility of a bias when using stars as a proxy for the ISM motion near star-forming regions. By comparing the cloud's motion with that of the youngest stellar population in the region and the B-star Oph S1 located within the cloud, we find that stellar feedback must have dynamically shaped the motion of the ISM over the last few million years. Furthermore, by studying a shell-like ISM structure appearing in L1688, we find evidence suggesting that this object is likely neither a typical Herbig-Haro object nor a supernova remnant, with its origin remaining a mystery. Our results demonstrate that archival and future high-resolution near-infrared observations can and will continue to enable measurements of ISM transverse motions in nearby clouds, opening a new window for studying ISM dynamics that is not accessible when using radial velocities alone.",
+        "authors": [
+            {
+                "name": "M. Piecka"
+            },
+            {
+                "name": "J. Alves"
+            },
+            {
+                "name": "A. Rottensteiner"
+            },
+            {
+                "name": "S. Hutschenreuter"
+            },
+            {
+                "name": "S. Meingast"
+            },
+            {
+                "name": "L. Posch"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.27067"
     },
     {
         "id": "http://arxiv.org/abs/2608.12028v1",
@@ -1386,6 +2361,109 @@
         ],
         "primaryCategory": "astro-ph.GA",
         "idShort": "2608.11729"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.12931v1",
+        "title": "Chondrule formation in the outer disk from the primary three-dimensional chemical composition of CM chondrules",
+        "updated": "2026-08-13T08:10:31.000Z",
+        "published": "2026-08-13T08:10:31.000Z",
+        "summary": "Chondrules and their associated fine-grained rims record key processes in the early protoplanetary disk, yet the links between chondrule chemistry, morphology, and matrix complementarity remain poorly constrained. We investigate the major, minor, and trace element compositions of 66 chondrules and FGRs from the relatively unaltered CM carbonaceous chondrites Asuka 12236, Paris, and Maribo, together with their 3D morphology, using LA-ICP-MS and X-ray tomography. CM chondrules record systematic metal loss and evaporation of Si-rich mesostasis, driving initially CI-like precursor compositions toward more Mg- and Si-rich bulk compositions along the CI ratio line and toward increasingly Si-poor forsteritic assemblages. GEMS-like materials in pristine CM matrices closely mirror chondrule compositions and likely represent complementary condensates derived from evaporated mesostasis. Dust accreted onto chondrules is predominantly CI-like but contains about 14 wt.% complementary condensate material represented by chondritic amorphous silicates, reconciling Mg/Si complementarity between chondrules and matrix with the preservation of primordial organics and presolar grains. Morphological observations show no significant sectioning bias, consistent with CM chondrules being dominated by agglomerates of ~100 um microspherules. Many display grape-bunch textures produced by welding of smaller chondrules with metal-rich or CI-like rims. This structure may explain the chondrule moderately volatile-element plateau at about 0.3xCI. We propose a \"micro-chondrule-first\" scenario in which localized heating events produced small molten droplets that subsequently accreted CI-like dust and ice, aggregated, and experienced limited aqueous alteration. These observations place new constraints on chondrule formation in the outer disk and highlight the importance of localized melting and aggregation processes.",
+        "authors": [
+            {
+                "name": "Poula Eyðbjørnsdóttir"
+            },
+            {
+                "name": "Anders Johansen"
+            },
+            {
+                "name": "Elishevah van Kooten"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2608.12931"
+    },
+    {
+        "id": "http://arxiv.org/abs/2607.25384v1",
+        "title": "A Systematic Study of Quiescent and Outburst Properties of X-ray-bright Young Stellar Objects Using XMM-Newton",
+        "updated": "2026-07-28T07:39:35.000Z",
+        "published": "2026-07-28T07:39:35.000Z",
+        "summary": "Young Stellar Objects (YSOs) exhibit strong X-ray emission, widely attributed to magnetic reconnection and magnetospheric accretion; however, owing primarily to limited photon statistics, observational tests of these mechanisms have often relied on simplified analyses, leaving room for more precise constraints on their emission processes. We aim to derive the X-ray properties of X-ray-bright YSOs selected from multiple star clusters and investigate their emission mechanisms through an approach from multiple perspectives based on timing and spectroscopic analysis. We performed a systematic search of XMM-Newton archival observations and constructed a sample of 51 X-ray-bright YSOs for timing and spectroscopic analyses. We identified quiescent and outburst phases through timing analysis, performed phase-resolved multi-temperature spectroscopy. Multi-temperature plasma structures are detected in both quiescent and outburst emission. The relationships among the timing and spectral parameters are broadly consistent with a magnetic-reconnection scenario. Comparison with Gaia DR3 stellar parameters suggests that magnetospheric accretion alone has difficulty explaining most of the fitted X-ray temperatures, although the coolest model components with $kT \\lesssim 0.3$ keV may include an accretion-shock contribution. After separating these low-temperature components, the remaining quiescent components show a clearer positive correlation in the $EM$--$kT$ plane, with magnetic-loop lengths distributed around $10^{12}$ cm. Neupert-like behavior, the temporal evolution of temperature and emission measure, the Rossby-number activity relation, and positive correlations between quiescent and outburst properties all suggest that magnetic reconnection plays a key role in both phases.",
+        "authors": [
+            {
+                "name": "Koki Sakuta"
+            },
+            {
+                "name": "Ikuyuki Mitsuishi"
+            },
+            {
+                "name": "Seiya Sasamata"
+            },
+            {
+                "name": "Daigo Nonaka"
+            },
+            {
+                "name": "Mai Yamashita"
+            },
+            {
+                "name": "Shin Toriumi"
+            },
+            {
+                "name": "Takato Tokuno"
+            },
+            {
+                "name": "Yohko Tsuboi"
+            },
+            {
+                "name": "Hiroshi Kobayashi"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2607.25384"
+    },
+    {
+        "id": "http://arxiv.org/abs/2607.24969v1",
+        "title": "A radio view on Gamma-Loud Protostars: Derivation of jet mechanical luminosity",
+        "updated": "2026-07-27T18:19:52.000Z",
+        "published": "2026-07-27T18:19:52.000Z",
+        "summary": "Context. Gamma-Loud Protostars (GLPs) have been recently reported as Galactic hadronic accelerators whose acceleration site is situated in their protostellar jets. Theoretical and observational analysis situate radio cm luminosity as a thermal tracer of jet activity, presenting an unique opportunity to study jet properties as accelerators.\n  Aims. We aim to develop a way to estimate the kinetic power of protostellar jets and compare their energetics with those extracted from the non-thermal gamma-ray side of GLPs.\n  Methods. We combine theoretical and phenomenological relations to estimate the jet mechanical luminosity based on the radio cm luminosity. We relate the resulting values to the non-thermal contribution of GLPs, studying its behaviour and efficiency.\n  Results. The derivation of the jet power successfully reproduces infrared and radio observations. The cosmic-ray energy correlates to the injected mechanical energy, implying an acceleration efficiency of 1--10%. Future radio observations are needed to find the definite accelerators and obtain reliable efficiencies.",
+        "authors": [
+            {
+                "name": "Javier Méndez-Gallego"
+            },
+            {
+                "name": "Carlos Carrasco-González"
+            },
+            {
+                "name": "Rubén López-Coto"
+            },
+            {
+                "name": "Iván Agudo"
+            },
+            {
+                "name": "Stefano Menchiari"
+            },
+            {
+                "name": "Rubén Fedriani"
+            },
+            {
+                "name": "Emma de Oña Wilhelmi"
+            },
+            {
+                "name": "Guillem Anglada"
+            }
+        ],
+        "categories": [
+            "astro-ph.HE",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.HE",
+        "idShort": "2607.24969"
     },
     {
         "id": "http://arxiv.org/abs/2608.02204v1",
@@ -1497,6 +2575,58 @@
         "idShort": "2608.05516"
     },
     {
+        "id": "http://arxiv.org/abs/2607.27186v1",
+        "title": "An Inclined, Eccentric Planet and an Inner Debris Disk Could Reproduce AU Mic Structure",
+        "updated": "2026-07-29T17:55:20.000Z",
+        "published": "2026-07-29T17:55:20.000Z",
+        "summary": "The debris disk orbiting the M star AU Microscopii has a series of large-scale clumps that move away from the star at high velocities above the mid-plane on the southeast side. Two more bright features lie on the northwest side of the disk, localized below the mid-plane and moving toward the star. These clumps are only observed in scattered light indicating that they affect small 0.2$μ$m-sized grains. We present a mechanism for emitting periodic dust clumps by appealing to stellar forces and an inclined, eccentric planet interacting with an exterior debris disk. In our best-matching simulations, the planet exerts an impulse on the disk every orbital period, generating periodic enhancements in dust above the mid-plane. We assume that the stellar wind only acts on grains once they reach a height above the mid-planet that exceeds a threshold value (a free parameter in our model), at which point they are accelerated outward. The behavior of periodic particle ejections and trajectories depends significantly on the planet's mass, eccentricity, and inclination; separation between the planet and disk; and the ratio of stellar wind force to the star's gravitational force ($β$). We find a promising qualitative match to observations with simulations that include an as-yet-undiscovered and observationally allowed planet with mass $2 M_J$, semi-major axis between 3-4 au, eccentricity of 0.37, and inclination of 30$^\\circ$, a ring of particles between 5-6 au, and a stellar wind height threshold of $z_h = hr$, where $h \\approx 0.02$. We visualize our simulation with surface brightness maps to compare with existing observations of AU Mic. We find that a value of $β\\approx 1.8$ accelerates the clumps radially outward at velocities that are comparable to the clumps seen in the AU Mic disk and produces features similar to those observed.",
+        "authors": [
+            {
+                "name": "Arcelia Hermosillo Ruiz"
+            },
+            {
+                "name": "Ruth Murray-Clay"
+            },
+            {
+                "name": "Meredith A. MacGregor"
+            },
+            {
+                "name": "Renata Frelikh"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2607.27186"
+    },
+    {
+        "id": "http://arxiv.org/abs/2607.26007v1",
+        "title": "The IMF package: a toolkit implementing mass functions and statistical tools to analyze them",
+        "updated": "2026-07-28T17:22:22.000Z",
+        "published": "2026-07-28T17:22:22.000Z",
+        "summary": "Mass functions are used in all areas of astrophysics. The stellar initial mass function (IMF), in particular, plays a central role in modeling stellar populations in galaxies. However, few dedicated tools for working directly with the IMF and its precursor functions are widely available. We present the $\\texttt{imf}$ package, a Python library integrated into the wider scientific Python ecosystem that implements common and variant forms of mass functions, especially the IMF and its pre- and protostellar equivalents, as probability distribution functions based on SciPy's statistics architecture. This package enables the performance of operations such as sampling and integration on a wide array of highly customizable mass functions. $\\texttt{imf}$ is publicly available on the Python package index $\\texttt{pypi}$ under the project name $\\texttt{initial_mass_function}$.",
+        "authors": [
+            {
+                "name": "Theo Richardson"
+            },
+            {
+                "name": "Adam Ginsburg"
+            },
+            {
+                "name": "Sergey Koposov"
+            }
+        ],
+        "categories": [
+            "astro-ph.IM",
+            "astro-ph.GA",
+            "astro-ph.HE",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.IM",
+        "idShort": "2607.26007"
+    },
+    {
         "id": "http://arxiv.org/abs/2608.17887v1",
         "title": "The segmented spiral structure of the Solar neighbourhood traced by young clustered populations",
         "updated": "2026-08-18T15:21:06.000Z",
@@ -1540,6 +2670,144 @@
         "idShort": "2608.17857"
     },
     {
+        "id": "http://arxiv.org/abs/2608.09920v1",
+        "title": "IPA: Morphology and Kinematics of Molecular Hydrogen Winds in Five Young Protostars across the Mass Spectrum Observed with JWST",
+        "updated": "2026-08-10T17:57:48.000Z",
+        "published": "2026-08-10T17:57:48.000Z",
+        "summary": "Molecular winds may play a key role in governing angular momentum transport and accretion during the early evolution of protostars. We present the morphology and kinematic properties of the H$_2$ emission in five young, envelope-dominated, protostars across a broad bolometric luminosity range, from 0.2 to $10^4~L_{\\odot}$, observed with the NIRSpec/IFU and MIRI/MRS onboard JWST as part of the Investigating Protostellar Accretion (IPA) program. A rich set of pure rotational lines of H$_2$, up to $v=0-0$ S(18), and a few ro-vibrational lines are detected in the winds, revealing bipolar structures. The H$_2$ lines show a stratified/onion-like structure morphologically and kinematically, where the lines with higher $E_{\\rm up}$ show a higher degree of collimation and higher velocities. Additionally, the wind velocity scales with the $L_{\\rm bol}$ of the host protostellar system. In 4 out of 5 protostars, H$_2$ emission fills the outflow cavity without showing pronounced limb brightening. We also report a tentative detection of H$_2$ wind rotation in IRAS 16253, which suggests a launch radius of $\\sim4$ au and the magnetic lever arm parameter of $\\sim5-10$. Taken together, these properties of the H$_2$ winds can be explained by the magnetohydrodynamic disk wind models. We detect a collimated, high-velocity H$_2$ jet toward HOPS 370, which is more evolved than the extremely young source HH 211, but is accreting at a high accretion rate. This suggests that the presence of collimated molecular jets in protostars is more closely connected to accretion rate than system age.",
+        "authors": [
+            {
+                "name": "Himanshu Tyagi"
+            },
+            {
+                "name": "P. Manoj"
+            },
+            {
+                "name": "Mayank Narang"
+            },
+            {
+                "name": "S. Thomas Megeath"
+            },
+            {
+                "name": "Robert Gutermuth"
+            },
+            {
+                "name": "Lee Hartmann"
+            },
+            {
+                "name": "Alessio Caratti o Garatti"
+            },
+            {
+                "name": "Dan M. Watson"
+            },
+            {
+                "name": "David A. Neufeld"
+            },
+            {
+                "name": "Ewine F. Van Dishoeck"
+            },
+            {
+                "name": "Neal J. Evans"
+            },
+            {
+                "name": "Vinod Chandra Pathak"
+            },
+            {
+                "name": "Samuel A. Federman"
+            },
+            {
+                "name": "Tyler L. Bourke"
+            },
+            {
+                "name": "Yao-Lun Yang"
+            },
+            {
+                "name": "Guillem Anglada"
+            },
+            {
+                "name": "Henrik Beuther"
+            },
+            {
+                "name": "Leslie W. Looney"
+            },
+            {
+                "name": "Rolf Kuiper"
+            },
+            {
+                "name": "Pamela Klaassen"
+            },
+            {
+                "name": "Pooneh Nazari"
+            },
+            {
+                "name": "Bihan Banerjee"
+            },
+            {
+                "name": "Joel Green"
+            },
+            {
+                "name": "Sujay Vijay Jadhav"
+            },
+            {
+                "name": "Mayra Osorio"
+            },
+            {
+                "name": "B. Shridharan"
+            },
+            {
+                "name": "Amelia M. Stutz"
+            },
+            {
+                "name": "Thomas Stanke"
+            },
+            {
+                "name": "John J. Tobin"
+            },
+            {
+                "name": "Lukasz Tychoniec"
+            },
+            {
+                "name": "Scott Wolk"
+            },
+            {
+                "name": "Manya Arora"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.EP",
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.09920"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.25611v1",
+        "title": "The Nobeyama 45 m Survey of Shocked Molecular Gas in the Central Molecular Zone. I. Survey Data, Cloud Catalog, and SiO Line-Ratio Trends",
+        "updated": "2026-08-26T10:27:31.000Z",
+        "published": "2026-08-26T10:27:31.000Z",
+        "summary": "We present large-scale molecular line maps of the Central Molecular Zone (CMZ) in our Galaxy obtained with the Nobeyama Radio Observatory 45 m telescope. The observations cover a 3.5 deg x 0.5 deg region with 20 arcsec resolution in eight molecular lines including SiO J=2-1, CS J=2-1, H13CN J=1-0, and HCN J=1-0. We release the calibrated data cubes and a catalog of SiO-emitting clouds identified by the SCIMES algorithm. For each cloud, we provide cloud-integrated intensities of the observed lines and derive an H13CN-based molecular gas mass and a cloud-averaged H2 number density. We compare SiO intensity ratios with the density, dynamical time, and their product n_H2 t_dyn. We find that SiO intensity ratios relative to six other molecular lines all decrease systematically with increasing n_H2 t_dyn. The tightest correlations are found for SiO/H13CN (r_s = -0.82) and SiO/CS (r_s = -0.70). The released data cubes and cloud catalog enable systematic studies of SiO enhancement, shock chemistry, and gas dynamical evolution across the CMZ.",
+        "authors": [
+            {
+                "name": "Shunya Takekawa"
+            },
+            {
+                "name": "Shiho Tsujimoto"
+            },
+            {
+                "name": "Tomoharu Oka"
+            },
+            {
+                "name": "Rei Enokiya"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.25611"
+    },
+    {
         "id": "http://arxiv.org/abs/2608.27294v1",
         "title": "Exploring the survivability of higher-order multiple protostellar systems -- The case of VLA1623",
         "updated": "2026-08-27T16:00:48.000Z",
@@ -1558,6 +2826,43 @@
         ],
         "primaryCategory": "astro-ph.GA",
         "idShort": "2608.27294"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.18596v1",
+        "title": "Investigating the properties of nearby young moving groups using GaiaDR3",
+        "updated": "2026-08-19T06:39:53.000Z",
+        "published": "2026-08-19T06:39:53.000Z",
+        "summary": "Moving groups, which are gravitationally unbound collections of stars spread over large portions of the sky, pose challenges to their identification. Analyzing the three-dimensional spatial motion of stars is one method to identify their members. Despite several studies in the past, a reliable and conclusive catalog of moving group stars is currently lacking. Our objective is to present a most recent and updated catalog of nearby young moving group (NYMG) candidates in the solar neighborhood and investigate their properties using updated science data from the Gaia Data Release 3 (DR3). We searched for candidates of twelve NYMGs within a distance of 150 pc using Gaia DR3. To determine the membership, we employed the Bayesian algorithm BANYAN-Sigma. We compiled a total list of 3,153 NYMG candidates, of which 1,651 were new candidates. We also assessed the credibility of the literature defined 'Good-box' criterion with the latest comprehensive catalog of NYMGs from our study. We homogeneously estimated the ages of the NYMG candidates using Gaia DR3 photometry data. The analysis revealed that our NYMG candidates display a large scatter on the CMDs resulting in a large range of estimated ages from isochrones. Additionally, we conducted an infrared (IR) excess analysis to identify disk candidates among our final sample. Our spectral energy distribution (SED) analysis found 51 stars with IR excess. We present a largely inclusive list of all the NYMG candidates within 150 pc of Solar neighbourhood using Gaia DR3. The wide range of ages obtained from isochrone fitting underscores the need for more robust age analysis techniques to accurately determine the ages of NYMG members. The presence of IR excess in the 51 stars confirms the existence of disks indicating that they could be potential candidates for exoplanet detections.",
+        "authors": [
+            {
+                "name": "Mamta Lad"
+            },
+            {
+                "name": "Ujjwal Krishnan"
+            },
+            {
+                "name": "Blesson Mathew"
+            },
+            {
+                "name": "Raksha Olakal"
+            },
+            {
+                "name": "Arun Roy"
+            },
+            {
+                "name": "Sreeja Kartha"
+            },
+            {
+                "name": "Vineeth Valsan"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.EP",
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.18596"
     },
     {
         "id": "http://arxiv.org/abs/2608.12530v1",
@@ -1621,6 +2926,89 @@
         ],
         "primaryCategory": "astro-ph.SR",
         "idShort": "2608.19518"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.23208v1",
+        "title": "Potential sublimating exocomets around the young star PDS 70",
+        "updated": "2026-08-24T12:57:24.000Z",
+        "published": "2026-08-24T12:57:24.000Z",
+        "summary": "Recent observations by the James Webb Space Telescope (JWST) have indicated the presence of water in the inner regions of the disc around the young protostar PDS 70, but the origin of this water remains unclear. Here we report the discovery of variable absorption lines of neutral sodium in archival High Accuracy Radial velocity Planet Searcher (HARPS) spectra of PDS 70. These lines vary strongly and stochastically on a daily basis, in amplitude, number, and radial velocity. Our measurements indicate that this gas tends to be optically thick, and partially cover the stellar disc, meaning this fast-moving gas is often spatially confined. We explore several hypotheses for the origin of these lines, and conclude that a likely source of the observed sodium is sublimation of planetesimals that transit the star on highly elliptical orbits, reminiscent of the exocomet phenomenon seen in other seen in other extrasolar systems. These sublimating exocomets could play a role in sourcing the previously observed water in the inner, terrestrial-planet forming region of the PDS 70 system.",
+        "authors": [
+            {
+                "name": "Aline Novais"
+            },
+            {
+                "name": "H. Jens Hoeijmakers"
+            },
+            {
+                "name": "Alexandra Stockwell Murphy"
+            },
+            {
+                "name": "Bibiana Prinoth"
+            },
+            {
+                "name": "Anders Johansen"
+            },
+            {
+                "name": "Klaudia Jaworska"
+            },
+            {
+                "name": "Luan Ghezzi"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2608.23208"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.10409v2",
+        "title": "PDS 70 c and SR 12 c: Observational Constraints on Giant-Planet and Satellite Formation",
+        "updated": "2026-08-25T01:11:06.000Z",
+        "published": "2026-08-11T02:55:19.000Z",
+        "summary": "PDS~70~c and SR~12~c are the only bound planetary-mass objects with secure cold submillimeter disk detections. Together, these systems constrain giant-planet growth and satellite formation. The PDS~70 planets exhibit remarkable parallels to the Jupiter--Saturn pair in our Solar System. Both PDS~70 planets accrete within one shared gap, which links their final masses, the material reaching each Hill sphere, and the properties of the circumplanetary disk. Planetary torques deplete the finite interplanetary reservoir, causing circumplanetary supply to decline as the protoplanets open a circumstellar gap. SR~12~c separates the planetary-growth and satellite-formation timescales: gas and solids survive even though its current mass-growth timescale is $(1.9\\pm0.6)\\times10^9$~yr. For PDS~70~c, the 855-$μ$m flux implies $0.007$--$0.031\\,\\Mearth$ of dust at 26~K in the optically thin limit. A fully dust-dominated, uniform 22--26-K optically thick emitter has an equivalent coplanar radius of $0.58$--$0.66$~au, while a fiducial radial temperature profile yields an equivalent radius of approximately 0.46~au. The continuum constraints overlap the 0.5--1.5~au circularization range estimated by ballistic calculations of late-stage gap-fed inflow. We find that the PDS~70 constraints are consistent with our \\SEMM{} satellite-formation model (Mosqueira \\& Estrada 2003a,b, submitted in 2001). Thus the observations provide strong support for a quiescent, solids-enhanced satellite-forming environment, coupled in the early stages to planetary-gap evolution.",
+        "authors": [
+            {
+                "name": "Ignacio Mosqueira"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2608.10409"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.21548v1",
+        "title": "The Milky Way Joins the Extragalactic World: I. PHANGS",
+        "updated": "2026-08-21T18:36:42.000Z",
+        "published": "2026-08-21T18:36:42.000Z",
+        "summary": "Complete catalogs of molecular clouds in the Milky Way allow analysis of the molecular medium and the star formation properties of the Milky Way that closely follows the method used for nearby galaxies, in particular in the PHANGS project. The dependencies of the depletion time on other properties of molecular gas in the Milky Way are similar to those of other galaxies when analyzed in an analogous way. They exhibit a large scatter and relatively weak correlations. The strongest correlation is a decrease in depletion time with increasing velocity dispersion. We explore the effects of spatial resolution, sensitivity, cloud identificaton method, averaging method, and tracer choice on our results. Metallicity effects in converting observations to mass can have a substantial impact. Somewhat fortuitously, differences in conversion methods between PHANGS and the Milky Way do not affect the current comparison. Inadequate spatial resolution, resulting in unresolved cloud structure, has the most important effect on interpretation of both extragalactic observations and existing catalogs of Milky Way clouds.",
+        "authors": [
+            {
+                "name": "Neal J. Evans"
+            },
+            {
+                "name": "Davide Elia"
+            },
+            {
+                "name": "Jiayi Sun"
+            },
+            {
+                "name": "Sophia Stuber"
+            },
+            {
+                "name": "Adam K. Leroy"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.21548"
     },
     {
         "id": "http://arxiv.org/abs/2608.20238v1",
@@ -1974,6 +3362,331 @@
         "idShort": "2608.20238"
     },
     {
+        "id": "http://arxiv.org/abs/2608.27913v1",
+        "title": "Dense Cores in the Vicinity of an HII Region",
+        "updated": "2026-08-28T04:38:26.000Z",
+        "published": "2026-08-28T04:38:26.000Z",
+        "summary": "Massive stars strongly influence their surroundings through radiative and mechanical feedback, but its effects on dense gas structures at sub-pc scales remain poorly constrained. We investigate how feedback from a newly formed massive star affects dense cores in the filamentary molecular cloud IRAS 18530+0215. We analyze ALMA Band 6 observations of 1.3 mm dust continuum and DCN, N$_2$D$^+$, and $^{13}$CS line emission, together with VLA K-band continuum and NH$_3$ observations. Dense cores are identified with astrodendro, and their temperatures, masses, velocity dispersions, and virial parameters are derived. The dynamical state of the ultra-compact H II region is examined through energy and pressure estimates. The H II region has a radius of $\\sim$0.1 pc and an expansion velocity of $\\sim$2.5 km s$^{-1}$, corresponding to a shell dynamical age of $\\sim$0.06 Myr. DCN and $^{13}$CS cores are concentrated near the H II region, whereas N$_2$D$^+$ cores preferentially lie farther away. Core temperatures and velocity dispersions decrease with projected distance from the H II region. Virial parameters increase within the inner $\\sim$0.3 pc but decline sharply beyond this scale, while core masses show no significant trend with distance. Strong star formation signatures are found at $\\sim$0.2 pc, whereas more distant regions still host quiescent, cold dense cores. The compact H II region appears trapped or choked within $\\sim$0.1 pc, while its feedback extends to at least $\\sim$0.3 pc. Within this region, feedback enhances core velocity dispersions, gas temperatures, and virial parameters, with no evidence that it promotes the formation of more massive dense cores.",
+        "authors": [
+            {
+                "name": "Ruofei Zhang"
+            },
+            {
+                "name": "Xing Lu"
+            },
+            {
+                "name": "Jingwen Wu"
+            },
+            {
+                "name": "Sihan Jiao"
+            },
+            {
+                "name": "Hauyu Baobab Liu"
+            },
+            {
+                "name": "Guang-Xing Li"
+            },
+            {
+                "name": "Roberto Galván-Madrid"
+            },
+            {
+                "name": "Aiyuan Yang"
+            },
+            {
+                "name": "Siju Zhang"
+            },
+            {
+                "name": "Shanghuo Li"
+            },
+            {
+                "name": "Fengwei Xu"
+            },
+            {
+                "name": "Xindi Tang"
+            },
+            {
+                "name": "Yu Cheng"
+            },
+            {
+                "name": "Weiyuan Zhang"
+            },
+            {
+                "name": "Andrés E. Guzmán"
+            },
+            {
+                "name": "Yuxin Lin"
+            },
+            {
+                "name": "Yuhua Liu"
+            },
+            {
+                "name": "Qizhou Zhang"
+            },
+            {
+                "name": "Patricio Sanhueza"
+            },
+            {
+                "name": "Ke Wang"
+            },
+            {
+                "name": "Siyi Feng"
+            },
+            {
+                "name": "Linjing Feng"
+            },
+            {
+                "name": "Fangyuan Deng"
+            },
+            {
+                "name": "Hao Ruan"
+            },
+            {
+                "name": "Yuanzhen Xiong"
+            },
+            {
+                "name": "Yuxiang Liu"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.27913"
+    },
+    {
+        "id": "http://arxiv.org/abs/2607.28924v1",
+        "title": "Asymmetric, variable H$α$ line profile in planetary mass object SR 12 c",
+        "updated": "2026-07-31T00:59:38.000Z",
+        "published": "2026-07-31T00:59:38.000Z",
+        "summary": "Young, forming planetary-mass objects often exhibit clear signatures of ongoing mass accretion and are thought to accrete material through processes analogous to those operating in young stars. In this study, we present high-spectral-resolution observations of asymmetric and time-variable H$α$ line profiles from the planetary-mass companion SR~12~c. The H$α$ line was observed at a resolving power of $R \\sim 49,000$--40{,}000 (corresponding to 6.1--7.5~km~s$^{-1}$) using the High Dispersion Spectrograph (HDS) on the 8.2 m Subaru Telescope. Strong H$α$ emission is clearly detected, while higher-order Balmer lines (H$β$, H$γ$, and H$δ$) are not detected due to their faintness. The H$α$ line profiles are well spectrally resolved and exhibit blueshifted emission peaks, which can be interpreted as arising from either (a) emission partially absorbed by redshifted accreting material along the line of sight and/or (b) geometric occultation by the inner circumplanetary disk. Moreover, the H$α$ flux shows significant variability at 43.6~$\\pm$~6.4~\\% relative to the peak flux on hourly timescales. During a continuous 2.5-hour observing sequence, the emission component peaking at approximately $-30$~km~s$^{-1}$ weakened over the first hour. Subsequently, an emission component centered near $-10$~km~s$^{-1}$ became dominant and remained stable for the remaining 1.5 hours. We discuss possible interpretations of this behavior. Overall, these results support that magnetospheric accretion is operating in the planetary-mass object SR~12~c while a scenario combining boundary-layer accretion with a failed wind cannot be ruled out.",
+        "authors": [
+            {
+                "name": "Jun Hashimoto"
+            },
+            {
+                "name": "Yuhiko Aoyama"
+            },
+            {
+                "name": "Michihiro Takami"
+            },
+            {
+                "name": "Shinsuke Takasao"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2607.28924"
+    },
+    {
+        "id": "http://arxiv.org/abs/2607.29376v1",
+        "title": "Gas Phase Ion Species Released During Grain Collisions: Implications For Protoplanetary Disks",
+        "updated": "2026-07-31T12:59:21.000Z",
+        "published": "2026-07-31T12:59:21.000Z",
+        "summary": "Grain charging and gas ionization are important processes in protoplanetary disks. Both occur in mutual collisions between grains, as charge is exchanged between grain surfaces but also released into the surrounding gas as ions. The charge carrier for tribocharging, the origin of the gaseous ions, and their composition are currently unknown. However, it is important to know to validate the significance of these processes under disk conditions. In this work, we approach these questions by detecting molecules ejected during grain collisions by mass spectrometry. As tribocharging works well under normal atmospheric conditions, we use untreated \"dirty\" particles here. Without collisions, our measurements show a background mix of molecules. Among these are organics, but especially water-related molecules. During collisions, the abundances of not all but quite a few molecules change. Water-related molecules account for one of the largest changing fractions. These results suggest that particle collisions release adsorbates even at very low pressure, which is relevant for protoplanetary disks. As monolayers of water and organics are present on all surfaces in cool to moderately tempered parts of protoplanetary disks, this supports the importance of triboionization in disks.",
+        "authors": [
+            {
+                "name": "Patrick Hock"
+            },
+            {
+                "name": "Gerhard Wurm"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2607.29376"
+    },
+    {
+        "id": "http://arxiv.org/abs/2607.29512v1",
+        "title": "The TOP-SCOPE Survey of Planck Galactic Cold Clumps: Molecular gas properties",
+        "updated": "2026-07-31T15:14:42.000Z",
+        "published": "2026-07-31T15:14:42.000Z",
+        "summary": "We surveyed 2008 Planck Galactic Cold Clumps (PGCCs) in $^{12}\\mathrm{CO}$ and $^{13}\\mathrm{CO}$ $J=1$--0 lines using the Taeduk Radio Astronomy Observatory (TRAO) 14 m telescope's multi-beam receiver. We detected 2784 ($^{12}\\mathrm{CO}$) and 2291 ($^{13}\\mathrm{CO}$) velocity components, their closely correlated centroid velocities suggest that $^{12}$CO and $^{13}$CO generally trace kinematically associated gas. PGCCs have low excitation temperatures (mean $\\sim$10 K), mean $^{13}\\mathrm{CO}$ optical depth $\\sim$0.5, and mean $^{13}\\mathrm{CO}$-derived H$_2$ column density $4.3\\times10^{21}$~cm$^{-2}$. Gas--dust correlations are moderate, with $N_{^{13}\\mathrm{CO}}$ more tightly correlated with the dust-derived H$_2$ column density from the PGCC catalog than $I_{^{12}\\mathrm{CO}}$. Colder PGCCs tend to have higher CO-to-H$_2$ conversion factor ($X_{\\mathrm{CO}}$) and $[\\mathrm{H_{2}}]/[^{13}\\mathrm{CO}]$ ratio. $X_{\\mathrm{CO}}$ increases clearly with the dust-derived H$_2$ column density, consistent with enhanced CO freeze-out in high-column-density gas. Supersonic non-thermal motions are widespread: the Mach number derived from $^{13}\\mathrm{CO}$ has a mean of 4.3 and a median of 3.6, increasing slightly with dust-derived H$_2$ column density. Overall, PGCCs are cold but dynamically active, serving as a valuable laboratory for studying the initial conditions of star formation.",
+        "authors": [
+            {
+                "name": "Yuebin Yang"
+            },
+            {
+                "name": "Jarken Esimbek"
+            },
+            {
+                "name": "Tie Liu"
+            },
+            {
+                "name": "Willem Baan"
+            },
+            {
+                "name": "Xunchuan Liu"
+            },
+            {
+                "name": "Kee-Tae Kim"
+            },
+            {
+                "name": "Gang Wu"
+            },
+            {
+                "name": "Xindi Tang"
+            },
+            {
+                "name": "Jianjun Zhou"
+            },
+            {
+                "name": "Dalei Li"
+            },
+            {
+                "name": "Yuxin He"
+            },
+            {
+                "name": "Sung-ju Kang"
+            },
+            {
+                "name": "Yingxiu Ma"
+            },
+            {
+                "name": "Dongdong Zhou"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2607.29512"
+    },
+    {
+        "id": "http://arxiv.org/abs/2607.25753v1",
+        "title": "Low-Metallicity Star Formation Survey in Sh2-284 (LZ-STAR): The Core Mass Function",
+        "updated": "2026-07-28T14:14:24.000Z",
+        "published": "2026-07-28T14:14:24.000Z",
+        "summary": "We present an ALMA 1.3~mm dust continuum study of the dense core mass function (CMF) in Sh2-284, a low metallicity outer Galaxy star-forming complex with $Z\\sim1/3$--$1/2~Z_\\odot$. The observations cover six far-infrared bright subregions at $\\sim$0.65\" (3000~au) resolution. We identify a total of 91 candidate dense cores and define a robust catalog of 68 cores with Gaussian fitting. The high-mass CMF above 2.5 Msun is well described by a Salpeter-like slope, with a fiducial forward-modeled value of $α=1.22^{+0.24}_{-0.22}$ for $dN/d\\log M\\propto M^{-α}$. Together with existing constraints on the initial mass function (IMF) of Sh2-284, the Salpeter-like CMF is consistent with a resemblance between the CMF and IMF shapes in the outer Galaxy environments, suggesting that moderately low metallicity alone does not strongly reshape the high-mass CMF/IMF slope.",
+        "authors": [
+            {
+                "name": "Yu Cheng"
+            },
+            {
+                "name": "Jonathan C. Tan"
+            },
+            {
+                "name": "Morten Andersen"
+            },
+            {
+                "name": "Alva Kinman"
+            },
+            {
+                "name": "Rubén Fedriani"
+            },
+            {
+                "name": "Kei E. I. Tanaka"
+            },
+            {
+                "name": "Yichen Zhang"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2607.25753"
+    },
+    {
+        "id": "http://arxiv.org/abs/2607.25724v1",
+        "title": "Herbig AeBe Star AS442A as a UXOR-type system",
+        "updated": "2026-07-28T13:48:53.000Z",
+        "published": "2026-07-28T13:48:53.000Z",
+        "summary": "Detailed studies of the physical characteristics of young intermediate-mass Herbig Ae/Be (HAeBe) stars require extensive sets of homogeneous observational data collected over long periods. In this paper, we present the results of a multi-year study focusing on the faint Herbig Ae/Be star AS 442A. The goal of this study was to investigate the spectral and photometric variability of the star, utilizing long-term archival photometry alongside our own spectroscopic observations. The long-term photometric variability was statistically investigated using approximately 3,500 archival measurements spanning 1984 to 2025. Additionally, we examined the star's spectral variability using data obtained at the Shamakhy Astrophysical Observatory (ShAO) between 2020 and 2024. The three deepest brightness minima were detected in 1990, 2013, and 2023, with amplitudes of approximately ~2 mag in the U-band and up to ~1 mag in other bands. All three observed deep minima were accompanied by smaller brightness dips occurring both before and after the main event. The main light curve and color-magnitude diagrams show the \"blueing\" effect, which is characteristic of UXOR stars. A quasi-periodic occurrence of deep brightness minima with a period of P = 3759 +/- 35 days was detected for the first time. Our spectral observations were performed before the last deep light fading, which occurred in 2023. We show that the observed spectral variability, specifically the strengthening of emission lines and the reduction in depths and widths of absorption lines, is primarily related to the star's brightness variations. We have shown for the first time that the main reason for the UXOR-like brightness dip of the HAeBe star AS 442A can be explained by a periodic eclipse in a binary system. A close companion as a late-type secondary star with an orbit semimajor axis (a>7.5 au) likely drives the observed stellar variability.",
+        "authors": [
+            {
+                "name": "Nariman Ismailov"
+            },
+            {
+                "name": "Faida Surkhai Huseynova"
+            },
+            {
+                "name": "Volkan Bakış"
+            },
+            {
+                "name": "Namiq Serdar Dzhalilov"
+            },
+            {
+                "name": "Sabahaddin Amanulla Alishov"
+            },
+            {
+                "name": "Shafaq Kamal Ismayilova"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2607.25724"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.23351v1",
+        "title": "Preparing for the Early eVolution Explorer: Photometric Diagnostics of Magnetospheric Accretion Geometry in Young Stellar Objects",
+        "updated": "2026-08-24T15:00:36.000Z",
+        "published": "2026-08-24T15:00:36.000Z",
+        "summary": "The inner disk truncation radius, $R_T$, plays a crucial role in the regulation of star-disk interaction and the early evolution of star-disk-planet systems; however, measuring this parameter is observationally challenging. We present a new method for determining $R_T$ in young accreting systems that hinges on the color dependence of the accretion shock emission in multi-band time-domain surveys. Based on the accretion simulations of Robinson et al. (2017, 2021), we produce synthetic color-magnitude diagrams at near-UV and optical wavelengths that predict the loci of accreting stars as a function of $R_T$. We test these model predictions on young stars with interferometric $R_T$ estimates, finding very good agreement in our results. We apply this novel technique to a pilot survey of 26 classical T Tauri stars in Taurus and Upper Scorpius. We find a predominance of sources with small truncation radii, $R_T < 4\\ R_\\star$, and an overall distribution of $R_T$ that is statistically similar to that inferred from interferometric studies, while differing from those inferred from emission line modeling. Finally, we discuss the application of this technique to NASA's mission concept EVE, with the goal to provide simultaneous measurements of inner disk truncation radii, corotation radii and mass accretion rates for hundreds of young stars across the Galaxy. The unprecedented survey of inner disk properties that the mission would produce would enable the first stringent test of angular momentum evolution theories in young stars and reveal the impact of the inner disk conditions on early planet architectures.",
+        "authors": [
+            {
+                "name": "Laura Venuti"
+            },
+            {
+                "name": "Connor E. Robinson"
+            },
+            {
+                "name": "Ann Marie Cody"
+            },
+            {
+                "name": "Eric Gaidos"
+            },
+            {
+                "name": "Meredith A. MacGregor"
+            },
+            {
+                "name": "Neal J. Turner"
+            },
+            {
+                "name": "Mark R. Swain"
+            },
+            {
+                "name": "George Zhou"
+            },
+            {
+                "name": "Sydney Vach"
+            },
+            {
+                "name": "Lukas Gehrig"
+            },
+            {
+                "name": "Christopher M. Johns-Krull"
+            },
+            {
+                "name": "Zhaohuan Zhu"
+            },
+            {
+                "name": "Jennifer A. Burt"
+            },
+            {
+                "name": "Ward S. Howard"
+            },
+            {
+                "name": "Damon Landau"
+            },
+            {
+                "name": "Evgenya Shkolnik"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.23351"
+    },
+    {
         "id": "http://arxiv.org/abs/2608.05650v1",
         "title": "An ALMA study of hub-filament systems II.Quiescent filaments converging towards highly dynamic hubs",
         "updated": "2026-08-06T06:48:00.000Z",
@@ -2097,6 +3810,114 @@
         "idShort": "2608.23729"
     },
     {
+        "id": "http://arxiv.org/abs/2608.12186v1",
+        "title": "Nascent Embedded-protostar Survey in Taurus (NEST) I: Protostellar Multiplicity",
+        "updated": "2026-08-12T15:40:57.000Z",
+        "published": "2026-08-12T15:40:57.000Z",
+        "summary": "We present new ALMA 0.9 mm and VLA 9 mm observations in the Taurus Molecular Cloud (TMC) of 25 protostellar systems, containing 40 protostars, observed at 0.3\" (~20 au) resolution. Within separations of 18-10,000 au, the ALMA/VLA-observed Taurus sample has a multiplicity fraction (MF), defined as the fraction of systems with at least one companion, of 0.50 +/- 0.07, and a companion fraction (CF), defined as the average number of companions per system, of 0.58 +/- 0.20. To build a more complete census of protostellar multiplicity in this region, we supplement the observed sample with 24 protostars (12 protostellar systems and 5 additional companions associated with systems we observed) previously identified through archival infrared or ALMA observations. Together, these 64 individual protostars (37 systems) define our Taurus+ sample, for which we measure higher values of 0.53 +/- 0.06 and 0.72 +/- 0.19 for the MF and CF, respectively. These multiplicity statistics in the TMC are notably higher than those reported in the more clustered star-forming regions of Orion and Perseus at the ~3-4 sigma level, suggesting that Taurus may preserve a larger fraction of primordial multiples. The separation distributions in our samples show populations of both close and wide multiples, but a deficit at intermediate separations of 200-300 au. This pattern may suggest two distinct formation pathways: close binaries (<200 au) arising primarily from disk fragmentation, and wide multiples (>1000 au) from core fragmentation.",
+        "authors": [
+            {
+                "name": "Aislinn C. Plante"
+            },
+            {
+                "name": "John J. Tobin"
+            },
+            {
+                "name": "Patrick D. Sheehan"
+            },
+            {
+                "name": "Noshin Yesmin"
+            },
+            {
+                "name": "Nicholas P. Ballering"
+            },
+            {
+                "name": "Tyler L. Bourke"
+            },
+            {
+                "name": "Josh Eisner"
+            },
+            {
+                "name": "Zhi-Yun Li"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.12186"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.11984v1",
+        "title": "Evolutionary tracks of giant planets formed by disk instability",
+        "updated": "2026-08-12T12:19:12.000Z",
+        "published": "2026-08-12T12:19:12.000Z",
+        "summary": "The evolution of giant planets depends on their formation history. While several evolutionary models self-consistently link planet formation by core accretion to long-term evolution, such models for planets formed by disk instability are lacking. We simulate the evolution of giant planets formed by disk instability and follow their evolution including the pre-collapse phase, dynamical collapse, and long-term contraction in a unified numerical framework. The evolution is simulated using the MESPA code with modifications that allow us to model gas clumps in the pre-collapse phase. We consider masses between 1 and 12 Jupiter masses and metallicities ranging from 0.5 to 2 times the protosolar value. We confirm that the pre-collapse timescale strongly depends on the planetary mass, and that after dynamical collapse the objects reach a state of long-term contraction which lasts for billions of years. We show that metallicity is a major source of uncertainty in mass estimates derived from the age-luminosity relations. For the metallicity range considered here, we find that for a given measurement of age and luminosity the difference in the inferred mass can be up to 1.5 Jupiter masses. We find that our evolution tracks predict masses that are consistent with the measured dynamical mass constraints for HR 8799 e, AF Lep b, Beta Pic b and Beta Pic c. We also show that both core accretion and disk instability can lead to very similar long-term evolutionary tracks. The agreement between our models and dynamical mass measurements suggests that disk instability remains a viable formation pathway for giant exoplanets. The luminosity evolution alone cannot distinguish between the two formation pathways. Finally, we suggest that planetary metallicity must be taken into account when inferring the masses of young giant planets from their luminosities, as it significantly affects their evolution.",
+        "authors": [
+            {
+                "name": "Mirco Bussmann"
+            },
+            {
+                "name": "Ravit Helled"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2608.11984"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.07048v1",
+        "title": "Euclid Early Release Observations of the Barnard 30 dark cloud I. Brown dwarfs and planetary mass candidate members at the core of the association",
+        "updated": "2026-08-07T09:57:05.000Z",
+        "published": "2026-08-07T09:57:05.000Z",
+        "summary": "This study aims to identify very low-mass members within the Barnard 30 dark cloud, with a particular focus on detecting objects in the substellar domain, including those within the planetary-mass regime. We employed deep photometric observations using data from the Euclid mission, incorporating advanced data processing techniques, in particular the DeNeb tool for optimized source detection. We also analyze multi-wavelength ancillary observations and perform a Spectral Energy Distribution analysis for each candidate member. In addition, low-resolution near-infrared spectroscopy was obtained for one candidate to further assess its nature and properties. Our initial photometric analysis yielded a initial sample of nearly one hundred candidate members in the substellar mass range. A subsample of 23 probable members, located close to the 3 Myr isochrone, has been identified. Thus, we have substantially expanded the known population of faint, cool sources associated with the region. Low resolution near-IR spectroscopic analysis of one candidate reveals an L2 spectral type with low gravity, consistent with a young ultra-cool dwarf. If its membership is confirmed, its estimated mass lies in the range 15-20 Mjup. These findings validate the reliability of our multi-wavelength photometric selection methodology. These results offer valuable insights into the low-mass end of the initial mass function (IMF) and demonstrate the effectiveness of Euclid in identifying brown dwarf and planetary-mass candidates in nearby, densely packed star-forming regions.",
+        "authors": [
+            {
+                "name": "D. Barrado"
+            },
+            {
+                "name": "H. Bouy"
+            },
+            {
+                "name": "E. L. Martin"
+            },
+            {
+                "name": "J. -C. Cuillandre"
+            },
+            {
+                "name": "N. Huélamo"
+            },
+            {
+                "name": "M. Žerjal"
+            },
+            {
+                "name": "C. Dominguez-Tagle"
+            },
+            {
+                "name": "S. Muñoz Torres"
+            },
+            {
+                "name": "J. -Y. Zhang"
+            },
+            {
+                "name": "E. Bertin"
+            },
+            {
+                "name": "J. Olivares"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR",
+            "astro-ph.EP",
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.07048"
+    },
+    {
         "id": "http://arxiv.org/abs/2608.06954v1",
         "title": "Discovery of the $λ$ Bootis phenomenon in an early B-type star",
         "updated": "2026-08-07T08:28:38.000Z",
@@ -2177,6 +3998,134 @@
         "idShort": "2608.02750"
     },
     {
+        "id": "http://arxiv.org/abs/2608.01571v1",
+        "title": "Spatially resolved thermal dust emission in the L1157 outflow reveals grain-driven molecular enrichment",
+        "updated": "2026-08-03T01:00:34.000Z",
+        "published": "2026-08-03T01:00:34.000Z",
+        "summary": "Protostellar outflow shocks reshape local dust properties and molecular chemistry. The L1157 outflow is an archetypal chemically rich shocked region, but the thermal dust associated with its successive shocks has remained unresolved because molecular-line contamination obscures the broadband continuum. We obtained new James Clerk Maxwell Telescope (825--906 $μ$m) spectral-line observations and Submillimeter Array (1.1--1.4 mm) continuum observations toward L1157 B0-B1-B2, probing spatial scales from 0.4 pc to 1200 au. After removing molecular-line contamination on a pixel-by-pixel basis, we derived the dust temperature, column density, and dust opacity index from continuum data spanning 70 $μ$m to 1.3 mm. The line-corrected continuum maps reveal the dust distribution across successive shocks. The dust opacity index ($β\\approx1.8$--2.3) indicates that grains have not grown to millimeter sizes throughout the shocked regions. Combined with previous $\\rm NH_3$ observations, we find that the dust emission resolves into compact clumps along the precessing jet, whereas gaseous $\\rm NH_3$ peaks at the shock fronts, reaching abundances of $\\sim10^{-5}$ relative to $\\rm H_2$, even where the 0.85 and 1.3 mm dust emission is detected at only 3--5$σ$. Our newly developed physicochemical shock model shows that $\\rm NH_3$ forms predominantly on grain surfaces and is released by shock-induced sputtering, with the highest abundances occurring where post-shock re-adsorption remains inefficient. These results establish spatially resolved dust continuum imaging as a direct observational probe of grain evolution and provide new observational constraints on dust-gas interactions in protostellar shocks.",
+        "authors": [
+            {
+                "name": "Siyi Feng"
+            },
+            {
+                "name": "Hauyu Baobab Liu"
+            },
+            {
+                "name": "Yang Lu"
+            },
+            {
+                "name": "Qiancheng Yang"
+            },
+            {
+                "name": "Sheng-Yuan Liu"
+            },
+            {
+                "name": "Paola Caselli"
+            },
+            {
+                "name": "Zhi-Yu Zhang"
+            },
+            {
+                "name": "Shuting Lin"
+            },
+            {
+                "name": "Xuejian Jiang"
+            },
+            {
+                "name": "Sihan Jiao"
+            },
+            {
+                "name": "Linjing Feng"
+            },
+            {
+                "name": "Donghui Quan"
+            },
+            {
+                "name": "Fujun Du"
+            },
+            {
+                "name": "Yuanzhen Xiong"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.01571"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.01505v1",
+        "title": "Dust Seeding Molecules in a Massive Protostar -- Detection of TiO in Orion Source I",
+        "updated": "2026-08-02T21:31:42.000Z",
+        "published": "2026-08-02T21:31:42.000Z",
+        "summary": "We report the first detection of TiO in star-forming regions based on Atacama Large Millimeter/submillimeter Array observations of Orion Source I, a well-characterized massive protostar. Multiple rotational transitions are identified, with emission spatially resolved within $\\sim 50$ au, showing a compact distribution with a velocity structure consistent with the base of a rotating outflow. The spatial and velocity distributions of TiO are consistent with those of AlO, with both species being key dust seeding refractory molecules. \\textbf{The column density of TiO is derived to be $(3.0 \\pm 0.4)\\times10^{15}\\ {\\rm cm^{-2}}$, corresponding to $X_{\\rm TiO/SiO} \\sim 12.8 \\pm 1.7 \\times10^{-3}$, higher than CI chondrites and indicative of efficient dust-to-gas conversion near the protostar.} We also identify a tentative detection of AlOH, which exhibits a more extended distribution along the disk surface, possibly indicating different conditions from those traced by TiO and AlO. The detection of TiO, a key dust seeding species, offers important constraints on refractory chemistry and the formation environments of primitive minerals, linking astrochemical processes in protostellar systems to the earliest stages of Solar System material formation.",
+        "authors": [
+            {
+                "name": "Ziwei E. Zhang"
+            },
+            {
+                "name": "Nami Sakai"
+            },
+            {
+                "name": "Marcelino Agundez"
+            },
+            {
+                "name": "Linda Podio"
+            },
+            {
+                "name": "Claudio Codella"
+            },
+            {
+                "name": "Tomoya Hirota"
+            },
+            {
+                "name": "Adam Ginsburg"
+            },
+            {
+                "name": "Brett McGuire"
+            },
+            {
+                "name": "Nadia M. Murillo"
+            },
+            {
+                "name": "Yuki Okoda"
+            },
+            {
+                "name": "Yoko Oya"
+            },
+            {
+                "name": "Giovanni Sabatini"
+            },
+            {
+                "name": "Aki Takigawa"
+            },
+            {
+                "name": "Kei E. I. Tanaka"
+            },
+            {
+                "name": "Yichen Zhang"
+            },
+            {
+                "name": "Qiuyi Luo"
+            },
+            {
+                "name": "Yu Cheng"
+            },
+            {
+                "name": "Izaskun Jimenez-Serra"
+            },
+            {
+                "name": "Shogo Tachibana"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.01505"
+    },
+    {
         "id": "http://arxiv.org/abs/2608.16989v1",
         "title": "A comprehensive cluster census of Orion. An application of the Significance Mode Analysis (SigMA) algorithm",
         "updated": "2026-08-17T18:00:05.000Z",
@@ -2207,6 +4156,104 @@
         "idShort": "2608.16989"
     },
     {
+        "id": "http://arxiv.org/abs/2608.05672v1",
+        "title": "Dust transport in envelopes of disk-embedded planets: II. Fully convective envelopes",
+        "updated": "2026-08-06T07:09:31.000Z",
+        "published": "2026-08-06T07:09:31.000Z",
+        "summary": "We perform 3D multifluid simulations of gas and dust to quantify how convection reshapes the spatial distribution of dust grains inside the envelopes of disk-embedded planets. Building on the first paper of this series, which explored convectively stable envelopes, we here consider envelopes in which convection is sustained by the accretion luminosity. The dust-to-gas ratio inside the planetary envelope is set primarily by the degree of dynamical isolation from the surrounding disk. When convection extends beyond the Bondi radius, the envelope remains connected to the disk flow and maintains a dust-rich state through continuous material exchange. Conversely, when an inner convective layer is separated from an outer recycling layer, the recycling flow filters incoming solids. The dust distribution inside the convective layer is then controlled by the competition between convective stirring and gravitational settling. This yields two regimes: a settling-dominated regime, in which large grains (typically $s\\gtrsim0.1$ cm) fall at the terminal velocity and the envelope becomes dust depleted, and a convection-dominated regime, in which smaller grains are trapped in convective circulation and the envelope retains its dust. The delivery and release of volatile species from accreting solids at the envelope sublimation front, together with the efficiency of convective mixing, determine how this material is distributed between the core and envelope. Our findings imply that super-Earths and mini-Neptunes inside the water snowline have volatile-depleted cores and volatile-rich envelopes, while planets at wider orbits can have a wide diversity of envelope compositions from depleted to enriched. This compositional diversity for planetary envelopes appears to be consistent with the large diversity in observed atmospheric compositions of mini-Neptunes.",
+        "authors": [
+            {
+                "name": "Ayumu Kuwahara"
+            },
+            {
+                "name": "Michiel Lambrechts"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2608.05672"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.05661v1",
+        "title": "Dust transport in envelopes of disk-embedded planets: I. Convectively stable envelopes",
+        "updated": "2026-08-06T06:58:44.000Z",
+        "published": "2026-08-06T06:58:44.000Z",
+        "summary": "Planets embedded in protoplanetary disks accrete solids through their gaseous envelopes. The spatial distribution of these dust particles inside the envelopes of disk-embedded planets is poorly known. We present high-resolution two- and three-dimensional multifluid simulations that follow the dynamics of gas and dust around planets similar in mass to Earth. Our simulations resolve an outer recycling flow and an inner convectively stable envelope that is shielded from the recycling flow. We identify strongly dust-depleted envelopes: the dust-to-gas ratio decreases radially inward and is reduced by more than two to four orders of magnitude in the deep interior ($<0.1\\,R_{\\rm B}$; Bondi radius) compared to its value at the outer edge of the envelope. Small grains, with a dimensionless stopping time ${\\rm St}\\lesssim10^{-3}$, remain entrained in the recycling flow and do not enter the envelope, whereas large grains (${\\rm St}\\gtrsim10^{-2}$) penetrate the envelope but settle rapidly onto the core along the midplane. The resulting dust depletion in convectively-stable envelopes implies a substantial reduction in dust opacity throughout much of the envelope, facilitating cooling and a more rapid transition to runaway gas accretion. These results further suggest that enriching the deep envelope ($<0.1\\,R_{\\rm B}$) with dust or volatiles requires their delivery through large pebbles that then subsequently disintegrate, or sublimate, from their host grains in the deep envelope interior.",
+        "authors": [
+            {
+                "name": "Ayumu Kuwahara"
+            },
+            {
+                "name": "Michiel Lambrechts"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2608.05661"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.05445v1",
+        "title": "SMA 200-400 GHz Survey for 10 faint Class II Disks in the Taurus Molecular Cloud",
+        "updated": "2026-08-05T22:26:54.000Z",
+        "published": "2026-08-05T22:26:54.000Z",
+        "summary": "We have performed Submillimeter Array (SMA) observations of 198.0-407.5 GHz broadband spectra of 10 Class II protoplanetary disks in the Taurus-Auriga region. The 337 GHz flux densities ($F_{\\rm 337 GHz}$) of these objects are in the range of 8.2-34 mJy. The median and standard deviation of the 198-358 GHz spectral indices ($α_{198-358}$) of these 10 Class II disks are 1.9 and 0.3, respectively. Compared to the recent, similar SMA survey on another 47 Class II disks that are brighter at (sub)millimeter bands ($F_{\\rm 337 GHz}\\sim$20-730 mJy), there is no evidence that these newly observed 10 fainter Class II disks have systematically different $α_{198-358}$ values. At $>$230 GHz frequencies, the optical depths of these 10 fainter Class II disks may be as high as those of the brighter sources, which may be $\\gtrsim$5. In addition, the low ($<$2.0) values of $α_{198-358}$ in some faint objects may be explained by the effect of dust self-scattering, with maximum dust grain size ($a_{\\rm max}$) $\\sim$ 100 $μ$m, or by contamination by free-free emission.",
+        "authors": [
+            {
+                "name": "Chia-Ying Chung"
+            },
+            {
+                "name": "Hauyu Baobab Liu"
+            },
+            {
+                "name": "Sean M. Andrews"
+            },
+            {
+                "name": "Mark A. Gurwell"
+            },
+            {
+                "name": "Melvyn Wright"
+            },
+            {
+                "name": "Feng Long"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP",
+            "astro-ph.GA",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2608.05445"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.19329v1",
+        "title": "Substructure evolution from protoplanetary to debris disks driven by mutually gravitating planetesimals and implications on Kepler resonances and free-floating planets",
+        "updated": "2026-08-19T18:00:08.000Z",
+        "published": "2026-08-19T18:00:08.000Z",
+        "summary": "Motivated by recent observations suggesting rings found in debris disks are wider than those in protoplanetary disks, we consider a picture in which planetesimals formed in radially narrow dust traps radially diffuse into debris rings via mutual scattering. Under this picture, evolving the fractional widths ($Δr/r$) of resolved debris rings back to a few Myr according to the theoretical $t^{1/5}$ evolutionary trajectory reproduces the protoplanetary ring distribution. We inferred the product of the ring mass and individual planetesimal mass required to reach the observed debris ring widths at their ages, finding that $M_\\mathrm{disk}\\times m$ ranges from $10^{-3}$ to $10^{3} \\, M_\\oplus^2$. The distribution of $M_\\mathrm{disk} \\times m$ appears to correlate with the stellar mass, peaking at 1.5 to 2 $M_\\odot$, which resembles the stellar mass dependence of the giant exoplanet occurrence rate. The population of resolved debris rings lie close to the $Δr / r = 10 \\, h$ equipartition relation expected of a planetesimal ring that formed narrow, with typical resolved debris disks still expected to be broadening radially and vertically at present. If sufficiently massive ($\\sim$10 $M_\\oplus$), this radial broadening can send a few Mercurys to the terrestrial region within 10 Myr, making debris disks a plausible source of planetesimals disrupting resonant chains among Kepler planets. Within Gyr timescales, outer planetesimal belts can also eject $\\sim$1% of their mass into interstellar space if they consist of Moon-sized bodies or above, suggesting that the slow and steady intrinsic evolution of massive debris disks could contribute to the interstellar free-floating population of terrestrial-planet-sized bodies.",
+        "authors": [
+            {
+                "name": "Yinuo Han"
+            },
+            {
+                "name": "Konstantin Batygin"
+            },
+            {
+                "name": "Fei Dai"
+            }
+        ],
+        "categories": [
+            "astro-ph.EP",
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.EP",
+        "idShort": "2608.19329"
+    },
+    {
         "id": "http://arxiv.org/abs/2608.20470v1",
         "title": "Effects of Outer Giant Planets on In Situ Formation of Inner Super-Earths",
         "updated": "2026-08-20T18:01:04.000Z",
@@ -2234,5 +4281,197 @@
         ],
         "primaryCategory": "astro-ph.EP",
         "idShort": "2608.20470"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.03503v3",
+        "title": "Hot water emission during an outburst in a classical T Tauri star",
+        "updated": "2026-08-19T23:08:29.000Z",
+        "published": "2026-08-04T11:44:32.000Z",
+        "summary": "In this paper, we present observations of an eruptive young star in the Rosette Nebula, identified by the Gaia Science Alerts system using Gaia time series data. We aim to investigate the evolution of the brightness and mass accretion rate of V557 Mon throughout its outburst and subsequent decline. In addition, we trace the evolution of the inner accretion disk during the outburst by monitoring molecular emission features. We compiled multi-band photometric time series from Gaia, ZTF, and several 1 m-class ground-based telescopes and obtained optical and near-infrared spectra at multiple epochs covering the outburst and fading phases. Stellar parameters were derived from quiescent colour/spectra and spectral energy distribution (SED) fitting. We also measured the mass accretion rate and fit models to molecular emission bands. Since late 2024, V557 Mon has undergone a year-long outburst consistent with EXor variability. Based on quiescent photometry, V557 Mon has a spectral type of M1 with an extinction of AV = 1.8+_0.3 mag, consistent with a 0.4-0.5 M_sol star at an age of 2 Myr. Our multi-epoch spectra and u-band photometry indicate a peak accretion rate of 6.3x10^(-7)M_sol/yr during the outburst, roughly 70 times higher than in quiescence. We report the detection of hot water vapour emission bands, together with TiO, VO, and CO emission features. Using ExoMol models, we measured the inner-disk temperature changed from 3000 K to 2000 K during the fading phase of the outburst. We report a recent EXor outburst in a low-mass Class II YSO. Our observations reveal the transient formation of a hot molecular inner disk, traced by variable water vapour emission during the EXor event. A positive correlation is found between the molecular excitation temperature and the overall stellar brightness.",
+        "authors": [
+            {
+                "name": "Zhen Guo"
+            },
+            {
+                "name": "Javier Osses"
+            },
+            {
+                "name": "Vitor Fermiano"
+            },
+            {
+                "name": "Yuting Zhou"
+            },
+            {
+                "name": "Min Fang"
+            },
+            {
+                "name": "Gregory Herczeg"
+            },
+            {
+                "name": "Adolfo Carvalho"
+            },
+            {
+                "name": "Vardan Elbakyan"
+            },
+            {
+                "name": "Lynne Hillenbrand"
+            },
+            {
+                "name": "Mutian Wang"
+            },
+            {
+                "name": "Hanpu Liu"
+            },
+            {
+                "name": "Yao Liu"
+            },
+            {
+                "name": "Cesar Briceno"
+            },
+            {
+                "name": "Koshvendra Singh"
+            },
+            {
+                "name": "Valentin D. Ivanov"
+            },
+            {
+                "name": "Joe Ninan"
+            },
+            {
+                "name": "Teresa Giannini"
+            },
+            {
+                "name": "Aldo Aliaga"
+            },
+            {
+                "name": "Calum Morris"
+            },
+            {
+                "name": "Matias Montesinos"
+            },
+            {
+                "name": "He Zhao"
+            },
+            {
+                "name": "Carlos Contreras Pena"
+            },
+            {
+                "name": "Jessy Jose"
+            },
+            {
+                "name": "Tarak Chand"
+            },
+            {
+                "name": "Wen-Ping Chen"
+            },
+            {
+                "name": "Wei-Hao Wang"
+            },
+            {
+                "name": "Yang Huang"
+            },
+            {
+                "name": "Camila Lopez"
+            },
+            {
+                "name": "Pablo Fernandez-Schlosser"
+            },
+            {
+                "name": "Diego Correa-Herrera"
+            },
+            {
+                "name": "Radostin Kurtev"
+            },
+            {
+                "name": "Vania Rodriguez"
+            },
+            {
+                "name": "Carolina Lizana-Vidal"
+            },
+            {
+                "name": "Jura Borissova"
+            },
+            {
+                "name": "Michael Kuhn"
+            },
+            {
+                "name": "Roberto K. Saito"
+            },
+            {
+                "name": "Ram K. Yadav"
+            }
+        ],
+        "categories": [
+            "astro-ph.SR"
+        ],
+        "primaryCategory": "astro-ph.SR",
+        "idShort": "2608.03503"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.27389v1",
+        "title": "LightCube: A Parsec-Resolution 3D Model of the Local Far-Ultraviolet Interstellar Radiation Field",
+        "updated": "2026-08-27T17:22:09.000Z",
+        "published": "2026-08-27T17:22:09.000Z",
+        "summary": "We present a three-dimensional model of the local interstellar radiation field (ISRF) in the ultraviolet (UV). Using UV flux measurements from the TD1 catalog and stellar distances from Gaia and Hipparcos, we construct a catalog of stars that we expect to dominate the UV flux in the nearby Galaxy. We use the radiative transfer code DIRTY to model the propagation of photons from these stars through a 3D dust map, including the effects of scattering and absorption. The result is LightCube, a model of the ultraviolet ISRF out to 1.25 kpc from the Sun, with a maximum linear resolution of 1 pc. We model the ISRF in the four TD1 bands (1565 A, 1965 A, 2365 A, and 2740 A), as well as a single value for the full FUV range, and calculate the ISRF at the Sun to be 5.65$\\times$10$^{-14}$ erg cm$^{-3}$ from 912 A to 2000 A. The modeled ISRF is quite variable, with more than an order of magnitude variation seen in dense regions, and about half that in lower density regions. By comparing LightCube to an estimate of the 3D distribution of total-to-selective extinction ratio, $R_V$, we find a positive correlation between UV flux and $R_V$ in regions of low UV radiation.",
+        "authors": [
+            {
+                "name": "Hannah V. Bish"
+            },
+            {
+                "name": "J. E. G. Peek"
+            },
+            {
+                "name": "Catherine Zucker"
+            },
+            {
+                "name": "Karl D. Gordon"
+            },
+            {
+                "name": "Claire E. Murray"
+            },
+            {
+                "name": "Susan E. Clark"
+            },
+            {
+                "name": "Mathieu Willems"
+            },
+            {
+                "name": "Erika Hamden"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.27389"
+    },
+    {
+        "id": "http://arxiv.org/abs/2608.28177v1",
+        "title": "A High Velocity SiO Jet from S255N SMA3",
+        "updated": "2026-08-28T10:43:19.000Z",
+        "published": "2026-08-28T10:43:19.000Z",
+        "summary": "We present ALMA Band 6 observations of the compact source SMA3 in the S255IR region, analysing both SiO (J = 5-4, 6-5) and CS (J = 5-4) emission to characterise the structure and kinematics of its outflow. The data reveal a highly collimated bipolar jet traced by SiO, reaching line-of-sight velocities of up to $\\pm$60 km s$^{-1}$ and de-projected velocities of $\\pm$~80 km s$^{-1}$, with a collimation ratio of ~4.7 over a spatial extent of ~5800 au. The inferred dynamical age is 343 yr. Position-velocity diagrams exhibit a continuous velocity structure with triangular morphology, consistent with a steady disk wind rather than an episodic or X-wind-driven flow. Excitation analysis yields a characteristic SiO temperature of ~42 K, and we derive the jet mass, momentum, and kinetic energy which are indicative of a dense, mass-loaded molecular outflow. The emission shows clear chemical and kinematic differentiation: SiO traces the high-velocity jet spine, while CS is observed at lower velocities close to the protostar, and only reaches high velocities at larger distances. Despite forming within a clustered high-mass star-forming region, the jet exhibits a high degree of symmetry, collimation, and dynamical coherence more commonly associated with protostars forming in isolation or less crowded star-forming regions. This demonstrates that well-ordered, narrowly collimated, disk-driven jets can be launched and maintained even in the dense, competitive environments characteristic of high-mass star formation.",
+        "authors": [
+            {
+                "name": "P. D. Klaassen"
+            },
+            {
+                "name": "M. Reiter"
+            },
+            {
+                "name": "Y. Zhang"
+            },
+            {
+                "name": "K. E. I Tanaka"
+            },
+            {
+                "name": "A. E. Guzman"
+            }
+        ],
+        "categories": [
+            "astro-ph.GA"
+        ],
+        "primaryCategory": "astro-ph.GA",
+        "idShort": "2608.28177"
     }
 ]
