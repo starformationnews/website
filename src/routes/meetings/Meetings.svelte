@@ -61,7 +61,7 @@
 <p><strong>Date:</strong> 3.8.2026 – 7.8.2026</p>
 <p><strong>Location:</strong> Tenbusu Hall, Tenbusu Naha, 3-2-10, Makishi, Naha, Okinawa, Japan</p>
 
---> 
+
 
 <h3> <a href="https://sfb1601.astro.uni-koeln.de/symposium2026/" target="_blank">Cologne-Bonn Symposium on the habitats of massive stars across cosmic time</a> </h3>
 <p><strong>Date:</strong> 17.8.2026 – 21.8.2026 </p>
@@ -84,6 +84,8 @@
 <p><strong>Date:</strong> 21.9.2026 – 25.9.2026</p>
 <p><strong>Location:</strong> National Radio Astronomy Observatory, Charlottesville, Virginia, USA </p>
 <p><strong>Abstract Submission Deadline:</strong> 30.4.2026</p> 
+
+--> 
 
 <h3> <a href="https://iram-institute.org/science-portal/events/interferometry-school/13th-iram-interferometry-school-2026/" target="_blank">The 13th IRAM Millimeter Interferometry School</a> </h3>
 <p><strong>Date:</strong> 28.9.2026 – 3.10.2026 </p>
@@ -135,6 +137,12 @@
 <h3> <a href="http://eas.unige.ch/EAS2027" target="_blank">EAS 2027</a> </h3>
 <p><strong>Date:</strong> 21.6.2027 – 25.6.2027</p>
 <p><strong>Location:</strong> Austria Centre Vienna, Vienna, Austria</p>
+
+<h3> <a href="https://sites.google.com/view/formingstarsincardiff/home" target="_blank">Forming Stars in Cardiff 2027</a> </h3>
+<p><strong>Date:</strong> 26.07.2027 – 30.07.2026</p>
+<p><strong>Location:</strong> Cardiff University, Cardiff, United Kingdom</p>
+<p><strong>Abstract Submission Deadline:</strong> 31.01.2027</p>
+<p><strong>Registration Deadline:</strong> 15.03.2027</p>
 
 <style>
     h3 {
