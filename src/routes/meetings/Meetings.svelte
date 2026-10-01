@@ -139,7 +139,7 @@
 <p><strong>Location:</strong> Austria Centre Vienna, Vienna, Austria</p>
 
 <h3> <a href="https://sites.google.com/view/formingstarsincardiff/home" target="_blank">Forming Stars in Cardiff 2027</a> </h3>
-<p><strong>Date:</strong> 26.07.2027 – 30.07.2026</p>
+<p><strong>Date:</strong> 26.07.2027 – 30.07.2027</p>
 <p><strong>Location:</strong> Cardiff University, Cardiff, United Kingdom</p>
 <p><strong>Abstract Submission Deadline:</strong> 31.01.2027</p>
 <p><strong>Registration Deadline:</strong> 15.03.2027</p>
