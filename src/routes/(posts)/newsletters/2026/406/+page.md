@@ -8,5 +8,5 @@ layout: newsletter
 image: "./header.webp" # TODO: Add an image. Be sure to credit it and add a URL. See instructions in README.md
 imageCredit: "NASA, ESA, CSA, STScI; Image Processing: Alyssa Pagan (STScI)"  # TODO: Credit your image.
 imageURL: "https://science.nasa.gov/asset/webb/ngc-7129-nircam-image/"  # TODO: Add source image url. e.g. "https://example.com/telescope/image_of_the_week_25"
-hidden: true  # Uncomment if you want to hide the post on the main site
+#hidden: true  # Uncomment if you want to hide the post on the main site
 ---
