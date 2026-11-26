@@ -1,6 +1,6 @@
 ---
 title: "Congratulations to Dr. Luigi Zallio!"
-date: 2026-11-17
+date: 2026-11-26
 categories: ['phds']
 layout: thesis
 
@@ -28,7 +28,7 @@ thesisWebsite: https://github.com/lzallio
 # thesisJob: true  # Uncomment if they're looking for a job!
 
 # Unhide when you're ready to publish!
-hidden: true
+#hidden: true
 ---
 <!-- Paste the abstract here!
 N.B.: this *should* render LaTeX correctly, but could encounter issues. Our site uses a
