@@ -139,7 +139,7 @@
 <h3> <a href="https://meetings.iac.es/NavigatingGalaxies27/" target="_blank">Navigating Galaxies: Structure and Feedback Across Environments</a> </h3>
 <p><strong>Date:</strong> 28.6.2027 – 2.7.2027</p>
 <p><strong>Location:</strong> Palacio de Congresos, Cádiz, Spain</p>
-<p><strong>Abstract Submission Deadline:</strong> 1.10.2026</p>
+<p><strong>Abstract Submission Deadline:</strong> 1.2.2027</p>
 <p><strong>Registration Deadline:</strong> 1.6.2027</p>
 
 <h3> <a href="https://sites.google.com/view/formingstarsincardiff/home" target="_blank">Forming Stars in Cardiff 2027</a> </h3>
